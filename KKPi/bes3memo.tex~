@@ -1,0 +1,123 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt, a4paper]{besnote}
+\usepackage{besphysics}
+\usepackage{besrefblk}
+\usepackage{authblk}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{epsfig}
+\usepackage{multirow}
+\usepackage{overpic}
+\usepackage{colortbl}
+
+
+ \uchyph=0
+ \lefthyphenmin=2
+ \righthyphenmin=2 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% for the title
+\title{Amplitude analysis of $D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+} $}
+% for the authors
+\author[a]{~Meng Wang}
+\author[a]{~Yu Lu}
+\author[a]{~Liaoyuan Dong}
+\author[a]{~Huaimin Liu}
+\affil[a]{\it Institute of High Energy Physics, CAS}
+
+% Add the referee committee here
+\refmember[d]{~Ref1 xx (Chair)}
+\refmember[e]{~Ref2 xx}
+\refmember[f]{~Ref3 xx}
+\refaffil[d]{\it Department of Computer Science and Engineering}
+\refaffil[e]{\it Department of Electrical Engineering}
+\refaffil[f]{\it Latex Univeristy}
+
+% for the draft version
+\besmemoversion{1.0}
+
+% Put the analysis memo docdb ID here
+% Find the ID on the docdb page of the memo
+% For example: DocDB-497 in http://docbes3.ihep.ac.cn/cgi-bin/DocDB/ShowDocument?docid=497
+\besdocdbid{497}
+
+% The analysis hypernews ID information
+% Find the ID in the corresponding hypernews forum 
+% For example: BAM-228 in http://hnbes3.ihep.ac.cn/HyperNews/get/paper228.html
+\besmemoid{228}
+
+% add the abstract of the note here.
+\abstracttext{
+  We have performed an amplitude analysis of  $D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$ using a data sample of $3.19fb^{-1}$ recorded with BESIII detector at 1.178GeV. 4265 events with about \%0.5 background are used in this analysis. There are 6 intermediate resonances in the model which does the best fit to data. Especially, $a_{0}(980)$ and $f_{0}(980)$ are taken as a whole.  
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\setlength{\baselineskip}{0.7cm}
+%===========================================================================
+%================== Table of contents ======================================
+%===========================================================================
+\tableofcontents
+
+%===========================================================================
+%================== context and BESIII memo ================================
+\include{01Introduction}
+
+\include{02DataSetandMonteCarloSamples}
+
+\include{03EventSelection}
+
+\include{04ModelIndependentPWA}
+
+\include{05AmplitudeAnalysis}
+
+\include{06BranchingRationMeasurement}
+
+\include{07Summary}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%=============================================================================
+\clearpage
+
+%\bibliographystyle{besnote}
+%\bibliography{Lambdac4600}
+\include{bibitem}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+\appendix
+\part*{Appendices}
+\addcontentsline{toc}{part}{Appendices}
+\include{Appendix_vrcut}
+
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

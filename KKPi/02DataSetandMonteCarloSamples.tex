@@ -1,0 +1,70 @@
+\section{Data Set and Monte Carlo Samples}
+We use 3.195 $fb^{-1}$ data set collected at $E_{cm} = 4.178 GeV$ by BES\uppercase\expandafter{\romannumeral3} detector in 2016. Both data sample and Monte Carlo samples are reconstructed under BOSS7.0.3. Totally 35 rounds of generic MC with each round equaling to data size are used for background study. They are avaulable at
+/besfs3/offline/data/703-1/4180/mc/.
+\begin{table}[htp]
+\begin{center}
+\caption{Component and corresponding size, assume luminosity = 3195/pb.}
+\begin{tabular}{c|c|c|c} \hline
+Component        & cross section (pb) & Size(M) & directory \\ \hline
+$D^{0}D^{0}$     &        179         & 0.5719  &  D0D0 \\
+$D^{+}D^{-}$     &        197         & 0.6294  &  DpDm \\
+$D^{*0}D^{0}$    &       1211         & 3.8691  &  DST0D0 \\
+$D^{*+}D^{-}$    &       1296         & 4.1407  &  DSTpDm \\
+$D^{*0}D^{*0}$   &       2173         & 6.9427  &  DST0DST0 \\
+$D^{*+}D^{*-}$   &       2145         & 6.8533  &  DSTpDSTm \\
+$D_{s}^{+}D_{s}^{-}$ &      7         & 0.0225  &  DsDs \\
+$D_{s}^{*+}D_{s}^{-}$ &   961         & 3.0700  &  DsSTDs \\
+\hline
+$DD^{*}\pi^{+}$  &        383         & 1.2237  &  DDSTPIp \\
+$DD^{*}\pi^{0}$  &        192         & 0.6134  &  DDSTPI0 \\
+$DD\pi^{+}$      &         50         & 0.1598  &  DDPIp \\
+$DD\pi^{0}$      &         25         & 0.0799  &  DDPI0 \\
+\hline
+Component        &  cross section (nb)& Size(M)\\ \hline
+$q\bar{q}$       &       13.8         & 44.0910  & qq \\
+$\gamma J/\psi$  &        0.40        &  1.2780  & RR1S \\
+$\gamma \psi(2S)$&        0.42        &  1.3419  & RR2S \\
+$\gamma \psi(3770)$ &     0.06        &  0.1917  & RR3770 \\
+$\tau \tau$      &        3.45        & 11.0228  & tt \\
+$\mu \mu$        &        5.24        & 16.7418  & mm \\
+$ee$             &      423.99        & 13.5465(0.01$\times$)  & ee\\
+$\gamma \gamma$  &        1.7         &  5.4315   & TwoGam \\
+HCT              &        0.10178     &  0.3252   & HCT \\
+\hline
+\end{tabular}
+\label{tab:genMC}
+\end{center}
+%\end{table}
+
+%\begin{table}[htp]
+\begin{center}
+\caption{Component and corresponding observed cross section (output from ConExc) for
+charmonium hadronic transition (HCT) processes.}
+\begin{tabular}{c|c|c|c} \hline
+Mode   & Final state       & Observed cross section & Referee of input line shape    \\
+index  &                   & @ 4180 MeV (nb)        &                                \\
+\hline 
+79 &   $\pi^0 \pi^0 \psi(2S)$  & 0.00342491         & BELLE  PRL99, 142002 (2007)    \\
+91 &   $\pi^+ \pi^- \psi(2S)$  & 0.00684981         & BELLE  PRL99, 142002 (2007)    \\
+80 &   $\eta J/\psi$           & 0.0321958          & BELLE  PRD87, 051101(R) (2013) \\
+81 &   $\pi^+ \pi^- h_c$       & 0.0122136          & BESIII PRL111,242001 (2013)    \\
+82 &   $\pi^0 \pi^0 h_c$       & 0.00610681         & BESIII PRL111,242001 (2013)    \\
+83 &   $K^+ K^- J/\psi$        & 0.000671349        & BELLE  PRD77, 011105(R) (2008) \\
+84 &   $K_S^0 K_S^0 J/\psi$    & 0.000167837        & BELLE  PRD77, 011105(R) (2008) \\
+90 &   $\pi^+ \pi^- J/\psi$    & 0.026767           & BELLE  PRL99, 182004 (2007)    \\
+99 &   $\pi^0 \pi^0 J/\psi$    & 0.0133835          & BELLE  PRL99, 182004 (2007)    \\
+\hline
+sum &                          & 0.101780616       &                                 \\
+\hline
+\end{tabular}
+\label{tab:HCT}
+\end{center}
+\end{table} 
+
+
+For the Signal MC, we generate the signal events with one $D_{s}$ decaying to signal mode using the generator ``DIY'', in which the parameters are obtained from the fit to data. PHSP MC and Signal MC are used in MC integration required for the amplitude fit. The Signal MC is also used in the input/output check.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%

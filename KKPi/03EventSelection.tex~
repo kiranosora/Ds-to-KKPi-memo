@@ -1,0 +1,116 @@
+\section{Event Selection}
+At $E_{cm} = 4.178 GeV$, pairs of $D_{s}D_{s}^{*}$ are produced,  and the $D_{s}^{*}$ decays to either $D_{s}\gamma$ or $D_{s}\pi^{0}$.  We use double tag method to select our signal events.
+
+
+\subsection{Tracking, PID, $\pi^{0}/\eta^{(')}$ and $K_{S}^{0}$ Rconstruction }
+$D_{s}$ candicates are built from $K^{\pm}$, $\pi^{\pm}$, $\pi^{0}/\eta^{(0)}$ and $K_{S}^{0}$. The selections of the particles to build $D_{S}$ candicates are performed with DTagAlg-00-01-05 package with the default setting, which are summarized below.
+
+\begin{itemize}
+	\item Tracking:
+		\begin{itemize}
+			\item[-] The properties of charged tracks are determined based on the MDC information. Charged track candidates must satisfy:
+				\begin{itemize}
+					\item[-] $|cos\theta| < 0.93$.
+					\item[-] $|dr| < \boldmath 1cm$ and $|dz| < \boldmath 10cm$,
+
+						where $|dr|$ and $|dz|$ are defined as the one reconstructed minus the interaction point.
+				\end{itemize}
+		\end{itemize}
+	\item Particle ID:
+		\begin{itemize}
+			\item[-] Charged tracks are identified as pion or kaon with Particle Identification (PID), which is implemented by combing the information of the energy loss (dE/dx) in MDC and the time-of-flight measured from
+				the TOF system. Kaon and Pion are identified with the requirements that 
+				\begin{itemize}
+					\item[-] $\emph{Prob(K)} > 0.00$ and $\emph{Prob(K)} > \emph{Prob($\pi$)}$ for \emph{K},
+					\item[-] $\emph{Prob($\pi$)} > 0.00$ and $\emph{Prob($\pi$)} > \emph{Prob(K)}$ for \emph{$\pi$},
+						where \emph{Prob(X)} is the probability of hypothesis X, X can be \emph{$\pi$} or \emph{K}.
+				\end{itemize}
+		\end{itemize}
+	\item $\pi^{0}/\eta$ selection: $\pi^{0}$ candidates are reconstructed through $\pi^{0} \rightarrow \gamma\gamma$ with package of PioEtaToGGRecAlg.
+		
+
+		The photons are reconstructed as energy showers on the EMC. We require:
+		\begin{itemize}
+			\item[-] Minimum energy for barrel showers( $|cos\theta| < 0.8$): $E_{min} >25MeV/c^{2}$,
+			\item[-] Minimum energy for endcap showers( $0.86 < |cos\theta| < 0.92$): $E_{min} >50MeV/c^{2}$,
+			\item[-] Shower within other $|cos\theta|$ regions are rejected.
+			\item[-] EMC time requirements for events with at least one charged track detected: $0 \le t \ge 14 $(50ns),
+		\end{itemize}
+
+		Then we perform a constrained fit on the photon pairs to the nominal $\pi^{0}/\eta$ mass and require:
+		\begin{itemize}
+			\item[-] The unconstrained invariant mass for $\pi^{0}$: $0.115 < M(\gamma\gamma) < 0.015 GeV/c^{2}$,
+			\item[-] The unconstrained invariant mass for $\eta: 0.490 < M(\eta) < 0.580 GeV/c^{2}$,
+			\item[-] Mass fit: $\chi_{1c}^{2} < 30$.
+		\end{itemize}
+	\item $\eta^{'}$ selection: The $\eta^{'}$ candidates are reconstructed with $\pi^{+}\pi^{-}\eta$, the invariant mass for $\pi^{+}\pi^{-}\eta$ is required to fall into the range of $[0.938, 0.978] GeV^{2}$.
+	\item $K_{S}^{0}$ selection: $K_{S}^{0}$ candidates are reconstructed using VeeVertexAlg package with two opposite charged tracks with requiring:
+		\begin{itemize}
+			\item[-] $|cos\theta| < 0.93$
+			\item[-] $|dz| < 20 \emph{cm} $
+		\end{itemize}
+
+		For each pair of tracks, a constrained vertex fit is performed and the track parameters' results are used to get the invariant mass $M(K_{S}^{0})$. Then the decay length of $K_{S}^{0}$ is obtained with second vertex 
+		fit by the SecondVertexFit package. For $K_{S}^{0}$ selection, we require:
+		\begin{itemize}
+			\item[-] $0.487GeV/c^{2} < M(K_S^{0}) < 0.511 GeV/c^{2}$.
+			\item[-] Significance of the $K_{S}^{0}$ decay lenght has two standard deviations.
+		\end{itemize}
+
+	\item $D_{s}$ selection: According to the MC study on $D_{s}$ reconstruction (BESS\uppercase\expandafter{\romannumeral3}-DocDB-380), the $D_{s}$ candidates fall into the mass window of $1.90 < m_{D_{s}} < 2.03 GeV/c^{2}$ and 
+		the corresponding $M_{rec}$ satisfied $2.051 < M_{rec} < 2.180 GeV/c^{2}$ are retained for further study. In which, the definition of $M_{rec}$ is
+		\begin{equation}
+			M_{rec} = \sqrt{(E_{cm} - \sqrt{p_{D_{s}}^{2} + m_{D_{s}}^{2})^{2}} - |\vec p_{cm} - \vec p_{D_{s}} | ^{2}} \; , 
+		\end{equation}
+		where $E_{cm}$ is the energy of initial state, calculated from the beam energy ~\cite{DocDB 580-v1}, $\vec p_{D_{s}}$ is the momentum of $D_{s}$ candidate, $m_{D_{s}}$ is $D_{s}$ mass quoted from PDG ~\cite{PDG} and $\vec p_{cm}$ and $\vec p_{D_{s}}$ are four-momentum of initial state and the decay products of a $D_{s}$ candidate, respectively.
+\end{itemize}
+
+\subsection{Single Tag Selection}
+As $D_{s}^{+}$ and $D_{s}^{-}$ should appear in pairs, so we can use double tag method to select signal events. After $K^{\pm}$, $K_S^{0}$, $\pi^{\pm}$ and $\gamma$ are identified, hadronic $D_{s}$ decays can be reconstructed with the DTag package. 8 tag modes are used:
+
+$D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$, $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}$, $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}\pi^{+}\pi^{-}$, $D_{s}^{-} \rightarrow K^{-}\pi^{+}\pi^{-}$, $D_{s}^{-} \rightarrow K_{S}^{0}K^{+}\pi^{-}\pi^{-}$, $D_{s}^{-} \rightarrow \pi^{+}\pi^{-}\pi^{-}$, $D_{s}^{-} \rightarrow \eta^{'}_{\pi^{+}\pi^{-}\eta_{\gamma\gamma}}$, $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}\pi^{0}$.
+
+
+Before selecting the best candidate,  we vote the candidates with $\pi^{\pm}$($\pi^{0}$) whose momentum is less than $0.1GeV$ to remove soft $\pi^{\pm}$($\pi^{0}$) from $D^{*}$ decays.
+
+
+For every candidate of $D_{s}$ decays, all tracks at signal side and tag side as well as gamma from $D_{s}^{*}$ are added to apply kinematic fitting. 5 constrains are added in kinematic fitting: four-momentum of $D_{s}D_{s}^{*}$, mass of $D_{s}^{*}$. Then we select the candidate with minmimum $\chi_{5c}^{2}$.  
+
+The candidates satisfy:
+\begin{itemize}
+	\item[-] $1.95GeV < m_{sig} < 1.985GeV$
+	\item[-] $1.95GeV < m_{tag} < 1.985GeV$
+	\item[-] $\chi_{5c}^{2} < 50 $
+\end{itemize}
+are retained for amplitude analysis, where $m_{sig}$ and $m_{tag}$ refer to mass of $D_{s}$ at signal side and tag side respectively.
+
+\subsection{Background Analysis}
+We use generic MC to estimate the background. The background and signal shape of generic MC is shown in Fig.\ref{background and signal distribution}. According to the luminosities of the data and the generic MC, after scaling the background sample to the data size, the background yiels in Signal region is 11.75. Then the fit to the signal $D_{s}$ invariant mass ($m_{sig}$) spectrum gives the background yield in Signal region is $11.3 \pm 3.9$, shown as in Fig.\ref{mDs_fit}.  The background level in MC is then consistent with the data. In the fit, the signal shape is the MC shape convoluted with a Gaussian function and the background is the MC shape. 
+
+\begin{figure*}[htbp]
+ \centering
+ \mbox{
+  %\vskip -1.5cm
+  \begin{overpic}[width=0.96\textwidth]{plot/mDs.eps}
+  \end{overpic}
+ }
+ \caption{The background (a) and signal (b) distributions from generic MC after selection }
+\label{background and signal distribution}
+\end{figure*}
+
+\begin{figure*}[h]
+ \centering
+ \mbox{
+  %\vskip -1.5cm
+  \begin{overpic}[width=0.48\textwidth]{plot/mDs_fit.eps}
+  \end{overpic}
+ }
+ \caption{The fit to $m_{sig}$ for data after selections, the area between the purple arrows is the signal area of the sample for the amplitude analysis. }
+\label{mDs_fit}
+\end{figure*}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
