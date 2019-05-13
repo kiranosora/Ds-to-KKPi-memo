@@ -1,2 +1,21 @@
 \section{Model Independent Partial Wave Analysis}
+\subsection{Single Tag Selection}
+As $D_{s}^{+}$ and $D_{s}^{-}$ should appear in pairs, so we can use double tag method to select signal events. After $K^{\pm}$, $K_S^{0}$, $\pi^{\pm}$ and $\gamma$ are identified, hadronic $D_{s}$ decays can be reconstructed with the DTag package. 8 tag modes are used:
+
+$D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$, $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}$, $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}\pi^{+}\pi^{-}$, $D_{s}^{-} \rightarrow K^{-}\pi^{+}\pi^{-}$, $D_{s}^{-} \rightarrow K_{S}^{0}K^{+}\pi^{-}\pi^{-}$, $D_{s}^{-} \rightarrow \pi^{+}\pi^{-}\pi^{-}$, $D_{s}^{-} \rightarrow \eta^{'}_{\pi^{+}\pi^{-}\eta_{\gamma\gamma}}$, $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}\pi^{0}$.
+
+
+Before selecting the best candidate,  we vote the candidates with $\pi^{\pm}$($\pi^{0}$) whose momentum is less than $0.1GeV$ to remove soft $\pi^{\pm}$($\pi^{0}$) from $D^{*}$ decays.
+
+
+For every candidate of $D_{s}$ decays, all tracks at signal side and tag side as well as gamma from $D_{s}^{*}$ are added to apply kinematic fitting. 5 constrains are added in kinematic fitting: four-momentum of $D_{s}D_{s}^{*}$, mass of $D_{s}^{*}$. Then we select the candidate with minmimum $\chi_{5c}^{2}$.  
+
+The candidates satisfy:
+\begin{itemize}
+	\item[-] $1.95GeV < m_{sig} < 1.985GeV$
+	\item[-] $1.95GeV < m_{tag} < 1.985GeV$
+	\item[-] $\chi_{5c}^{2} < 50 $
+\end{itemize}
+are retained for amplitude analysis, where $m_{sig}$ and $m_{tag}$ refer to mass of $D_{s}$ at signal side and tag side respectively.
+
 

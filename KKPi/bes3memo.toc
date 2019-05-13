@@ -4,7 +4,10 @@
 \contentsline {subsection}{\numberline {3.1}Tracking, PID, $\pi ^{0}/\eta ^{(')}$ and $K_{S}^{0}$ Rconstruction }{5}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Single Tag Selection}{6}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Background Analysis}{7}{subsection.3.3}
-\contentsline {section}{\numberline {4}Amplitude Analysis}{9}{section.4}
-\contentsline {section}{\numberline {5}Summary}{10}{section.5}
-\contentsline {part}{Appendices}{12}{part*.3}
-\contentsline {section}{\numberline {A}Substract of the Secondary proton}{13}{appendix.A}
+\contentsline {section}{\numberline {4}Model Independent Partial Wave Analysis}{9}{section.4}
+\contentsline {subsection}{\numberline {4.1}Single Tag Selection}{9}{subsection.4.1}
+\contentsline {section}{\numberline {5}Amplitude Analysis}{10}{section.5}
+\contentsline {section}{\numberline {6}Branching Fraction Measurements}{11}{section.6}
+\contentsline {section}{\numberline {7}Summary}{12}{section.7}
+\contentsline {part}{Appendices}{14}{part*.3}
+\contentsline {section}{\numberline {A}Substract of the Secondary proton}{15}{appendix.A}
