@@ -5,9 +5,13 @@
 \contentsline {subsection}{\numberline {3.2}Single Tag Selection}{6}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Background Analysis}{7}{subsection.3.3}
 \contentsline {section}{\numberline {4}Model Independent Partial Wave Analysis}{9}{section.4}
-\contentsline {subsection}{\numberline {4.1}Single Tag Selection}{9}{subsection.4.1}
-\contentsline {section}{\numberline {5}Amplitude Analysis}{10}{section.5}
-\contentsline {section}{\numberline {6}Branching Fraction Measurements}{11}{section.6}
-\contentsline {section}{\numberline {7}Summary}{12}{section.7}
-\contentsline {part}{Appendices}{14}{part*.3}
-\contentsline {section}{\numberline {A}Substract of the Secondary proton}{15}{appendix.A}
+\contentsline {subsection}{\numberline {4.1}Signal Candidate Selection}{9}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Background Analysis}{9}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}MIPWA method}{12}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}S-wave parameterization at the $K^{+}K^{-}$ threshold}{14}{subsection.4.4}
+\contentsline {section}{\numberline {5}Amplitude Analysis}{16}{section.5}
+\contentsline {subsection}{\numberline {5.1}Fit Method}{16}{subsection.5.1}
+\contentsline {section}{\numberline {6}Branching Fraction Measurements}{18}{section.6}
+\contentsline {section}{\numberline {7}Summary}{19}{section.7}
+\contentsline {part}{Appendices}{21}{part*.3}
+\contentsline {section}{\numberline {A}Substract of the Secondary proton}{22}{appendix.A}

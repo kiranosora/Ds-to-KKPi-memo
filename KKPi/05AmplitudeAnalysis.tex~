@@ -31,9 +31,9 @@ $K^{*}_{0}(1430)^{0}$ is parameterized with Flatte formula:
     The Blatt-Weisskopf barriers are given by 
     \begin{equation}
         \begin{array}{lr}
-            F_{n} = 1,           (S wave), &\\
-            F_{n} = \sqrt{\frac{z_{0}^{2}+1}{z^{2}+1}},          (P wave), &\\
-            F_{n} = \sqrt{\frac{z_{0}^{4}+3z_{0}^{2}+9}{z^{4}+3z^{2}+9}},       (D wave), &
+            F_{n} = 1           (S wave), &\\
+            F_{n} = \sqrt{\frac{z_{0}^{2}+1}{z^{2}+1}}          (P wave), &\\
+            F_{n} = \sqrt{\frac{z_{0}^{4}+3z_{0}^{2}+9}{z^{4}+3z^{2}+9}}       (D wave), &
         \end{array}\label{Blatt-Weisskopf barrier} 
     \end{equation}
     where $z$ and $z_{0}$ are $qR$ and $q_{0}R$, respectively. The R is the effective radius of the intermediate state or $D_{s}$ meson and set to $3.0GeV^{-1}$ for intermediate states and $5.0GeV^{-1}$  for $D_{s}$ meson ~\cite{Doc-DB-416-v30}, respectively.

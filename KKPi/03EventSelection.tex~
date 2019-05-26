@@ -85,7 +85,7 @@ The candidates satisfy:
 are retained for amplitude analysis, where $m_{sig}$ and $m_{tag}$ refer to mass of $D_{s}$ at signal side and tag side respectively.
 
 \subsection{Background Analysis}
-We use generic MC to estimate the background. The background and signal shape of generic MC is shown in Fig.\ref{background and signal distribution}. According to the luminosities of the data and the generic MC, after scaling the background sample to the data size, the background yiels in Signal region is 11.75. Then the fit to the signal $D_{s}$ invariant mass ($m_{sig}$) spectrum gives the background yield in Signal region is $11.3 \pm 3.9$, shown as in Fig.\ref{mDs_fit}.  The background level in MC is then consistent with the data. In the fit, the signal shape is the MC shape convoluted with a Gaussian function and the background is the MC shape. 
+We use generic MC to estimate the background. The background and signal shape of generic MC is shown in Fig.\ref{background and signal distribution}. According to the luminosities of the data and the generic MC, after scaling the background sample to the data size, the background yiels in Signal region is 11.8. Then the fit to the signal $D_{s}$ invariant mass ($m_{sig}$) spectrum gives the background yield in Signal region is $11.3 \pm 3.9$, shown as in Fig.\ref{mDs_fit}.  The background level in MC is then consistent with the data. In the fit, the signal shape is the MC shape convoluted with a Gaussian function and the background is the MC shape. 
 
 \begin{figure*}[htbp]
  \centering
