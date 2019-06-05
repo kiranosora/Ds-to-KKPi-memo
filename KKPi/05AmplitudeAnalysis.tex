@@ -38,6 +38,271 @@ $K^{*}_{0}(1430)^{0}$ is parameterized with Flatte formula:
     \end{equation}
     where $z$ and $z_{0}$ are $qR$ and $q_{0}R$, respectively. The R is the effective radius of the intermediate state or $D_{s}$ meson and set to $3.0GeV^{-1}$ for intermediate states and $5.0GeV^{-1}$  for $D_{s}$ meson ~\cite{Doc-DB-416-v30}, respectively.
 
+    As the limit of the phase space, we only consider the states with angular momenta no more than 2. As discussed in ~\cite{Doc-DB-613-v16}, the spin factor is, 
+    \begin{equation}
+        \begin{array}{lr}
+            S_{n} = 1,           (S wave), &\\
+            S_{n} = \tilde{T}^{(1)\mu}(D_{s})\tilde{t}^{(1)}_{\mu}(R),          (P wave), &\\
+            S_{n} = \tilde{T}^{(2)\mu}(D_{s})\tilde{t}^{(2)}_{\mu}(R),          (D wave), &
+        \end{array}\label{spin-factor} 
+    \end{equation}
+    where the $\tilde{T}^{(1)\mu}(D_{s})$($\tilde{T}^{(2)\mu}(D_{s})$) and $\tilde{t}^{(1)}_{\mu}(R)$($\tilde{t}^{(2)}_{\mu}(R)$) are the same defined in Ref.~\cite{covariant-tensors}.
 
+The total amplitude $M$ is then the coherent sum of the amplitudes of intermediate processes, $M=\begin{matrix}\sum c_{n}A_{n}\end{matrix}$, where $c_{n}=\rho_{n}e^{i\phi_{n}}$, is the corresponding complex coefficient. The magnitude $\rho_{n}$ and phase $\phi_{n}$ are determined by the amplitude analysis. The signal PDF $\mathcal{f}_{S}(p_{j})$ is given by 
+    \begin{equation}
+        f_{S}(p_{j}) = \frac{\epsilon(p_{j})\left|M(p_{j})\right|^{2}R_{3}(p_{j})}{\int \epsilon(p_{j})\left|M(p_{j})\right|^{2}R_{3}(p_{j})\,dp_{j}}, \label{signal-PDF}
+    \end{equation}
+    where $\epsilon(p_{j})$ is the detection efficiency parameterized in terms of the final four-momenta $p_{j}$. The index $j$ refers to the different particles in the final states. $R_{3}(p_{j})dp_{j}$ is the standard element of the three-body phase space. The normalization intergral is determined by a MC technique,
+    \begin{equation}
+    \int \epsilon(p_{j})\left|M(p_{j})\right|^{2}R_{3}(p_{j})\,dp_{j}= \frac{1}{N_{MC}} \begin{matrix}\sum_{k_{MC}}^{N_{MC}} \frac{\left|M(p_{j}^{k_{MC}})\right|^{2}}{\left|M^{gen}(p_{j}^{k_{MC}})\right|^{2}}\end{matrix}, \label{MC-intergral}
+    \end{equation}
+    where $k_{MC}$ is the index of the $k_{MC}^{th}$ event of the MC sample and $N_{MC}$ is the number of the selected MC events. In this analysis, a signal MC sample with about 2 million events is used in the normalization intergral calculation. $M^{gen}(p_{j})$ is the PDF function used to generate the MC samples in MC integration.
+    Firstly, the PHSP MC are used in MC integration. $M^{gen}(p_{j})$ is a constant overall the phase space. Then with result obtained from the fit to data, the signal MC is then generated and used in MC integration. In the numerator of Eq.\ref{signal-PDF}, $\epsilon(p_{j})$ is independent of the fitted variables, so it is regarded as a constant term in the fit.
+
+    Since there is only $0.3\%$ background in the data sample, the contribution from the background is ignored in the likelihood calculation:
+    \begin{equation}
+    \ln L = \begin{matrix}\sum_{k}^{N_{data}} \ln f_{S}(p_{j}^{k})\end{matrix},  \label{likelihood}
+    \end{equation}
+    where $N_{data}$ is the number of candidate events in data.
 }
 
+
+\subsection{Fit Fraction}
+\par{
+The fit fractions of the individual amplitudes are calculated according to the fit results and are compared to the other measurements. In the calculation, a phase space(PHSP) MC with neither detector acceptance nor resolution involved is used. The fit fraction for an amplitude is defined as
+    \begin{equation}
+    FF(n) = \frac{\begin{matrix}\sum_{k=1}^{N_{gen}} \left|A_{n}\right|^{2}\end{matrix}}{\begin{matrix}\sum_{k=1}^{N_{gen}} \left|M(p_{j}^{k})\right|^{2}\end{matrix}}, \label{Fit-Fraction-Definition}
+    \end{equation}
+    where $N_{gen} = 2000000$, is the number of the PHSP MC events in this analysis. 
+
+    To estimate the statistical uncertainties of the fit fractions, we repeat the calculation of fit fractions by randomly varying the fitted parameters according to the error matrix. Then, for each amplitude , we fit the resulting distribution with a Gaussian function, whose width gives the corresponding statistical uncertainty.
+}
+
+\subsection{Fit Result}
+\par{
+    The Dalitz plot of $m^{2}(K^{+}K^{-})$ versus $m^{2}(K^{-}\pi^{+})$ is shown in Fig.\ref{dalitz}. In the plot, we can see a clear peak of $K^{*}(892)^{0}$ and $\phi(1020)^{0}$. 
+In the fit, the magnitude and phase of the amplitude $D_{s}^{+} \rightarrow K^{*}(892)^{0}K^{+}$ is fixed to 1.0 and 0.0, and the magnitudes and phases of the amplitudes are allowed to float. 
+
+\begin{figure*}[h]
+    \centering
+    \mbox{
+        \begin{overpic}[width=0.8\textwidth]{plot/dalitz.eps}
+        \end{overpic}
+    }
+    \caption{ The plot of $m^{2}(K^{+}K^{-})$ versus $m^{2}(K^{-}\pi^{+})$ after event selection.}
+    \label{dalitz}
+\end{figure*}
+
+With the requiring the statistical significance larger than 5 standard deviations, there are 6 intermediate prcocess, 
+$D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$,
+$D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$,
+$D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$,
+$D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$,
+$D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$,
+$D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$ 
+are retained in final result. The statistical significance of the three amplitudes in final result are also checked.
+
+With one amplitude dropped and the fit repeated, compared with the nominal fit the likelihood shift($\Delta\ln L$) and the number of freedom degree shift($\Delta n_{par}$) are then corrresponding to the statistical significance.
+The detail $\Delta\ln L$, $\Delta n_{par}$, and the statistical significance for each amplitude are  listed in Tab.\ref{significance-table}.
+\begin{table}
+    \caption{The $\Delta\ln L$, $\Delta n_{par}$, and the statistical significance for each amplitude}
+    \label{significance-table}
+    \begin{center}
+        \begin{tabular}{cccc}
+            \hline
+            Amplitude & $\Delta\ln L$ & $\Delta n_{par}$ & Stat. significance\\
+            \hline
+            $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$              & 1959.3     & 2   & $>$20\\
+            $D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$                      & 2303.3     & 2   & $>$20\\
+            $D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$    & 270.5      & 2   & $>$20\\
+            $D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$         & 39.4       & 2   & 8.6\\
+            $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$                     & 22.5       & 2   & 6.4\\
+            $D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$                     & 44.7       & 2   & 9.2\\
+            \hline
+        \end{tabular}
+    \end{center}
+\end{table}
+
+The detail magnitudes, phases and fit fractions for the six amplitudes are listed in Tab. \ref{fit-result}.
+\begin{table}
+    \caption{The magnitudes, phases and fit fractions for the six amplitudes}
+    \label{fit-result}
+    \begin{center}
+    \begin{tabular}{cccc}
+        \hline
+        Amplitude & Magnitude  & Phase  & Fit fractions(\%)\\
+        \hline
+        $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$              & 1.0(fixed)     & 0.0(fixed)    & 48.3$\pm$0.9\\
+        $D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$                      & 1.09$\pm$0.02  & 6.22$\pm$0.07 & 40.5$\pm$0.7\\
+        $D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$    & 2.88$\pm$0.14  & 4.77$\pm$0.07 & 19.3$\pm$1.7\\
+        $D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$         & 1.26$\pm$0.14  & 2.91$\pm$0.20 & 3.0$\pm$0.6\\
+        $D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$                     & 0.79$\pm$0.08  & 1.02$\pm$0.12 & 1.9$\pm$0.4\\
+        $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$                     & 0.58$\pm$0.08  & 0.59$\pm$0.17 & 1.2$\pm$0.4\\
+        \hline
+    \end{tabular}
+\end{center}
+\end{table}
+
+The Dalitz plot projections are shown in Fig.\ref{dalitz-projection}.
+\begin{figure*}[h]
+    \centering
+    \mbox{
+        \begin{overpic}[width=0.8\textwidth]{plot/dalitz-projection.eps}
+        \end{overpic}
+    }
+    \caption{$D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$: Dalitz plot projections from the nominal fit. The data are represented by points with error bars , the fit results by the histograms.}
+    \label{dalitz-projection}
+\end{figure*}
+
+The goodness of the nominal fit is $\chi^{2}=290.1/280=1.04$.  
+}
+
+\subsection{Sytematic Uncertainties}
+\par{
+    Systematic uncertainties takein account:
+    \begin{itemize}
+        \item \uppercase\expandafter{\romannumeral1} Variation of resonance masses and widths within $1\sigma$ error.
+            \begin{itemize}
+                \item For $f_{0}(980) /a_{0}(980)$, the mass and width are shifted within errors from Eq.\ref{S-wave parameters} in model independent PWA part.
+                \item For $f_{0}(1370)$, the mass and width are shifted within erros from ~\cite{para-f01370}.
+                \item For other states, errors used here are taken from PDG ~\cite{PDG2018}.
+            \end{itemize}
+        \item \uppercase\expandafter{\romannumeral2} Variation of the effective radius of Blatt-Weisskopf Barrier within the range $\left[1.0, 5.0\right] GeV^{-1}$ for intermediate resonances and  $\left[3.0, 7.0\right] GeV^{-1}$ for $D_{s}$ meson. 
+        \item \uppercase\expandafter{\romannumeral3} Fit bias. The possible bias is given by the result from pull distribution check. 
+            With the results obtained from the fit, the signal MC samples are generated with the same size of the data. In this analysis, 300 MC samples with the size equaling to data are used to perform the pull distribution check.
+            The results are listed in Tab.\ref{pull-distribution-check}.
+            The corresponding plots are shown in Fig.\ref{pull-phase}, Fig.\ref{pull-magnitude} and Fig.\ref{pull-FF}.
+    \end{itemize}
+    
+    \begin{table}[tp]  
+        \centering  
+        \caption{The results of pull distribution checks for the magnitudes, phases and fit fractions for the amplitudes}  
+        \label{pull-distribution-check}  
+        \begin{tabular}{ccccccc} 
+            \toprule
+            \multicolumn{1}{c}{Amplitude }&\multicolumn{2}{c}{Phase}&\multicolumn{2}{c}{Magnitude}&\multicolumn{2}{c}{Fit fraction}\cr 
+            \hline
+                & mean & width &mean & width &mean & width \\
+            \hline
+        $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$              &                &               &                   &               & -0.13$\pm$0.04    & 0.98$\pm$0.03\\
+            $D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$                      & -0.04$\pm$0.05 & 1.00$\pm$0.03 & 0.07$\pm$0.04     & 0.95$\pm$0.03 & 0.01$\pm$0.04     & 0.95$\pm$0.03\\
+            $D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$    & -0.07$\pm$0.05 & 1.01$\pm$0.03 & 0.07$\pm$0.05     & 1.10$\pm$0.04 & 0.02$\pm$0.05     & 1.14$\pm$0.04\\
+            $D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$         & 0.00$\pm$0.05  & 1.11$\pm$0.04 & 0.14$\pm$0.04     & 0.95$\pm$0.03 & 0.10$\pm$0.04     & 0.99$\pm$0.03 \\
+            $D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$                     & 0.00$\pm$0.04  & 0.98$\pm$0.03 & 0.08$\pm$0.04     & 0.97$\pm$0.03 & 0.01$\pm$0.04     & 0.99$\pm$0.03 \\
+            $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$                     & -0.11$\pm$0.05 & 1.10$\pm$0.04 & 0.21$\pm$0.04     & 0.99$\pm$0.03 & 0.15$\pm$0.04     & 0.98$\pm$0.03 \\
+
+            \bottomrule
+        \end{tabular}  
+    \end{table}  
+
+    \begin{figure*}[h]
+        \centering
+        \mbox{
+            \begin{overpic}[width=0.8\textwidth]{plot/pull-phase.eps}
+            \end{overpic}
+        }
+        \caption{The pull distribution check results for phases of the amplitudes in the nominal fit model.}
+        \label{pull-phase}
+    \end{figure*}
+
+    \begin{figure*}[h]
+        \centering
+        \mbox{
+            \begin{overpic}[width=0.8\textwidth]{plot/pull-magnitude.eps}
+            \end{overpic}
+        }
+        \caption{The pull distribution check results for magnitudes of the amplitudes in the nominal fit model.}
+        \label{pull-magnitude}
+    \end{figure*}
+
+    \begin{figure*}[h]
+        \centering
+        \mbox{
+            \begin{overpic}[width=0.8\textwidth]{plot/pull-FF.eps}
+            \end{overpic}
+        }
+        \caption{The pull distribution check results for fit fractions of the amplitudes in the nominal fit model.}
+        \label{pull-FF}
+    \end{figure*}
+
+    Thus, the detail results of the systematic uncertainties are summarized in Tab.\ref{systematic-uncertainties}.
+    The final results of the amplitude analysis are then listed in Tabl.\ref{final-result}.
+    \begin{table}[tp]  
+        \centering  
+        \caption{Systematic uncertainties on the $\phi$ and FFs for different amplitudes in units of the corresponding statistical uncertainties.}  
+        \label{systematic-uncertainties}  
+        \begin{tabular}{cccccc} 
+            \toprule
+            \multirow{2}{*}{Amplitude }&\multicolumn{5}{c}{Source}\cr 
+            & & \uppercase\expandafter{\romannumeral1} &\uppercase\expandafter{\romannumeral2} &\uppercase\expandafter{\romannumeral3} & Total   \\
+            \hline
+            $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$                           &FF             &0.32       &0.29       &0.13   &0.46    \\
+            \hline
+            \multirow{3}{*}{$D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$}                  & $\phi$        & 0.49      &0.10       &0.06   &0.51  \\
+                                                                                        & $\rho$        & 0.49      &0.14       &0.18   &0.54  \\
+                                                                                        & FF            & 0.44      &1.13       &0.05   &1.21  \\
+            \hline
+            \multirow{3}{*}{$D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$}& $\phi$        & 0.98      &0.25       &0.06   &1.01     \\
+                                                                                        & $\rho$        & 1.11      &0.17       &0.10   &1.13  \\
+                                                                                        & FF            & 1.16      &0.15       &0.06   &1.17  \\
+            \hline
+            \multirow{3}{*}{$D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$}     & $\phi$        & 1.02      &0.48       &0.09   &1.13      \\
+                                                                                        & $\rho$        & 1.00      &0.36       &0.13   &1.07  \\
+                                                                                        & FF            & 0.76      &0.35       &0.11   &0.85  \\
+            \hline
+            \multirow{3}{*}{$D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$}                 & $\phi$        & 0.31      &0.25       &0.09   &0.41  \\
+                                                                                        & $\rho$        & 1.17      &1.23       &0.07   &1.70  \\
+                                                                                        & FF            & 0.71      &1.21       &0.05   &1.41  \\
+            \hline
+            \multirow{3}{*}{$D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$}                 & $\phi$        & 2.66      &0.27       &0.11   &2.67   \\
+                                                                                        & $\rho$        & 1.01      &0.32       &0.06   &1.06  \\
+                                                                                        & FF            & 0.42      &0.30       &0.15   &0.54  \\
+            \bottomrule
+        \end{tabular}  
+    \end{table}  
+
+    \begin{table}
+        \caption{The final results of the magnitudes, phases and fit fractions for the six amplitudes. The first and second uncertainties are the statistical and systematic uncertainties, respectively.}
+        \label{final-result}
+        \begin{center}
+            \begin{tabular}{cccc}
+                \hline
+                Amplitude & Magnitude  & Phase  & Fit fractions(\%)\\
+                \hline
+                $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$              & 1.0(fixed)             & 0.0(fixed)                & 48.3$\pm$0.9$\pm$0.4\\
+                $D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$                      & 1.09$\pm$0.02$\pm$0.01 & 6.22$\pm$0.07$\pm$0.04    & 40.5$\pm$0.7$\pm$0.9\\
+                $D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$    & 2.88$\pm$0.14$\pm$0.16 & 4.77$\pm$0.07$\pm$0.07    & 19.3$\pm$1.7$\pm$2.0\\
+                $D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$         & 1.26$\pm$0.14$\pm$0.15 & 2.91$\pm$0.20$\pm$0.23    & 3.0$\pm$0.6$\pm$0.5\\
+                $D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$                     & 0.79$\pm$0.08$\pm$0.14 & 1.02$\pm$0.12$\pm$0.05    & 1.9$\pm$0.4$\pm$0.6\\
+                $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$                     & 0.58$\pm$0.08$\pm$0.08 & 0.59$\pm$0.17$\pm$0.45    & 1.2$\pm$0.4$\pm$0.2\\
+                \hline
+            \end{tabular}
+        \end{center}
+    \end{table}
+
+    Below is a comparison between BABAR, CLEO-c and this analysis.
+    \begin{table}
+        \caption{Comparision between BABAR, CLEO-c and this analysis.}
+        \label{final-result}
+        \begin{center}
+            \begin{tabular}{cccc}
+                \hline
+                Amplitude & BABAR  & CLEO-c  & This Analysis\\
+                \hline
+                $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$              & 47.9$\pm$0.5$\pm$0.5  & 47.4$\pm$1.5$\pm$0.4& 48.3$\pm$0.9$\pm$0.4 \\
+                $D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$                      & 41.4$\pm$0.8$\pm$0.5  & 42.2$\pm$1.6$\pm$0.3& 40.5$\pm$0.7$\pm$0.9 \\
+                $D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$    & 16.4$\pm$0.7$\pm$2.0  & 28.2$\pm$1.9$\pm$1.8& 19.3$\pm$1.7$\pm$2.0 \\
+                $D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$         & 2.4$\pm$0.3$\pm$1.0   & 3.9$\pm$0.5$\pm$0.5 & 3.0$\pm$0.6$\pm$0.5  \\
+                $D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$                     & 1.1$\pm$0.1$\pm$0.1   & 3.4$\pm$0.5$\pm$0.3 & 1.9$\pm$0.4$\pm$0.6  \\
+                $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$                     & 1.1$\pm$0.1$\pm$0.2   & 4.3$\pm$0.6$\pm$0.5 & 1.2$\pm$0.4$\pm$0.2  \\
+                $\begin{matrix}\sum FF(\%)\end{matrix}$                          & 110.2$\pm$0.6$\pm$2.0 & 129.5$\pm$4.4$\pm$2.0 & 114.2$\pm$1.7$\pm$2.3\\
+                $\chi^{2}/NDF$                                                  & $\frac{2843}{2305-14}=1.2$ & $\frac{178}{117}=1.5$ & $\frac{290}{291-10-1}=1.04$\\
+                Events                                                         &$96307\pm369$          &$14400(purity 85\%)$  &$4485(purity99.7\%)$\\
+                \hline
+            \end{tabular}
+        \end{center}
+    \end{table}
+
+
+
+}

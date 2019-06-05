@@ -14,11 +14,11 @@ Below is the table of previous analyses of this decay channel.}
   \end{overpic}
  }
 \caption{previous analyses }
-\label{previous analyses}
+\label{PreviousAnalyses}
 \end{figure*}
 
 
-From figure.\ref{previous analyses}~\cite{2011BARBAR}, we can see an obvious difference of decay fraction of $f_{0}(980)\pi^{+}$ between BARBAR and CLEO-c. E687 used about 700 events and the E687 model did not take $f_{0}(1370)\pi^{+}$ into account. For CLEO-c, about 14400 events with purity about 84.9\% were selected with single tag method. The analysis of BARBAR used about 100000 events with purity about 95\%. In this analysis with double tag method, we can get a nearly background free data sample, that will be good to perform the amplitude analysis.
+From figure.\ref{PreviousAnalyses}~\cite{2011BARBAR}, we can see an obvious difference of decay fraction of $f_{0}(980)\pi^{+}$ between BARBAR and CLEO-c. E687 used about 700 events and the E687 model did not take $f_{0}(1370)\pi^{+}$ into account. For CLEO-c, about 14400 events with purity about 84.9\% were selected with single tag method. The analysis of BARBAR used about 100000 events with purity about 95\%. In this analysis with double tag method, we can get a nearly background free data sample, that will be good to perform the amplitude analysis.
 
 \iffalse
 As shown in Figure~\ref{fig:lambc_cs} and Figure~\ref{fig:lambc_cs_bes3}, at the energy of 4.6\,GeV, cross section of producing $\lambdacp\lambdacm$ pair in $\ee$ collisions is $\sigma(\ee\to\lambdacp\lambdacm)=0.38\pm0.13\,\rm{nb}$ measured by BELLE~\cite{Pakhlova:2008vn} and $\sigma(\ee\to\lambdacp\lambdacm)=0.253\pm0.023\,\rm{nb}$ measured by BESIII~\cite{Weiping:lineshape}.\\

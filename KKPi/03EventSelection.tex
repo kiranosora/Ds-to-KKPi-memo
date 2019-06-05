@@ -66,13 +66,44 @@ $D_{s}$ candicates are built from $K^{\pm}$, $\pi^{\pm}$, $\pi^{0}/\eta^{(0)}$ a
 \end{itemize}
 
 \subsection{Single Tag Selection}
-As $D_{s}^{+}$ and $D_{s}^{-}$ should appear in pairs, so we can use double tag method to select signal events. After $K^{\pm}$, $K_S^{0}$, $\pi^{\pm}$ and $\gamma$ are identified, hadronic $D_{s}$ decays can be reconstructed with the DTag package. 8 tag modes are used:
+\par{
+After $K^{\pm}$, $K_S^{0}$, $\pi^{\pm}$ and $\gamma$ are identified, hadronic $D_{s}$ decays can be reconstructed with the DTag package. 8 tag modes are used:
 
 $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$, $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}$, $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}\pi^{+}\pi^{-}$, $D_{s}^{-} \rightarrow K^{-}\pi^{+}\pi^{-}$, $D_{s}^{-} \rightarrow K_{S}^{0}K^{+}\pi^{-}\pi^{-}$, $D_{s}^{-} \rightarrow \pi^{+}\pi^{-}\pi^{-}$, $D_{s}^{-} \rightarrow \eta^{'}_{\pi^{+}\pi^{-}\eta_{\gamma\gamma}}$, $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}\pi^{0}$.
 
+In the selection of tag $D_{s}$, for multiple candidates, the best candidate is chosen with $M_{rec}$ closest to mass of $D_{s}^{*}$ in PDF ~\cite{PDG2018}.
+To further remove the background associated with the larger number of soft $\pi^{\pm}(\pi^{0})$ from $D_{s}^{*}$ decays, candidates are voted if the momentum of $\pi^{\pm}(\pi^{0})$ is less than $0.1GeV$.
 
-Before selecting the best candidate,  we vote the candidates with $\pi^{\pm}$($\pi^{0}$) whose momentum is less than $0.1GeV$ to remove soft $\pi^{\pm}$($\pi^{0}$) from $D^{*}$ decays.
+The single tag(ST) yields are extracted from the fits to the $D_{s}$ invariant mass distributions, as shown in Fig.\ref{SingleTagFit}. In the fit, the mass windows of the tag modes are set to be the same as the Ref. ~\cite{Doc-DB-630-v35}.
+The signal shape is modeled as MC shape convoluted with a Gaussian function, whie background is parameterized as the 2nd-order Chebychev polynomial.
+The corresponding ST effeciencies are estimated from generic MC. The ST yields($Y_{ST}$) and ST efficiencies($\epsilon_{ST}$) are listed in Tab.\ref{ST-eff}
 
+\begin{table}
+    \caption{ The ST yields($Y_{ST}$) and ST efficiencies($\epsilon_{ST}$). The mass windows use the results in Ref. ~\cite{Doc-DB-630-v35} }
+    \label{ST-eff}
+    \begin{center}
+        \begin{tabular}{cccc}
+            \toprule
+            Tag mode & Mass window(GeV)  & $Y_{ST}$  & $\epsilon_{ST}(\%)$\\
+            \hline
+            $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}$                          & [1.948, 1.991]    & $958648\pm1283$               & 48.81$\pm$0.07\\
+            $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$                       & [1.900, 2.030]    & $4064239\pm2905$              & 40.20$\pm$0.03\\
+            $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}\pi^{0}$                & [1.947, 1.982]    & $1164312\pm3430$              & 10.56$\pm$0.03\\
+            $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}\pi^{+}\pi^{-}$            & [1.958, 1.980]    & $233843\pm1468$               & 19.19$\pm$0.12\\
+            $D_{s}^{-} \rightarrow K_{S}^{0}K^{+}\pi^{-}\pi^{-}$            & [1.953, 1.983]    & $485855\pm1313$               & 22.59$\pm$0.06\\
+            $D_{s}^{-} \rightarrow \pi^{-}\pi^{-}\pi^{+}$                   & [1.952, 1.984]    & $1159359\pm3356$              & 56.78$\pm$0.16\\
+            $D_{s}^{-} \rightarrow \pi^{-}\eta_{\pi^{+}pi^{-}\eta_{\gamma\gamma}}^{'}$          & [1.940, 1.996]    & $251617\pm737$               & 20.26$\pm$0.06\\
+            $D_{s}^{-} \rightarrow K^{-}\pi^{+}\pi^{-}$                     & [1.953, 1.983]    & $500079\pm2870$               & 46.83$\pm$0.27\\
+            \bottomrule
+        \end{tabular}
+    \end{center}
+\end{table}
+
+
+
+With the tagged $D_{s}$ meson, the signal $D_{s}$ is reconstructed with the remaining good tracks and good showers. 
+The momentum of $\pi^{\pm}(\pi^{0})$ is required to be larger than $100 MeV/c^{2}$ to suppress the background of $D^{*} \rightarrow D\pi$.
+Only the $D_{s}$ candidate with invariant mass falls into $[1.87, 2.06]GeV/c^{2}$ are selected.
 
 For every candidate of $D_{s}$ decays, all tracks at signal side and tag side as well as gamma from $D_{s}^{*}$ are added to apply kinematic fitting. 5 constrains are added in kinematic fitting: four-momentum of $D_{s}D_{s}^{*}$, mass of $D_{s}^{*}$. Then we select the candidate with minmimum $\chi_{5c}^{2}$.  
 
@@ -80,22 +111,25 @@ The candidates satisfy:
 \begin{itemize}
 	\item[-] $1.95GeV < m_{sig} < 1.985GeV$
 	\item[-] $1.95GeV < m_{tag} < 1.985GeV$
-	\item[-] $\chi_{5c}^{2} < 50 $
+	\item[-] $\chi_{5c}^{2} < 200 $
 \end{itemize}
 are retained for amplitude analysis, where $m_{sig}$ and $m_{tag}$ refer to mass of $D_{s}$ at signal side and tag side respectively.
-
+}
 \subsection{Background Analysis}
 We use generic MC to estimate the background. The background and signal shape of generic MC is shown in Fig.\ref{background and signal distribution}. According to the luminosities of the data and the generic MC, after scaling the background sample to the data size, the background yiels in Signal region is 11.8. Then the fit to the signal $D_{s}$ invariant mass ($m_{sig}$) spectrum gives the background yield in Signal region is $11.3 \pm 3.9$, shown as in Fig.\ref{mDs_fit}.  The background level in MC is then consistent with the data. In the fit, the signal shape is the MC shape convoluted with a Gaussian function and the background is the MC shape. 
 
-\begin{figure*}[htbp]
+\begin{figure*}[!htbp]
  \centering
- \mbox{
-  %\vskip -1.5cm
-  \begin{overpic}[width=0.96\textwidth]{plot/mDs.eps}
-  \end{overpic}
- }
- \caption{The background (a) and signal (b) distributions from generic MC after selection }
-\label{background and signal distribution}
+ \includegraphics[width=0.4\textwidth]{plot/DsTag400_Mass_data.eps}
+ \includegraphics[width=0.4\textwidth]{plot/DsTag401_Mass_data.eps}
+ \includegraphics[width=0.4\textwidth]{plot/DsTag404_Mass_data.eps}
+ \includegraphics[width=0.4\textwidth]{plot/DsTag405_Mass_data.eps}
+ \includegraphics[width=0.4\textwidth]{plot/DsTag406_Mass_data.eps}
+ \includegraphics[width=0.4\textwidth]{plot/DsTag421_Mass_data.eps}
+ \includegraphics[width=0.4\textwidth]{plot/DsTag460_Mass_data.eps}
+ \includegraphics[width=0.4\textwidth]{plot/DsTag502_Mass_data.eps}
+ \caption{Ds Mass fits from data. The points with error bars are data, and the blue line is the fit. Red short-dashed lines are signal, violet long-dashed lines are background. The red arrows denote the signal region.  }
+\label{SingleTagFit}
 \end{figure*}
 
 \begin{figure*}[h]
