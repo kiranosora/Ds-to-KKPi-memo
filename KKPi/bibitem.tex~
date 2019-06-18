@@ -2,6 +2,10 @@
 \begin{thebibliography}{99}
 
 \bibitem{2011BARBAR}
+D.Cronin-Hennessy {\it et al.}  (CLEO Collaboration),
+Phys. Rev. D\textbf{80}, 072001 (2009).
+
+\bibitem{PRD80-072001}
 P.del Amo Sanchez {\it et al.}  (BARBAR Collaboration),
 %"Dalitz plot analysis of $D_{S}^{+} \rightarrow K^{+}K^{-}\pi^{+}$",
 Phys. Rev. D\textbf{83}, 052001 (2011).
@@ -9,6 +13,10 @@ Phys. Rev. D\textbf{83}, 052001 (2011).
 \bibitem{DocDB 580-v1}
 Andy Julin, Hajime Muramatsu and Ron Poling,  
 BES\uppercase\expandafter{\romannumeral3} DocDB 580-v1.
+
+\bibitem{CPC40-100001}
+K. A. Olive {\it et al.}  (Paritcle Data Group),
+Chin. Phys. C 40,100001 (2016)
 
 \bibitem{PDG}
 C. Patrignani {\it et al.}  (Paritcle Data Group),
@@ -45,6 +53,9 @@ BESIII DocDB 613-v16.
 
 \bibitem{PID}
 https://indico.ihep.ac.cn/event/8006/contribution/1/material/slides/0.pdf
+
+\bibitem{Tracking}
+https://indico.ihep.ac.cn/event/8023/contribution/1/material/slides/0.pdf
 
 \end{thebibliography}
 

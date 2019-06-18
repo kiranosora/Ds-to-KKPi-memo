@@ -1,15 +1,62 @@
 \section{Branching Fraction Measurements}
 
-\par{
-    \subsection{Results of Branching Fraction}
-    With the amplitude analysis results obtained from the fit to data, the double efficiencies without any kinematic fit requirement applied are determined and listed in Tab.\ref{DT-eff}.
+\subsection{Event Selection for Branching Fraction Measurements}
+After the selection described in Set.\ref{ST-selection}, we continue to select signals used in this part. 
+We use the same 8 tag modes as in Sec.\ref{AASelection}.
+In the selection of tag $D_{s}$, for multiple candidates, the best candidate is chosen with $M_{rec}$ closest to mass of $D_{s}^{*}$ in PDF ~\cite{PDG2018}.
+To further remove the background associated with the larger number of soft $\pi^{\pm}(\pi^{0})$ from $D_{s}^{*}$ decays, candidates are voted if the momentum of $\pi^{\pm}(\pi^{0})$ is less than $0.1GeV$.
+
+The single tag(ST) yields are extracted from the fits to the $D_{s}$ invariant mass distributions, as shown in Fig.\ref{SingleTagFit}. In the fit, the mass windows of the tag modes are set to be the same as the Ref. ~\cite{Doc-DB-630-v35}.
+The signal shape is modeled as MC shape convoluted with a Gaussian function, whie background is parameterized as the 2nd-order Chebychev polynomial.
+The corresponding ST effeciencies are estimated from generic MC. The ST yields($Y_{ST}$) and ST efficiencies($\epsilon_{ST}$) are listed in Tab.\ref{ST-eff}
+
+\begin{table}
+    \caption{ The ST yields($Y_{ST}$) and ST efficiencies($\epsilon_{ST}$). The mass windows use the results in Ref. ~\cite{Doc-DB-630-v35} }
+    \label{ST-eff}
+    \begin{center}
+        \begin{tabular}{cccc}
+            \toprule\toprule
+            Tag mode & Mass window(GeV)  & $Y_{ST}$  & $\epsilon_{ST}(\%)$\\
+            \hline
+            $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}$                          & [1.948, 1.991]    & $958648\pm1283$               & 48.81$\pm$0.07\\
+            $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$                       & [1.900, 2.030]    & $4064239\pm2905$              & 40.20$\pm$0.03\\
+            $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}\pi^{0}$                & [1.947, 1.982]    & $1164312\pm3430$              & 10.56$\pm$0.03\\
+            $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}\pi^{+}\pi^{-}$            & [1.958, 1.980]    & $233843\pm1468$               & 19.19$\pm$0.12\\
+            $D_{s}^{-} \rightarrow K_{S}^{0}K^{+}\pi^{-}\pi^{-}$            & [1.953, 1.983]    & $485855\pm1313$               & 22.59$\pm$0.06\\
+            $D_{s}^{-} \rightarrow \pi^{-}\pi^{-}\pi^{+}$                   & [1.952, 1.984]    & $1159359\pm3356$              & 56.78$\pm$0.16\\
+            $D_{s}^{-} \rightarrow \pi^{-}\eta_{\pi^{+}pi^{-}\eta_{\gamma\gamma}}^{'}$          & [1.940, 1.996]    & $251617\pm737$               & 20.26$\pm$0.06\\
+            $D_{s}^{-} \rightarrow K^{-}\pi^{+}\pi^{-}$                     & [1.953, 1.983]    & $500079\pm2870$               & 46.83$\pm$0.27\\
+            \bottomrule\bottomrule
+        \end{tabular}
+    \end{center}
+\end{table}
+
+\begin{figure*}[!htbp]
+ \centering
+ \includegraphics[width=0.4\textwidth]{plot/DsTag400_Mass_data.eps}
+ \includegraphics[width=0.4\textwidth]{plot/DsTag401_Mass_data.eps}
+ \includegraphics[width=0.4\textwidth]{plot/DsTag404_Mass_data.eps}
+ \includegraphics[width=0.4\textwidth]{plot/DsTag405_Mass_data.eps}
+ \includegraphics[width=0.4\textwidth]{plot/DsTag406_Mass_data.eps}
+ \includegraphics[width=0.4\textwidth]{plot/DsTag421_Mass_data.eps}
+ \includegraphics[width=0.4\textwidth]{plot/DsTag460_Mass_data.eps}
+ \includegraphics[width=0.4\textwidth]{plot/DsTag502_Mass_data.eps}
+ \caption{Ds Mass fits from data. The points with error bars are data, and the blue line is the fit. Red short-dashed lines are signal, violet long-dashed lines are background. The red arrows denote the signal region.  }
+\label{SingleTagFit}
+\end{figure*}
+
+
+After selected the candidates of tag $D_{s}$, for each tag mode, we can get double tag candidates. %We retain the candidates with minimum average mass ($aM$) of tag $D_{s}$ and signal $D_{s}$.
+
+
+With the amplitude analysis results obtained from the fit to data, the double efficiencies without any kinematic fit requirement applied are determined and listed in Tab.\ref{DT-eff}.
 
     \begin{table}
         \caption{ The DT efficiencies($\epsilon_{DT}$).}
         \label{DT-eff}
         \begin{center}
             \begin{tabular}{cccc}
-                \toprule
+                \toprule\toprule
                 Tag mode   & $\epsilon_{DT}(\%)$\\
                 \hline
                 $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}$                                                   & 19.61$\pm$0.14\\
@@ -20,15 +67,24 @@
                 $D_{s}^{-} \rightarrow \pi^{-}\pi^{-}\pi^{+}$                                            & 23.55$\pm$0.15\\
                 $D_{s}^{-} \rightarrow \pi^{-}\eta_{\pi^{+}pi^{-}\eta_{\gamma\gamma}}^{'}$               &  8.28$\pm$0.11\\
                 $D_{s}^{-} \rightarrow K^{-}\pi^{+}\pi^{-}$                                              & 20.00$\pm$0.19\\
-                \bottomrule
+                \bottomrule\bottomrule
             \end{tabular}
         \end{center}
     \end{table}
 
-    We divide the events into two categories:
+\par{
+    \subsection{Analytic Strategy of Branching Fraction Measurement}
+    The data sample for this analysis is collected at $E_{cm}=4.178GeV$, about $100MeV$ higher than $D_{s}^{*}D_{s}$ threshold. Around this energy region, based on the cross section measurement by CLEO ~\cite{PRD80-072001}, we know that most $D_{s}$ productionin $e^{+}e^{-}$ collision comes from $D_{s}^{*\pm}D_{s}^{\mp}$ events with its cross section aprroximatedly $0.9nb$, while the cross section for $D_{s}^{+}D_{s}^{-}$ is about a factor of 20 smaller.
+    The $D_{s}^{*}$ decays to either $\gamma D_{s}$ or $\pi^{0}D_{s}$ with branching fractions of $(93.5\pm0.7)\%$ and $(5.8\pm0.7)\%$ ~\cite{PDG2018}, respectively. 
+    The other charm productions total $~7pb$ mainly including $D^{*}\bar{D}^{*}$ with a cross section of $~5nb$, $D^{*}\bar{D} + D\bar{D}^{*}$ with a cross section of $~2nb$, and $D\bar{D}$ with a cross sectionof relatively small $~0.2 nb$.
+    There also appears to be $D\bar{D}^{*}\pi$ production.
+    The underlying light quark "continuum" background is about $12 nb$. 
+    The relatively large cross sections, relatively large branching fractions, and sufficient luminosities allow us to employ double tag (DT) technique to study this study.
+
+    As $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$ is not only our signal mode but also one of our tag modes, we divide the events into two categories:
 
     \begin{itemize}
-        \item[-] Cat. A: Tag $D_{s}$ decays to tag modes except $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}$. The generic MC sample with the signal removed shows no peaking background around the fit range of $1.90 < M_{sig} < 2.03 GeV$.
+        \item[-] Cat. A: Tag $D_{s}$ decays to tag modes except $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$. The generic MC sample with the signal removed shows no peaking background around the fit range of $1.90 < M_{sig} < 2.03 GeV$.
             Thus, the double tag yield is determined by the fit to $M_{sig}$, which has shown in Fig.\ref{DT-fit}(a).And the background is described with $2^{nd}$-order Chebychev polynomial. The double tag yield is $3503\pm64$. 
         \item[-] Cat. B: Tag $D_{s}$ decays $K^{+}K^{-}\pi^{+}$. As both of the two $D_{s}$ mesons decay to our signal modes, we fit $aM$(the average mass of $D_{s}$ at signal side and tag side), which is shown in Fig.\ref{DT-fit}(b). 
             Here, the background is described with $2^{nd}$-order Chebychev polynomial. The double tag yield is $1629\pm43$. 
@@ -44,9 +100,32 @@
         \label{DT-fit}
     \end{figure*}
 
+    To measure the branching fraction of this decay, we start from the following equations with one tag mode:
+    \begin{equation}
+        N_{tag}^{obs} = 2N_{D_{s}^{+}D_{s}^{-}}\mathcal{B}_{tag}\epsilon_{tag}, \label{eq-ST}
+    \end{equation}
+
+    \begin{equation}
+        \begin{array}{lr}
+            N_{sig}^{obsA}=2N_{D_{s}^{+}D_{s}^{-}}\mathcal{B}_{tag}\mathcal{B}_{sig}\epsilon_{tag,sig}  , &\text{for Cat. A} \\
+            N_{sig}^{obsB}=N_{D_{s}^{+}D_{s}^{-}}\mathcal{B}_{tag}\mathcal{B}_{sig}\epsilon_{tag,sig}  ,  &\text{  for Cat. B}  
+        \end{array}
+        \label{eq-DT}
+    \end{equation}
+    where $N_{D_{s}^{+}D_{s}^{-}}$ is the total number of $D_{s}^{*\pm}D_{s}^{\mp}$ produced from $e^{+}e^{-}$ collision; $N_{tag}^{obs}$ is the number of observed tag modes; $N_{sig}^{obsA}$ and $N_{sig}^{obsB}$ are the number of observed signals for Cat. A and Cat. B, respectively; $\mathcal{B}_{tag}$ and $\mathcal{B}_{sig}$ are the branching fractions of specific tag mode and signal mode, respectively; $\epsilon_{tag}$ is the reconstruction efficiency of the tag mode; $\epsilon_{tag,sig}$ is the reconstruction efficiency of both the tag and signal decay modes.
+
+    Using the above equations, it's easy to obtain:
+    \begin{equation}
+    \mathcal{B}_{sig} = \frac{N_{sig}^{obsA}+2N_{sig}^{obsB}}{\begin{matrix}\sum_{\alpha} N_{tag}^{\alpha}\epsilon_{tag,sig}^{\alpha}/\epsilon_{tag}^{\alpha}\end{matrix}}, \label{BR-formula}
+    \end{equation}
+    where the yields $N_{tag}^{obsA}$, $N_{tag}^{obsB}$ and $N_{tag}^{\alpha}$ can be obtained from data, while $\epsilon_{tag}$ and $\epsilon_{tag,sig}$ can be obtained from the appropriate Monte-Carlo(MC) samples, $\alpha=1, 2, 3...$ represents the tag mode.
+    
+
+    \subsection{Results of Branching Fraction}
 
 
-    Then we can get the branching fraction $\mathcal{B}(D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+})=(5.38\pm0.07)\%$(only statistical uncertainty).
+
+    Then we can get the branching fraction $\mathcal{B}(D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+})=(5.38\pm0.07)\%$(only statistical uncertainty) according to Eq.\ref{BR-formula}.
 
     \subsection{Systematic Uncertainties}
     The following sources are taken in account to calculate systematic uncertainties.
@@ -71,7 +150,7 @@
         \label{BF-Sys}
         \begin{center}
             \begin{tabular}{cccc}
-                \toprule
+                \toprule\toprule
                 Source   & Sys. Uncertainty\\
                 \hline
                 Signal shale                        & 0.3 \\
@@ -84,12 +163,12 @@
                 MC statistics                       & 0.2 \\
                 \hline
                 total                               & 2.0 \\
-                \bottomrule
+                \bottomrule\bottomrule
             \end{tabular}
         \end{center}
     \end{table}
 
-    The branching farction with systematic uncertainties is $\machcal{B}(D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+})=(5.38\pm0.07_{stat.}\pm0.11_{sys.})\%$.
+    The branching farction with systematic uncertainties is $\mathcal{B}(D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+})=(5.38\pm0.07_{stat.}\pm0.11_{sys.})\%$.
 
 
 

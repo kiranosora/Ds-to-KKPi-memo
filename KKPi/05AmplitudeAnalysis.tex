@@ -1,5 +1,55 @@
 \section{Amplitude Analysis}
 
+\subsection{Event Selection for Amplitude Analysis}
+\label{AASelection}
+\par{
+After $K^{\pm}$, $K_S^{0}$, $\pi^{\pm}$ and $\gamma$ are identified in Sec.\ref{ST-selection}, hadronic $D_{s}$ decays can be reconstructed with the DTag package. 8 tag modes are used:
+
+$D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$, $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}$, $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}\pi^{+}\pi^{-}$, $D_{s}^{-} \rightarrow K^{-}\pi^{+}\pi^{-}$, $D_{s}^{-} \rightarrow K_{S}^{0}K^{+}\pi^{-}\pi^{-}$, $D_{s}^{-} \rightarrow \pi^{+}\pi^{-}\pi^{-}$, $D_{s}^{-} \rightarrow \eta^{'}_{\pi^{+}\pi^{-}\eta_{\gamma\gamma}}$, $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}\pi^{0}$.
+
+
+With the tagged $D_{s}$ meson, the signal $D_{s}$ is reconstructed with the remaining good tracks and good showers. 
+The momentum of $\pi^{\pm}(\pi^{0})$ is required to be larger than $100 MeV/c^{2}$ to suppress the background of $D^{*} \rightarrow D\pi$.
+Only the $D_{s}$ candidate with invariant mass falls into $[1.87, 2.06]GeV/c^{2}$ are selected.
+
+For every candidate of $D_{s}$ decays, all tracks at signal side and tag side as well as gamma from $D_{s}^{*}$ are added to apply kinematic fitting. 5 constrains are added in kinematic fitting: four-momentum of $D_{s}D_{s}^{*}$, mass of $D_{s}^{*}$. Then we select the candidate with minmimum $\chi_{5c}^{2}$.  
+
+The candidates satisfy:
+\begin{itemize}
+    \item[-] $m_{sig}$ and $m_{tag}$ falls in the mass regions shown in Tab.\ref{ST-eff}. 
+	\item[-] $\chi_{5c}^{2} < 200 $
+\end{itemize}
+are retained for amplitude analysis, where $m_{sig}$ and $m_{tag}$ refer to mass of $D_{s}$ at signal side and tag side respectively.
+}
+
+\subsection{Background Analysis}
+We use generic MC to estimate the background. The background and signal shape of generic MC is shown in Fig.\ref{background-and-signal-distribution}. 
+According to the luminosities of the data and the generic MC, after scaling the background sample to the data size, the background yiels in Signal region is 17.2. 
+Then the fit to the signal $D_{s}$ invariant mass ($m_{sig}$) spectrum gives the background yield in Signal region is $18.1 \pm 5.1$, shown as in Fig.\ref{mDs_fit}.  
+The background level in MC is then consistent with the data. In the fit, the signal shape is the MC shape convoluted with a Gaussian function and the background is the MC shape. 
+
+\begin{figure*}[h]
+ \centering
+ \mbox{
+  %\vskip -1.5cm
+  \begin{overpic}[width=0.9\textwidth]{plot/bkg.eps}
+  \end{overpic}
+ }
+ \caption{ The background and signal shape of generic MC(round 01-40)}
+\label{background-and-signal-distribution}
+\end{figure*}
+
+\begin{figure*}[h]
+ \centering
+ \mbox{
+  %\vskip -1.5cm
+  \begin{overpic}[width=0.48\textwidth]{plot/mDs.eps}
+  \end{overpic}
+ }
+ \caption{The fit to $m_{sig}$ for data after selections, the area between the purple arrows is the signal area of the sample for the amplitude analysis. }
+\label{mDs_fit}
+\end{figure*}
+
 \subsection{Fit Method}
 \par{The method used in amplitude analysis is the same as the Ref.~\cite{Doc-DB-416-v30}. In this section, we briefly review the amplitude analysis method used int this analysis.
     
@@ -59,7 +109,7 @@ The total amplitude $M$ is then the coherent sum of the amplitudes of intermedia
     where $k_{MC}$ is the index of the $k_{MC}^{th}$ event of the MC sample and $N_{MC}$ is the number of the selected MC events. In this analysis, a signal MC sample with about 2 million events is used in the normalization intergral calculation. $M^{gen}(p_{j})$ is the PDF function used to generate the MC samples in MC integration.
     Firstly, the PHSP MC are used in MC integration. $M^{gen}(p_{j})$ is a constant overall the phase space. Then with result obtained from the fit to data, the signal MC is then generated and used in MC integration. In the numerator of Eq.\ref{signal-PDF}, $\epsilon(p_{j})$ is independent of the fitted variables, so it is regarded as a constant term in the fit.
 
-    Since there is only $0.3\%$ background in the data sample, the contribution from the background is ignored in the likelihood calculation:
+    Since there is only about $0.4\%$ background in the data sample, the contribution from the background is ignored in the likelihood calculation:
     \begin{equation}
     \ln L = \begin{matrix}\sum_{k}^{N_{data}} \ln f_{S}(p_{j}^{k})\end{matrix},  \label{likelihood}
     \end{equation}
@@ -179,7 +229,7 @@ The goodness of the nominal fit is $\chi^{2}=290.1/280=1.04$.
         \caption{The results of pull distribution checks for the magnitudes, phases and fit fractions for the amplitudes}  
         \label{pull-distribution-check}  
         \begin{tabular}{ccccccc} 
-            \toprule
+            \toprule\toprule
             \multicolumn{1}{c}{Amplitude }&\multicolumn{2}{c}{Phase}&\multicolumn{2}{c}{Magnitude}&\multicolumn{2}{c}{Fit fraction}\cr 
             \hline
                 & mean & width &mean & width &mean & width \\
@@ -191,7 +241,7 @@ The goodness of the nominal fit is $\chi^{2}=290.1/280=1.04$.
             $D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$                     & 0.00$\pm$0.04  & 0.98$\pm$0.03 & 0.08$\pm$0.04     & 0.97$\pm$0.03 & 0.01$\pm$0.04     & 0.99$\pm$0.03 \\
             $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$                     & -0.11$\pm$0.05 & 1.10$\pm$0.04 & 0.21$\pm$0.04     & 0.99$\pm$0.03 & 0.15$\pm$0.04     & 0.98$\pm$0.03 \\
 
-            \bottomrule
+            \bottomrule\bottomrule
         \end{tabular}  
     \end{table}  
 
@@ -232,7 +282,7 @@ The goodness of the nominal fit is $\chi^{2}=290.1/280=1.04$.
         \caption{Systematic uncertainties on the $\phi$ and FFs for different amplitudes in units of the corresponding statistical uncertainties.}  
         \label{systematic-uncertainties}  
         \begin{tabular}{cccccc} 
-            \toprule
+            \toprule\toprule
             \multirow{2}{*}{Amplitude }&\multicolumn{5}{c}{Source}\cr 
             & & \uppercase\expandafter{\romannumeral1} &\uppercase\expandafter{\romannumeral2} &\uppercase\expandafter{\romannumeral3} & Total   \\
             \hline
@@ -257,7 +307,7 @@ The goodness of the nominal fit is $\chi^{2}=290.1/280=1.04$.
             \multirow{3}{*}{$D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$}                 & $\phi$        & 2.66      &0.27       &0.11   &2.67   \\
                                                                                         & $\rho$        & 1.01      &0.32       &0.06   &1.06  \\
                                                                                         & FF            & 0.42      &0.30       &0.15   &0.54  \\
-            \bottomrule
+            \bottomrule\bottomrule
         \end{tabular}  
     \end{table}  
 
@@ -266,7 +316,7 @@ The goodness of the nominal fit is $\chi^{2}=290.1/280=1.04$.
         \label{final-result}
         \begin{center}
             \begin{tabular}{cccc}
-                \hline
+                \toprule\toprule
                 Amplitude & Magnitude  & Phase  & Fit fractions(\%)\\
                 \hline
                 $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$              & 1.0(fixed)             & 0.0(fixed)                & 48.3$\pm$0.9$\pm$0.4\\
@@ -275,18 +325,19 @@ The goodness of the nominal fit is $\chi^{2}=290.1/280=1.04$.
                 $D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$         & 1.26$\pm$0.14$\pm$0.15 & 2.91$\pm$0.20$\pm$0.23    & 3.0$\pm$0.6$\pm$0.5\\
                 $D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$                     & 0.79$\pm$0.08$\pm$0.14 & 1.02$\pm$0.12$\pm$0.05    & 1.9$\pm$0.4$\pm$0.6\\
                 $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$                     & 0.58$\pm$0.08$\pm$0.08 & 0.59$\pm$0.17$\pm$0.45    & 1.2$\pm$0.4$\pm$0.2\\
-                \hline
+                \bottomrule\bottomrule
             \end{tabular}
         \end{center}
     \end{table}
 
-    Below is a comparison between BABAR, CLEO-c and this analysis.
+    Below is a comparison between BABAR, CLEO-c and this analysis. Our results are roughly consistent with those of BABAR and CLEO-c.
+    And for the fit fraction of $D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$, we tend to agree the result of BABAR.
     \begin{table}
         \caption{Comparision between BABAR, CLEO-c and this analysis.}
         \label{final-result}
         \begin{center}
             \begin{tabular}{cccc}
-                \hline
+                \toprule\toprule
                 Amplitude & BABAR  & CLEO-c  & This Analysis\\
                 \hline
                 $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$              & 47.9$\pm$0.5$\pm$0.5  & 47.4$\pm$1.5$\pm$0.4& 48.3$\pm$0.9$\pm$0.4 \\
@@ -298,7 +349,7 @@ The goodness of the nominal fit is $\chi^{2}=290.1/280=1.04$.
                 $\begin{matrix}\sum FF(\%)\end{matrix}$                          & 110.2$\pm$0.6$\pm$2.0 & 129.5$\pm$4.4$\pm$2.0 & 114.2$\pm$1.7$\pm$2.3\\
                 $\chi^{2}/NDF$                                                  & $\frac{2843}{2305-14}=1.2$ & $\frac{178}{117}=1.5$ & $\frac{290}{291-10-1}=1.04$\\
                 Events                                                         &$96307\pm369$          &$14400(purity 85\%)$  &$4485(purity99.7\%)$\\
-                \hline
+                \bottomrule\bottomrule
             \end{tabular}
         \end{center}
     \end{table}

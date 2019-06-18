@@ -226,7 +226,7 @@ The projections of the "Sideband"( $1.90 < M(D_{s}) < 1.95 GeV$ and   $1.985 < M
 \subsection{S-wave parameterization at the $K^{+}K^{-}$ threshold}
 \par{We empirically parameterize the $f_{0}(980)$ with the following function:
     \begin{equation}
-        A_{f_{0}(980) & a_{0}(980)} = \frac{1}{m_{0}^{2} - m^{2} -im_{0}\Gamma_{0}\rho_{KK}}, \label{a0980-RBW}
+        A_{f_{0}(980) / a_{0}(980)} = \frac{1}{m_{0}^{2} - m^{2} -im_{0}\Gamma_{0}\rho_{KK}}, \label{a0980-RBW}
     \end{equation}
     where $\rho_{KK} = 2p/m$, and obtain the flollowing parameter values:
     \begin{equation}
