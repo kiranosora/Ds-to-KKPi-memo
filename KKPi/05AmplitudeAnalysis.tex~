@@ -59,7 +59,7 @@ The background level in MC is then consistent with the data. In the fit, the sig
     \begin{equation}
     A_{n} = P_{n}S_{n}F_{n}^{r}F_{n}^{D}, \label{base-amplitude}
     \end{equation}
-where $S_{n}$ and $F_{n}^{r(D)}$ are the spin factor and the Blatt-Weisskopf barriers of the intermediate state (the $D_{s}$ meson), respectively. $P_{n}$ is the propagator of the intermediate resonance. For a decay process $a \rightarrow bc$, $s_{a/b/c}$ is denoted to be the invariant mass square of the particle a/b/c, and q is denoted as the magnitude of the momentum daughter particle in the rest system of a
+where $S_{n}$ and $F_{n}^{r(D)}$ are the spin factor and the Blatt-Weisskopf barriers of the intermediate state (the $D_{s}$ meson), respectively. $P_{n}$ is the propagator of the intermediate resonance. For a decay process $a \rightarrow bc$, $s_{a/b/c}$ is denoted to be the invariant mass square of the particle a/b/c, and q is denoted as the magnitude of the momentum of daughter particle in the rest system of a
     \begin{equation}
     q=\sqrt{ \frac{(s_{a} + s_{b} + s_{c})^{2}}{4s_{a}} - s_{b}}. \label{base-q}
     \end{equation}
@@ -76,7 +76,7 @@ $K^{*}_{0}(1430)^{0}$ is parameterized with Flatte formula:
     \begin{equation}
         P_{K^{*}_{0}(1430)^{0}}= \frac{1}{M^{2} - s - i(g_{1}\rho_{K\pi}(s) + g_{2}\rho_{\eta^{'}K}(s))}, \label{Flatte}
     \end{equation}
-    where $s$ is the $K^{-}\pi^{+}$ invariant mass squared,  $\rho_{K\pi}(s)$ and $\rho_{\eta^{'}K}(s)$ are Lorentz invariant PHSP factor, and   $g_{1,2}$ are coupling constants to the corresponding final state. The parameters of $K^{*}_{0}(1430)^{0}$ are fixed to values measured by CLEO ~\cite{CLEO-Flatte}. For resonance $f_{0}(980)$ \& $a_{0}(980)$, the RBW form \ref{a0980-RBW} is used to describe the propagator and the values of parameters are fixed to the values in \ref{S-wave parameters}.
+    where $s$ is the $K^{-}\pi^{+}$ invariant mass squared,  $\rho_{K\pi}(s)$ and $\rho_{\eta^{'}K}(s)$ are Lorentz invariant PHSP factor, and   $g_{1,2}$ are coupling constants to the corresponding final state. The parameters of $K^{*}_{0}(1430)^{0}$ are fixed to values measured by CLEO ~\cite{CLEO-Flatte}. For resonance $f_{0}(980)$ \& $a_{0}(980)$, the RBW form Eq.\ref{a0980-RBW} is used to describe the propagator and the values of parameters are fixed to the values in Eq.\ref{S-wave parameters}.
     
     The Blatt-Weisskopf barriers are given by 
     \begin{equation}
@@ -98,7 +98,8 @@ $K^{*}_{0}(1430)^{0}$ is parameterized with Flatte formula:
     \end{equation}
     where the $\tilde{T}^{(1)\mu}(D_{s})$($\tilde{T}^{(2)\mu}(D_{s})$) and $\tilde{t}^{(1)}_{\mu}(R)$($\tilde{t}^{(2)}_{\mu}(R)$) are the same defined in Ref.~\cite{covariant-tensors}.
 
-The total amplitude $M$ is then the coherent sum of the amplitudes of intermediate processes, $M=\begin{matrix}\sum c_{n}A_{n}\end{matrix}$, where $c_{n}=\rho_{n}e^{i\phi_{n}}$, is the corresponding complex coefficient. The magnitude $\rho_{n}$ and phase $\phi_{n}$ are determined by the amplitude analysis. The signal PDF $\mathcal{f}_{S}(p_{j})$ is given by 
+The total amplitude $M$ is then the coherent sum of the amplitudes of intermediate processes, $M=\begin{matrix}\sum c_{n}A_{n}\end{matrix}$, where $c_{n}=\rho_{n}e^{i\phi_{n}}$, is the corresponding complex coefficient. The magnitude $\rho_{n}$ and phase $\phi_{n}$ are determined by the amplitude analysis. 
+    The signal PDF $\mathcal{f}_{S}(p_{j})$ is given by 
     \begin{equation}
         f_{S}(p_{j}) = \frac{\epsilon(p_{j})\left|M(p_{j})\right|^{2}R_{3}(p_{j})}{\int \epsilon(p_{j})\left|M(p_{j})\right|^{2}R_{3}(p_{j})\,dp_{j}}, \label{signal-PDF}
     \end{equation}
@@ -331,7 +332,7 @@ The goodness of the nominal fit is $\chi^{2}=290.1/280=1.04$.
     \end{table}
 
     Below is a comparison between BABAR, CLEO-c and this analysis. Our results are roughly consistent with those of BABAR and CLEO-c.
-    And for the fit fraction of $D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$, we tend to the agree the result of BABAR.
+    And for the fit fraction of $D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$, we tend to agree the result of BABAR.
     \begin{table}
         \caption{Comparision between BABAR, CLEO-c and this analysis.}
         \label{final-result}

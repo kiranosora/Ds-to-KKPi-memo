@@ -1,12 +1,18 @@
 \section{Model Independent Partial Wave Analysis}
 \par{In the $K^{+}K^{-}$ threshold both $a_{0}(980)$ and $f_{0}(980)$ can be present, and both resonances have very similar parameters which suffer from large uncertainties. In this section we obtain model-independent information on the $K^{+}K^{-} S$ wave by performing a MIPPPWA(model indendent partial wave analysis) in the  $K^{+}K^{-}$ threshold region.}
 \subsection{Signal Candidate Selection}
-\par{As MIPWA need more data events, we do not requre $D_{s}^{+}$ and $D_{s}^{-}$ appear in pairs. 
+\label{MIPWASelection}
+\par{
+    After the selection in Set.\ref{ST-selection}, we continue to select signals for model independent partial wave analysis.
+    As MIPWA need more data events, we do not requre $D_{s}^{+}$ and $D_{s}^{-}$ appear in pairs. 
 Before selecting the best candidate,  we vote the candidates with $\pi^{\pm}$($\pi^{0}$) whose momentum is less than $0.1GeV$ to remove soft $\pi^{\pm}$($\pi^{0}$) from $D^{*}$ decays.
 For every candidates of $D_{s}$ decays, all tracks at signal side are added to apply kinematric fitting. Only mass of $D_{s}$ from signal side is constrained.Then we select the candidate with minimum $\chi_{1c}^{2}$.
 }
 \subsection{Background Analysis}
-In order to further suppress the background, the multiple analysis method (MVA) is used. We train MVA methos separately with different sets of variables for the two event categories depending on the $D_{s}^{+}$ origin. These two categories of events are selected in a $M_{rec}-\Delta{M}$ 2D plane shown in Fig.\ref{2DAll}:
+In order to further suppress the background, the multiple analysis method (MVA) is used. We train MVA methos separately with different sets of variables for the two event categories depending on the $D_{s}^{+}$ origin. 
+Sideband region used below is defined as the region of  $1.90 < M(D_{s}) < 1.952 GeV$ and   $1.985 < M(D_{s}) < 2.03 GeV$, $M(D_{s})$ is the invariant mass of $D_{s}$.
+And the signal region is $1.952 < M(D_{s}) < 1.985 GeV$.
+These two categories of events are selected in a $M_{rec}-\Delta{M}$ 2D plane shown in Fig.\ref{2DAll}:
 
 \begin{figure*}[h]
  \centering
@@ -20,42 +26,64 @@ In order to further suppress the background, the multiple analysis method (MVA) 
 \end{figure*}
 
 
+
 \begin{itemize}
     \item Cat. \#0: Direct $D_{s}^{+}$. We use the following variables whose distributions for signal and background are shown in Fig.\ref{Cat0Variables},
         \begin{itemize}
             \item[1. ] $M_{rec}$,
             \item[2. ] $P_{rest}$, defined as the total momentum of the tracks and neutrals in the rest of event (not part of the $D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$ candidate),
-            \item[3. ] $N_{tracks}$, defined as the total number of tracks and neutrals in an event.
+            \item[3. ] $E_{\gamma}$, defined as the energy of gamma from $D_{s}^{*}$.
         \end{itemize}
+        From Fig.\ref{Cat0Variables}(generic MC) and Fig.\ref{cat0_data}(data), we can see that the corresponding distributions of these variables of data and generic MC are roughly consistent.
+        
+
     \item Cat. \#1: Indirect $D_{s}^{+}$.
         We use the following variables whose distributions for signal and background are shown in Fig.\ref{Cat1Variables},
         \begin{itemize}
             \item[1. ] $\Delta{M}$,
             \item[2. ] $M_{rec}^{'}$, defined as $M_{rec}^{'} = \sqrt{ {(E_{cm}  - \sqrt{p_{D_{s}\gamma}^{2} + m_{D_{s}^{*}}^{2}}) }^{2} - p_{D_{s}\gamma}^{2}}$, with $p_{D_{s}\gamma}$ as the momentum of the $D_{s}\gamma$ combination, $m_{D_{s}^{*}}$ as the nominal ${D_{s}^{*}}$ mass,
-            \item[3. ] $E_{\gamma}$, defined as the energy of gamma from $D_{s}^{*}$.
+            \item[3. ] $N_{tracks}$, defined as the total number of tracks and neutrals in an event.
         \end{itemize}
+        From Fig.\ref{Cat1Variables}(generic MC) and Fig.\ref{cat1_data}(data), we can see that the corresponding distributions of these variables of data and generic MC are roughly consistent.
 \end{itemize}
+
 
 \begin{figure*}[h]
  \centering
  \mbox{
   %\vskip -1.5cm
-  \begin{overpic}[width=0.8\textwidth]{plot/Cat0Variables.png}
+  \begin{overpic}[width=0.99\textwidth]{plot/Cat0Variables.png}
   \end{overpic}
  }
  \caption{ For event Cat. \#0,  distributions of MVA variables from simulated signal decays and background events.}
 \label{Cat0Variables}
 \end{figure*}
 
+\begin{figure*}[!htbp]
+ \centering
+ \includegraphics[width=0.99\textwidth]{plot/cat0_sig.eps}
+ \includegraphics[width=0.99\textwidth]{plot/cat0_sb.eps}
+ \caption{The distribution(Cat. \#0) of these three observables ((a) and (d)) $M_{rec}$, ((b) and (e)) $P_{rest}$ and  ((c) and (f)) $E_{\gamma}$ for( (a), (b) and (c)) Signal and ( (d), (e) and (f)) Sideband regions from data are shown.}
+\label{cat0_data}
+\end{figure*}
+
 \begin{figure*}[h]
  \centering
  \mbox{
   %\vskip -1.5cm
-  \begin{overpic}[width=0.8\textwidth]{plot/Cat1Variables.png}
+  \begin{overpic}[width=0.99\textwidth]{plot/Cat1Variables.png}
   \end{overpic}
  }
  \caption{ For event Cat. \#1,  distributions of MVA variables from simulated signal decays and background events.}
 \label{Cat1Variables}
+\end{figure*}
+
+\begin{figure*}[!htbp]
+ \centering
+ \includegraphics[width=0.99\textwidth]{plot/cat1_sig.eps}
+ \includegraphics[width=0.99\textwidth]{plot/cat1_sb.eps}
+ \caption{The distribution(Cat. \#1) of these three observables ((a) and (d)) $M_{rec}$, ((b) and (e)) $P_{rest}$ and  ((c) and (f)) $E_{\gamma}$ for( (a), (b) and (c)) Signal and ( (d), (e) and (f)) Sideband regions from data are shown.}
+\label{cat1_data}
 \end{figure*}
 
 \par{As the results shown in Fig.\ref{Overtrain}, this BDTG training and test samples are well matched. For event Cat. \#0 ( Cat. \#1 ), the sample with BDTG value larger than 0.33(0.65) is retained for further study. 
@@ -76,7 +104,7 @@ In order to further suppress the background, the multiple analysis method (MVA) 
     \label{Overtrain}
 \end{figure*}
     
-    
+   
     After applying the BDTG requirement, the background shows no obviously peak around the region of [1.95, 1.982] $GeV$ (Signal region), which are shown in Fig.\ref{MIPWA-ST-BS}.  The fit to the signal $D_{s}$ invariant mass ($M_{D_{s}^{2}}$) spectrum gives the background yield in Signal region is $73.6\pm18.7$, shown as in Fig.\ref{MIPWA-ST}. In the fit, the signal shape is the MC shape convoluted with a Gaussian function and the background is described with $1^{st}$-order Chebychev polynomial.
 
     \begin{figure*}[h]
@@ -104,12 +132,14 @@ In order to further suppress the background, the multiple analysis method (MVA) 
   \begin{overpic}[width=0.8\textwidth]{plot/MIPWA-ST.png}
   \end{overpic}
  }
- \caption{The fit to the signal $D_{s}$ invariant mass ($M_{D_{s}^{2}}$) spectrum after BDTG requirement, the area between the pink arrows is the signal area of the sample for MIPWA. }
+ \caption{The fit to the signal $D_{s}$ invariant mass ($M_{D_{s}}$) spectrum after BDTG requirement, the area between the pink arrows is the signal area of the sample for MIPWA. }
 \label{MIPWA-ST}
 \end{figure*}
 
 \par{
 The projections of the "Sideband"( $1.90 < M(D_{s}) < 1.95 GeV$ and   $1.985 < M(D_{s}) < 2.03 GeV$) from data and generic MC after signal events removed are shown in Fig.\ref{MIPWA-Sideband}. The corresponding plots agree well.} 
+
+
 
 \begin{figure*}[h]
     \centering
@@ -232,7 +262,7 @@ The projections of the "Sideband"( $1.90 < M(D_{s}) < 1.95 GeV$ and   $1.985 < M
     \begin{equation}
         \begin{array}{lr}
             m_{0} = (0.919 \pm 0.006_{stat}) GeV, &\\
-            \Gamma_{0} = (0.272 \pm 0.020_{stat}) GeV. &
+            \Gamma_{0} = (0.272 \pm 0.040_{stat}) GeV. &
         \end{array}\label{S-wave parameters} 
     \end{equation}
 
@@ -243,7 +273,7 @@ The projections of the "Sideband"( $1.90 < M(D_{s}) < 1.95 GeV$ and   $1.985 < M
         \centering
         \mbox{
             %\vskip -1.5cm
-            \begin{overpic}[width=0.8\textwidth]{plot/Fit-SWave.png}
+            \begin{overpic}[width=0.8\textwidth]{plot/Fit-SWave.eps}
             \end{overpic}
         }
         \caption{ Fit of squared S-wave amplitudes. the curves result from the fit described in the text.}
