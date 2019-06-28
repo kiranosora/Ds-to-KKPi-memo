@@ -9,7 +9,7 @@ Before selecting the best candidate,  we vote the candidates with $\pi^{\pm}$($\
 For every candidates of $D_{s}$ decays, all tracks at signal side are added to apply kinematric fitting. Only mass of $D_{s}$ from signal side is constrained.Then we select the candidate with minimum $\chi_{1c}^{2}$.
 }
 \subsection{Background Analysis}
-In order to further suppress the background, the multiple analysis method (MVA) is used. We train MVA methos separately with different sets of variables for the two event categories depending on the $D_{s}^{+}$ origin. 
+In order to further suppress the background, the multiple-variable analysis (MVA) is used. We train MVA methos separately with different sets of variables for the two event categories depending on the $D_{s}^{+}$ origin. 
 Sideband region used below is defined as the region of  $1.90 < M(D_{s}) < 1.952 GeV$ and   $1.985 < M(D_{s}) < 2.03 GeV$, $M(D_{s})$ is the invariant mass of $D_{s}$.
 And the signal region is $1.952 < M(D_{s}) < 1.985 GeV$.
 These two categories of events are selected in a $M_{rec}-\Delta{M}$ 2D plane shown in Fig.\ref{2DAll}:
@@ -21,7 +21,7 @@ These two categories of events are selected in a $M_{rec}-\Delta{M}$ 2D plane sh
   \begin{overpic}[width=0.48\textwidth]{plot/2DAll.png}
   \end{overpic}
  }
- \caption{Two dimensional plane of ${\Delta{M} \equiv M(D_{s}^{+}\gamma) - M(D_{s}^{+})}$ versus ${M_{rec}}$ from the simulated ${D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}}$ decyas. The red(green) dashed lines mark the mass window for the $D_{s}^{+}$ Cat. \#0( Cat. \#1) around the $M_{rec}$($\Delta{M}$) peak. }
+ \caption{Two dimensional plane of ${M_{rec}}$ versus ${\Delta{M} \equiv M(D_{s}^{+}\gamma) - M(D_{s}^{+})}$ from the simulated ${D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}}$ decyas. The red(green) dashed lines mark the mass window for the $D_{s}^{+}$ Cat. \#0( Cat. \#1) around the $M_{rec}$($\Delta{M}$) peak. }
 \label{2DAll}
 \end{figure*}
 
@@ -34,7 +34,7 @@ These two categories of events are selected in a $M_{rec}-\Delta{M}$ 2D plane sh
             \item[2. ] $P_{rest}$, defined as the total momentum of the tracks and neutrals in the rest of event (not part of the $D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$ candidate),
             \item[3. ] $E_{\gamma}$, defined as the energy of gamma from $D_{s}^{*}$.
         \end{itemize}
-        From Fig.\ref{Cat0Variables}(generic MC) and Fig.\ref{cat0_data}(data), we can see that the corresponding distributions of these variables of data and generic MC are roughly consistent.
+        From Fig. \ref{Cat0Variables}(generic MC) and Fig.\ref{cat0_data}(data), we can see that the corresponding distributions of these variables of data and generic MC are roughly consistent.
         
 
     \item Cat. \#1: Indirect $D_{s}^{+}$.
@@ -111,12 +111,12 @@ These two categories of events are selected in a $M_{rec}-\Delta{M}$ 2D plane sh
         \centering
         \mbox{
             %\vskip -1.5cm
-            \begin{overpic}[width=0.48\textwidth]{plot/MIPWA-sig.png}
+            \begin{overpic}[width=0.48\textwidth]{plot/MIPWA-sig.eps}
             \end{overpic}
         }
         \mbox{
             %\vskip -1.5cm
-            \begin{overpic}[width=0.48\textwidth]{plot/MIPWA-bkg.png}
+            \begin{overpic}[width=0.48\textwidth]{plot/MIPWA-bkg.eps}
             \end{overpic}
         }
         \caption{ The signal and background distributions from generic MC after BDTG requirement.}

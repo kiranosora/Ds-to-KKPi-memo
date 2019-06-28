@@ -64,7 +64,7 @@ where $S_{n}$ and $F_{n}^{r(D)}$ are the spin factor and the Blatt-Weisskopf bar
     q=\sqrt{ \frac{(s_{a} + s_{b} + s_{c})^{2}}{4s_{a}} - s_{b}}. \label{base-q}
     \end{equation}
     
-    Then for $K^{*}(892)^{0}$, $\Phi(1020)^{0}$, $K_{0}^{*}(1430)^{0}$ and  $f_{0}(1710)$, they are parameterized as a RBW,
+    Then for $K^{*}(892)^{0}$, $\phi(1020)^{0}$, $K_{0}^{*}(1430)^{0}$ and  $f_{0}(1710)$, they are parameterized as a RBW,
     \begin{equation}
         \begin{array}{lr}
             P = \frac{1}{(m_{0}^{2} - s_{a} ) - im_{0}\Gamma(m)}, &\\
@@ -81,9 +81,9 @@ $K^{*}_{0}(1430)^{0}$ is parameterized with Flatte formula:
     The Blatt-Weisskopf barriers are given by 
     \begin{equation}
         \begin{array}{lr}
-            F_{n} = 1,           (S wave), &\\
-            F_{n} = \sqrt{\frac{z_{0}^{2}+1}{z^{2}+1}},          (P wave), &\\
-            F_{n} = \sqrt{\frac{z_{0}^{4}+3z_{0}^{2}+9}{z^{4}+3z^{2}+9}},       (D wave), &
+            F_{n} = 1,           (S\ wave), &\\
+            F_{n} = \sqrt{\frac{z_{0}^{2}+1}{z^{2}+1}},          (P\ wave), &\\
+            F_{n} = \sqrt{\frac{z_{0}^{4}+3z_{0}^{2}+9}{z^{4}+3z^{2}+9}},       (D\ wave), &
         \end{array}\label{Blatt-Weisskopf barrier} 
     \end{equation}
     where $z$ and $z_{0}$ are $qR$ and $q_{0}R$, respectively. The R is the effective radius of the intermediate state or $D_{s}$ meson and set to $3.0GeV^{-1}$ for intermediate states and $5.0GeV^{-1}$  for $D_{s}$ meson ~\cite{Doc-DB-416-v30}, respectively.
@@ -91,15 +91,15 @@ $K^{*}_{0}(1430)^{0}$ is parameterized with Flatte formula:
     As the limit of the phase space, we only consider the states with angular momenta no more than 2. As discussed in ~\cite{Doc-DB-613-v16}, the spin factor is, 
     \begin{equation}
         \begin{array}{lr}
-            S_{n} = 1,           (S wave), &\\
-            S_{n} = \tilde{T}^{(1)\mu}(D_{s})\tilde{t}^{(1)}_{\mu}(R),          (P wave), &\\
-            S_{n} = \tilde{T}^{(2)\mu}(D_{s})\tilde{t}^{(2)}_{\mu}(R),          (D wave), &
+            S_{n} = 1,           (S\ wave), &\\
+            S_{n} = \tilde{T}^{(1)\mu}(D_{s})\tilde{t}^{(1)}_{\mu}(R),          (P\ wave), &\\
+            S_{n} = \tilde{T}^{(2)\mu}(D_{s})\tilde{t}^{(2)}_{\mu}(R),          (D\ wave), &
         \end{array}\label{spin-factor} 
     \end{equation}
     where the $\tilde{T}^{(1)\mu}(D_{s})$($\tilde{T}^{(2)\mu}(D_{s})$) and $\tilde{t}^{(1)}_{\mu}(R)$($\tilde{t}^{(2)}_{\mu}(R)$) are the same defined in Ref.~\cite{covariant-tensors}.
 
 The total amplitude $M$ is then the coherent sum of the amplitudes of intermediate processes, $M=\begin{matrix}\sum c_{n}A_{n}\end{matrix}$, where $c_{n}=\rho_{n}e^{i\phi_{n}}$, is the corresponding complex coefficient. The magnitude $\rho_{n}$ and phase $\phi_{n}$ are determined by the amplitude analysis. 
-    The signal PDF $\mathcal{f}_{S}(p_{j})$ is given by 
+    The signal PDF $f_{S}(p_{j})$ is given by 
     \begin{equation}
         f_{S}(p_{j}) = \frac{\epsilon(p_{j})\left|M(p_{j})\right|^{2}R_{3}(p_{j})}{\int \epsilon(p_{j})\left|M(p_{j})\right|^{2}R_{3}(p_{j})\,dp_{j}}, \label{signal-PDF}
     \end{equation}
@@ -124,9 +124,10 @@ The fit fractions of the individual amplitudes are calculated according to the f
     \begin{equation}
     FF(n) = \frac{\begin{matrix}\sum_{k=1}^{N_{gen}} \left|A_{n}\right|^{2}\end{matrix}}{\begin{matrix}\sum_{k=1}^{N_{gen}} \left|M(p_{j}^{k})\right|^{2}\end{matrix}}, \label{Fit-Fraction-Definition}
     \end{equation}
-    where $N_{gen} = 2000000$, is the number of the PHSP MC events in this analysis. 
+    where $N_{gen} = 2000000$, is the number of the PHSP MC events at generator level in this analysis. 
 
-    To estimate the statistical uncertainties of the fit fractions, we repeat the calculation of fit fractions by randomly varying the fitted parameters according to the error matrix. Then, for each amplitude , we fit the resulting distribution with a Gaussian function, whose width gives the corresponding statistical uncertainty.
+    To estimate the statistical uncertainties of the fit fractions, we repeat the calculation of fit fractions by randomly varying the fitted parameters according to the error matrix. 
+    Then, for each amplitude , we fit the resulting distribution with a Gaussian function, whose width gives the corresponding statistical uncertainty.
 }
 
 \subsection{Fit Result}
@@ -154,22 +155,46 @@ $D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$
 are retained in final result. The statistical significance of the three amplitudes in final result are also checked.
 
 With one amplitude dropped and the fit repeated, compared with the nominal fit the likelihood shift($\Delta\ln L$) and the number of freedom degree shift($\Delta n_{par}$) are then corrresponding to the statistical significance.
-The detail $\Delta\ln L$, $\Delta n_{par}$, and the statistical significance for each amplitude are  listed in Tab.\ref{significance-table}.
+The detail $\Delta\ln L$, $\Delta n_{par}$, and the statistical significance for each amplitude are  listed in Table \ref{significance-table}.
+We also tested some other intermediate resonances. With each tested amplitude added and fit repeated, we get the corresponding likelihood shift($\Delta\ln L$), the number of freedom degree shift($\Delta n_{par}$) and he statistical significance.
+And the results are listed in Table \ref{test-significance-table}.
+As the statistical significances of the amplitudes listed in Table \ref{test-significance-table} are $<5$, we did not retain them in the nominal fit. 
 \begin{table}
     \caption{The $\Delta\ln L$, $\Delta n_{par}$, and the statistical significance for each amplitude}
     \label{significance-table}
     \begin{center}
         \begin{tabular}{cccc}
-            \hline
+            \toprule
             Amplitude & $\Delta\ln L$ & $\Delta n_{par}$ & Stat. significance\\
             \hline
             $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$              & 1959.3     & 2   & $>$20\\
             $D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$                      & 2303.3     & 2   & $>$20\\
             $D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$    & 270.5      & 2   & $>$20\\
             $D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$         & 39.4       & 2   & 8.6\\
-            $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$                     & 22.5       & 2   & 6.4\\
             $D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$                     & 44.7       & 2   & 9.2\\
+            $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$                     & 22.5       & 2   & 6.4\\
+            \bottomrule
+        \end{tabular}
+    \end{center}
+\end{table}
+
+\begin{table}
+    \caption{The $\Delta\ln L$, $\Delta n_{par}$, and the statistical significance for tested amplitudes}
+    \label{test-significance-table}
+    \begin{center}
+        \begin{tabular}{cccc}
+            \toprule
+            Amplitude & $\Delta\ln L$ & $\Delta n_{par}$ & Stat. significance\\
             \hline
+            $D_{s}^{+} \rightarrow f_{0}(1500)\pi^{+}$                     & 0.8        & 2   & 0.8\\
+            $D_{s}^{+} \rightarrow \phi(1680)\pi^{+}$                      & 1.8        & 2   & 1.4\\
+            $D_{s}^{+} \rightarrow f_{2}(1270)\pi^{+}$                     & 4.5        & 2   & 2.5\\
+            $D_{s}^{+} \rightarrow f_{2}(1525)\pi^{+}$                     & 0.2        & 2   & 0.2\\
+            $D_{s}^{+} \rightarrow \bar{K}_{1}^{*}(1410)^{0}K^{+}$         & 4.8        & 2   & 2.6\\
+            $D_{s}^{+} \rightarrow \bar{K}_{1}^{*}(1680)^{0}K^{+}$         & 0.1        & 2   & 0.1\\
+            $D_{s}^{+} \rightarrow \bar{K}_{2}^{*}(1430)^{0}K^{+}$         & 2.8        & 2   & 1.9\\
+            non-resonance                                                  & 6.4        & 2   & 3.1\\
+            \bottomrule
         \end{tabular}
     \end{center}
 \end{table}
@@ -180,7 +205,7 @@ The detail magnitudes, phases and fit fractions for the six amplitudes are liste
     \label{fit-result}
     \begin{center}
     \begin{tabular}{cccc}
-        \hline
+        \toprule
         Amplitude & Magnitude  & Phase  & Fit fractions(\%)\\
         \hline
         $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$              & 1.0(fixed)     & 0.0(fixed)    & 48.3$\pm$0.9\\
@@ -189,7 +214,7 @@ The detail magnitudes, phases and fit fractions for the six amplitudes are liste
         $D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$         & 1.26$\pm$0.14  & 2.91$\pm$0.20 & 3.0$\pm$0.6\\
         $D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$                     & 0.79$\pm$0.08  & 1.02$\pm$0.12 & 1.9$\pm$0.4\\
         $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$                     & 0.58$\pm$0.08  & 0.59$\pm$0.17 & 1.2$\pm$0.4\\
-        \hline
+        \bottomrule
     \end{tabular}
 \end{center}
 \end{table}

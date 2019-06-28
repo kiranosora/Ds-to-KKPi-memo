@@ -1,6 +1,22 @@
 \newpage
 \begin{thebibliography}{99}
 
+\bibitem{Doc-DB-682-v7}
+Yu Lu and Liaoyuan Dong, 
+BESIII DocDB 682-v7.
+
+\bibitem{pipi-KK-1}
+B. Aubert {\it et al.}  (BABAR Collaboration),
+Phys. Rev. D\textbf{74}, 032003 (2006).
+
+\bibitem{pipi-KK-2}
+M. Ablikim {\it et al.}  (BES2 Collaboration),
+Phys. Rev. D\textbf{72}, 092002 (2005).
+
+\bibitem{pipi-KK-3}
+V.V. Anisovich {\it et al.}  (BES2 Collaboration),
+Phys. Rev. D\textbf{72}, 092002 (2005).
+
 \bibitem{2011BARBAR}
 D.Cronin-Hennessy {\it et al.}  (CLEO Collaboration),
 Phys. Rev. D\textbf{80}, 072001 (2009).
@@ -13,10 +29,6 @@ Phys. Rev. D\textbf{83}, 052001 (2011).
 \bibitem{DocDB 580-v1}
 Andy Julin, Hajime Muramatsu and Ron Poling,  
 BES\uppercase\expandafter{\romannumeral3} DocDB 580-v1.
-
-\bibitem{CPC40-100001}
-K. A. Olive {\it et al.}  (Paritcle Data Group),
-Chin. Phys. C 40,100001 (2016)
 
 \bibitem{PDG}
 C. Patrignani {\it et al.}  (Paritcle Data Group),

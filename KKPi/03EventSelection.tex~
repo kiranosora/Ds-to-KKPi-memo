@@ -4,7 +4,7 @@ At $E_{cm} = 4.178 GeV$, pairs of $D_{s}D_{s}^{*}$ are produced,  and the $D_{s}
 
 
 \subsection{Tracking, PID, $\pi^{0}/\eta^{(')}$ and $K_{S}^{0}$ Rconstruction }
-$D_{s}$ candicates are built from $K^{\pm}$, $\pi^{\pm}$, $\pi^{0}/\eta^{(0)}$ and $K_{S}^{0}$. The selections of the particles to build $D_{S}$ candicates are performed with DTagAlg-00-01-05 package with the default setting, which are summarized below.
+$D_{s}$ candicates are built from $K^{\pm}$, $\pi^{\pm}$, $\pi^{0}/\eta^{(')}$ and $K_{S}^{0}$. The selections of the particles to build $D_{S}$ candicates are performed with DTagAlg-00-01-05 package with the default setting, which are summarized below.
 
 \begin{itemize}
 	\item Tracking:
@@ -22,8 +22,8 @@ $D_{s}$ candicates are built from $K^{\pm}$, $\pi^{\pm}$, $\pi^{0}/\eta^{(0)}$ a
 			\item[-] Charged tracks are identified as pion or kaon with Particle Identification (PID), which is implemented by combing the information of the energy loss (dE/dx) in MDC and the time-of-flight measured from
 				the TOF system. Kaon and Pion are identified with the requirements that 
 				\begin{itemize}
-					\item[-] $\emph{Prob(K)} > 0.00$ and $\emph{Prob(K)} > \emph{Prob($\pi$)}$ for \emph{K},
-					\item[-] $\emph{Prob($\pi$)} > 0.00$ and $\emph{Prob($\pi$)} > \emph{Prob(K)}$ for \emph{$\pi$},
+					\item[-] $\emph{Prob(K)} > 0$ and $\emph{Prob(K)} > \emph{Prob($\pi$)}$ for \emph{K},
+					\item[-] $\emph{Prob($\pi$)} > 0$ and $\emph{Prob($\pi$)} > \emph{Prob(K)}$ for \emph{$\pi$},
 						where \emph{Prob(X)} is the probability of hypothesis X, X can be \emph{$\pi$} or \emph{K}.
 				\end{itemize}
 		\end{itemize}
@@ -66,7 +66,7 @@ $D_{s}$ candicates are built from $K^{\pm}$, $\pi^{\pm}$, $\pi^{0}/\eta^{(0)}$ a
 		where $E_{cm}$ is the energy of initial state, calculated from the beam energy ~\cite{DocDB 580-v1}, $\vec p_{D_{s}}$ is the momentum of $D_{s}$ candidate, $m_{D_{s}}$ is $D_{s}$ mass quoted from PDG ~\cite{PDG} and $\vec p_{cm}$ and $\vec p_{D_{s}}$ are four-momentum of initial state and the decay products of a $D_{s}$ candidate, respectively.
 \end{itemize}
 
-\subsection{Single Tag Selection}
+\subsection{Sigal Selection}
 \par{
 
 
