@@ -1,6 +1,7 @@
 \section{Branching Fraction Measurements}
 
 \subsection{Event Selection for Branching Fraction Measurements}
+\label{BFSelection}
 After the selection described in Set.\ref{ST-selection}, we continue to select signals used in this part. 
 We use the same 8 tag modes as in Sec.\ref{AASelection}.
 In the selection of tag $D_{s}$, for multiple candidates, the best candidate is chosen with $M_{rec}$ closest to mass of $D_{s}^{*}$ in PDF ~\cite{PDG2018}.
@@ -18,14 +19,14 @@ The corresponding ST effeciencies are estimated from generic MC. The ST yields($
             \toprule\toprule
             Tag mode & Mass window(GeV)  & $Y_{ST}$  & $\epsilon_{ST}(\%)$\\
             \hline
-            $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}$                          & [1.948, 1.991]    & $958648\pm1283$               & 48.81$\pm$0.07\\
-            $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$                       & [1.900, 2.030]    & $4064239\pm2905$              & 40.20$\pm$0.03\\
-            $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}\pi^{0}$                & [1.947, 1.982]    & $1164312\pm3430$              & 10.56$\pm$0.03\\
-            $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}\pi^{+}\pi^{-}$            & [1.958, 1.980]    & $233843\pm1468$               & 19.19$\pm$0.12\\
-            $D_{s}^{-} \rightarrow K_{S}^{0}K^{+}\pi^{-}\pi^{-}$            & [1.953, 1.983]    & $485855\pm1313$               & 22.59$\pm$0.06\\
-            $D_{s}^{-} \rightarrow \pi^{-}\pi^{-}\pi^{+}$                   & [1.952, 1.984]    & $1159359\pm3356$              & 56.78$\pm$0.16\\
-            $D_{s}^{-} \rightarrow \pi^{-}\eta_{\pi^{+}pi^{-}\eta_{\gamma\gamma}}^{'}$          & [1.940, 1.996]    & $251617\pm737$               & 20.26$\pm$0.06\\
-            $D_{s}^{-} \rightarrow K^{-}\pi^{+}\pi^{-}$                     & [1.953, 1.983]    & $500079\pm2870$               & 46.83$\pm$0.27\\
+            $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}$                          & [1.948, 1.991]    & $965265\pm1286$               & 49.48$\pm$0.07\\
+            $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$                       & [1.900, 2.030]    & $4254481\pm2947$              & 42.17$\pm$0.03\\
+            $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}\pi^{0}$                & [1.947, 1.982]    & $1161036\pm3400$              & 10.61$\pm$0.03\\
+            $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}\pi^{+}\pi^{-}$            & [1.958, 1.980]    & $233225\pm1467$               & 19.30$\pm$0.12\\
+            $D_{s}^{-} \rightarrow K_{S}^{0}K^{+}\pi^{-}\pi^{-}$            & [1.953, 1.983]    & $484801\pm1312$               & 22.72$\pm$0.06\\
+            $D_{s}^{-} \rightarrow \pi^{-}\pi^{-}\pi^{+}$                   & [1.952, 1.984]    & $1152623\pm3370$              & 56.94$\pm$0.17\\
+            $D_{s}^{-} \rightarrow \pi^{-}\eta_{\pi^{+}pi^{-}\eta_{\gamma\gamma}}^{'}$          & [1.940, 1.996]    & $251617\pm737$               & 20.43$\pm$0.06\\
+            $D_{s}^{-} \rightarrow K^{-}\pi^{+}\pi^{-}$                     & [1.953, 1.983]    & $610925\pm2902$               & 47.18$\pm$0.22\\
             \bottomrule\bottomrule
         \end{tabular}
     \end{center}
@@ -125,7 +126,7 @@ With the amplitude analysis results obtained from the fit to data, the double ef
 
 
 
-    Then we can get the branching fraction $\mathcal{B}(D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+})=(5.38\pm0.07)\%$(only statistical uncertainty) according to Eq.\ref{BR-formula}.
+    Then we can get the branching fraction $\mathcal{B}(D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+})=(5.47\pm0.07)\%$(only statistical uncertainty) according to Eq.\ref{BR-formula}.
 
     \subsection{Systematic Uncertainties}
     The following sources are taken in account to calculate systematic uncertainties.
@@ -168,7 +169,7 @@ With the amplitude analysis results obtained from the fit to data, the double ef
         \end{center}
     \end{table}
 
-    The branching farction with systematic uncertainties is $\mathcal{B}(D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+})=(5.38\pm0.07_{stat.}\pm0.11_{sys.})\%$.
+    The branching farction with systematic uncertainties is $\mathcal{B}(D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+})=(5.47\pm0.07_{stat.}\pm0.11_{sys.})\%$.
 
 
 

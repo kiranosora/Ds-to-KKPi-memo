@@ -4,7 +4,7 @@
     Below is a comparison of amplitude analysis between BABAR, CLEO-c and this analysis. Our results are roughly consistent with those of BABAR and CLEO-c.
     And for the fit fraction of $D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$, we tend to agree the result of BABAR.
     \begin{table}
-        \caption{Comparision between BABAR, CLEO-c and this analysis.}
+        \caption{Comparision between BABAR, CLEO-c and this amplitude analysis.}
         \label{final-result}
         \begin{center}
             \begin{tabular}{cccc}
@@ -19,34 +19,54 @@
                 $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$                     & 1.1$\pm$0.1$\pm$0.2   & 4.3$\pm$0.6$\pm$0.5 & 1.2$\pm$0.4$\pm$0.2  \\
                 $\begin{matrix}\sum FF(\%)\end{matrix}$                          & 110.2$\pm$0.6$\pm$2.0 & 129.5$\pm$4.4$\pm$2.0 & 114.2$\pm$1.7$\pm$2.3\\
                 $\chi^{2}/NDF$                                                  & $\frac{2843}{2305-14}=1.2$ & $\frac{178}{117}=1.5$ & $\frac{290}{291-10-1}=1.04$\\
-                Events                                                         &$96307\pm369$          &$14400(purity 85\%)$  &$4485(purity99.7\%)$\\
+                Events                                                         &$96307\pm369$(purity$\ 95\%$)          &$14400$(purity$\ 85\%$)  &$4381$(purity$\ 99.7\%$)\\
                 \bottomrule\bottomrule
             \end{tabular}
         \end{center}
     \end{table}
-    And for the fit fraction of $D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$, the result is roughly consistent with the previous analyses and we tend to agree the result of BABAR.
+    %And for the fit fraction of $D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$, the result is roughly consistent with the previous analyses and we tend to agree the result of BABAR.
 
+    %\begin{table}
+    %    \caption{The result of this analysis.}
+    %    \label{final-conclusion}
+    %    \begin{center}
+    %        \begin{tabular}{cccc}
+    %            \toprule
+    %            Amplitude & Magnitude  & Phase  & Fit fractions(\%)\\
+    %            \hline
+    %            $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$              & 1.0(fixed)             & 0.0(fixed)                & 48.3$\pm$0.9$\pm$0.4\\
+    %            $D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$                      & 1.09$\pm$0.02$\pm$0.01 & 6.22$\pm$0.07$\pm$0.04    & 40.5$\pm$0.7$\pm$0.9\\
+    %            $D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$    & 2.88$\pm$0.14$\pm$0.16 & 4.77$\pm$0.07$\pm$0.07    & 19.3$\pm$1.7$\pm$2.0\\
+    %            $D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$         & 1.26$\pm$0.14$\pm$0.15 & 2.91$\pm$0.20$\pm$0.23    & 3.0$\pm$0.6$\pm$0.5\\
+    %            $D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$                     & 0.79$\pm$0.08$\pm$0.14 & 1.02$\pm$0.12$\pm$0.05    & 1.9$\pm$0.4$\pm$0.6\\
+    %            $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$                     & 0.58$\pm$0.08$\pm$0.08 & 0.59$\pm$0.17$\pm$0.45    & 1.2$\pm$0.4$\pm$0.2\\
+    %            \bottomrule
+    %        \end{tabular}
+    %    \end{center}
+    %\end{table}
+    In this analysis, as $a_{0}(980)$ and $f_{0}(980)$ are close to each other and parameters of $f_{0}(980)$ is not well measured, we have to take $f_{0}(980)$ and $a_{0}(980)$ as a whole, that is the $\mathcal{S}$ wave at the low end of $K^{+}K^{-}$ mass spectrum. 
+    The $\mathcal{S}$ wave is extracted with the model independent method.
+    
+   
+    We also measured the branching farction and the value is $\mathcal{B}(D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+})=(5.47\pm0.07_{stat.}\pm0.11_{sys.})\%$.
+    As is shown in Table \ref{BF-Compare}, the branching fraction of this analysis has the best precision.
     \begin{table}
-        \caption{The result of this analysis.}
-        \label{final-conclusion}
+        \caption{Comparisions of branching fractiong between BABAR, CLEO-c and this analysis.}
+        \label{BF-Compare}
         \begin{center}
-            \begin{tabular}{cccc}
-                \toprule
-                Amplitude & Magnitude  & Phase  & Fit fractions(\%)\\
+            \begin{tabular}{cc}
+                \toprule\toprule
+                $\mathcal{B}$ $(D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+})(\%)$ & TECN  \\
                 \hline
-                $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$              & 1.0(fixed)             & 0.0(fixed)                & 48.3$\pm$0.9$\pm$0.4\\
-                $D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$                      & 1.09$\pm$0.02$\pm$0.01 & 6.22$\pm$0.07$\pm$0.04    & 40.5$\pm$0.7$\pm$0.9\\
-                $D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$    & 2.88$\pm$0.14$\pm$0.16 & 4.77$\pm$0.07$\pm$0.07    & 19.3$\pm$1.7$\pm$2.0\\
-                $D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$         & 1.26$\pm$0.14$\pm$0.15 & 2.91$\pm$0.20$\pm$0.23    & 3.0$\pm$0.6$\pm$0.5\\
-                $D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$                     & 0.79$\pm$0.08$\pm$0.14 & 1.02$\pm$0.12$\pm$0.05    & 1.9$\pm$0.4$\pm$0.6\\
-                $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$                     & 0.58$\pm$0.08$\pm$0.08 & 0.59$\pm$0.17$\pm$0.45    & 1.2$\pm$0.4$\pm$0.2\\
-                \bottomrule
+                $5.55\pm0.14_{stat.}\pm0.13_{sys.}$    &  CLEO-c  ~\cite{CLEO-BF}                     \\
+                $5.06\pm0.15_{stat.}\pm0.21_{sys.}$    &  BELLE ~\cite{BELL-BF}                     \\
+                $5.78\pm0.20_{stat.}\pm0.30_{sys.}$    &  BABAR ~\cite{BABAR-BF}                    \\
+                $5.47\pm0.07_{stat.}\pm0.11_{sys.}$                     &  This Analysis(BESIII)    \\
+                %$\mathcal{B}(D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+})(\%)$ &   $5.47\pm0.07_{stat.}\pm0.11_{sys.}$ &   $5.55\pm0.14_{stat.}\pm0.13_{sys.}$ &   $5.47\pm0.07_{stat.}\pm0.11_{sys.}$ 
+                \bottomrule\bottomrule
             \end{tabular}
         \end{center}
     \end{table}
-    In this analysis, as $a_{0}(980)$ and ${f_{0}(980)$ are close to each other and parameters of $f_{0}(980)$ is not well measured, we have to take $f_{0}(980)$ and $a_{0}(980)$ as a whole, that is the $\mathcal{S}$ wave at the low end of $K^{+}K^{-}$ mass spectrum. 
-    The $\mathcal{S}$ wave is extracted with the model independent method.
-    We also measured the branching farction and the value is $\mathcal{B}(D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+})=(5.38\pm0.07_{stat.}\pm0.11_{sys.})\%$ and the precision is the best at present.
 
     %This analysis will be used to do measuarement of absolute hadronic branching fractions of $D_{s}$ meson.
 }

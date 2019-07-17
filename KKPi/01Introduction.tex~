@@ -79,10 +79,11 @@
         \includegraphics[width=0.45\textwidth]{plot/Fb.PNG}
         \includegraphics[width=0.45\textwidth]{plot/Fc.PNG}
         \includegraphics[width=0.45\textwidth]{plot/Fd.PNG}
+        \includegraphics[width=0.45\textwidth]{plot/Fe.PNG}
         \caption{Main Feynman diagrams associated with $D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$ decay.}
         \label{Feynman-dia}
     \end{figure*}
-    The main contribution comes from the diagram with an internal $W^{+}$ emission(Fig. \ref{Feynman-dia}(a)), that describes the $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$ decay, 
+    The main contribution comes from the diagram with an internal $W^{+}$ emission(Fig. \ref{Feynman-dia}(a) and , that describes the $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$ decay, 
     and the diagram with an external $W^{+}$ emission(Fig. \ref{Feynman-dia}(b)), that describes the diagram $D_{s}^{+} \rightarrow \phi\pi^{+}/ f_{0}\pi^{+}$, 
     and the diagram with W-annihilation(Fig. \ref{Feynman-dia}(c) and Fig. \ref{Feynman-dia}(d)), that describes the decay $D_{s} \rightarrow a_{0}(980)^{0}\pi^{+}$.
 }
@@ -90,6 +91,7 @@
 \subsection{Amplitude analysis}
 \par{
     Knowledge of the decay amplitude allows us to properly account for interference effects when measuring absolute hadronic branching fractions of $D_{s}$ mesons.
+    Amplitude analysis of this decay can help us to understand the interference effects and so an amplitude analysis is necessary.
 Below is the table of previous analyses of this decay channel.}
 
 \begin{table}
@@ -117,7 +119,7 @@ Below is the table of previous analyses of this decay channel.}
     \end{table}
 
 
-    From Tab.\ref{PreviousAnalyses}~\cite{2011BARBAR}, we can see an obvious difference of decay fraction of $f_{0}(980)\pi^{+}$ between BARBAR and CLEO-c. E687 used about 700 events and the E687 model did not take $f_{0}(1370)\pi^{+}$ into account. For CLEO-c, about 14400 events with purity about 84.9\% were selected with single tag method. The analysis of BARBAR used about 100000 events with purity about 95\%. In this analysis with double tag method, we can get a nearly background free data sample, that will be good to perform the amplitude analysis.
+    From Table\ref{PreviousAnalyses}~\cite{2011BARBAR}, we can see an obvious difference of decay fraction of $f_{0}(980)\pi^{+}$ between BARBAR and CLEO-c. E687 used about 700 events and the E687 model did not take $f_{0}(1370)\pi^{+}$ into account. For CLEO-c, about 14400 events with purity about 84.9\% were selected with single tag method. The analysis of BARBAR used about 100000 events with purity about 95\%. In this analysis with double tag method, we can get a nearly background free data sample, that will be good to perform the amplitude analysis.
 }
 
     \iffalse

@@ -14,8 +14,8 @@ M. Ablikim {\it et al.}  (BES2 Collaboration),
 Phys. Rev. D\textbf{72}, 092002 (2005).
 
 \bibitem{pipi-KK-3}
-V.V. Anisovich {\it et al.}  (BES2 Collaboration),
-Phys. Rev. D\textbf{72}, 092002 (2005).
+V.V. Anisovich {\it et al.},
+PAN \textbf{65} 1545 (2002).
 
 \bibitem{2011BARBAR}
 D.Cronin-Hennessy {\it et al.}  (CLEO Collaboration),
@@ -68,6 +68,18 @@ https://indico.ihep.ac.cn/event/8006/contribution/1/material/slides/0.pdf
 
 \bibitem{Tracking}
 https://indico.ihep.ac.cn/event/8023/contribution/1/material/slides/0.pdf
+
+\bibitem{CLEO-BF}
+P.U.E. Onyisi {\it et al.}  (CLEO Collaboration),
+Phys. Rev. D\textbf{88}, 032009 (2013).
+
+\bibitem{BELL-BF}
+A. Zupanc {\it et al.}  (BELLE Collaboration),
+JHEP \textbf{1309}, 139 (2013).
+
+\bibitem{BABAR-BF}
+P. del Amo Sanchez {\it et al.}  (BaBar Collaboration),
+Phys. Rev. D\textbf{88}, 032009 (2013).
 
 \end{thebibliography}
 
