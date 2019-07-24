@@ -44,7 +44,7 @@ These two categories of events are selected in a $M_{rec}-\Delta{M}$ 2D plane sh
             \item[2. ] $M_{rec}^{'}$, defined as $M_{rec}^{'} = \sqrt{ {(E_{cm}  - \sqrt{p_{D_{s}\gamma}^{2} + m_{D_{s}^{*}}^{2}}) }^{2} - p_{D_{s}\gamma}^{2}}$, with $p_{D_{s}\gamma}$ as the momentum of the $D_{s}\gamma$ combination, $m_{D_{s}^{*}}$ as the nominal ${D_{s}^{*}}$ mass,
             \item[3. ] $N_{tracks}$, defined as the total number of tracks and neutrals in an event.
         \end{itemize}
-        From Fig.\ref{Cat1Variables}(generic MC) and Fig.\ref{cat1_data}(data), we can see that the corresponding distributions of these variables of data and generic MC are roughly consistent.
+        From Fig. \ref{Cat1Variables}(generic MC) and Fig.\ref{cat1_data}(data), we can see that the corresponding distributions of these variables of data and generic MC are roughly consistent.
 \end{itemize}
 
 
@@ -100,7 +100,7 @@ These two categories of events are selected in a $M_{rec}-\Delta{M}$ 2D plane sh
         \begin{overpic}[width=0.48\textwidth]{plot/Cat1Overtrain.eps}
         \end{overpic}
     }
-    \caption{ The comparisions between the training and test samples.}
+    \caption{ The comparisions between the training and test samples. The plot at left(right) is the comparision of Cat. \#0 (Cat. \#1).}
     \label{Overtrain}
 \end{figure*}
     
@@ -111,12 +111,12 @@ These two categories of events are selected in a $M_{rec}-\Delta{M}$ 2D plane sh
         \centering
         \mbox{
             %\vskip -1.5cm
-            \begin{overpic}[width=0.48\textwidth]{plot/MIPWA-sig.eps}
+            \begin{overpic}[width=0.48\textwidth]{plot/MIPPWA-sig.eps}
             \end{overpic}
         }
         \mbox{
             %\vskip -1.5cm
-            \begin{overpic}[width=0.48\textwidth]{plot/MIPWA-bkg.eps}
+            \begin{overpic}[width=0.48\textwidth]{plot/MIPPWA-bkg.eps}
             \end{overpic}
         }
         \caption{ The signal and background distributions from generic MC after BDTG requirement.}
@@ -129,7 +129,7 @@ These two categories of events are selected in a $M_{rec}-\Delta{M}$ 2D plane sh
  \centering
  \mbox{
   %\vskip -1.5cm
-  \begin{overpic}[width=0.8\textwidth]{plot/MIPWA-ST.png}
+  \begin{overpic}[width=0.8\textwidth]{plot/MIPPWA-ST.eps}
   \end{overpic}
  }
  \caption{The fit to the signal $D_{s}$ invariant mass ($M_{D_{s}}$) spectrum after BDTG requirement, the area between the pink arrows is the signal area of the sample for MIPWA. }
@@ -145,17 +145,17 @@ The projections of the "Sideband"( $1.90 < M(D_{s}) < 1.95 GeV$ and   $1.985 < M
     \centering
     \mbox{
         %\vskip -1.5cm
-        \begin{overpic}[width=0.3\textwidth]{plot/MIPWA-m12.png}
+        \begin{overpic}[width=0.3\textwidth]{plot/MIPPWA-m12.eps}
         \end{overpic}
     }
     \mbox{
         %\vskip -1.5cm
-        \begin{overpic}[width=0.3\textwidth]{plot/MIPWA-m13.png}
+        \begin{overpic}[width=0.3\textwidth]{plot/MIPPWA-m13.eps}
         \end{overpic}
     }
     \mbox{
         %\vskip -1.5cm
-        \begin{overpic}[width=0.3\textwidth]{plot/MIPWA-m23.png}
+        \begin{overpic}[width=0.3\textwidth]{plot/MIPPWA-m23.eps}
         \end{overpic}
     }
     \caption{ The projections of $m(K^{+}K^{-})$, $m(K^{-}\pi^{+})$, $m(K^{+}\pi^{+})$ from "Sideband" for data(dots with error bars) and generic MC after signal events removed (red histogram) after BDTG requirement.}
@@ -164,36 +164,6 @@ The projections of the "Sideband"( $1.90 < M(D_{s}) < 1.95 GeV$ and   $1.985 < M
 
 \par{Thus the generic MC sample with signal events removed is used to subtract the background in MIPWA.
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 \subsection{MIPWA method}
@@ -232,7 +202,7 @@ The projections of the "Sideband"( $1.90 < M(D_{s}) < 1.95 GeV$ and   $1.985 < M
     \centering
     \mbox{
   %\vskip -1.5cm
-  \begin{overpic}[width=0.8\textwidth]{plot/Y0.png}
+  \begin{overpic}[width=0.9\textwidth]{plot/Y0.eps}
   \end{overpic}
  }
  \caption{ $K^{+}K^{-}$ mass spectrum in the threshold region weighted by (a) $Y_{0}^{0}$, (b) $Y_{1}^{0}$ and (c) $Y_{2}^{0}$, corrected for efficiency and phase space, and background subtracted. }
@@ -246,7 +216,7 @@ The projections of the "Sideband"( $1.90 < M(D_{s}) < 1.95 GeV$ and   $1.985 < M
     \centering
     \mbox{
   %\vskip -1.5cm
-  \begin{overpic}[width=0.8\textwidth]{plot/SP.png}
+  \begin{overpic}[width=0.9\textwidth]{plot/SP.eps}
   \end{overpic}
  }
  \caption{ Squared (a) S- and (b) P-wave amplitudes}

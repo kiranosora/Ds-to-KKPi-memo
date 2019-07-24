@@ -79,11 +79,11 @@
         \includegraphics[width=0.45\textwidth]{plot/Fb.PNG}
         \includegraphics[width=0.45\textwidth]{plot/Fc.PNG}
         \includegraphics[width=0.45\textwidth]{plot/Fd.PNG}
-        \includegraphics[width=0.45\textwidth]{plot/Fe.PNG}
-        \caption{Main Feynman diagrams associated with $D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$ decay.}
+        %\includegraphics[width=0.45\textwidth]{plot/Fe.PNG}
+        \caption{Main Feynman tree diagrams associated with $D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$ decay.}
         \label{Feynman-dia}
     \end{figure*}
-    The main contribution comes from the diagram with an internal $W^{+}$ emission(Fig. \ref{Feynman-dia}(a) and , that describes the $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$ decay, 
+    The main contribution comes from the tree diagram with an internal $W^{+}$ emission(Fig. \ref{Feynman-dia}(a)), that describes the $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$ decay, 
     and the diagram with an external $W^{+}$ emission(Fig. \ref{Feynman-dia}(b)), that describes the diagram $D_{s}^{+} \rightarrow \phi\pi^{+}/ f_{0}\pi^{+}$, 
     and the diagram with W-annihilation(Fig. \ref{Feynman-dia}(c) and Fig. \ref{Feynman-dia}(d)), that describes the decay $D_{s} \rightarrow a_{0}(980)^{0}\pi^{+}$.
 }
