@@ -1,6 +1,10 @@
 \section{Event Selection}
 \label{ST-selection}
-At $E_{cm} = 4.178 GeV$, pairs of $D_{s}D_{s}^{*}$ are produced,  and the $D_{s}^{*}$ decays to either $D_{s}\gamma$ or $D_{s}\pi^{0}$.  We use double tag method to select our signal events.
+At $E_{cm} = 4.178 GeV$, pairs of $D_{s}D_{s}^{*}$ are produced,  and the $D_{s}^{*}$ decays to either $D_{s}\gamma$ or $D_{s}\pi^{0}$.
+So the $D_{s}$ mesons are produced in pairs without additional charged hadrons($K^{\pm}(\pi^{\pm})$).
+We do not search for the gamma or $\pi^{0}$ from the $D_{s}$ decay. 
+These unique $D_{s}^{+}D_{s}^{-}$ final states provides us an opportunity to employ the double tag method to measure the absolute branching fraction of $D_{s}$ meson decay.
+The double tag method also provide us a clean sample to perform an amplitude analysis.
 
 
 \subsection{Tracking, PID, $\pi^{0}/\eta^{(')}$ and $K_{S}^{0}$ Rconstruction }
@@ -27,7 +31,7 @@ $D_{s}$ candicates are built from $K^{\pm}$, $\pi^{\pm}$, $\pi^{0}/\eta^{(')}$ a
 						where \emph{Prob(X)} is the probability of hypothesis X, X can be \emph{$\pi$} or \emph{K}.
 				\end{itemize}
 		\end{itemize}
-	\item $\pi^{0}/\eta$ selection: $\pi^{0}$ candidates are reconstructed through $\pi^{0} \rightarrow \gamma\gamma$ with package of PioEtaToGGRecAlg.
+    \item $\pi^{0}/\eta$ selection: $\pi^{0}/\eta$ candidates are reconstructed through $\pi^{0} \rightarrow \gamma\gamma (\eta \rightarrow \gamma\gamma)$ with package of PioEtaToGGRecAlg.
 		
 
 		The photons are reconstructed as energy showers on the EMC. We require:
@@ -58,7 +62,7 @@ $D_{s}$ candicates are built from $K^{\pm}$, $\pi^{\pm}$, $\pi^{0}/\eta^{(')}$ a
 			\item[-] Significance of the $K_{S}^{0}$ decay lenght has two standard deviations.
 		\end{itemize}
 
-	\item $D_{s}$ selection: According to the MC study on $D_{s}$ reconstruction (BESS\uppercase\expandafter{\romannumeral3}-DocDB-380), the $D_{s}$ candidates fall into the mass window of $1.90 < m_{D_{s}} < 2.03 GeV/c^{2}$ and 
+	\item $D_{s}$ selection: The $D_{s}$ candidates fall into the mass window of $1.90 < m_{D_{s}} < 2.03 GeV/c^{2}$ and 
 		the corresponding $M_{rec}$ satisfied $2.051 < M_{rec} < 2.180 GeV/c^{2}$ are retained for further study. In which, the definition of $M_{rec}$ is
 		\begin{equation}
 			M_{rec} = \sqrt{(E_{cm} - \sqrt{p_{D_{s}}^{2} + m_{D_{s}}^{2})^{2}} - |\vec p_{cm} - \vec p_{D_{s}} | ^{2}} \; , \label{con:inventoryflow}
@@ -70,7 +74,7 @@ $D_{s}$ candicates are built from $K^{\pm}$, $\pi^{\pm}$, $\pi^{0}/\eta^{(')}$ a
 \par{
 
 
-    We use different methods to select events in model indepent analysis(Sec.\ref{MIPWASelection}), amplitude analysis(Sec.\ref{AASelection}) and branching fraction measurement(Sec.\ref{BFSelection}).
+    We use different methods to select events in model indepent analysis(Sec. \ref{MIPWASelection}), amplitude analysis(Sec. \ref{AASelection}) and branching fraction measurement(Sec. \ref{BFSelection}).
 And the details are in the correspongding sections.
 }
 

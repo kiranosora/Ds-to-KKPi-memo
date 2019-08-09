@@ -1,31 +1,29 @@
 \contentsline {section}{\numberline {1}Introduction}{3}{section.1}
 \contentsline {subsection}{\numberline {1.1}The scalar meson $f_{0}(980)$ and $a_{0}(980)$}{3}{subsection.1.1}
 \contentsline {subsection}{\numberline {1.2}The $D_{s}^{+} \rightarrow K^{+}K^{-}\pi ^{+}$ decay}{4}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}Amplitude analysis}{4}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.3}Amplitude analysis}{5}{subsection.1.3}
 \contentsline {section}{\numberline {2}Data Set and Monte Carlo Samples}{6}{section.2}
 \contentsline {section}{\numberline {3}Event Selection}{7}{section.3}
 \contentsline {subsection}{\numberline {3.1}Tracking, PID, $\pi ^{0}/\eta ^{(')}$ and $K_{S}^{0}$ Rconstruction }{7}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Sigal Selection}{8}{subsection.3.2}
-\contentsline {section}{\numberline {4}Model Independent Partial Wave Analysis}{9}{section.4}
-\contentsline {subsection}{\numberline {4.1}Signal Candidate Selection}{9}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Background Analysis}{9}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}MIPWA method}{11}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}S-wave parameterization at the $K^{+}K^{-}$ threshold}{14}{subsection.4.4}
+\contentsline {subsection}{\numberline {3.2}Sigal Selection}{9}{subsection.3.2}
+\contentsline {section}{\numberline {4}Partial Wave Analysis in the Low $K^{+}K^{-}$ Mass Region}{10}{section.4}
+\contentsline {subsection}{\numberline {4.1}Event Selection}{10}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Background Analysis}{10}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Partial wave analysis}{12}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}S-wave parameterization at the $K^{+}K^{-}$ threshold}{15}{subsection.4.4}
 \contentsline {section}{\numberline {5}Amplitude Analysis}{17}{section.5}
-\contentsline {subsection}{\numberline {5.1}Event Selection for Amplitude Analysis}{17}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.1}Event Selection}{17}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}Background Analysis}{17}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Fit Method}{17}{subsection.5.3}
-\contentsline {subsubsection}{\numberline {5.3.1}Propagator}{19}{subsubsection.5.3.1}
-\contentsline {subsubsection}{\numberline {5.3.2}Blatt-Weisskopf Barriers}{20}{subsubsection.5.3.2}
-\contentsline {subsubsection}{\numberline {5.3.3}Spin Factors}{20}{subsubsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3}Fit Method}{18}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}Propagator}{20}{subsubsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.2}Blatt-Weisskopf Barriers}{21}{subsubsection.5.3.2}
+\contentsline {subsubsection}{\numberline {5.3.3}Spin Factors}{21}{subsubsection.5.3.3}
 \contentsline {subsection}{\numberline {5.4}Fit Fraction}{21}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}Fit Result}{21}{subsection.5.5}
-\contentsline {subsection}{\numberline {5.6}Sytematic Uncertainties}{22}{subsection.5.6}
+\contentsline {subsection}{\numberline {5.5}Fit Result}{22}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Sytematic Uncertainties}{24}{subsection.5.6}
 \contentsline {section}{\numberline {6}Branching Fraction Measurements}{28}{section.6}
-\contentsline {subsection}{\numberline {6.1}Event Selection for Branching Fraction Measurements}{28}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Analytic Strategy of Branching Fraction Measurement}{28}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.1}Event Selection}{28}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Analytic Strategy}{28}{subsection.6.2}
 \contentsline {subsection}{\numberline {6.3}Results of Branching Fraction}{31}{subsection.6.3}
 \contentsline {subsection}{\numberline {6.4}Systematic Uncertainties}{31}{subsection.6.4}
-\contentsline {section}{\numberline {7}Summary}{33}{section.7}
-\contentsline {part}{Appendices}{35}{part*.3}
-\contentsline {section}{\numberline {A}To be supplemented}{36}{appendix.A}
+\contentsline {section}{\numberline {7}Summary}{34}{section.7}

@@ -1,10 +1,10 @@
 \section{Branching Fraction Measurements}
 
-\subsection{Event Selection for Branching Fraction Measurements}
+\subsection{Event Selection}
 \label{BFSelection}
 After the selection described in Set.\ref{ST-selection}, we continue to select signals used in this part. 
 We use the same 8 tag modes as in Sec.\ref{AASelection}.
-In the selection of tag $D_{s}$, for multiple candidates, the best candidate is chosen with $M_{rec}$ closest to mass of $D_{s}^{*}$ in PDF ~\cite{PDG2018}.
+In the selection of tag $D_{s}$, for multiple candidates, the best candidate is chosen with $M_{rec}$ closest to mass of $D_{s}^{*}$ in ~\cite{PDG2018}.
 To further remove the background associated with the larger number of soft $\pi^{\pm}(\pi^{0})$ from $D_{s}^{*}$ decays, candidates are voted if the momentum of $\pi^{\pm}(\pi^{0})$ is less than $0.1GeV$.
 
 The single tag(ST) yields are extracted from the fits to the $D_{s}$ invariant mass distributions, as shown in Fig.\ref{SingleTagFit}. In the fit, the mass windows of the tag modes are set to be the same as the Ref. ~\cite{Doc-DB-630-v35}.
@@ -25,7 +25,7 @@ The corresponding ST effeciencies are estimated from generic MC. The ST yields($
             $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}\pi^{+}\pi^{-}$            & [1.958, 1.980]    & $233225\pm1467$               & 19.30$\pm$0.12\\
             $D_{s}^{-} \rightarrow K_{S}^{0}K^{+}\pi^{-}\pi^{-}$            & [1.953, 1.983]    & $484801\pm1312$               & 22.72$\pm$0.06\\
             $D_{s}^{-} \rightarrow \pi^{-}\pi^{-}\pi^{+}$                   & [1.952, 1.984]    & $1152623\pm3370$              & 56.94$\pm$0.17\\
-            $D_{s}^{-} \rightarrow \pi^{-}\eta_{\pi^{+}pi^{-}\eta_{\gamma\gamma}}^{'}$          & [1.940, 1.996]    & $251617\pm737$               & 20.43$\pm$0.06\\
+            $D_{s}^{-} \rightarrow \pi^{-}\eta_{\pi^{+}\pi^{-}\eta_{\gamma\gamma}}^{'}$          & [1.940, 1.996]    & $251617\pm737$               & 20.43$\pm$0.06\\
             $D_{s}^{-} \rightarrow K^{-}\pi^{+}\pi^{-}$                     & [1.953, 1.983]    & $610925\pm2902$               & 47.18$\pm$0.22\\
             \bottomrule\bottomrule
         \end{tabular}
@@ -50,7 +50,7 @@ The corresponding ST effeciencies are estimated from generic MC. The ST yields($
 After selected the candidates of tag $D_{s}$, for each tag mode, we can get double tag candidates. %We retain the candidates with minimum average mass ($aM$) of tag $D_{s}$ and signal $D_{s}$.
 
 
-With the updated MC sample(DIY MC) based on the amplitude analysis results obtained from the fit to data, the double efficiencies without any kinematic fit requirement applied are determined and listed in Table\ref{DT-eff}.
+With the updated MC sample(DIY MC) based on the amplitude analysis results obtained from the fit to data, the double efficiencies are determined and listed in Table\ref{DT-eff}.
 
     \begin{table}
         \caption{ The DT efficiencies($\epsilon_{DT}$).}
@@ -74,7 +74,7 @@ With the updated MC sample(DIY MC) based on the amplitude analysis results obtai
     \end{table}
 
 \par{
-    \subsection{Analytic Strategy of Branching Fraction Measurement}
+    \subsection{Analytic Strategy}
     The data sample for this analysis is collected at $E_{cm}=4.178GeV$, about $100MeV$ higher than $D_{s}^{*}D_{s}$ threshold. Around this energy region, based on the cross section measurement by CLEO ~\cite{PRD80-072001}, we know that most $D_{s}$ productionin $e^{+}e^{-}$ collision comes from $D_{s}^{*\pm}D_{s}^{\mp}$ events with its cross section aprroximatedly $0.9nb$, while the cross section for $D_{s}^{+}D_{s}^{-}$ is about a factor of 20 smaller.
     The $D_{s}^{*}$ decays to either $\gamma D_{s}$ or $\pi^{0}D_{s}$ with branching fractions of $(93.5\pm0.7)\%$ and $(5.8\pm0.7)\%$ ~\cite{PDG2018}, respectively. 
     The other charm productions total $~7pb$ mainly including $D^{*}\bar{D}^{*}$ with a cross section of $~5nb$, $D^{*}\bar{D} + D\bar{D}^{*}$ with a cross section of $~2nb$, and $D\bar{D}$ with a cross sectionof relatively small $~0.2 nb$.
@@ -119,7 +119,7 @@ With the updated MC sample(DIY MC) based on the amplitude analysis results obtai
     \begin{equation}
     \mathcal{B}_{sig} = \frac{N_{sig}^{obsA}+2N_{sig}^{obsB}}{\begin{matrix}\sum_{\alpha} N_{tag}^{\alpha}\epsilon_{tag,sig}^{\alpha}/\epsilon_{tag}^{\alpha}\end{matrix}}, \label{BR-formula}
     \end{equation}
-    where the yields $N_{tag}^{obsA}$, $N_{tag}^{obsB}$ and $N_{tag}^{\alpha}$ can be obtained from data, while $\epsilon_{tag}$ and $\epsilon_{tag,sig}$ can be obtained from the appropriate Monte-Carlo(MC) samples, $\alpha=1, 2, 3...$ represents the tag mode.
+    where the yields $N_{tag}^{obsA}$, $N_{tag}^{obsB}$ and $N_{tag}^{\alpha}$ can be obtained from data, while $\epsilon_{tag}$ and $\epsilon_{tag,sig}$ can be obtained from the appropriate MC samples, $\alpha=1, 2, 3...$ represents the tag mode.
     
 
     \subsection{Results of Branching Fraction}
@@ -137,11 +137,43 @@ With the updated MC sample(DIY MC) based on the amplitude analysis results obtai
         \item Background shape and fit range. For background shape and the fit range, the MC shape is used to instead the $1^{st}$-order Chebychev polynomial and the fit range of $[1.90, 2.03]GeV$ is changed to $[1.89, 2.04]GeV$. 
             The largest branching fraction shift is taken as the related effect.
         
-        \item Fit bias. The possible bias is estimated by the IO check with using the round 30-40 of generic MC.
-            
+        \item Fit bias. The possible bias is estimated by the IO check using the round 30-40 of generic MC, which is shown in Table \ref{BR-IO}. 
+            The estimated mean ($\mu_{\mathcal{B}}$) and its uncertainty ($\sigma_{\mu}$) is calculated with the following formulas:
+            \begin{equation}
+            \mu_{\mathcal{B}} = \frac{\begin{matrix}\sum_{i}\frac{\mu_{i}}{\sigma_{i}^{2}}\end{matrix}}{\begin{matrix}\sum_{i}\frac{1}{\sigma_{i}^{2}}\end{matrix}}, \ \ \ \ \sigma_{\mu}^{2}=\begin{matrix}\sum_{i}\frac{1}{\sigma_{i}^{2}}\end{matrix},
+            \label{BR-Combined}
+            \end{equation}
+            where $\mu_{i}$ and $\sigma_{i}$ are the measured branching fraction value and its statistial uncertainty for the sample i. The combined result of the round 30-40 is $\mu_{\mathcal{B}} = (5.462 \pm 0.021)\%$. 
+            The relative change compared to the input value is $0.1\%$.
+
+            \begin{table}
+                \caption{IO check using the round 30-40 of generic MC.}
+                \label{BR-IO}
+                \begin{center}
+                    \begin{tabular}{cccc}
+                        \toprule\toprule
+                        Round   &$\mathcal{B}(D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+})$(\%) \\
+                        \hline
+                        31                                  & $5.562 \pm 0.066$\\ 
+                        32                                  & $5.497 \pm 0.066$\\
+                        33                                  & $5.407 \pm 0.066$\\
+                        34                                  & $5.636 \pm 0.068$\\
+                        35                                  & $5.490 \pm 0.066$\\
+                        36                                  & $5.397 \pm 0.066$\\
+                        37                                  & $5.369 \pm 0.066$\\
+                        38                                  & $5.490 \pm 0.067$\\
+                        39                                  & $5.353 \pm 0.065$\\
+                        40                                  & $5.435 \pm 0.066$\\
+                        \hline
+                        Combined result                               & $5.462 \pm 0.021$\\
+                        \bottomrule\bottomrule
+                    \end{tabular}
+                \end{center}
+            \end{table}
+
         \item $K^{\pm}$ and $\pi^{\pm}$ Tracking/PID efficiency. Based on the works ~\cite{PID} and ~\cite{Tracking} by Xingyu Shan and Sanqiang Qu, etc, 
             we find that it's enough to assign $1.1\%$ , $0.4\%$, $1.1\%$ and $0.2\%$ as the systematic uncertainty for $K^{\pm}$ PID, $\pi^{\pm}$ PID,  $K^{\pm}$ tracking, $\pi^{\pm}$ tracking efficiencies, respectively.
-    
+
     \item MC statistics. The uncertainty of MC statistics is obtained by $\sqrt{ \begin{matrix} \sum_{i} f_{i}\frac{\delta_{\epsilon_{i}}}{\epsilon_{i}}i\end{matrix}}$, where $f_{i}$ is the tag yield fraction and $\epsilon_{i}$ is the signal efficiency of tag mode $i$.
     \end{itemize}
 
@@ -156,7 +188,7 @@ With the updated MC sample(DIY MC) based on the amplitude analysis results obtai
                 \hline
                 Signal shale                        & 0.3 \\
                 Background shape and fit range      & 1.1 \\
-                Fit bias                            & 0.2 \\
+                Fit bias                            & 0.1 \\
                 $K^{\pm}$ PID efficiency            & 1.1 \\
                 $\pi^{\pm}$ PID efficiency          & 0.4 \\
                 $K^{\pm}$ Tracking efficiency       & 1.1 \\

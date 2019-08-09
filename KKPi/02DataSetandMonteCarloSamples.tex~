@@ -5,7 +5,7 @@ For these three types of events, we used a constant $E_{cm}$ at $4178.37MeV$ whi
 Totally 40 rounds of generic MC with each round equaling to data size are used for background study, tag efficiencies estimation(rounds 01-30) and input-output check for branching fraction measurement(rounds 31-40). 
 They are avaulable at
 /besfs3/offline/data/703-1/4180/mc/.
-For each round of generic MC, the detail component and corresponding size of each Monte Carlo sample are shown in Tab.\ref{tab:genMC}.
+For each round of generic MC, the detail component and corresponding size of each Monte Carlo sample are shown in Table \ref{tab:genMC}.
 \begin{table}[htp]
 \begin{center}
 \caption{Component and corresponding size, assume luminosity = 3195/pb.}

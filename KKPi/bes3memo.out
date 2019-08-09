@@ -6,13 +6,13 @@
 \BOOKMARK [1][-]{section.3}{Event Selection}{}% 6
 \BOOKMARK [2][-]{subsection.3.1}{Tracking, PID, 0/\('\) and KS0 Rconstruction }{section.3}% 7
 \BOOKMARK [2][-]{subsection.3.2}{Sigal Selection}{section.3}% 8
-\BOOKMARK [1][-]{section.4}{Model Independent Partial Wave Analysis}{}% 9
-\BOOKMARK [2][-]{subsection.4.1}{Signal Candidate Selection}{section.4}% 10
+\BOOKMARK [1][-]{section.4}{Partial Wave Analysis in the Low K+K- Mass Region}{}% 9
+\BOOKMARK [2][-]{subsection.4.1}{Event Selection}{section.4}% 10
 \BOOKMARK [2][-]{subsection.4.2}{Background Analysis}{section.4}% 11
-\BOOKMARK [2][-]{subsection.4.3}{MIPWA method}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.3}{Partial wave analysis}{section.4}% 12
 \BOOKMARK [2][-]{subsection.4.4}{S-wave parameterization at the K+K- threshold}{section.4}% 13
 \BOOKMARK [1][-]{section.5}{Amplitude Analysis}{}% 14
-\BOOKMARK [2][-]{subsection.5.1}{Event Selection for Amplitude Analysis}{section.5}% 15
+\BOOKMARK [2][-]{subsection.5.1}{Event Selection}{section.5}% 15
 \BOOKMARK [2][-]{subsection.5.2}{Background Analysis}{section.5}% 16
 \BOOKMARK [2][-]{subsection.5.3}{Fit Method}{section.5}% 17
 \BOOKMARK [3][-]{subsubsection.5.3.1}{Propagator}{subsection.5.3}% 18
@@ -22,10 +22,8 @@
 \BOOKMARK [2][-]{subsection.5.5}{Fit Result}{section.5}% 22
 \BOOKMARK [2][-]{subsection.5.6}{Sytematic Uncertainties}{section.5}% 23
 \BOOKMARK [1][-]{section.6}{Branching Fraction Measurements}{}% 24
-\BOOKMARK [2][-]{subsection.6.1}{Event Selection for Branching Fraction Measurements}{section.6}% 25
-\BOOKMARK [2][-]{subsection.6.2}{Analytic Strategy of Branching Fraction Measurement}{section.6}% 26
+\BOOKMARK [2][-]{subsection.6.1}{Event Selection}{section.6}% 25
+\BOOKMARK [2][-]{subsection.6.2}{Analytic Strategy}{section.6}% 26
 \BOOKMARK [2][-]{subsection.6.3}{Results of Branching Fraction}{section.6}% 27
 \BOOKMARK [2][-]{subsection.6.4}{Systematic Uncertainties}{section.6}% 28
 \BOOKMARK [1][-]{section.7}{Summary}{}% 29
-\BOOKMARK [0][-]{part*.3}{Appendices}{}% 30
-\BOOKMARK [1][-]{appendix.A}{To be supplemented}{part*.3}% 31

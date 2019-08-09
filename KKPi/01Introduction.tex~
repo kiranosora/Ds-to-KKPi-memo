@@ -1,25 +1,28 @@
 \section{Introduction}
-
+The decay $D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$ is Cabibbo-favored (CF) channel and has a large branching fraction and low background contamination.
+Thus this decay is usually suited as a reference channel for other decays of the $D_{s}$ meson and used to normalize measurements of decay chains involving charm quarks.
+An accurate knowledge of its substructure is important to reduce systematic uncertainties in analyses that use this channel.
+Study of a given state can also illuminates light meson spectroscopy and shed light on different production mechanisms.
 \subsection{The scalar meson $f_{0}(980)$ and $a_{0}(980)$}
+\label{f0-a0-discussion}
 \par{
-    The Constituent Quark Model ahs been very successful in the past few decades by explaining how hadrons are made up.
+    The Constituent Quark Model has been very successful in the past few decades by explaining how hadrons are made up.
     Base on this model, the nonets of pseudo-scalar, vector and tensor mesons are now well identified.
     However, the idenfitication of the scalar mesons is still uncertain due to the broad widths and the lack of a distincitive angular distribution.
     Among the candicates for the spin-parity $J^{PC}=0^{++}$ nonet, the parameters of some states such as $f_{0}(980)$ and $a_{0}(980)$ are not well measured.
     For $f_{0}(980)$, as it is very close to $K\bar{K}$ threshold and has strong coupling to $\pi\pi$ and $K\bar{K}$ final states, its parameters are still uncertain.
     
     
-    According to the amplitude analysis of $D_{s}^{+} \rightarrow \pi^{+}\pi^{0}\eta$ ~\cite{Doc-DB-682-v7}, they observed the decay $D_{s}^{+} \rightarrow a_{0}(980)^{0}\pi^{+}$ and the contribution from $a_{0}(980)^{0}$ should also effect the $K^{+}K^{-}$ $\mathcal{S}$ wave shape in the $D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$ decay.
-    So in this analysis, we have to take in account not only $f_{0}(980)$ but also $a_{0}(980)$ in the $K^{+}K^{-}$ $\mathcal{S}$ wave.  
-    However, $f_{0}(980)$ and $a_{0}(980)$ are very close to each other and it is very difficutl to distinguith them without any extra input.
+    According to the amplitude analysis of $D_{s}^{+} \rightarrow \pi^{+}\pi^{0}\eta$ ~\cite{Doc-DB-682-v7}, the decay $D_{s}^{+} \rightarrow a_{0}(980)^{0}\pi^{+}$ is observed.
+    However, $f_{0}(980)$ and $a_{0}(980)$ are very close to each other and it is very difficult to distinguith them.
     
     
-    From the Dalitz plot analysis of $D_{s}^{+} \rightarrow \pi^{+}\pi^{-}\pi^{+}$, we can get the branching fraction of $D_{s}^{+}$ decays to $f_{0}(980)\pi^{+}$ and then $f_{0}(980)$ decays to $\pi^{+}\pi^{-}$ is $\mathcal{B}(D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}, f_{0}(980) \rightarrow \pi^{+}\pi^{-})$.
-    Then if we know the the branching ratio of $\Gamma_{f_{0}(980)}(K^{+}K^{-})/\Gamma_{f_{0}(980)}(\pi^{+}\pi^{-})$, it is easy to obtain:
+    From the Dalitz plot analysis of $D_{s}^{+} \rightarrow \pi^{+}\pi^{-}\pi^{+}$, we can get the branching fraction $\mathcal{B}(D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}, f_{0}(980) \rightarrow \pi^{+}\pi^{-})$.
+    Then if we know the branching ratio of $\Gamma_{f_{0}(980)}(K^{+}K^{-})/\Gamma_{f_{0}(980)}(\pi^{+}\pi^{-})$, we can obtain:
     \begin{equation}
-        \begin{math}
+        %\begin{math}
             \mathcal{B}(D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}, f_{0}(980) \rightarrow K^{+}K^{-}) =\mathcal{B}(D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}, f_{0}(980) \rightarrow \pi^{+}\pi^{-})  \frac{\Gamma_{f_{0}(980)}(K^{+}K^{-})}{ \Gamma_{f_{0}(980)}(\pi^{+}\pi^{-})}. \label{bf-f0}
-        \end{math}
+        %\end{math}
     \end{equation}
     
     In a similar way, we can obtain:
@@ -29,7 +32,7 @@
         \end{math}
     \end{equation}
     
-    Then, obviously, the ratio of fit fractions of $D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}$ and $D_{s}^{+} \rightarrow a_{0}(980)\pi^{+}$ $\Gamma$ is: 
+    Then, the ratio of fit fractions of $D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}$ and $D_{s}^{+} \rightarrow a_{0}(980)\pi^{+}$ $\Gamma$ is: 
     \begin{equation}
         \begin{math}
             \Gamma  =\frac{\mathcal{B}(D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}, f_{0}(980) \rightarrow \pi^{+}\pi^{-})  \frac{\Gamma_{f_{0}(980)}(K^{+}K^{-})}{ \Gamma_{f_{0}(980)}(\pi^{+}\pi^{-})}}{\mathcal{B}(D_{s}^{+} \rightarrow a_{0}(980)\pi^{+}, a_{0}(980) \rightarrow \pi^{0}\eta)  \frac{\Gamma_{a_{0}(980)}(K^{+}K^{-})}{ \Gamma_{a_{0}(980)}(\pi^{0}\eta)}}. \label{a0-f0-bf}
@@ -41,9 +44,9 @@
     \begin{equation}
         \frac{\Gamma_{f_{0}(980)}(K^{+}K^{-})}{ \Gamma_{f_{0}(980)}(\pi^{+}\pi^{-})} =  \frac{3}{4} \cdot \left[\frac{1}{\frac{\Gamma_{f_{0}(980)}(\pi\pi)} {\Gamma_{f_{0}(980)}(\pi\pi)+\Gamma_{f_{0}(980)}(K\bar{K})}} -1\right]. \label{f0-KK-pipi-relation}
     \end{equation}
-    However the value of $\Gamma_{f_{0}(980)}(K^{+}K^{-}) / \Gamma_{f_{0}(980)}(\pi^{+}\pi^{-})$ is not well measured as is shown in following Table \ref{f0-KK-pipi} from Ref. ~\cite{PDG2018}.
+    However the value of $\Gamma_{f_{0}(980)}(K^{+}K^{-}) / \Gamma_{f_{0}(980)}(\pi^{+}\pi^{-})$ is not well measured as is shown in Table \ref{f0-KK-pipi} ~\cite{PDG2018}.
     So we have to extract the $\mathcal{S}$ wave line shape at the low end of $K^{+}K^{-}$ mass spectrum in a quasi-model-independent way.
-    In other words, we take $a_{0}(980)$ and $f_{0}(980)$ as a whole.
+    In other words, we take $a_{0}(980)$ and $f_{0}(980)$ as a whole in amplitude analysis.
 
 \begin{table}
     \caption{The $f_{0}(980)$ branching ratio $\Gamma_{f_{0}(980)}(\pi\pi) / \left[ \Gamma_{f_{0}(980)}(\pi\pi)+\Gamma_{f_{0}(980)}(K\bar{K})\right]$}
@@ -69,9 +72,7 @@
 
 \subsection{The $D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$ decay}
 \par{
-
-    The decay $D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$ is a Cabibbo-favored (CF) channel and has a large branching fraction for the $D_{s}$ meson.
-    Thus, this decay channel is usually used to normalize measurements of decay chains involving charm quarks.
+    Hadronic decays of mesons with charm are an important tool for understanding the dynamics of the strong interaction in the low energy regime.
     Fig. \ref{Feynman-dia} illustrates main Feynman diagrams related to the decay.
     \begin{figure*}[h]
         \centering
@@ -86,13 +87,15 @@
     The main contribution comes from the tree diagram with an internal $W^{+}$ emission(Fig. \ref{Feynman-dia}(a)), that describes the $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$ decay, 
     and the diagram with an external $W^{+}$ emission(Fig. \ref{Feynman-dia}(b)), that describes the diagram $D_{s}^{+} \rightarrow \phi\pi^{+}/ f_{0}\pi^{+}$, 
     and the diagram with W-annihilation(Fig. \ref{Feynman-dia}(c) and Fig. \ref{Feynman-dia}(d)), that describes the decay $D_{s} \rightarrow a_{0}(980)^{0}\pi^{+}$.
+    Experimental measurements can help to refine theoretical models ~\cite{PRD67-094007} ~\cite{PRD81-074031} ~\cite{PLB707-116}.
 }
     
 \subsection{Amplitude analysis}
 \par{
     Knowledge of the decay amplitude allows us to properly account for interference effects when measuring absolute hadronic branching fractions of $D_{s}$ mesons.
-    Amplitude analysis of this decay can help us to understand the interference effects and so an amplitude analysis is necessary.
-Below is the table of previous analyses of this decay channel.}
+    Dalitz plot analyses of this decay mode have been performed by the E687, CLEO and Babar collaborations using 700 events ~\cite{E687RES}, 14400 events ~\cite{2009CLEO}a and 96307 events ~\cite{2011BARBAR}, respectively.
+    Table \ref{PreviousAnalyses} shows the comparision of the fitted decay fractions with the Dalitz plot analyses of previous analyses.
+}
 
 \begin{table}
     \caption{previous analyses of this decay channel.}
@@ -119,8 +122,7 @@ Below is the table of previous analyses of this decay channel.}
     \end{table}
 
 
-    From Table\ref{PreviousAnalyses}~\cite{2011BARBAR}, we can see an obvious difference of decay fraction of $f_{0}(980)\pi^{+}$ between BARBAR and CLEO-c. E687 used about 700 events and the E687 model did not take $f_{0}(1370)\pi^{+}$ into account. For CLEO-c, about 14400 events with purity about 84.9\% were selected with single tag method. The analysis of BARBAR used about 100000 events with purity about 95\%. In this analysis with double tag method, we can get a nearly background free data sample, that will be good to perform the amplitude analysis.
-}
+    From Table\ref{PreviousAnalyses}, we can see an obvious difference of decay fraction of $f_{0}(980)\pi^{+}$ between BARBAR and CLEO-c. E687 used about 700 events and the E687 model did not take $f_{0}(1370)\pi^{+}$ into account. For CLEO-c, about 14400 events with purity about 84.9\% were selected with single tag method. The analysis of BARBAR used about 100000 events with purity about 95\%. In this analysis with double tag method, we can get a nearly background free data sample, that will be good to perform the amplitude analysis.
 
     \iffalse
     As shown in Fig. \ref{fig:lambc_cs} and Figure~\ref{fig:lambc_cs_bes3}, at the energy of 4.6\,GeV, cross section of producing $\lambdacp\lambdacm$ pair in $\ee$ collisions is $\sigma(\ee\to\lambdacp\lambdacm)=0.38\pm0.13\,\rm{nb}$ measured by BELLE~\cite{Pakhlova:2008vn} and $\sigma(\ee\to\lambdacp\lambdacm)=0.253\pm0.023\,\rm{nb}$ measured by BESIII~\cite{Weiping:lineshape}.\\

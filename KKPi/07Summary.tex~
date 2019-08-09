@@ -1,17 +1,17 @@
 \section{Summary}
 \par{
     This analysis presents the amplitude analysis for the decay $D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$.
-    Below is a comparison of amplitude analysis between BABAR, CLEO-c and this analysis. Our results are roughly consistent with those of BABAR and CLEO-c.
+    Table \ref{final-comp} is a comparison of amplitude analysis between BABAR, CLEO-c and this analysis. Our results are roughly consistent with those of BABAR and CLEO-c.
     And for the fit fraction of $D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$, we tend to agree the result of BABAR.
     \begin{table}
-        \caption{Comparision between BABAR, CLEO-c and this amplitude analysis.}
-        \label{final-result}
+        \caption{Comparision of fit fraction between BABAR, CLEO-c and this amplitude analysis.}
+        \label{final-comp}
         \begin{center}
             \begin{tabular}{cccc}
                 \toprule\toprule
                 Amplitude & BABAR  & CLEO-c  & This Analysis\\
                 \hline
-                $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$              & 47.9$\pm$0.5$\pm$0.5  & 47.4$\pm$1.5$\pm$0.4& 48.3$\pm$0.9$\pm$0.4 \\
+                $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$              & 47.9$\pm$0.5$\pm$0.5  & 47.4$\pm$1.5$\pm$0.4& 48.3$\pm$0.9$\pm$0.5 \\
                 $D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$                      & 41.4$\pm$0.8$\pm$0.5  & 42.2$\pm$1.6$\pm$0.3& 40.5$\pm$0.7$\pm$0.9 \\
                 $D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$    & 16.4$\pm$0.7$\pm$2.0  & 28.2$\pm$1.9$\pm$1.8& 19.3$\pm$1.7$\pm$2.0 \\
                 $D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$         & 2.4$\pm$0.3$\pm$1.0   & 3.9$\pm$0.5$\pm$0.5 & 3.0$\pm$0.6$\pm$0.5  \\

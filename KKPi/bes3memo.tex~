@@ -39,21 +39,21 @@
 
 % Put the analysis memo docdb ID here
 % Find the ID on the docdb page of the memo
-% For example: DocDB-497 in http://docbes3.ihep.ac.cn/cgi-bin/DocDB/ShowDocument?docid=497
-\besdocdbid{497}
+% For example: DocDB-XXX in http://docbes3.ihep.ac.cn/cgi-bin/DocDB/ShowDocument?docid=XXX
+\besdocdbid{XXX}
 
 % The analysis hypernews ID information
 % Find the ID in the corresponding hypernews forum 
 % For example: BAM-228 in http://hnbes3.ihep.ac.cn/HyperNews/get/paper228.html
-\besmemoid{228}
+\besmemoid{XXX}
 
 % add the abstract of the note here.
 \abstracttext{
-  We have performed an amplitude analysis of $D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$ using a data sample of $3.19fb^{-1}$ recorded with BESIII detector at a center-of-mass energy of 4.178GeV. 
+  We perform an amplitude analysis of $D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$ using a data sample of $3.19fb^{-1}$ recorded with BESIII detector at a center-of-mass energy of 4.178GeV. 
   About 4000 events are used in amplitude analysis. 
-  There are 6 intermediate resonances in the model which does the best fit to data. 
+  Amplitudes and phases contributing to this final state are measured. 
   %We tent to agree the Dalitz plot analysis of $D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$ by BABAR.
-  And we also measured the branching fraction of   $D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$ and the result is $\mathcal{B}(D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+})=(5.47\pm0.07_{stat.}\pm0.11_{sys.})\%$.
+  And we also measure the branching fraction of   $D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$ to be $\mathcal{B}(D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+})=(5.47\pm0.07_{stat.}\pm0.11_{sys.})\%$.
 
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -72,7 +72,7 @@
 
 \include{03EventSelection}
 
-\include{04ModelIndependentPWA}
+\include{04PartialWaveAnalysisintheLowKKMassRegion}
 
 \include{05AmplitudeAnalysis}
 
@@ -97,7 +97,7 @@
 \appendix
 \part*{Appendices}
 \addcontentsline{toc}{part}{Appendices}
-\include{Appendix_vrcut}
+%\include{Appendix_vrcut}
 
 \end{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
