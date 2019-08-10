@@ -12,7 +12,7 @@ With the tagged $D_{s}$ meson, the signal $D_{s}$ is reconstructed with the rema
 The momentum of $\pi^{\pm}(\pi^{0})$ is required to be larger than $100 MeV/c^{2}$ to suppress the background of $D^{*} \rightarrow D\pi$.
 Only the $D_{s}$ candidate with invariant mass falls into $[1.87, 2.06]GeV/c^{2}$ are selected.
 
-For every candidate of $D_{s}$ decays, all tracks at signal side and tag side as well as gamma from $D_{s}^{*}$ are added to apply kinematic fitting. 5 constrains are added in kinematic fitting: four-momentum of $D_{s}D_{s}^{*}$, mass of $D_{s}^{*}$. Then we select the candidate with minmimum $\chi_{5c}^{2}$.  
+For every candidate of $D_{s}$ decays, all tracks at signal side and tag side as well as gamma from $D_{s}^{*}$ are added to apply kinematic fitting. 5 constrains are added in kinematic fitting: four-momentum of $D_{s}D_{s}^{*}$, mass of $D_{s}^{*}$. Then we select the candidate with minimum $\chi_{5c}^{2}$.  
 
 The candidates satisfy:
 \begin{itemize}
@@ -20,7 +20,7 @@ The candidates satisfy:
 	\item[-] $\chi_{5c}^{2} < 200 $
 \end{itemize}
 are retained for amplitude analysis, where $m_{sig}$ and $m_{tag}$ refer to mass of $D_{s}$ at signal side and tag side respectively.
-\begin{table}
+\begin{table}[htbp]
     \caption{ The mass windows for each tag mode. The mass windows use the results in Ref. ~\cite{Doc-DB-630-v35} }
     \label{ST-mass-window}
     \begin{center}
@@ -49,7 +49,7 @@ According to the luminosities of the data and the generic MC, after scaling the 
 Then the fit to the signal $D_{s}$ invariant mass ($m_{sig}$) spectrum gives the background yield in Signal region is $18.1 \pm 5.1$, shown as in Fig.\ref{mDs_fit}.  
 The background level in MC is then consistent with the data. In the fit, the signal shape is the MC shape convoluted with a Gaussian function and the background is the MC shape. 
 
-\begin{figure*}[h]
+\begin{figure*}[htbp]
  \centering
  \mbox{
   %\vskip -1.5cm
@@ -60,7 +60,7 @@ The background level in MC is then consistent with the data. In the fit, the sig
 \label{background-and-signal-distribution}
 \end{figure*}
 
-\begin{figure*}[h]
+\begin{figure*}[htbp]
  \centering
  \mbox{
   %\vskip -1.5cm
@@ -87,7 +87,7 @@ The total amplitude $M$ is then the coherent sum of the amplitudes of intermedia
     \begin{equation}
         f_{S}(p_{j}) = \frac{\epsilon(p_{j})\left|M(p_{j})\right|^{2}R_{3}(p_{j})}{\int \epsilon(p_{j})\left|M(p_{j})\right|^{2}R_{3}(p_{j})\,dp_{j}}, \label{signal-PDF}
     \end{equation}
-    where $\epsilon(p_{j})$ is the detection efficiency parameterized in terms of the final four-momenta $p_{j}$. The index $j$ refers to the different particles in the final states. $R_{3}(p_{j})dp_{j}$ is the standard element of the three-body phase space. The normalization intergral is determined by a MC technique,
+    where $\epsilon(p_{j})$ is the detection efficiency parameterized in terms of the final four-momenta $p_{j}$. The index $j$ refers to the different particles in the final states. $R_{3}(p_{j})dp_{j}$ is the standard element of the three-body phase space. The normalization integral is determined by a MC technique,
     \begin{equation}
     \int \epsilon(p_{j})\left|M(p_{j})\right|^{2}R_{3}(p_{j})\,dp_{j} \approx \frac{1}{N_{MC}} \begin{matrix}\sum_{k_{MC}}^{N_{MC}} \frac{\left|M(p_{j}^{k_{MC}})\right|^{2}}{\left|M^{gen}(p_{j}^{k_{MC}})\right|^{2}}\end{matrix}, \label{MC-intergral}
     \end{equation}
@@ -95,10 +95,10 @@ The total amplitude $M$ is then the coherent sum of the amplitudes of intermedia
     $M^{gen}(p_{j})$ is the PDF used to generate the MC samples in MC integration.
     Firstly, the PHSP MC are used in MC integration. $M^{gen}(p_{j})$ is a constant overall the phase space.
     Then with the result obtained from the fit to data, the signal MC is then generated and used in MC integration.
-    In this analysis, a PHSP MC sample with about 6 million events and  a signal MC sample with about 2 million events are used in the normalization intergral calculation using PHSP MC and signal MC respectively.
+    In this analysis, a PHSP MC sample with about 6 million events and  a signal MC sample with about 2 million events are used in the normalization integral calculation using PHSP MC and signal MC respectively.
     In the numerator of Eq.\ref{signal-PDF}, $\epsilon(p_{j})$ is independent of the fitted variables, so it is regarded as a constant term in the fit.
-    %In addition, the MC events used in Eq. \ref{MC-intergral} is the events passed the event selection the same as the data sample, we do not need to consider the detection efficiency in the fit.
-    Considering the bias caused by particle identification(PID) and tracking efficency differences between data and MC, we introduce $\gamma_{\epsilon}$ to correct this bias:
+    %In addition, the MC events used in Eq. \ref{MC-integral} is the events passed the event selection the same as the data sample, we do not need to consider the detection efficiency in the fit.
+    Considering the bias caused by particle identification(PID) and tracking efficiency differences between data and MC, we introduce $\gamma_{\epsilon}$ to correct this bias:
     \begin{equation}
         \gamma_{\epsilon} = \prod_{i} \frac{\epsilon_{i, data}(p_{i})}{\epsilon_{i, MC}(p_{i})}, \label{experimental-effect}
     \end{equation}
@@ -125,7 +125,7 @@ The total amplitude $M$ is then the coherent sum of the amplitudes of intermedia
                 \Gamma(m) = \Gamma_{0}\left(\frac{q}{q_{0}}\right)^{3}\left(\frac{m_{0}}{m}\right)\left(\frac{X_{L}(q)}{X_{L}(q_{0})}\right)^{2}, &
             \end{array}\label{RBW} 
         \end{equation}
-        where $m_{0}$ and $\Gamma_{0}$ are the mass and the width of the intermediate resonances, and are fixed to the PDG values ~\cite{PDG2018} except the mass and the widtch of $f_{0}(1370)$. The mass and width of $f_{0}(1370)$ are fixed to Ref.~\cite{para-f01370}.
+        where $m_{0}$ and $\Gamma_{0}$ are the mass and the width of the intermediate resonances, and are fixed to the PDG values ~\cite{PDG2018} except the mass and the width of $f_{0}(1370)$. The mass and width of $f_{0}(1370)$ are fixed to Ref.~\cite{para-f01370}.
         And $q_{0}$ in Eq. \ref{RBW} indicates the value of $q$ when $s_{a}=m_{0}^{2}$, L denotes the angular momenta and $X_{L}(q)$ is defined as:
         \begin{equation}
             \begin{array}{lr}
@@ -142,7 +142,7 @@ The total amplitude $M$ is then the coherent sum of the amplitudes of intermedia
             P_{K^{*}_{0}(1430)^{0}}= \frac{1}{M^{2} - s - i(g_{1}\rho_{K\pi}(s) + g_{2}\rho_{\eta^{'}K}(s))}, \label{Flatte}
         \end{equation}
         where $s$ is the $K^{-}\pi^{+}$ invariant mass squared,  $\rho_{K\pi}(s)$ and $\rho_{\eta^{'}K}(s)$ are Lorentz invariant PHSP factor, and   $g_{1,2}$ are coupling constants to the corresponding final state. The parameters of $K^{*}_{0}(1430)^{0}$ are fixed to values measured by CLEO ~\cite{CLEO-Flatte}. 
-        For resonance $f_{0}(980)$ and $a_{0}(980)$, as is dicussed in Sec. \ref{f0-a0-discussion}, we take $f_{0}(980)$ and $a_{0}(980)$ as a whole, and the RBW form Eq.\ref{a0980-RBW} is used to describe the propagator and the values of parameters are fixed to the values in Eq.\ref{S-wave parameters} obtained from the model independent partial wave analysis section(Sec. \ref{MIPPWA-RES}).
+        For resonance $f_{0}(980)$ and $a_{0}(980)$, as is discussed in Sec. \ref{f0-a0-discussion}, we take $f_{0}(980)$ and $a_{0}(980)$ as a whole, and the RBW form Eq.\ref{a0980-RBW} is used to describe the propagator and the values of parameters are fixed to the values in Eq.\ref{S-wave parameters} obtained from the model independent partial wave analysis section(Sec. \ref{MIPPWA-RES}).
     }
 
     \subsubsection{Blatt-Weisskopf Barriers}{
@@ -176,7 +176,7 @@ The total amplitude $M$ is then the coherent sum of the amplitudes of intermedia
                 \tilde{t}^{(2)}_{\mu\nu}(a) = P^{(2)}_{\mu\nu\mu^{'}\nu^{'}}(a)r^{\mu{'}}_{a}r^{\nu^{'}}_{a}, \           (D\ wave). &\\
             \end{array}\label{covariant-tensors} 
         \end{equation}
-        Then the spin factor for $D_{s} \rightarrow aX$ and then $a \rightarrow bc$ is( $a$ refers to the itermediate resonance), 
+        Then the spin factor for $D_{s} \rightarrow aX$ and then $a \rightarrow bc$ is( $a$ refers to the intermediate resonance), 
         \begin{equation}
             \begin{array}{lr}
                 S_{n} = 1,         \ \ \ \ \ \  \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \ (S\ wave), &\\
@@ -207,7 +207,7 @@ The fit fractions of the individual amplitudes are calculated according to the f
     The Dalitz plot of $m^{2}(K^{+}K^{-})$ versus $m^{2}(K^{-}\pi^{+})$ is shown in Fig.\ref{dalitz}. In the plot, we can see a clear peak of $K^{*}(892)^{0}$ and $\phi(1020)^{0}$. 
 In the fit, the magnitude and phase of the amplitude $D_{s}^{+} \rightarrow K^{*}(892)^{0}K^{+}$ is fixed to 1.0 and 0.0, and the magnitudes and phases of the amplitudes are allowed to float. 
 
-\begin{figure*}[h]
+\begin{figure*}[htbp]
     \centering
     \mbox{
         \begin{overpic}[width=0.48\textwidth]{plot/dalitz.eps}
@@ -217,7 +217,7 @@ In the fit, the magnitude and phase of the amplitude $D_{s}^{+} \rightarrow K^{*
     \label{dalitz}
 \end{figure*}
 
-With the requiring the statistical significance larger than 5 standard deviations, there are 6 intermediate prcocess, 
+With the requiring the statistical significance larger than 5 standard deviations, there are 6 intermediate process, 
 $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$,
 $D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$,
 $D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$,
@@ -225,12 +225,12 @@ $D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$,
 $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$,
 $D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$ 
 are retained in final result. The statistical significance of the three amplitudes in final result are also checked.
-With one amplitude dropped and the fit repeated, compared with the nominal fit the likelihood shift($\Delta\ln L$) and the number of freedom degree shift($\Delta n_{par}$) are then corrresponding to the statistical significance.
+With one amplitude dropped and the fit repeated, compared with the nominal fit the likelihood shift($\Delta\ln L$) and the number of freedom degree shift($\Delta n_{par}$) are then corresponding to the statistical significance.
 The detail $\Delta\ln L$, $\Delta n_{par}$, and the statistical significance for each amplitude are  listed in Table \ref{significance-table}.
 We also tested some other intermediate resonances. With each tested amplitude added and fit repeated, we get the corresponding likelihood shift($\Delta\ln L$), the number of freedom degree shift($\Delta n_{par}$) and the statistical significance.
 And the results are listed in Table \ref{test-significance-table}.
 As the statistical significances of the amplitudes listed in Table \ref{test-significance-table} are $<5$, we did not retain them in the nominal fit. 
-\begin{table}
+\begin{table}[htbp]
     \caption{The $\Delta\ln L$, $\Delta n_{par}$, and the statistical significance for each amplitude}
     \label{significance-table}
     \begin{center}
@@ -249,7 +249,7 @@ As the statistical significances of the amplitudes listed in Table \ref{test-sig
     \end{center}
 \end{table}
 
-\begin{table}
+\begin{table}[htbp]
     \caption{The $\Delta\ln L$, $\Delta n_{par}$, and the statistical significance for tested amplitudes}
     \label{test-significance-table}
     \begin{center}
@@ -271,7 +271,7 @@ As the statistical significances of the amplitudes listed in Table \ref{test-sig
 \end{table}
 
 The detail magnitudes, phases and fit fractions for the six amplitudes are listed in Table \ref{fit-result}.
-\begin{table}
+\begin{table}[htbp]
     \caption{The magnitudes, phases and fit fractions for the six amplitudes}
     \label{fit-result}
     \begin{center}
@@ -291,7 +291,7 @@ The detail magnitudes, phases and fit fractions for the six amplitudes are liste
 \end{table}
 
 The Dalitz plot projections are shown in Fig.\ref{dalitz-projection}.
-\begin{figure*}[h]
+\begin{figure*}[htbp]
     \centering
     \mbox{
         \begin{overpic}[width=0.8\textwidth]{plot/dalitz-projection.eps}
@@ -304,14 +304,14 @@ The Dalitz plot projections are shown in Fig.\ref{dalitz-projection}.
 The goodness of the nominal fit is $\chi^{2}=290.1/280=1.04$.  
 }
 
-\subsection{Sytematic Uncertainties}
+\subsection{Systematic Uncertainties}
 \par{
-    Systematic uncertainties takein account:
+    Systematic uncertainties take in account:
     \begin{itemize}
         \item \uppercase\expandafter{\romannumeral1} Variation of resonance masses and widths within $1\sigma$ error.
             \begin{itemize}
                 \item For $f_{0}(980) /a_{0}(980)$, the mass and width are shifted within errors from Eq.\ref{S-wave parameters} in Sec. \ref{MIPPWA-RES}.
-                \item For $f_{0}(1370)$, the mass and width are shifted within erros from ~\cite{para-f01370}.
+                \item For $f_{0}(1370)$, the mass and width are shifted within errors from ~\cite{para-f01370}.
                 \item For other states, errors used here are taken from PDG ~\cite{PDG2018}.
             \end{itemize}
         \item \uppercase\expandafter{\romannumeral2} Variation of the effective radius of Blatt-Weisskopf Barrier within the range $\left[1.0, 5.0\right] GeV^{-1}$ for intermediate resonances and  $\left[3.0, 7.0\right] GeV^{-1}$ for $D_{s}$ meson. 
@@ -345,7 +345,7 @@ The goodness of the nominal fit is $\chi^{2}=290.1/280=1.04$.
         \end{tabular}  
     \end{table}  
 
-    \begin{figure*}[h]
+    \begin{figure*}[htbp]
         \centering
         \mbox{
             \begin{overpic}[width=0.95\textwidth]{plot/pull-phase.eps}
@@ -355,7 +355,7 @@ The goodness of the nominal fit is $\chi^{2}=290.1/280=1.04$.
         \label{pull-phase}
     \end{figure*}
 
-    \begin{figure*}[h]
+    \begin{figure*}[htbp]
         \centering
         \mbox{
             \begin{overpic}[width=0.95\textwidth]{plot/pull-magnitude.eps}
@@ -365,7 +365,7 @@ The goodness of the nominal fit is $\chi^{2}=290.1/280=1.04$.
         \label{pull-magnitude}
     \end{figure*}
 
-    \begin{figure*}[h]
+    \begin{figure*}[htbp]
         \centering
         \mbox{
             \begin{overpic}[width=0.95\textwidth]{plot/pull-FF.eps}
@@ -411,7 +411,7 @@ The goodness of the nominal fit is $\chi^{2}=290.1/280=1.04$.
         \end{tabular}  
     \end{table}  
 
-    \begin{table}
+    \begin{table}[htbp]
         \caption{The final results of the magnitudes, phases and fit fractions for the six amplitudes. The first and second uncertainties are the statistical and systematic uncertainties, respectively.}
         \label{final-result}
         \begin{center}

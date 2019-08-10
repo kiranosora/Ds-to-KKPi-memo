@@ -94,9 +94,9 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
-\appendix
-\part*{Appendices}
-\addcontentsline{toc}{part}{Appendices}
+%\appendix
+%\part*{Appendices}
+%\addcontentsline{toc}{part}{Appendices}
 %\include{Appendix_vrcut}
 
 \end{document}

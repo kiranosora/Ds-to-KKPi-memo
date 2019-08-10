@@ -8,13 +8,13 @@ Study of a given state can also illuminates light meson spectroscopy and shed li
 \par{
     The Constituent Quark Model has been very successful in the past few decades by explaining how hadrons are made up.
     Base on this model, the nonets of pseudo-scalar, vector and tensor mesons are now well identified.
-    However, the idenfitication of the scalar mesons is still uncertain due to the broad widths and the lack of a distincitive angular distribution.
-    Among the candicates for the spin-parity $J^{PC}=0^{++}$ nonet, the parameters of some states such as $f_{0}(980)$ and $a_{0}(980)$ are not well measured.
+    However, the identification of the scalar mesons is still uncertain due to the broad widths and the lack of a distinctive angular distribution.
+    Among the candidates for the spin-parity $J^{PC}=0^{++}$ nonet, the parameters of some states such as $f_{0}(980)$ and $a_{0}(980)$ are not well measured.
     For $f_{0}(980)$, as it is very close to $K\bar{K}$ threshold and has strong coupling to $\pi\pi$ and $K\bar{K}$ final states, its parameters are still uncertain.
     
     
     According to the amplitude analysis of $D_{s}^{+} \rightarrow \pi^{+}\pi^{0}\eta$ ~\cite{Doc-DB-682-v7}, the decay $D_{s}^{+} \rightarrow a_{0}(980)^{0}\pi^{+}$ is observed.
-    However, $f_{0}(980)$ and $a_{0}(980)$ are very close to each other and it is very difficult to distinguith them.
+    However, $f_{0}(980)$ and $a_{0}(980)$ are very close to each other and it is very difficult to distinguish them.
     
     
     From the Dalitz plot analysis of $D_{s}^{+} \rightarrow \pi^{+}\pi^{-}\pi^{+}$, we can get the branching fraction $\mathcal{B}(D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}, f_{0}(980) \rightarrow \pi^{+}\pi^{-})$.
@@ -27,20 +27,20 @@ Study of a given state can also illuminates light meson spectroscopy and shed li
     
     In a similar way, we can obtain:
     \begin{equation}
-        \begin{math}
+        %\begin{math}
             \mathcal{B}(D_{s}^{+} \rightarrow a_{0}(980)\pi^{+}, a_{0}(980) \rightarrow K^{+}K^{-}) =\mathcal{B}(D_{s}^{+} \rightarrow a_{0}(980)\pi^{+}, a_{0}(980) \rightarrow \pi^{0}\eta)  \frac{\Gamma_{a_{0}(980)}(K^{+}K^{-})}{ \Gamma_{a_{0}(980)}(\pi^{0}\eta)}. \label{bf-a0} 
-        \end{math}
+        %\end{math}
     \end{equation}
     
     Then, the ratio of fit fractions of $D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}$ and $D_{s}^{+} \rightarrow a_{0}(980)\pi^{+}$ $\Gamma$ is: 
     \begin{equation}
-        \begin{math}
+        %\begin{math}
             \Gamma  =\frac{\mathcal{B}(D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}, f_{0}(980) \rightarrow \pi^{+}\pi^{-})  \frac{\Gamma_{f_{0}(980)}(K^{+}K^{-})}{ \Gamma_{f_{0}(980)}(\pi^{+}\pi^{-})}}{\mathcal{B}(D_{s}^{+} \rightarrow a_{0}(980)\pi^{+}, a_{0}(980) \rightarrow \pi^{0}\eta)  \frac{\Gamma_{a_{0}(980)}(K^{+}K^{-})}{ \Gamma_{a_{0}(980)}(\pi^{0}\eta)}}. \label{a0-f0-bf}
-        \end{math}
+        %\end{math}
     \end{equation}
     
-    If we can get the value of $\Gamma$ in Eq. \ref{a0-f0-bf}, it's possible to fix the ratio in amplitude analysis and then distinguith $f_{0}(980)$ and $a_{0}(980)$ at the low end of $K^{+}K^{-}$ mass spectrum.
-    Using isopin relations,  the relation between $\Gamma_{f_{0}(980)}(\pi\pi) /  \Gamma_{f_{0}(980)}(\pi\pi+K\bar{K})$ and $\Gamma_{f_{0}(980)}(K^{+}K^{-}) / \Gamma_{f_{0}(980)}(\pi^{+}\pi^{-})$ is:
+    If we can get the value of $\Gamma$ in Eq. \ref{a0-f0-bf}, it's possible to fix the ratio in amplitude analysis and then distinguish $f_{0}(980)$ and $a_{0}(980)$ at the low end of $K^{+}K^{-}$ mass spectrum.
+    Using isospin relations,  the relation between $\Gamma_{f_{0}(980)}(\pi\pi) /  \Gamma_{f_{0}(980)}(\pi\pi+K\bar{K})$ and $\Gamma_{f_{0}(980)}(K^{+}K^{-}) / \Gamma_{f_{0}(980)}(\pi^{+}\pi^{-})$ is:
     \begin{equation}
         \frac{\Gamma_{f_{0}(980)}(K^{+}K^{-})}{ \Gamma_{f_{0}(980)}(\pi^{+}\pi^{-})} =  \frac{3}{4} \cdot \left[\frac{1}{\frac{\Gamma_{f_{0}(980)}(\pi\pi)} {\Gamma_{f_{0}(980)}(\pi\pi)+\Gamma_{f_{0}(980)}(K\bar{K})}} -1\right]. \label{f0-KK-pipi-relation}
     \end{equation}
@@ -48,16 +48,16 @@ Study of a given state can also illuminates light meson spectroscopy and shed li
     So we have to extract the $\mathcal{S}$ wave line shape at the low end of $K^{+}K^{-}$ mass spectrum in a quasi-model-independent way.
     In other words, we take $a_{0}(980)$ and $f_{0}(980)$ as a whole in amplitude analysis.
 
-\begin{table}
+\begin{table}[htbp]
     \caption{The $f_{0}(980)$ branching ratio $\Gamma_{f_{0}(980)}(\pi\pi) / \left[ \Gamma_{f_{0}(980)}(\pi\pi)+\Gamma_{f_{0}(980)}(K\bar{K})\right]$}
     \label{f0-KK-pipi}
     \begin{center}
         \begin{tabular}{cccc}
             \toprule
-            VALUE &         TECN & COMMENT\\
+            VALUE &         Collaboration & COMMENT\\
             \hline
-            $0.52\pm0.12$ &             BABR    & $B^{\pm} \rightarrow K^{\pm}\pi^{\pm}\pi^{\mp}$   ~\cite{pipi-KK-1} \\
-            $0.75_{-0.13}^{+0.11}$ &    BES2    & $\chi_{c0} \rightarrow 2\pi^{+}2\pi^{-}, \pi^{+}\pi^{-}K^{+}K^{-}$   ~\cite{pipi-KK-2} \\
+            $0.52\pm0.12$ &             BABAR    & $B^{\pm} \rightarrow K^{\pm}\pi^{\pm}\pi^{\mp}$   ~\cite{pipi-KK-1} \\
+            $0.75_{-0.13}^{+0.11}$ &    BESII    & $\chi_{c0} \rightarrow 2\pi^{+}2\pi^{-}, \pi^{+}\pi^{-}K^{+}K^{-}$   ~\cite{pipi-KK-2} \\
             $0.84\pm0.02$ &             SPEC    & Combined fit   ~\cite{pipi-KK-3} \\
             \bottomrule
         \end{tabular}
@@ -74,13 +74,13 @@ Study of a given state can also illuminates light meson spectroscopy and shed li
 \par{
     Hadronic decays of mesons with charm are an important tool for understanding the dynamics of the strong interaction in the low energy regime.
     Fig. \ref{Feynman-dia} illustrates main Feynman diagrams related to the decay.
-    \begin{figure*}[h]
+    \begin{figure*}[htbp]
         \centering
         \includegraphics[width=0.45\textwidth]{plot/Fa.PNG}
         \includegraphics[width=0.45\textwidth]{plot/Fb.PNG}
         \includegraphics[width=0.45\textwidth]{plot/Fc.PNG}
         \includegraphics[width=0.45\textwidth]{plot/Fd.PNG}
-        %\includegraphics[width=0.45\textwidth]{plot/Fe.PNG}
+        %\includeraphics[width=0.45\textwidth]{plot/Fe.PNG}
         \caption{Main Feynman tree diagrams associated with $D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$ decay.}
         \label{Feynman-dia}
     \end{figure*}
@@ -97,7 +97,7 @@ Study of a given state can also illuminates light meson spectroscopy and shed li
     Table \ref{PreviousAnalyses} shows the comparision of the fitted decay fractions with the Dalitz plot analyses of previous analyses.
 }
 
-\begin{table}
+\begin{table}[htbp]
     \caption{previous analyses of this decay channel.}
     \label{PreviousAnalyses}
     \begin{center}
@@ -122,7 +122,7 @@ Study of a given state can also illuminates light meson spectroscopy and shed li
     \end{table}
 
 
-    From Table\ref{PreviousAnalyses}, we can see an obvious difference of decay fraction of $f_{0}(980)\pi^{+}$ between BARBAR and CLEO-c. E687 used about 700 events and the E687 model did not take $f_{0}(1370)\pi^{+}$ into account. For CLEO-c, about 14400 events with purity about 84.9\% were selected with single tag method. The analysis of BARBAR used about 100000 events with purity about 95\%. In this analysis with double tag method, we can get a nearly background free data sample, that will be good to perform the amplitude analysis.
+    From Table\ref{PreviousAnalyses}, we can see an obvious difference of decay fraction of $f_{0}(980)\pi^{+}$ between BABAR and CLEO-c. E687 used about 700 events and the E687 model did not take $f_{0}(1370)\pi^{+}$ into account. For CLEO-c, about 14400 events with purity about 84.9\% were selected with single tag method. The analysis of BARBAR used about 100000 events with purity about 95\%. In this analysis with double tag method, we can get a nearly background free data sample, that will be good to perform the amplitude analysis.
 
     \iffalse
     As shown in Fig. \ref{fig:lambc_cs} and Figure~\ref{fig:lambc_cs_bes3}, at the energy of 4.6\,GeV, cross section of producing $\lambdacp\lambdacm$ pair in $\ee$ collisions is $\sigma(\ee\to\lambdacp\lambdacm)=0.38\pm0.13\,\rm{nb}$ measured by BELLE~\cite{Pakhlova:2008vn} and $\sigma(\ee\to\lambdacp\lambdacm)=0.253\pm0.023\,\rm{nb}$ measured by BESIII~\cite{Weiping:lineshape}.\\
@@ -131,7 +131,7 @@ Study of a given state can also illuminates light meson spectroscopy and shed li
 
 
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \begin{figure*}[h]
+    \begin{figure*}[htbp]
         \centering
         \includegraphics[width=0.45\textwidth]{bes3_lineshape.eps}
         \caption{Cross sections of $\ee\to\lambdacp\lambdacm$ measured by BESIII.}
