@@ -4,8 +4,9 @@
 \contentsline {subsection}{\numberline {1.3}Amplitude analysis}{5}{subsection.1.3}
 \contentsline {section}{\numberline {2}Data Set and Monte Carlo Samples}{6}{section.2}
 \contentsline {section}{\numberline {3}Event Selection}{7}{section.3}
-\contentsline {subsection}{\numberline {3.1}Tracking, PID, $\pi ^{0}/\eta ^{(')}$ and $K_{S}^{0}$ Reconstruction }{7}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Signal Selection}{9}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.1}Tracking, PID, $\pi ^{0}$, $\eta $, $\eta ^{'}$ and $K_{S}^{0}$ Reconstruction }{7}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}$D_{s}$ selection}{8}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Signal Selection}{9}{subsection.3.3}
 \contentsline {section}{\numberline {4}Partial Wave Analysis in the Low $K^{+}K^{-}$ Mass Region}{10}{section.4}
 \contentsline {subsection}{\numberline {4.1}Event Selection}{10}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Background Analysis}{10}{subsection.4.2}

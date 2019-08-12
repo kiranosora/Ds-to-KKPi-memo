@@ -49,11 +49,12 @@
 
 % add the abstract of the note here.
 \abstracttext{
-  We perform an amplitude analysis of $D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$ using a data sample of $3.19fb^{-1}$ recorded with BESIII detector at a center-of-mass energy of 4.178GeV. 
-  About 4000 events are used in amplitude analysis. 
-  Amplitudes and phases contributing to this final state are measured. 
-  %We tent to agree the Dalitz plot analysis of $D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$ by BABAR.
-  And we also measure the branching fraction of   $D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$ to be $\mathcal{B}(D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+})=(5.47\pm0.07_{stat.}\pm0.11_{sys.})\%$.
+  We perform an amplitude analysis and branching fraction measurement of the $D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$ decay using a data sample of $3.19 fb^{-1}$ recorded with BESIII detector at a center-of-mass energy of 4.178 GeV. 
+  We perform a model-independent partial wave analysis (MIPWA) in the low $K^{+}K^{-}$ 
+  We also perform an amplitude analysis on a nearly background free sample of 
+  %About 4000 events are used in amplitude analysis. 
+  %Amplitudes and phases contributing to this final state are measured. 
+  %And we also measure the branching fraction of   $D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$ to be $\mathcal{B}(D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+})=(5.47\pm0.07_{stat.}\pm0.13_{sys.})\%$.
 
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

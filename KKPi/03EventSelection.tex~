@@ -7,7 +7,7 @@ These unique $D_{s}^{+}D_{s}^{-}$ final states provides us an opportunity to emp
 The double tag method also provide us a clean sample to perform an amplitude analysis.
 
 
-\subsection{Tracking, PID, $\pi^{0}/\eta^{(')}$ and $K_{S}^{0}$ Reconstruction }
+\subsection{Tracking, PID, $\pi^{0}$, $\eta$, $\eta^{'}$ and $K_{S}^{0}$ Reconstruction }
 $D_{s}$ candidates are built from $K^{\pm}$, $\pi^{\pm}$, $\pi^{0}/\eta^{(')}$ and $K_{S}^{0}$. The selections of the particles to build $D_{S}$ candidates are performed with DTagAlg-00-01-05 package with the default setting, which are summarized below.
 
 \begin{itemize}
@@ -62,20 +62,21 @@ $D_{s}$ candidates are built from $K^{\pm}$, $\pi^{\pm}$, $\pi^{0}/\eta^{(')}$ a
 			\item[-] Significance of the $K_{S}^{0}$ decay length has two standard deviations.
 		\end{itemize}
 
-	\item $D_{s}$ selection: The $D_{s}$ candidates fall into the mass window of $1.87 < m_{D_{s}} < 2.06 GeV/c^{2}$ and 
-		the corresponding $M_{rec}$ satisfied $2.051 < M_{rec} < 2.180 GeV/c^{2}$ are retained for further study. In which, the definition of $M_{rec}$ is
-		\begin{equation}
-			M_{rec} = \sqrt{(E_{cm} - \sqrt{p_{D_{s}}^{2} + m_{D_{s}}^{2})^{2}} - |\vec p_{cm} - \vec p_{D_{s}} | ^{2}} \; , \label{con:inventoryflow}
-		\end{equation}
-		where $E_{cm}$ is the energy of initial state, calculated from the beam energy ~\cite{DocDB 580-v1}, $\vec p_{D_{s}}$ is the momentum of $D_{s}$ candidate, $m_{D_{s}}$ is $D_{s}$ mass quoted from PDG ~\cite{PDG} and $\vec p_{cm}$ and $\vec p_{D_{s}}$ are four-momentum of initial state and the decay products of a $D_{s}$ candidate, respectively.
 \end{itemize}
+\subsection{$D_{s}$ selection}
+The $D_{s}$ candidates fall into the mass window of $1.87 < m_{D_{s}} < 2.06 GeV/c^{2}$ and 
+the corresponding $M_{rec}$ satisfied $2.051 < M_{rec} < 2.180 GeV/c^{2}$ are retained for further study. In which, the definition of $M_{rec}$ is
+\begin{equation}
+    M_{rec} = \sqrt{(E_{cm} - \sqrt{p_{D_{s}}^{2} + m_{D_{s}}^{2})^{2}} - |\vec p_{cm} - \vec p_{D_{s}} | ^{2}} \; , \label{con:inventoryflow}
+\end{equation}
+where $E_{cm}$ is the energy of initial state, calculated from the beam energy ~\cite{DocDB 580-v1}, $\vec p_{D_{s}}$ is the momentum of $D_{s}$ candidate, $m_{D_{s}}$ is $D_{s}$ mass quoted from PDG ~\cite{PDG} and $\vec p_{cm}$ and $\vec p_{D_{s}}$ are four-momentum of initial state and the decay products of a $D_{s}$ candidate, respectively.
 
 \subsection{Signal Selection}
 \par{
 
 
     We use different methods to select events in model independent analysis(Sec. \ref{MIPWASelection}), amplitude analysis(Sec. \ref{AASelection}) and branching fraction measurement(Sec. \ref{BFSelection}).
-And the details are in the correspongding sections.
+And the details are in the corresponding sections.
 }
 
 

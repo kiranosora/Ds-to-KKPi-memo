@@ -34,14 +34,14 @@ The corresponding ST efficiencies are estimated from generic MC. The ST yields($
 
 \begin{figure*}[!htbp]
  \centering
- \includegraphics[width=0.33\textwidth]{plot/DsTag400_Mass_data.eps}
- \includegraphics[width=0.33\textwidth]{plot/DsTag401_Mass_data.eps}
- \includegraphics[width=0.33\textwidth]{plot/DsTag404_Mass_data.eps}
- \includegraphics[width=0.33\textwidth]{plot/DsTag405_Mass_data.eps}
- \includegraphics[width=0.33\textwidth]{plot/DsTag406_Mass_data.eps}
- \includegraphics[width=0.33\textwidth]{plot/DsTag421_Mass_data.eps}
- \includegraphics[width=0.33\textwidth]{plot/DsTag460_Mass_data.eps}
- \includegraphics[width=0.33\textwidth]{plot/DsTag502_Mass_data.eps}
+ \includegraphics[width=0.35\textwidth]{plot/DsTag400_Mass_data.eps}
+ \includegraphics[width=0.35\textwidth]{plot/DsTag401_Mass_data.eps}
+ \includegraphics[width=0.35\textwidth]{plot/DsTag404_Mass_data.eps}
+ \includegraphics[width=0.35\textwidth]{plot/DsTag405_Mass_data.eps}
+ \includegraphics[width=0.35\textwidth]{plot/DsTag406_Mass_data.eps}
+ \includegraphics[width=0.35\textwidth]{plot/DsTag421_Mass_data.eps}
+ \includegraphics[width=0.35\textwidth]{plot/DsTag460_Mass_data.eps}
+ \includegraphics[width=0.35\textwidth]{plot/DsTag502_Mass_data.eps}
  \caption{Ds Mass fits from data. The points with error bars are data, and the blue line is the fit. Red short-dashed lines are signal, violet long-dashed lines are background. The red arrows denote the signal region.  }
 \label{SingleTagFit}
 \end{figure*}
