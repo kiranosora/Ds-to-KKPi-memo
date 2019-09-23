@@ -1,30 +1,32 @@
 \contentsline {section}{\numberline {1}Introduction}{3}{section.1}
-\contentsline {subsection}{\numberline {1.1}The scalar meson $f_{0}(980)$ and $a_{0}(980)$}{3}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}The $D_{s}^{+} \rightarrow K^{+}K^{-}\pi ^{+}$ decay}{4}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}Amplitude analysis}{5}{subsection.1.3}
-\contentsline {section}{\numberline {2}Data Set and Monte Carlo Samples}{6}{section.2}
-\contentsline {section}{\numberline {3}Event Selection}{7}{section.3}
-\contentsline {subsection}{\numberline {3.1}Tracking, PID, $\pi ^{0}$, $\eta $, $\eta ^{'}$ and $K_{S}^{0}$ Reconstruction }{7}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}$D_{s}$ selection}{8}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Signal Selection}{9}{subsection.3.3}
-\contentsline {section}{\numberline {4}Partial Wave Analysis in the Low $K^{+}K^{-}$ Mass Region}{10}{section.4}
-\contentsline {subsection}{\numberline {4.1}Event Selection}{10}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Background Analysis}{10}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Partial wave analysis}{15}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}S-wave parameterization at the $K^{+}K^{-}$ threshold}{16}{subsection.4.4}
-\contentsline {section}{\numberline {5}Amplitude Analysis}{18}{section.5}
-\contentsline {subsection}{\numberline {5.1}Event Selection}{18}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Background Analysis}{18}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Fit Method}{19}{subsection.5.3}
-\contentsline {subsubsection}{\numberline {5.3.1}Propagator}{21}{subsubsection.5.3.1}
-\contentsline {subsubsection}{\numberline {5.3.2}Blatt-Weisskopf Barriers}{22}{subsubsection.5.3.2}
-\contentsline {subsubsection}{\numberline {5.3.3}Spin Factors}{22}{subsubsection.5.3.3}
-\contentsline {subsection}{\numberline {5.4}Fit Fraction}{22}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}Fit Result}{23}{subsection.5.5}
-\contentsline {subsection}{\numberline {5.6}Systematic Uncertainties}{26}{subsection.5.6}
-\contentsline {section}{\numberline {6}Branching Fraction Measurements}{30}{section.6}
-\contentsline {subsection}{\numberline {6.1}Event Selection}{30}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Analytic Strategy}{30}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Results of Branching Fraction}{33}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Systematic Uncertainties}{33}{subsection.6.4}
-\contentsline {section}{\numberline {7}Summary}{36}{section.7}
+\contentsline {subsection}{\numberline {1.1}The Scalar Mesons $f_{0}(980)$ and $a_{0}(980)$}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}The Dynamics of the Strong Interaction}{4}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Amplitude Analysis}{4}{subsection.1.3}
+\contentsline {section}{\numberline {2}Data Set and Monte Carlo Samples}{7}{section.2}
+\contentsline {section}{\numberline {3}Event Selection}{8}{section.3}
+\contentsline {subsection}{\numberline {3.1}Tracking, PID, $\pi ^{0}$, $\eta $, $\eta ^{'}$ and $K_{S}^{0}$ Reconstruction }{8}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}$D_{s}$ Selection}{9}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Signal Selection}{10}{subsection.3.3}
+\contentsline {section}{\numberline {4}Partial Wave Analysis in the Low $K^{+}K^{-}$ Mass Region}{11}{section.4}
+\contentsline {subsection}{\numberline {4.1}Event Selection}{11}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Background Analysis}{11}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Partial Wave Analysis}{16}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}S-wave Parameterization at the $K^{+}K^{-}$ Threshold}{17}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Systematic Uncertainties}{19}{subsection.4.5}
+\contentsline {section}{\numberline {5}Amplitude Analysis}{22}{section.5}
+\contentsline {subsection}{\numberline {5.1}Event Selection}{22}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Background Analysis}{22}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Fit Method}{23}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}Propagator}{25}{subsubsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.2}Blatt-Weisskopf Barriers}{26}{subsubsection.5.3.2}
+\contentsline {subsubsection}{\numberline {5.3.3}Spin Factors}{26}{subsubsection.5.3.3}
+\contentsline {subsection}{\numberline {5.4}Fit Fraction}{26}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Fit Result}{27}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Systematic Uncertainties}{30}{subsection.5.6}
+\contentsline {section}{\numberline {6}Branching Fraction Measurements}{34}{section.6}
+\contentsline {subsection}{\numberline {6.1}Event Selection}{34}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Analytic Strategy}{34}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Results of Branching Fraction}{37}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Systematic Uncertainties}{37}{subsection.6.4}
+\contentsline {section}{\numberline {7}Summary}{40}{section.7}
+\contentsline {section}{\numberline {A}The attemption to distinguish $a_{0}(980)$ and $f_{0}(980)$}{44}{appendix.A}

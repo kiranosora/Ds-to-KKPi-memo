@@ -1,0 +1,45 @@
+\documentclass[a4paper]{article}
+\usepackage{color}
+\usepackage{epsfig}
+\begin{document}
+\section{the reply to Jim Libby's questions}
+%@Mon Sep 16 11:25:33 CST 2019
+Re: Re: The MEMO for "Amplitude Analysis and Branching Fraction Measurement of $D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$ 
+Sat Sep 21 13:08:16 CST 2019
+\begin{itemize}
+    \item 1. However, why not fit Fig 11 from the MIPWA with $|A(f0) + ae^{delta} A(a0)|^{2}$, where A(f0) and A(a0) are based on Eq. 11. This will give you a different parameterization to try in the amplitude fit. I am really not sure about this S(980) object as it is not physical.
+
+        {\color{blue}
+            As a0 and f0 is so close that I think it is not appropriate to describe them with the sum of them.
+            I think here we should use K-matrix formalism (See page 74 of the attachment Physicsbes3.pdf). 
+            The formalism used here is
+            \begin{equation}
+                \begin{array}{lr}
+                    \hat{T} = (I - i\hat{K}\rho)^{-1} \hat{K}&\\
+                    \hat{K} = \frac{m_{\alpha}\Gamma_{\alpha}}{m_{\alpha}^{2} - m_{\alpha}^{2}} + \frac{m_{\beta}\Gamma_{\beta}}{m_{\beta}^{2} - m_{\beta}^{2}}, &
+                \end{array}\label{K-matrix} 
+            \end{equation}
+
+            Then fit the S wave shape with $|\hat{T}|^{2}$, the result is shown in Fig.~\ref{K-matrix-Fit}.
+
+            \begin{figure*}[htbp]
+                \centering
+                \includegraphics[width=0.99\textwidth]{K-matrix-Fit.eps}
+                \caption{Fit with $|\hat{T}|^{2}$.}
+                \label{K-matrix-Fit}
+            \end{figure*}
+            The correlation coefficient between $m(\alpha)$ and $m(\beta)$ is 0.973, which is too large.
+            It's very difficult to distinguish them as the mass of a0 and f0 are both under the K+K- threshold and a0 and f0 are very close.
+
+        }
+
+
+    \item 2. How the pull study results are turned into a systematic is still not explained.
+
+        {\color{blue} 
+            See Sec. 5.6 on page 30.
+            The quadrature sum of the difference of the mean and the nominal value and the error of mean is considered as the uncertainty associated with fit bias.
+        }
+
+\end{itemize}
+\end{document}

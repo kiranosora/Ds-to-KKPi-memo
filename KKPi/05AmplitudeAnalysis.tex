@@ -1,35 +1,36 @@
 \section{Amplitude Analysis}
-
+\label{Amplitude-Analysis}
 \subsection{Event Selection}
 \label{AASelection}
 \par{
-After $K^{\pm}$, $K_S^{0}$, $\pi^{\pm}$ and $\gamma$ are identified in Sec. \ref{ST-selection}, hadronic $D_{s}$ decays can be reconstructed with the DTag package. 8 tag modes are used:
+    After $K^{\pm}$, $K_S^{0}$, $\eta$, $\eta^{'}$, $\pi^{\pm}$ and $\pi^{0}$ are identified in Sec.~\ref{ST-selection}, hadronic $D_{s}$ decays can be reconstructed with the DTag package. 
+    Eight tag modes are used:
 
 $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$, $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}$, $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}\pi^{+}\pi^{-}$, $D_{s}^{-} \rightarrow K^{-}\pi^{+}\pi^{-}$, $D_{s}^{-} \rightarrow K_{S}^{0}K^{+}\pi^{-}\pi^{-}$, $D_{s}^{-} \rightarrow \pi^{+}\pi^{-}\pi^{-}$, $D_{s}^{-} \rightarrow \eta^{'}_{\pi^{+}\pi^{-}\eta_{\gamma\gamma}}$, $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}\pi^{0}$.
 
 
-With the tagged $D_{s}$ meson, the signal $D_{s}$ is reconstructed with the remaining good tracks and good showers. 
-The momentum of $\pi^{\pm}(\pi^{0})$ is required to be larger than $100 MeV/c^{2}$ to suppress the background of $D^{*} \rightarrow D\pi$.
-Only the $D_{s}$ candidate with invariant mass falls into $[1.87, 2.06]GeV/c^{2}$ are selected.
+With the tagged $D_{s}$ meson, the signal $D_{s}$ is reconstructed with the remaining good tracks. 
+The momentum of $\pi^{\pm}$ $(\pi^{0})$ is required to be larger than $100\ {\rm MeV/c^{2}}$ to suppress the background of $D^{*} \rightarrow D\pi$.
+Only the $D_{s}$ candidate with invariant mass falls into $[1.87, 2.06]$ GeV/$c^{2}$ are selected.
 
-For every candidate of $D_{s}$ decays, all tracks at signal side and tag side as well as gamma from $D_{s}^{*}$ are added to apply kinematic fitting. 5 constrains are added in kinematic fitting: four-momentum of $D_{s}D_{s}^{*}$, mass of $D_{s}^{*}$. Then we select the candidate with minimum $\chi_{5c}^{2}$.  
+For every candidate of $D_{s}D_{s}^{*}$ decays, all tracks at signal side and tag side as well as gamma from $D_{s}^{*}$ are added to apply kinematic fitting. Five constrains are added in kinematic fitting: four-momentum of $D_{s}D_{s}^{*}$ and mass of $D_{s}^{*}$. Then we select the candidate with minimum $\chi_{5c}^{2}$.  
 
 The candidates satisfy:
 \begin{itemize}
-    \item[-] $m_{sig}$ and $m_{tag}$ falls in the mass regions shown in Table \ref{ST-mass-window}. 
-	\item[-] $\chi_{5c}^{2} < 200 $
+    \item[-] $m_{sig}$ and $m_{tag}$ falls in the mass regions shown in Table~\ref{ST-mass-window}, 
+	\item[-] $\chi_{5c}^{2} < 200 $, 
 \end{itemize}
-are retained for amplitude analysis, where $m_{sig}$ and $m_{tag}$ refer to mass of $D_{s}$ at signal side and tag side respectively.
+are retained for the amplitude analysis, where $m_{sig}$ and $m_{tag}$ refer to mass of $D_{s}$ at signal side and tag side respectively.
 \begin{table}[htbp]
-    \caption{ The mass windows for each tag mode. The mass windows use the results in Ref. ~\cite{Doc-DB-630-v35} }
+    \caption{ The mass windows for each tag mode. The mass windows use the results in Ref.~\cite{Doc-DB-630-v35} }
     \label{ST-mass-window}
     \begin{center}
         \begin{tabular}{cc}
             \toprule\toprule
-            Tag mode & Mass window(GeV)  \\
+            Tag mode & Mass window (GeV/$c^{2}$)  \\
             \hline
             $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}$                          & [1.948, 1.991]    \\
-            $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$                       & [1.900, 2.030]    \\
+            $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$                       & [1.950, 1.986]    \\
             $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}\pi^{0}$                & [1.947, 1.982]    \\
             $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}\pi^{+}\pi^{-}$            & [1.958, 1.980]    \\
             $D_{s}^{-} \rightarrow K_{S}^{0}K^{+}\pi^{-}\pi^{-}$            & [1.953, 1.983]    \\
@@ -44,10 +45,10 @@ are retained for amplitude analysis, where $m_{sig}$ and $m_{tag}$ refer to mass
 }
 
 \subsection{Background Analysis}
-We use generic MC to estimate the background. The background and signal shape of generic MC is shown in Fig.\ref{background-and-signal-distribution}. 
-According to the luminosities of the data and the generic MC, after scaling the background sample to the data size, the background yields in Signal region is 17.2. 
-Then the fit to the signal $D_{s}$ invariant mass ($m_{sig}$) spectrum gives the background yield in Signal region is $18.1 \pm 5.1$, shown as in Fig.\ref{mDs_fit}.  
-The background level in MC is then consistent with the data. In the fit, the signal shape is the MC shape convoluted with a Gaussian function and the background is the MC shape. 
+We use generic MC to estimate the background. The background and signal shape of generic MC is shown in Fig.~\ref{background-and-signal-distribution}. 
+By scaling the generic MC background sample to the data size based on the luminosities, the background yields in the signal region is 17.2. 
+The fit to the signal $D_{s}$ invariant mass ($m_{sig}$) spectrum gives the background yield in the signal region is $18.1 \pm 5.1$, shown as in Fig.~\ref{mDs_fit}.  
+The background level in generic MC is consistent with the data. In the fit, the signal shape is the MC shape convoluted with a Gaussian function and the background is the MC shape. 
 
 \begin{figure*}[htbp]
  \centering
@@ -56,7 +57,7 @@ The background level in MC is then consistent with the data. In the fit, the sig
   \begin{overpic}[width=0.9\textwidth]{plot/bkg.eps}
   \end{overpic}
  }
- \caption{ The background and signal shape of generic MC(round 01-40)}
+ \caption{ The background and the signal shape of generic MC (round 01-40)}
 \label{background-and-signal-distribution}
 \end{figure*}
 
@@ -67,14 +68,16 @@ The background level in MC is then consistent with the data. In the fit, the sig
   \begin{overpic}[width=0.48\textwidth]{plot/mDs.eps}
   \end{overpic}
  }
- \caption{The fit to $m_{sig}$ for data after selections, the area between the purple arrows is the signal area of the sample for the amplitude analysis. }
+ \caption{The fit to $m_{sig}$ for data after selections, the area between the purple arrows is the signal area of the sample for the amplitude analysis.
+     The signal shape (green line) is the MC shape convoluted with a Gaussian function and the background (red line) is the MC shape.
+ }
 \label{mDs_fit}
 \end{figure*}
 
 \subsection{Fit Method}
-\par{The method used in amplitude analysis is the same as the Ref.~\cite{Doc-DB-416-v30}. In this section, we briefly review the amplitude analysis method used in this analysis.
+\par{The method used in the amplitude analysis is the same as the Ref.~\cite{Doc-DB-416-v30}. In this section, we briefly review the amplitude analysis method used in this analysis.
     
-    The relative magnitudes and phases of the partial waves and the mass and width of intermediate resonances are determined by a maximum-likelihood fit to the data selected. The formulas are constructed with covariant tensors ~\cite{covariant-tensors}.
+    The relative magnitudes and phases of the partial waves and the mass and width of intermediate resonances are determined by an unbinned maximum-likelihood fit to the data selected. The formulas are constructed with covariant tensors~\cite{covariant-tensors}.
 
     Since there are three final state particles, only one possible resonant state is allowed in any intermediate process. Thus the amplitude of the $n^{th}$ intermediate state ($A_{n}$) is,
     \begin{equation}
@@ -82,51 +85,55 @@ The background level in MC is then consistent with the data. In the fit, the sig
     \end{equation}
     where $S_{n}$ and $F_{n}^{r(D)}$ are the spin factor and the Blatt-Weisskopf barriers of the intermediate state (the $D_{s}$ meson), respectively. $P_{n}$ is the propagator of the intermediate resonance. 
 
-The total amplitude $M$ is then the coherent sum of the amplitudes of intermediate processes, $M=\begin{matrix}\sum c_{n}A_{n}\end{matrix}$, where $c_{n}=\rho_{n}e^{i\phi_{n}}$, is the corresponding complex coefficient. The magnitude $\rho_{n}$ and phase $\phi_{n}$ are determined by the amplitude analysis. 
-    The signal probability density function(PDF) $f_{S}(p_{j})$ is given by 
+The total amplitude $M$ is then the coherent sum of the amplitudes of intermediate processes, $M=\begin{matrix}\sum c_{n}A_{n}\end{matrix}$, where $c_{n}=\rho_{n}e^{i\phi_{n}}$ is the corresponding complex coefficient. The magnitude $\rho_{n}$ and phase $\phi_{n}$ are determined by the amplitude analysis. 
+    The signal probability density function (PDF) $f_{S}(p_{j})$ is given by 
     \begin{equation}
         f_{S}(p_{j}) = \frac{\epsilon(p_{j})\left|M(p_{j})\right|^{2}R_{3}(p_{j})}{\int \epsilon(p_{j})\left|M(p_{j})\right|^{2}R_{3}(p_{j})\,dp_{j}}, \label{signal-PDF}
     \end{equation}
-    where $\epsilon(p_{j})$ is the detection efficiency parameterized in terms of the final four-momenta $p_{j}$. The index $j$ refers to the different particles in the final states. $R_{3}(p_{j})dp_{j}$ is the standard element of the three-body phase space. The normalization integral is determined by a MC technique,
+    where $\epsilon(p_{j})$ is the detection efficiency parameterized in terms of the final four-momenta $p_{j}$. The index $j$ refers to the different particles in the final states. 
+    $R_{3}(p_{j})$ is the standard element of the three-body phase space. 
+    The normalization integral is determined by a MC integration,
     \begin{equation}
     \int \epsilon(p_{j})\left|M(p_{j})\right|^{2}R_{3}(p_{j})\,dp_{j} \approx \frac{1}{N_{MC}} \begin{matrix}\sum_{k_{MC}}^{N_{MC}} \frac{\left|M(p_{j}^{k_{MC}})\right|^{2}}{\left|M^{gen}(p_{j}^{k_{MC}})\right|^{2}}\end{matrix}, \label{MC-intergral}
     \end{equation}
     where $k_{MC}$ is the index of the $k_{MC}^{th}$ event of the MC sample and $N_{MC}$ is the number of the selected MC events.  
     $M^{gen}(p_{j})$ is the PDF used to generate the MC samples in MC integration.
-    Firstly, the PHSP MC are used in MC integration. $M^{gen}(p_{j})$ is a constant overall the phase space.
+    At the beginning, the PHSP MC are used in MC integration. $M^{gen}(p_{j})$ is a constant overall the phase space.
     Then with the result obtained from the fit to data, the signal MC is then generated and used in MC integration.
-    In this analysis, a PHSP MC sample with about 6 million events and  a signal MC sample with about 2 million events are used in the normalization integral calculation using PHSP MC and signal MC respectively.
-    In the numerator of Eq.\ref{signal-PDF}, $\epsilon(p_{j})$ is independent of the fitted variables, so it is regarded as a constant term in the fit.
-    %In addition, the MC events used in Eq. \ref{MC-integral} is the events passed the event selection the same as the data sample, we do not need to consider the detection efficiency in the fit.
-    Considering the bias caused by particle identification(PID) and tracking efficiency differences between data and MC, we introduce $\gamma_{\epsilon}$ to correct this bias:
+    In this analysis, a PHSP MC sample with about 6 million events and  a signal MC sample with about 2 million events are used in the normalization integral calculation using PHSP MC and signal MC, respectively.
+    In the numerator of Eq~.\ref{signal-PDF}, $\epsilon(p_{j})$ is independent of the fitted variables, so it is regarded as a constant term in the fit.
+    %In addition, the MC events used in Eq.~\ref{MC-integral} is the events passed the event selection the same as the data sample, we do not need to consider the detection efficiency in the fit.
+    Considering the bias caused by particle identification (PID)~\cite{PID} and tracking~\cite{Tracking} efficiency differences between data and MC, we introduce $\gamma_{\epsilon}$ to correct this bias:
     \begin{equation}
         \gamma_{\epsilon} = \prod_{i} \frac{\epsilon_{i, data}(p_{i})}{\epsilon_{i, MC}(p_{i})}, \label{experimental-effect}
     \end{equation}
-    where $i$ denotes the three daughter particles. The values of $\frac{\epsilon_{i, data}(p_{i})}{\epsilon_{i, MC}(p_{i})}$ used in this analysis are from the references ~\cite{PID} and ~\cite{Tracking}.
+    where $i$ denotes the three daughter particles. 
+    %The values of $\frac{\epsilon_{i, data}(p_{i})}{\epsilon_{i, MC}(p_{i})}$ used in this analysis are from the references and.
 
     Since there is only about $0.4\%$ background in the data sample, the contribution from the background is ignored in the likelihood calculation:
     \begin{equation}
-    \ln L = \begin{matrix}\sum_{k}^{N_{data}} \ln f_{S}(p_{j}^{k})\end{matrix},  \label{likelihood}
+    \ln{\mathcal{L}} = \begin{matrix}\sum_{k}^{N_{data}} \ln f_{S}(p_{j}^{k})\end{matrix},  \label{likelihood}
     \end{equation}
     where $N_{data}$ is the number of candidate events in data.
 
 
     \subsubsection{Propagator}
     \par{
-        For a decay process $a \rightarrow bc$, $s_{a/b/c}$ is denoted to be the invariant mass square of the particle a/b/c, $r_{a}=p_{b}-p_{c}$, and q is denoted as the magnitude of the momentum of daughter particle in the rest system of a
+        For a decay process $a \rightarrow bc$, $s_{a/b/c}$ is denoted to be the invariant mass square of the particle a/b/c, $r_{a}=p_{b}-p_{c}$, and q is denoted as the magnitude of the momentum of daughter particle in the rest system of $a$
         \begin{equation}
             q=\sqrt{ \frac{(s_{a} + s_{b} + s_{c})^{2}}{4s_{a}} - s_{b}}. \label{base-q}
         \end{equation}
 
-        Then for $K^{*}(892)^{0}$, $\phi(1020)^{0}$, $K_{0}^{*}(1430)^{0}$ and  $f_{0}(1710)$, they are parameterized as a RBW,
+        The intermediate resonances $K^{*}(892)^{0}$, $\phi(1020)$ and  $f_{0}(1710)$ are parameterized as a relativisitic Breit-Wigner (RBW) formula,
         \begin{equation}
             \begin{array}{lr}
                 P = \frac{1}{(m_{0}^{2} - s_{a} ) - im_{0}\Gamma(m)}, &\\
-                \Gamma(m) = \Gamma_{0}\left(\frac{q}{q_{0}}\right)^{3}\left(\frac{m_{0}}{m}\right)\left(\frac{X_{L}(q)}{X_{L}(q_{0})}\right)^{2}, &
+                \Gamma(m) = \Gamma_{0}\left(\frac{q}{q_{0}}\right)^{2L+1}\left(\frac{m_{0}}{m}\right)\left(\frac{X_{L}(q)}{X_{L}(q_{0})}\right)^{2}, &
             \end{array}\label{RBW} 
         \end{equation}
-        where $m_{0}$ and $\Gamma_{0}$ are the mass and the width of the intermediate resonances, and are fixed to the PDG values ~\cite{PDG2018} except the mass and the width of $f_{0}(1370)$. The mass and width of $f_{0}(1370)$ are fixed to Ref.~\cite{para-f01370}.
-        And $q_{0}$ in Eq. \ref{RBW} indicates the value of $q$ when $s_{a}=m_{0}^{2}$, L denotes the angular momenta and $X_{L}(q)$ is defined as:
+        where $m_{0}$ and $\Gamma_{0}$ are the mass and the width of the intermediate resonances, and are fixed to the PDG values~\cite{PDG2018} except the mass and the width of $f_{0}(1370)$. 
+        The mass and width of $f_{0}(1370)$ are fixed to 1350 MeV$/c^{2}$ and 265 MeV$/c^{2}$~\cite{para-f01370}, respectively..
+        The value of $q_{0}$ in Eq.~\ref{RBW} is that of $q$ when $s_{a}=m_{0}^{2}$, $L$ denotes the angular momenta and $X_{L}(q)$ is defined as:
         \begin{equation}
             \begin{array}{lr}
                 X_{L=0}(q) = 1,       &\\
@@ -134,15 +141,15 @@ The total amplitude $M$ is then the coherent sum of the amplitudes of intermedia
                 X_{L=2}(q) = \sqrt{\frac{13}{9z^{4}+3z^{2}+1}},       &\\
             \end{array}\label{XLQ} 
         \end{equation}
-        where $z=qR$, the R is the effective radius of the intermediate state or $D_{s}$ meson and set to $3.0GeV^{-1}$ for intermediate states and $5.0GeV^{-1}$  for $D_{s}$ meson ~\cite{Doc-DB-416-v30}, respectively.
-        This value R is a typical value used by $D$ physics and we will also vary this value as a resource of systematical uncertainties.
+        where $z=qR$. The R is the effective radius of the intermediate state or $D_{s}$ meson and set to $3.0\ {\rm GeV}^{-1}$ for intermediate states and $5.0\ {\rm GeV}^{-1}$  for $D_{s}$ meson~\cite{Doc-DB-416-v30}, respectively.
+        This value R is a typical value used by $D$ physics and we will also vary this value as a source of systematical uncertainties.
 
         $K^{*}_{0}(1430)^{0}$ is parameterized with Flatte formula:
         \begin{equation}
             P_{K^{*}_{0}(1430)^{0}}= \frac{1}{M^{2} - s - i(g_{1}\rho_{K\pi}(s) + g_{2}\rho_{\eta^{'}K}(s))}, \label{Flatte}
         \end{equation}
-        where $s$ is the $K^{-}\pi^{+}$ invariant mass squared,  $\rho_{K\pi}(s)$ and $\rho_{\eta^{'}K}(s)$ are Lorentz invariant PHSP factor, and   $g_{1,2}$ are coupling constants to the corresponding final state. The parameters of $K^{*}_{0}(1430)^{0}$ are fixed to values measured by CLEO ~\cite{CLEO-Flatte}. 
-        For resonance $f_{0}(980)$ and $a_{0}(980)$, as is discussed in Sec. \ref{f0-a0-discussion}, we take $f_{0}(980)$ and $a_{0}(980)$ as a whole, and the RBW form Eq.\ref{a0980-RBW} is used to describe the propagator and the values of parameters are fixed to the values in Eq.\ref{S-wave parameters} obtained from the model independent partial wave analysis section(Sec. \ref{MIPPWA-RES}).
+        where $s$ is the $K^{-}\pi^{+}$ invariant mass squared,  $\rho_{K\pi}(s)$ and $\rho_{\eta^{'}K}(s)$ are Lorentz invariant PHSP factor, and   $g_{1,2}$ are coupling constants to the corresponding final state. The parameters of $K^{*}_{0}(1430)^{0}$ are fixed to values measured by CLEO~\cite{CLEO-Flatte}. 
+        For resonances $f_{0}(980)$ and $a_{0}(980)$, as is discussed in Sec.~\ref{f0-a0-discussion}, we use Eq.~\ref{a0980-RBW} to describe the propagator and the values of parameters are fixed to the values in Eq.~\ref{S-wave parameters} obtained from the model independent partial wave analysis section (Sec.~\ref{MIPWA-RES}).
     }
 
     \subsubsection{Blatt-Weisskopf Barriers}{
@@ -176,7 +183,7 @@ The total amplitude $M$ is then the coherent sum of the amplitudes of intermedia
                 \tilde{t}^{(2)}_{\mu\nu}(a) = P^{(2)}_{\mu\nu\mu^{'}\nu^{'}}(a)r^{\mu{'}}_{a}r^{\nu^{'}}_{a}, \           (D\ wave). &\\
             \end{array}\label{covariant-tensors} 
         \end{equation}
-        Then the spin factor for $D_{s} \rightarrow aX$ and then $a \rightarrow bc$ is( $a$ refers to the intermediate resonance), 
+        The spin factor for $D_{s} \rightarrow aX$ and then $a \rightarrow bc$ is( $a$ refers to the intermediate resonance), 
         \begin{equation}
             \begin{array}{lr}
                 S_{n} = 1,         \ \ \ \ \ \  \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \ (S\ wave), &\\
@@ -191,8 +198,9 @@ The total amplitude $M$ is then the coherent sum of the amplitudes of intermedia
 
 
 \subsection{Fit Fraction}
+\label{FF}
 \par{
-The fit fractions of the individual amplitudes are calculated according to the fit results and are compared to the other measurements. In the calculation, a phase space(PHSP) MC with neither detector acceptance nor resolution involved is used. The fit fraction for an amplitude is defined as
+The fit fractions of the individual amplitudes are calculated according to the fit results and are compared to the other measurements. In the calculation, a PHSP MC with neither detector acceptance nor resolution is involved. The fit fraction for an amplitude is defined as
     \begin{equation}
     FF(n) = \frac{\begin{matrix}\sum_{k=1}^{N_{gen}} \left|A_{n}\right|^{2}\end{matrix}}{\begin{matrix}\sum_{k=1}^{N_{gen}} \left|M(p_{j}^{k})\right|^{2}\end{matrix}}, \label{Fit-Fraction-Definition}
     \end{equation}
@@ -204,7 +212,8 @@ The fit fractions of the individual amplitudes are calculated according to the f
 
 \subsection{Fit Result}
 \par{
-    The Dalitz plot of $m^{2}(K^{+}K^{-})$ versus $m^{2}(K^{-}\pi^{+})$ is shown in Fig.\ref{dalitz}. In the plot, we can see a clear peak of $K^{*}(892)^{0}$ and $\phi(1020)^{0}$. 
+    The Dalitz plot of $m^{2}(K^{+}K^{-})$ versus $m^{2}(K^{-}\pi^{+})$ is shown in Fig.~\ref{dalitz}. 
+    In the plot, we can see a clear peak of $K^{*}(892)^{0}$ and $\phi(1020)$. 
 In the fit, the magnitude and phase of the amplitude $D_{s}^{+} \rightarrow K^{*}(892)^{0}K^{+}$ is fixed to 1.0 and 0.0, and the magnitudes and phases of the amplitudes are allowed to float. 
 
 \begin{figure*}[htbp]
@@ -213,64 +222,66 @@ In the fit, the magnitude and phase of the amplitude $D_{s}^{+} \rightarrow K^{*
         \begin{overpic}[width=0.48\textwidth]{plot/dalitz.eps}
         \end{overpic}
     }
-    \caption{ The plot of $m^{2}(K^{-}\pi^{+})$ versus $m^{2}(K^{+}K^{-})$ after event selection.}
+    \caption{ The Dalitz plot of $m^{2}(K^{-}\pi^{+})$ versus $m^{2}(K^{+}K^{-})$ after event selection.}
     \label{dalitz}
 \end{figure*}
 
 With the requiring the statistical significance larger than 5 standard deviations, there are 6 intermediate process, 
 $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$,
 $D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$,
-$D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$,
+$D_{s}^{+} \rightarrow S(980)\pi^{+}$,
+%$D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$,
 $D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$,
 $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$,
 $D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$ 
-are retained in final result. The statistical significance of the three amplitudes in final result are also checked.
-With one amplitude dropped and the fit repeated, compared with the nominal fit the likelihood shift($\Delta\ln L$) and the number of freedom degree shift($\Delta n_{par}$) are then corresponding to the statistical significance.
-The detail $\Delta\ln L$, $\Delta n_{par}$, and the statistical significance for each amplitude are  listed in Table \ref{significance-table}.
-We also tested some other intermediate resonances. With each tested amplitude added and fit repeated, we get the corresponding likelihood shift($\Delta\ln L$), the number of freedom degree shift($\Delta n_{par}$) and the statistical significance.
-And the results are listed in Table \ref{test-significance-table}.
-As the statistical significances of the amplitudes listed in Table \ref{test-significance-table} are $<5$, we did not retain them in the nominal fit. 
+are retained in the final result. The statistical significance of the three amplitudes in final result are also checked.
+%With one amplitude dropped and the fit repeated, compared with the nominal fit the likelihood shift ($\Delta(lnL)$) and the number of freedom degree shift ($\Delta n_{par}$) are then corresponding to the statistical significance.
+The statistical significance is calculated by the difference of the likelihood of fits with and without a certain amplitude along with the difference of degree of freedom.
+The detail $2\Delta(lnL)$, $\Delta n_{par}$, and the statistical significance for each amplitude are  listed in Table~\ref{significance-table}.
+We also tested some other intermediate resonances. With each tested amplitude added and fit repeated, we get the corresponding likelihood shift ($\Delta(lnL)$), the number of freedom degree shift ($\Delta n_{par}$) and the statistical significance, and the results are listed in Table~\ref{test-significance-table}.
+All tested amplitudes in Table~\ref{test-significance-table}  with statistical significances less than 5 are not retained. 
 \begin{table}[htbp]
-    \caption{The $\Delta\ln L$, $\Delta n_{par}$, and the statistical significance for each amplitude}
+    \caption{The $2\Delta(lnL)$,~$\Delta n_{par}$, and the statistical significance for each amplitude}
     \label{significance-table}
     \begin{center}
         \begin{tabular}{cccc}
             \toprule
-            Amplitude & $\Delta\ln L$ & $\Delta n_{par}$ & Stat. significance\\
+            Amplitude & $2\Delta(lnL)$ & $\Delta n_{par}$ & Stat. significance\\
             \hline
-            $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$              & 1959.3     & 2   & $>$20\\
-            $D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$                      & 2303.3     & 2   & $>$20\\
-            $D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$    & 270.5      & 2   & $>$20\\
-            $D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$         & 39.4       & 2   & 8.6\\
-            $D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$                     & 44.7       & 2   & 9.2\\
-            $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$                     & 22.5       & 2   & 6.4\\
+            $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$              & 3918.6     & 2   & $>$20\\
+            $D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$                      & 4606.6     & 2   & $>$20\\
+            $D_{s}^{+} \rightarrow S(980)\pi^{+}$                           & 541.1      & 2   & $>$20\\
+            %$D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$    & 270.5      & 2   & $>$20\\
+            $D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$         & 78.8       & 2   & 8.6\\
+            $D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$                     & 89.4       & 2   & 9.2\\
+            $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$                     & 45.1       & 2   & 6.4\\
             \bottomrule
         \end{tabular}
     \end{center}
 \end{table}
 
 \begin{table}[htbp]
-    \caption{The $\Delta\ln L$, $\Delta n_{par}$, and the statistical significance for tested amplitudes}
+    \caption{The $\Delta(lnL)$, $\Delta n_{par}$, and the statistical significance for tested amplitudes}
     \label{test-significance-table}
     \begin{center}
         \begin{tabular}{cccc}
             \toprule
-            Amplitude & $\Delta\ln L$ & $\Delta n_{par}$ & Stat. significance\\
+            Amplitude & $2\Delta(lnL)$ & $\Delta n_{par}$ & Stat. significance\\
             \hline
-            $D_{s}^{+} \rightarrow f_{0}(1500)\pi^{+}$                     & 0.8        & 2   & 0.8\\
-            $D_{s}^{+} \rightarrow \phi(1680)\pi^{+}$                      & 1.8        & 2   & 1.4\\
-            $D_{s}^{+} \rightarrow f_{2}(1270)\pi^{+}$                     & 4.5        & 2   & 2.5\\
-            $D_{s}^{+} \rightarrow f_{2}(1525)\pi^{+}$                     & 0.2        & 2   & 0.2\\
-            $D_{s}^{+} \rightarrow \bar{K}_{1}^{*}(1410)^{0}K^{+}$         & 4.8        & 2   & 2.6\\
-            $D_{s}^{+} \rightarrow \bar{K}_{1}^{*}(1680)^{0}K^{+}$         & 0.1        & 2   & 0.1\\
-            $D_{s}^{+} \rightarrow \bar{K}_{2}^{*}(1430)^{0}K^{+}$         & 2.8        & 2   & 1.9\\
-            non-resonance                                                  & 6.4        & 2   & 3.1\\
+            $D_{s}^{+} \rightarrow f_{0}(1500)\pi^{+}$                     & 1.6        & 2   & 0.8\\
+            $D_{s}^{+} \rightarrow \phi(1680)\pi^{+}$                      & 3.6        & 2   & 1.4\\
+            $D_{s}^{+} \rightarrow f_{2}(1270)\pi^{+}$                     & 9.0        & 2   & 2.5\\
+            $D_{s}^{+} \rightarrow f_{2}(1525)\pi^{+}$                     & 0.4        & 2   & 0.2\\
+            $D_{s}^{+} \rightarrow \bar{K}_{1}^{*}(1410)^{0}K^{+}$         & 9.6        & 2   & 2.6\\
+            $D_{s}^{+} \rightarrow \bar{K}_{1}^{*}(1680)^{0}K^{+}$         & 0.2        & 2   & 0.1\\
+            $D_{s}^{+} \rightarrow \bar{K}_{2}^{*}(1430)^{0}K^{+}$         & 5.6        & 2   & 1.9\\
+            non-resonance                                                  & 12.8        & 2   & 3.1\\
             \bottomrule
         \end{tabular}
     \end{center}
 \end{table}
 
-The detail magnitudes, phases and fit fractions for the six amplitudes are listed in Table \ref{fit-result}.
+The magnitudes, phases, and fit fractions for the six amplitudes are listed in Table~\ref{fit-result}.
 \begin{table}[htbp]
     \caption{The magnitudes, phases and fit fractions for the six amplitudes}
     \label{fit-result}
@@ -281,7 +292,8 @@ The detail magnitudes, phases and fit fractions for the six amplitudes are liste
         \hline
         $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$              & 1.0(fixed)     & 0.0(fixed)    & 48.3$\pm$0.9\\
         $D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$                      & 1.09$\pm$0.02  & 6.22$\pm$0.07 & 40.5$\pm$0.7\\
-        $D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$    & 2.88$\pm$0.14  & 4.77$\pm$0.07 & 19.3$\pm$1.7\\
+        $D_{s}^{+} \rightarrow S(980)\pi^{+}$    & 2.88$\pm$0.14  & 4.77$\pm$0.07 & 19.3$\pm$1.7\\
+        %$D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$    & 2.88$\pm$0.14  & 4.77$\pm$0.07 & 19.3$\pm$1.7\\
         $D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$         & 1.26$\pm$0.14  & 2.91$\pm$0.20 & 3.0$\pm$0.6\\
         $D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$                     & 0.79$\pm$0.08  & 1.02$\pm$0.12 & 1.9$\pm$0.4\\
         $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$                     & 0.58$\pm$0.08  & 0.59$\pm$0.17 & 1.2$\pm$0.4\\
@@ -290,7 +302,7 @@ The detail magnitudes, phases and fit fractions for the six amplitudes are liste
 \end{center}
 \end{table}
 
-The Dalitz plot projections are shown in Fig.\ref{dalitz-projection}.
+The Dalitz plot projections are shown in Fig.~\ref{dalitz-projection}.
 \begin{figure*}[htbp]
     \centering
     \mbox{
@@ -300,28 +312,35 @@ The Dalitz plot projections are shown in Fig.\ref{dalitz-projection}.
     \caption{$D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$: Dalitz plot projections from the nominal fit. The data are represented by points with error bars, the fit results by the histograms.}
     \label{dalitz-projection}
 \end{figure*}
-
+The fit quality is determined by calculating the $\chi^{2}$ of the fit using an adaptive binning of the $m^{2}(K^{+}K^{-})$ versus $m^{2}(K^{-}\pi^{+})$ Dalitz plot that requires each bin contains at least 10 events.
 The goodness of the nominal fit is $\chi^{2}=290.1/280=1.04$.  
 }
 
 \subsection{Systematic Uncertainties}
+\label{PWA-Sys}
 \par{
     Systematic uncertainties take in account:
     \begin{itemize}
-        \item \uppercase\expandafter{\romannumeral1} Variation of resonance masses and widths within $1\sigma$ error.
+        \item \uppercase\expandafter{\romannumeral1} Variation of masses and widths of resonances within one $\sigma$ error.
             \begin{itemize}
-                \item For $f_{0}(980) /a_{0}(980)$, the mass and width are shifted within errors from Eq.\ref{S-wave parameters} in Sec. \ref{MIPPWA-RES}.
-                \item For $f_{0}(1370)$, the mass and width are shifted within errors from ~\cite{para-f01370}.
-                \item For other states, errors used here are taken from PDG ~\cite{PDG2018}.
+                \item For $S(980)$, $m_{0}$ and $\Gamma_{0}$ are shifted within errors from Eq.~\ref{S-wave-sys} in Sec.~\ref{MIPWA-SYS}.
+                %\item For $f_{0}(980) /a_{0}(980)$, the mass and width are shifted within errors from Eq.~\ref{S-wave parameters} in Sec.~\ref{MIPWA-RES}.
+                \item For $f_{0}(1370)$, the mass and width are shifted within errors from Ref.~\cite{para-f01370}.
+                \item For other states, uncertainties are taken from PDG~\cite{PDG2018}.
             \end{itemize}
-        \item \uppercase\expandafter{\romannumeral2} Variation of the effective radius of Blatt-Weisskopf Barrier within the range $\left[1.0, 5.0\right] GeV^{-1}$ for intermediate resonances and  $\left[3.0, 7.0\right] GeV^{-1}$ for $D_{s}$ meson. 
+        \item \uppercase\expandafter{\romannumeral2} Variation of the effective radius of Blatt-Weisskopf Barrier within the range $\left[1.0, 5.0\right] \ {\rm GeV}^{-1}$ for intermediate resonances and  $\left[3.0, 7.0\right] \ {\rm GeV}^{-1}$ for $D_{s}$ mesons. 
         \item \uppercase\expandafter{\romannumeral3} Fit bias. The possible bias is given by the result from pull distribution check. 
             With the results obtained from the fit, the signal MC samples are generated with the same size of the data. In this analysis, 300 MC samples with the size equaling to data are used to perform the pull distribution check.
-            The results are listed in Table \ref{pull-distribution-check}.
-            The corresponding plots are shown in Fig.\ref{pull-phase}, Fig.\ref{pull-magnitude} and Fig.\ref{pull-FF}.
+            The results are listed in Table~\ref{pull-distribution-check}.
+            The corresponding plots are shown in Fig.~\ref{pull-phase}, Fig.~\ref{pull-magnitude} and Fig.~\ref{pull-FF}.
+            The quadrature sum of the difference of the mean and the nominal value and the error of mean is considered as the uncertainty associated with fit bias.
         \item \uppercase\expandafter{\romannumeral4} Experimental effects. 
-            The experimental effects are related to the acceptance difference between MC and data caused by PID and tracking efficiencies, that is $\gamma_{\epsilon}$ in Eq. \ref{experimental-effect}.
-            To estimate the uncertainties caused by $\gamma_{\epsilon}$, the amplitude fit is performed varying PID and tracking efficiencies according to their uncertainties.
+            The experimental effects are related to the acceptance difference between MC and data caused by PID and tracking efficiencies, that is $\gamma_{\epsilon}$ in Eq.~\ref{experimental-effect}.
+            To estimate the uncertainties caused by $\gamma_{\epsilon}$, the amplitude fit is performed varying PID and tracking efficiencies according to their uncertainties according to the work~\cite{PID} and the work~\cite{Tracking}.
+        \item \uppercase\expandafter{\romannumeral5} Model assumptions. 
+            We replace Eq.~\ref{Flatte} with LASS model~\cite{LASS}.
+            %We replace Eq.~\ref{S-wave-sys} with Eq.~\ref{S-wave2} for S(980) and Eq.~\ref{Flatte} with LASS model~\cite{LASS}.
+            And then take the shift of parameters as the uncertainties.
     \end{itemize}
     
     \begin{table}[tp]  
@@ -336,7 +355,8 @@ The goodness of the nominal fit is $\chi^{2}=290.1/280=1.04$.
             \hline
         $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$              &                &               &                   &               & -0.13$\pm$0.04    & 0.98$\pm$0.03\\
             $D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$                      & -0.04$\pm$0.05 & 1.00$\pm$0.03 & 0.07$\pm$0.04     & 0.95$\pm$0.03 & 0.01$\pm$0.04     & 0.95$\pm$0.03\\
-            $D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$    & -0.07$\pm$0.05 & 1.01$\pm$0.03 & 0.07$\pm$0.05     & 1.10$\pm$0.04 & 0.02$\pm$0.05     & 1.14$\pm$0.04\\
+            $D_{s}^{+} \rightarrow S(980)\pi^{+}$    & -0.07$\pm$0.05 & 1.01$\pm$0.03 & 0.07$\pm$0.05     & 1.10$\pm$0.04 & 0.02$\pm$0.05     & 1.14$\pm$0.04\\
+            %$D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$    & -0.07$\pm$0.05 & 1.01$\pm$0.03 & 0.07$\pm$0.05     & 1.10$\pm$0.04 & 0.02$\pm$0.05     & 1.14$\pm$0.04\\
             $D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$         & 0.00$\pm$0.05  & 1.11$\pm$0.04 & 0.14$\pm$0.04     & 0.95$\pm$0.03 & 0.10$\pm$0.04     & 0.99$\pm$0.03 \\
             $D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$                     & 0.00$\pm$0.04  & 0.98$\pm$0.03 & 0.08$\pm$0.04     & 0.97$\pm$0.03 & 0.01$\pm$0.04     & 0.99$\pm$0.03 \\
             $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$                     & -0.11$\pm$0.05 & 1.10$\pm$0.04 & 0.21$\pm$0.04     & 0.99$\pm$0.03 & 0.15$\pm$0.04     & 0.98$\pm$0.03 \\
@@ -375,38 +395,39 @@ The goodness of the nominal fit is $\chi^{2}=290.1/280=1.04$.
         \label{pull-FF}
     \end{figure*}
 
-    Thus, the detail results of the systematic uncertainties are summarized in Table \ref{systematic-uncertainties}.
-    The final results of the amplitude analysis are then listed in Table \ref{final-result}.
+    The detail results of the systematic uncertainties are summarized in Table~\ref{systematic-uncertainties}.
+    The final results of the amplitude analysis are then listed in Table~\ref{final-result}.
     \begin{table}[tp]  
         \centering  
         \caption{Systematic uncertainties on the $\phi$ and FFs for different amplitudes in units of the corresponding statistical uncertainties.}  
         \label{systematic-uncertainties}  
-        \begin{tabular}{ccccccc} 
+        \begin{tabular}{cccccccc} 
             \toprule\toprule
-            \multirow{2}{*}{Amplitude }&\multicolumn{6}{c}{Source}\cr 
-            & & \uppercase\expandafter{\romannumeral1} &\uppercase\expandafter{\romannumeral2} &\uppercase\expandafter{\romannumeral3} &\uppercase\expandafter{\romannumeral4} & Total   \\
+            \multirow{2}{*}{Amplitude }&\multicolumn{7}{c}{Source}\cr 
+            & & \uppercase\expandafter{\romannumeral1} &\uppercase\expandafter{\romannumeral2} &\uppercase\expandafter{\romannumeral3} &\uppercase\expandafter{\romannumeral4} &\uppercase\expandafter{\romannumeral5}& Total   \\
             \hline
-            $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$                           &FF             &0.32       &0.29       &0.13   &0.41  &0.61    \\
-            \hline                                                                                                                                    
-            \multirow{3}{*}{$D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$}                  & $\phi$        & 0.49      &0.10       &0.06   &0.07  &0.51  \\
-                                                                                        & $\rho$        & 0.49      &0.14       &0.18   &0.41  &0.68  \\
-                                                                                        & FF            & 0.44      &1.13       &0.05   &0.40  &1.28  \\
-            \hline                                                                                                                                    
-            \multirow{3}{*}{$D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$}& $\phi$        & 0.98      &0.25       &0.06   &0.11  &1.02     \\
-                                                                                        & $\rho$        & 1.11      &0.17       &0.10   &0.11  &1.13  \\
-                                                                                        & FF            & 1.16      &0.15       &0.06   &0.09  &1.18  \\
-            \hline                                                                                                                                    
-            \multirow{3}{*}{$D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$}     & $\phi$        & 1.02      &0.48       &0.09   &0.21  &1.15      \\
-                                                                                        & $\rho$        & 1.00      &0.36       &0.13   &0.20  &1.09  \\
-                                                                                        & FF            & 0.76      &0.35       &0.11   &0.22  &0.87  \\
-            \hline                                                                                                                                    
-            \multirow{3}{*}{$D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$}                 & $\phi$        & 0.31      &0.25       &0.09   &0.14  &0.43  \\
-                                                                                        & $\rho$        & 1.17      &1.23       &0.07   &0.11  &1.70  \\
-                                                                                        & FF            & 0.71      &1.21       &0.05   &0.16  &1.42  \\
-            \hline                                                                                                                                    
-            \multirow{3}{*}{$D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$}                 & $\phi$        & 2.66      &0.27       &0.11   &0.09  &2.68   \\
-                                                                                        & $\rho$        & 1.01      &0.32       &0.06   &0.09  &1.06  \\
-                                                                                        & FF            & 0.42      &0.30       &0.15   &0.06  &0.54  \\
+            $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$                           &FF             &0.32      &0.29       &0.13   &0.41  &0.12  &0.62   \\
+            \hline                                                                                                                                          
+            \multirow{3}{*}{$D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$}                  & $\phi$        &0.49      &0.10       &0.06   &0.07  &0.05  &0.51 \\
+                                                                                        & $\rho$        &0.49      &0.14       &0.18   &0.41  &0.15  &0.69 \\
+                                                                                        & FF            &0.44      &1.13       &0.05   &0.40  &0.06  &1.28 \\
+            \hline                                                                                                                                         
+            \multirow{3}{*}{$D_{s}^{+} \rightarrow S(980)\pi^{+}$}                      & $\phi$        &0.98      &0.25       &0.06   &0.11  &0.04  &1.02    \\
+            %\multirow{3}{*}{$D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$}& $\phi$       &0.98      &0.25       &0.06   &0.11 &1.02  &1.02    \\
+                                                                                        & $\rho$        &1.11      &0.17       &0.10   &0.11  &0.20  &1.15 \\
+                                                                                        & FF            &1.16      &0.15       &0.06   &0.09  &0.05  &1.18 \\
+            \hline                                                                                                                                         
+            \multirow{3}{*}{$D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$}     & $\phi$        &1.02      &0.48       &0.09   &0.21  &0.07  &1.15     \\
+                                                                                        & $\rho$        &1.00      &0.36       &0.13   &0.20  &0.14  &1.10 \\
+                                                                                        & FF            &0.76      &0.35       &0.11   &0.22  &0.11  &0.88 \\
+            \hline                                                                                                                                         
+            \multirow{3}{*}{$D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$}                 & $\phi$        &0.31      &0.25       &0.09   &0.14  &0.13  &0.45 \\
+                                                                                        & $\rho$        &1.17      &1.23       &0.07   &0.11  &0.09  &1.70 \\
+                                                                                        & FF            &0.71      &1.21       &0.05   &0.16  &0.04  &1.42 \\
+            \hline                                                                                                                                         
+            \multirow{3}{*}{$D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$}                 & $\phi$        &2.66      &0.27       &0.11   &0.09  &0.21  &2.68  \\
+                                                                                        & $\rho$        &1.01      &0.32       &0.06   &0.09  &0.04  &1.06 \\
+                                                                                        & FF            &0.42      &0.30       &0.15   &0.06  &0.13  &0.56 \\
             \bottomrule\bottomrule
         \end{tabular}  
     \end{table}  
@@ -417,11 +438,12 @@ The goodness of the nominal fit is $\chi^{2}=290.1/280=1.04$.
         \begin{center}
             \begin{tabular}{cccc}
                 \toprule\toprule
-                Amplitude & Magnitude  & Phase  & Fit fractions(\%)\\
+                Amplitude & Magnitude  & Phase  & Fit fractions (\%)\\
                 \hline
-                $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$              & 1.0(fixed)             & 0.0(fixed)                & 48.3$\pm$0.9$\pm$0.5\\
+                $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$              & 1.0 (fixed)             & 0.0 (fixed)                & 48.3$\pm$0.9$\pm$0.6\\
                 $D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$                      & 1.09$\pm$0.02$\pm$0.01 & 6.22$\pm$0.07$\pm$0.04    & 40.5$\pm$0.7$\pm$0.9\\
-                $D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$    & 2.88$\pm$0.14$\pm$0.16 & 4.77$\pm$0.07$\pm$0.07    & 19.3$\pm$1.7$\pm$2.0\\
+                $D_{s}^{+} \rightarrow S(980)\pi^{+}$                          & 2.88$\pm$0.14$\pm$0.16 & 4.77$\pm$0.07$\pm$0.07    & 19.3$\pm$1.7$\pm$2.0\\
+                %$D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$    & 2.88$\pm$0.14$\pm$0.16 & 4.77$\pm$0.07$\pm$0.07    & 19.3$\pm$1.7$\pm$2.0\\
                 $D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$         & 1.26$\pm$0.14$\pm$0.15 & 2.91$\pm$0.20$\pm$0.23    & 3.0$\pm$0.6$\pm$0.5\\
                 $D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$                     & 0.79$\pm$0.08$\pm$0.14 & 1.02$\pm$0.12$\pm$0.05    & 1.9$\pm$0.4$\pm$0.6\\
                 $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$                     & 0.58$\pm$0.08$\pm$0.08 & 0.59$\pm$0.17$\pm$0.46    & 1.2$\pm$0.4$\pm$0.2\\

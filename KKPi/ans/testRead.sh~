@@ -1,0 +1,8 @@
+IFS=$'\n'
+A=`ps -ef`
+for line in ${A}
+do
+    echo "line: $line"
+    break;
+done
+echo "IFS: $IFS"

@@ -2,31 +2,34 @@
 
 \subsection{Event Selection}
 \label{BFSelection}
-After the selection described in Set.\ref{ST-selection}, we continue to select signals used in this part. 
-We use the same 8 tag modes as in Sec.\ref{AASelection}.
-In the selection of tag $D_{s}$, for multiple candidates, the best candidate is chosen with $M_{rec}$ closest to mass of $D_{s}^{*}$ in ~\cite{PDG2018}.
-To further remove the background associated with the larger number of soft $\pi^{\pm}(\pi^{0})$ from $D_{s}^{*}$ decays, candidates are voted if the momentum of $\pi^{\pm}(\pi^{0})$ is less than $0.1GeV$.
+After the selection described in Sec.~\ref{ST-selection}, we further use the double tag technique for the BF (branching fraction) measurement. 
+We use the same 8 tag modes as in Sec.~\ref{AASelection}.
+In the selection of tag $D_{s}$, for multiple candidates, the best candidate is chosen with $M_{rec}$ closest to mass of $D_{s}^{*}$ in~\cite{PDG2018}.
+To further remove the background associated with the larger number of soft $\pi^{\pm}$ $(\pi^{0})$ from $D_{s}^{*}$ decays, candidates are voted if the momentum of $\pi^{\pm}$ ($\pi^{0}$) is less than 0.1 GeV.
 
-The single tag(ST) yields are extracted from the fits to the $D_{s}$ invariant mass distributions, as shown in Fig.\ref{SingleTagFit}. In the fit, the mass windows of the tag modes are set to be the same as the Ref. ~\cite{Doc-DB-630-v35}.
-The signal shape is modeled as MC shape convoluted with a Gaussian function, while background is parameterized as the 2nd-order Chebychev polynomial.
-The corresponding ST efficiencies are estimated from generic MC. The ST yields($Y_{ST}$) and ST efficiencies($\epsilon_{ST}$) are listed in Table\ref{ST-eff}
+The single tag (ST) yields are extracted from the fits to the $D_{s}$ invariant mass distributions, as shown in Fig.~\ref{SingleTagFit}. In the fit, the mass windows of the tag modes are set to be the same as the Ref.~\cite{Doc-DB-630-v35}.
+The signal shape is modeled as MC shape convoluted with a Gaussian function, while background is parameterized as the second-order Chebychev polynomial.
+The corresponding ST efficiencies are estimated from generic MC. The ST yields ($Y_{ST}$) and ST efficiencies ($\epsilon_{ST}$) are listed in Table~\ref{ST-eff}.
 
 \begin{table}[htbp]
-    \caption{ The ST yields($Y_{ST}$) and ST efficiencies($\epsilon_{ST}$). The mass windows use the results in Ref. ~\cite{Doc-DB-630-v35} }
+    \caption{ The ST yields ($Y_{ST}$) and ST efficiencies ($\epsilon_{ST}$). 
+    The mass windows use the results in Ref.~\cite{Doc-DB-630-v35}. 
+The BFs of the sub-particle ($K_{S}^{0}$, $\pi^{0}$, $\eta$ and $\eta^{'}$) decays are not included.}
     \label{ST-eff}
     \begin{center}
         \begin{tabular}{cccc}
             \toprule\toprule
-            Tag mode & Mass window(GeV)  & $Y_{ST}$  & $\epsilon_{ST}(\%)$\\
+            Tag mode & Mass window (GeV/$c^{2}$)  & $Y_{ST}$  & $\epsilon_{ST}(\%)$\\
             \hline
-            $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}$                          & [1.948, 1.991]    & $965265\pm1286$               & 49.48$\pm$0.07\\
-            $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$                       & [1.900, 2.030]    & $4254481\pm2947$              & 42.17$\pm$0.03\\
-            $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}\pi^{0}$                & [1.947, 1.982]    & $1161036\pm3400$              & 10.61$\pm$0.03\\
-            $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}\pi^{+}\pi^{-}$            & [1.958, 1.980]    & $233225\pm1467$               & 19.30$\pm$0.12\\
-            $D_{s}^{-} \rightarrow K_{S}^{0}K^{+}\pi^{-}\pi^{-}$            & [1.953, 1.983]    & $484801\pm1312$               & 22.72$\pm$0.06\\
-            $D_{s}^{-} \rightarrow \pi^{-}\pi^{-}\pi^{+}$                   & [1.952, 1.984]    & $1152623\pm3370$              & 56.94$\pm$0.17\\
-            $D_{s}^{-} \rightarrow \pi^{-}\eta_{\pi^{+}\pi^{-}\eta_{\gamma\gamma}}^{'}$          & [1.940, 1.996]    & $251617\pm737$               & 20.43$\pm$0.06\\
-            $D_{s}^{-} \rightarrow K^{-}\pi^{+}\pi^{-}$                     & [1.953, 1.983]    & $610925\pm2902$               & 47.18$\pm$0.22\\
+            $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}$                          & [1.948, 1.991]    & $32399\ \pm\ 274$               & 49.48$\ \pm\ $0.07\\
+            $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$                       & -                 & $141189\ \pm\ 643$              & 42.17$\ \pm\ $0.03\\
+            %$D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$                       & [1.900, 2.030]    & $135273\ \pm\ 609$              & 42.17$\ \pm\ $0.03\\
+            $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}\pi^{0}_{\gamma\gamma}$                & [1.947, 1.982]    & $37899\ \pm\ 1739$              & 10.61$\ \pm\ $0.03\\
+            $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}\pi^{+}\pi^{-}$            & [1.958, 1.980]    & $7999\ \pm\ 236$               & 19.30$\ \pm\ $0.12\\
+            $D_{s}^{-} \rightarrow K_{S}^{0}K^{+}\pi^{-}\pi^{-}$            & [1.953, 1.983]    & $15723\ \pm\ 290$               & 22.72$\ \pm\ $0.06\\
+            $D_{s}^{-} \rightarrow \pi^{-}\pi^{-}\pi^{+}$                   & [1.952, 1.984]    & $38157\ \pm\ 873$              & 56.94$\ \pm\ $0.17\\
+            $D_{s}^{-} \rightarrow \pi^{-}\eta_{\pi^{+}\pi^{-}\eta_{\gamma\gamma}}^{'}$          & [1.940, 1.996]    & $8009\ \pm\ 142$               & 20.43$\ \pm\ $0.06\\
+            $D_{s}^{-} \rightarrow K^{-}\pi^{+}\pi^{-}$                     & [1.953, 1.983]    & $17112\ \pm\ 561$               & 47.18$\ \pm\ $0.22\\
             \bottomrule\bottomrule
         \end{tabular}
     \end{center}
@@ -47,14 +50,14 @@ The corresponding ST efficiencies are estimated from generic MC. The ST yields($
 \end{figure*}
 
 
-After selected the candidates of tag $D_{s}$, for each tag mode, we can get double tag candidates. 
-We retain the candidates with minimum average mass ($aM$) of tag $D_{s}$ and signal $D_{s}$.
+After a tag is identified, we search for the $D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$ signal process. 
+For each tag mode, we may have duplicate signal candidates and the candidates with the minimum average mass ($aM$) of tag $D_{s}$ and signal $D_{s}$ are retained.
 
 
-With the updated MC sample(DIY MC) based on the amplitude analysis results obtained from the fit to data, the double efficiencies are determined and listed in Table\ref{DT-eff}.
+With the updated MC sample (DIY MC) based on the amplitude analysis results, the double efficiencies are determined and listed in Table~\ref{DT-eff}.
 
     \begin{table}[htbp]
-        \caption{ The DT efficiencies($\epsilon_{DT}$).}
+        \caption{ The DT efficiencies ($\epsilon_{DT}$).The BFs of the sub-particle ($K_{S}^{0}$, $\pi^{0}$, $\eta$ and $\eta^{'}$) decays are not included.}
         \label{DT-eff}
         \begin{center}
             \begin{tabular}{cccc}
@@ -62,13 +65,13 @@ With the updated MC sample(DIY MC) based on the amplitude analysis results obtai
                 Tag mode   & $\epsilon_{DT}(\%)$\\
                 \hline
                 $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}$                                                   & 19.77$\pm$0.14\\
-                $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$                                                & 18.21$\pm$0.06\\
+                $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$                                                & 17.41$\pm$0.06\\
                 $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}\pi^{0}$                                         &  4.69$\pm$0.03\\
-                $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}\pi^{+}\pi^{-}$                                     &  8.34$\pm$0.11\\
-                $D_{s}^{-} \rightarrow K_{S}^{0}K^{+}\pi^{-}\pi^{-}$                                     &  9.55$\pm$0.09\\
+                $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}\pi^{+}\pi^{-}$                                     &  8.04$\pm$0.11\\
+                $D_{s}^{-} \rightarrow K_{S}^{0}K^{+}\pi^{-}\pi^{-}$                                     &  9.35$\pm$0.09\\
                 $D_{s}^{-} \rightarrow \pi^{-}\pi^{-}\pi^{+}$                                            & 23.72$\pm$0.15\\
-                $D_{s}^{-} \rightarrow \pi^{-}\eta_{\pi^{+}pi^{-}\eta_{\gamma\gamma}}^{'}$               &  8.70$\pm$0.11\\
-                $D_{s}^{-} \rightarrow K^{-}\pi^{+}\pi^{-}$                                              & 19.68$\pm$0.17\\
+                $D_{s}^{-} \rightarrow \pi^{-}\eta_{\pi^{+}\pi^{-}\eta_{\gamma\gamma}}^{'}$               &  8.70$\pm$0.11\\
+                $D_{s}^{-} \rightarrow K^{-}\pi^{+}\pi^{-}$                                              & 19.68$\pm$0.13\\
                 \bottomrule\bottomrule
             \end{tabular}
         \end{center}
@@ -76,20 +79,21 @@ With the updated MC sample(DIY MC) based on the amplitude analysis results obtai
 
 \par{
     \subsection{Analytic Strategy}
-    The data sample for this analysis is collected at $E_{cm}=4.178GeV$, about $100MeV$ higher than $D_{s}^{*}D_{s}$ threshold. Around this energy region, based on the cross section measurement by CLEO ~\cite{PRD80-072001}, we know that most $D_{s}$ production in $e^{+}e^{-}$ collision comes from $D_{s}^{*\pm}D_{s}^{\mp}$ events with its cross section approximately $0.9nb$, while the cross section for $D_{s}^{+}D_{s}^{-}$ is about a factor of 20 smaller.
-    The $D_{s}^{*}$ decays to either $\gamma D_{s}$ or $\pi^{0}D_{s}$ with branching fractions of $(93.5\pm0.7)\%$ and $(5.8\pm0.7)\%$ ~\cite{PDG2018}, respectively. 
-    The other charm productions total $~7pb$ mainly including $D^{*}\bar{D}^{*}$ with a cross section of $~5nb$, $D^{*}\bar{D} + D\bar{D}^{*}$ with a cross section of $~2nb$, and $D\bar{D}$ with a cross section of relatively small $~0.2 nb$.
-    There also appears to be $D\bar{D}^{*}\pi$ production.
-    The underlying light quark "continuum" background is about $12 nb$. 
+    The data sample for this analysis is collected at $E_{cm}=$4.178 GeV, about 100 MeV higher than $D_{s}^{*}D_{s}$ threshold. Around this energy region, based on the cross section measurement by CLEO~\cite{PRD80-072001}, we know that most $D_{s}$ production in $e^{+}e^{-}$ collision comes from $D_{s}^{*\pm}D_{s}^{\mp}$ events with a cross section approximate $1\ {\rm nb}$, while the cross section for $D_{s}^{+}D_{s}^{-}$ is about a factor of 20 smaller.
+    The $D_{s}^{*}$ decays to either $\gamma D_{s}$ or $\pi^{0}D_{s}$ with branching fractions of $(93.5\pm0.7)\%$ and $(5.8\pm0.7)\%$~\cite{PDG2018}, respectively. 
+    The other charm productions have a total cross section of $~8\ {\rm nb}$.
+    %mainly including $D^{*}\bar{D}^{*}$ with a cross section of $~5 {\rm nb}$, $D^{*}\bar{D} + \bar{D}D^{*}$ with a cross section of $~2 {\rm nb}$, and $D\bar{D}$ with a cross section of relatively small $~0.2  {\rm nb}$.
+    %There also appears to be $D\bar{D}^{*}\pi$ production.
+    The underlying light quark ``continuum" background is about $14\ {\rm nb}$. 
     The relatively large cross sections, relatively large branching fractions, and sufficient luminosities allow us to employ double tag (DT) technique to study this study.
 
     As $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$ is not only our signal mode but also one of our tag modes, we divide the events into two categories:
 
     \begin{itemize}
-        \item[-] Cat. A: Tag $D_{s}$ decays to tag modes except $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$. The generic MC sample with the signal removed shows no peaking background around the fit range of $1.90 < M_{sig} < 2.03 GeV$.
-            Thus, the double tag yield is determined by the fit to $M_{sig}$, which has shown in Fig.\ref{DT-fit}(a).And the background is described with $2^{nd}$-order Chebychev polynomial. The double tag yield is $3484\pm64$. 
-        \item[-] Cat. B: Tag $D_{s}$ decays $K^{+}K^{-}\pi^{+}$. As both of the two $D_{s}$ mesons decay to our signal modes, we fit $aM$(the average mass of $D_{s}$ at signal side and tag side), which is shown in Fig.\ref{DT-fit}(b). 
-            Here, the background is described with $2^{nd}$-order Chebychev polynomial. The double tag yield is $1651\pm42$. 
+        \item[-] Cat. A: Tag $D_{s}$ decays to tag modes except $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$. The generic MC sample with the signal removed shows no peaking background around the fit range of $1.90 < M_{sig} < 2.03 \ {\rm GeV}/c^{2}$.
+            Thus, the double tag yield is determined by the fit to $M_{sig}$, shown in Fig.~\ref{DT-fit}(a). The background is described with second-order Chebychev polynomial. The double tag yield is $3497\pm64$. 
+        \item[-] Cat. B: Tag $D_{s}$ decays $K^{+}K^{-}\pi^{+}$. As both of the two $D_{s}$ mesons decay to our signal modes, we fit $aM$ (the average mass of $D_{s}$ at signal side and tag side), which is shown in Fig.~\ref{DT-fit}(b). 
+            Here, the background is described by a second-order Chebychev polynomial. The double tag yield is $1651\pm42$. 
     \end{itemize}
 
     \begin{figure*}[!htbp]
@@ -98,7 +102,7 @@ With the updated MC sample(DIY MC) based on the amplitude analysis results obtai
         \includegraphics[width=0.4\textwidth]{plot/DT-B.eps}
         \caption{Fit of (a)Cat. A and (b)Cat. B.
             We fit $M_{sig}$ and $aM$ for Cat. A and Cat. B, respectively. The signal shapes are the corresponding simulated shapes convoluted with a Gaussian function and 
-        the background shapes are described with $2^{nd}$-order Chebychev polynomial.}
+        the background shapes are described with second-order Chebychev polynomial.}
         \label{DT-fit}
     \end{figure*}
 
@@ -114,41 +118,49 @@ With the updated MC sample(DIY MC) based on the amplitude analysis results obtai
         \end{array}
         \label{eq-DT}
     \end{equation}
-    where $N_{D_{s}^{+}D_{s}^{-}}$ is the total number of $D_{s}^{*\pm}D_{s}^{\mp}$ produced from $e^{+}e^{-}$ collision; $N_{tag}^{obs}$ is the number of observed tag modes; $N_{sig}^{obsA}$ and $N_{sig}^{obsB}$ are the number of observed signals for Cat. A and Cat. B, respectively; $\mathcal{B}_{tag}$ and $\mathcal{B}_{sig}$ are the branching fractions of specific tag mode and signal mode, respectively; $\epsilon_{tag}$ is the reconstruction efficiency of the tag mode; $\epsilon_{tag,sig}$ is the reconstruction efficiency of both the tag and signal decay modes.
+    where $N_{D_{s}^{+}D_{s}^{-}}$ is the total number of $D_{s}^{*\pm}D_{s}^{\mp}$ produced from $e^{+}e^{-}$ collision; $N_{tag}^{obs}$ is the number of observed tag modes; $N_{sig}^{obsA}$ and $N_{sig}^{obsB}$ are the number of observed signals for Cat. A and Cat. B, respectively; $\mathcal{B}_{tag}$ and $\mathcal{B}_{sig}$ are the branching fractions of a specific tag mode and the signal mode, respectively; $\epsilon_{tag}$ is the efficiency to reconstruct the tag mode; $\epsilon_{tag,sig}$ is the efficiency to reconstruct both the tag and signal decay modes.
 
     Using the above equations, it's easy to obtain:
     \begin{equation}
     \mathcal{B}_{sig} = \frac{N_{sig}^{obsA}+2N_{sig}^{obsB}}{\begin{matrix}\sum_{\alpha} N_{tag}^{\alpha}\epsilon_{tag,sig}^{\alpha}/\epsilon_{tag}^{\alpha}\end{matrix}}, \label{BR-formula}
     \end{equation}
-    where the yields $N_{tag}^{obsA}$, $N_{tag}^{obsB}$ and $N_{tag}^{\alpha}$ can be obtained from data, while $\epsilon_{tag}$ and $\epsilon_{tag,sig}$ can be obtained from the appropriate MC samples, $\alpha=1, 2, 3...$ represents the tag mode.
+    where the yields $N_{tag}^{obsA}$, $N_{tag}^{obsB}$ and $N_{tag}^{\alpha}$ are obtained from data, while $\epsilon_{tag}$ and $\epsilon_{tag,sig}$ can be obtained from the appropriate MC samples, where $\alpha$ represents the tag modes.
     
 
     \subsection{Results of Branching Fraction}
 
 
 
-    Then we can get the branching fraction $\mathcal{B}(D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+})=(5.47\pm0.07)\%$(only statistical uncertainty) according to Eq.\ref{BR-formula}.
+    We determine the branching fraction $\mathcal{B}(D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+})=(5.47\pm0.07)\%$ (statistical uncertainty only) according to Eq.~\ref{BR-formula}.
 
     \subsection{Systematic Uncertainties}
     The following sources are taken in account to calculate systematic uncertainties.
 
     \begin{itemize}
+        \item Uncertainty in the number of ST $D_{s}^{-}$ candidates. We perform alternative fits with different background shapes, signal shapes, fit ranges and bin sizes to obtain the uncertainties related to the corresponding factors.
+            We change the background shape from the second-order Chebychev polynomial to a third-order Chebychev polynomial and the relative change of branching fraction is 0.18\%.
+            The systematic in signal shape is determined to be 0.16\% by performing an alternative fit without convolving the Gaussian resolution function.
+            For fit range, we vary the fit range from $[1.90, 2.03]$ GeV/$c^{2}$ to $[1.90, 2.02]$ GeV/$c^{2}$ and the relative difference of branching fraction is 0.24\%.
+            According to Table~\ref{ST-eff}, the total ST yields of the eight tag modes is  298487 $\pm$ 2186. Then the uncertainty due to background fluctuation is 2186/298487 = 0.73\%.
+            The quadrature sum of these terms, that is the uncertainty in the number of ST $D_{s}^{-}$ candidates, is 0.84\%. 
+        
         \item Signal shape. The systematic uncertainty due to the signal shape is studied with the fit without the Gaussian function convoluted, the double tag yield shift is taken as the related effect. 
 
-        \item Background shape and fit range. For background shape and the fit range, the MC shape is used to instead the $1^{st}$-order Chebychev polynomial and the fit range of $[1.90, 2.03]GeV$ is changed to $[1.89, 2.04]GeV$. 
+        \item Background shape and fit range. For background shape and the fit range in the fit, the first-order Chebychev polynomial is used to replace the nominal ones and the fit  range of $[1.90, 2.03]$ GeV/$c^{2}$ for Cat. A and $[-0.14, 0.13]$ GeV/$c^{2}$ are changed to $[1.90, 2.02]$ GeV/$c^{2}$ and $[-0.13, 0.13]$ GeV/$c^{2}$ respectively. 
+            %The relative branching fraction change is taken as the related effect. 
             The largest branching fraction shift is taken as the related effect.
         
-        \item Fit bias. The possible bias is estimated by the IO check using the round 30-40 of generic MC, which is shown in Table \ref{BR-IO}. 
+        \item Fit bias. The possible bias is estimated by the input/output check using the round 30-40 of generic MC, which is shown in Table~\ref{BR-IO}. 
             The estimated mean ($\mu_{\mathcal{B}}$) and its uncertainty ($\sigma_{\mu}$) is calculated with the following formulas:
             \begin{equation}
             \mu_{\mathcal{B}} = \frac{\begin{matrix}\sum_{i}\frac{\mu_{i}}{\sigma_{i}^{2}}\end{matrix}}{\begin{matrix}\sum_{i}\frac{1}{\sigma_{i}^{2}}\end{matrix}}, \ \ \ \ \sigma_{\mu}^{2}=\begin{matrix}\sum_{i}\frac{1}{\sigma_{i}^{2}}\end{matrix},
             \label{BR-Combined}
             \end{equation}
             where $\mu_{i}$ and $\sigma_{i}$ are the measured branching fraction value and its statistical uncertainty for the sample i. The combined result of the round 30-40 is $\mu_{\mathcal{B}} = (5.462 \pm 0.021)\%$. 
-            The relative change compared to the input value is $0.1\%$.
+            The relative change compared to the input value is $0.1\%$, which is very small and negligible.
 
             \begin{table}[htbp]
-                \caption{IO check using the round 30-40 of generic MC.}
+                \caption{Input/output check using the round 30-40 of generic MC.}
                 \label{BR-IO}
                 \begin{center}
                     \begin{tabular}{cccc}
@@ -172,13 +184,14 @@ With the updated MC sample(DIY MC) based on the amplitude analysis results obtai
                 \end{center}
             \end{table}
 
-        \item $K^{\pm}$ and $\pi^{\pm}$ Tracking/PID efficiency. Based on the works ~\cite{PID} and ~\cite{Tracking} by Xingyu Shan and Sanqiang Qu, etc. 
+        \item $K^{\pm}$ and $\pi^{\pm}$ Tracking/PID efficiency. Based on the works~\cite{PID} and~\cite{Tracking} by Xingyu Shan and Sanqiang Qu, etc. 
             we find that it's enough to assign $1.1\%$ , $0.4\%$, $1.1\%$ and $0.2\%$ as the systematic uncertainty for $K^{\pm}$ PID, $\pi^{\pm}$ PID,  $K^{\pm}$ tracking, $\pi^{\pm}$ tracking efficiencies, respectively.
 
-    \item MC statistics. The uncertainty of MC statistics is obtained by $\sqrt{ \begin{matrix} \sum_{i} f_{i}\frac{\delta_{\epsilon_{i}}}{\epsilon_{i}}i\end{matrix}}$, where $f_{i}$ is the tag yield fraction and $\epsilon_{i}$ is the signal efficiency of tag mode $i$.
+        \item MC statistics. The uncertainty of MC statistics is obtained by $\sqrt{ \begin{matrix} \sum_{i} f_{i}\frac{\delta_{\epsilon_{i}}}{\epsilon_{i}}i\end{matrix}}$, where $f_{i}$ is the tag yield fraction and $\epsilon_{i}$ is the signal efficiency of tag mode $i$.
+        \item Dalitz model. The uncertainty from the Dalitz model is estimated as the change of efficiency when the Dalitz model parameters are varied by their uncertainties.
     \end{itemize}
 
-    All of the systematic uncertainties mentioned above are summarized in Table \ref{BF-Sys}.
+    All of the systematic uncertainties mentioned above are summarized in Table~\ref{BF-Sys}.
     \begin{table}[htbp]
         \caption{Systematic uncertainties of branching fraction.}
         \label{BF-Sys}
@@ -187,21 +200,44 @@ With the updated MC sample(DIY MC) based on the amplitude analysis results obtai
                 \toprule\toprule
                 Source   & Sys. Uncertainty\\
                 \hline
-                Signal shale                        & 0.3 \\
-                Background shape and fit range      & 1.1 \\
-                Fit bias                            & 0.1 \\
+                Number of $D_{s}^{-}$               & 0.8 \\
+                Signal shape                        & 0.5 \\
+                Background shape and fit range      & 0.9 \\
+                %Fit bias                            & 0.1 \\
                 $K^{\pm}$ and $\pi^{\pm}$ PID efficiency            & 1.5 \\
                 $K^{\pm}$ and $\pi^{\pm}$ Tracking efficiency       & 1.3 \\
                 MC statistics                       & 0.2 \\
                 \hline
-                total                               & 2.3 \\
+                Dalitz model                               & 0.5 \\
+                \hline
+                total                               & 2.4 \\
                 \bottomrule\bottomrule
             \end{tabular}
         \end{center}
     \end{table}
 
     The branching fraction with systematic uncertainties is $\mathcal{B}(D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+})=(5.47\pm0.07_{stat.}\pm0.13_{sys.})\%$.
-
+    Using the FFs listed in Table~\ref{systematic-uncertainties}, the BFs for the intermediate processes can be calculated with $\mathcal{B}_{i} = FF_{i} \times \mathcal{B}(D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+})$, which are listed in Table~\ref{inter-processes}.  
+    
+    \begin{table}[htbp]
+        \caption{The branching fractions for the intermediate processes.}
+        \label{inter-processes}
+        \begin{center}
+            \begin{tabular}{cc}
+                \toprule\toprule
+                Intermediate process & Branching fractions (\%)\\
+                \hline
+                $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$               & $2.62\ \pm\ 0.04_{stat.}\ \pm\ 0.09_{sys.}$  \\
+                $D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$                       & $2.26\ \pm\ 0.05_{stat.}\ \pm\ 0.08_{sys.}$  \\
+                $D_{s}^{+} \rightarrow S(980)\pi^{+}$                           & $0.90\ \pm\ 0.04_{stat.}\ \pm\ 0.11_{sys.}$  \\
+                %$D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$    & $2.26\ \pm\ 0.05_{stat.}\ \pm\ 0.06_{sys.}$  \\
+                $D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$          & $0.13\ \pm\ 0.02_{stat.}\ \pm\ 0.05_{sys.}$  \\
+                $D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$                      & $0.06\ \pm\ 0.01_{stat.}\ \pm\ 0.01_{sys.}$  \\
+                $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$                      & $0.06\ \pm\ 0.01_{stat.}\ \pm\ 0.01_{sys.}$  \\
+                \bottomrule\bottomrule
+            \end{tabular}
+        \end{center}
+    \end{table}
 
 
 

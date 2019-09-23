@@ -1,19 +1,21 @@
 \section{Partial Wave Analysis in the Low $K^{+}K^{-}$ Mass Region}
-\par{In the $K^{+}K^{-}$ threshold both $a_{0}(980)$ and $f_{0}(980)$ can be present, and both resonances have very similar parameters which suffer from large uncertainties. In this section we obtain model-independent information on the $K^{+}K^{-} S$ wave by performing a partial wave analysis(PWA) in the  $K^{+}K^{-}$ threshold region.}
+\label{MIPWA}
+\par{In the $K^{+}K^{-}$ threshold, both $a_{0}(980)$ and $f_{0}(980)$ can be present, and both resonances have very similar parameters which suffer from large uncertainties. 
+In this section we obtain the model-independent information on the $K^{+}K^{-} S$ wave by performing a partial wave analysis (PWA) in the  $K^{+}K^{-}$ threshold region.}
 \subsection{Event Selection}
 \label{MIPWASelection}
 \par{
-    After the selection in Set.\ref{ST-selection}, we continue to select signals for model independent partial wave analysis.
-    As PWA need more data events, we decide to use the single-tag method, and only to fully reconstruct one $D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$ in each event. 
-Before selecting the best candidate,  we vote the candidates with $\pi^{\pm}$($\pi^{0}$) whose momentum is less than $0.1GeV$ to remove soft $\pi^{\pm}$($\pi^{0}$) from $D^{*}$ decays.
-For every candidates of $D_{s}$ decays, all tracks are added to apply kinematic fitting. 
-Only mass of $D_{s}$ is constrained.Then we select the candidate with minimum $\chi_{1c}^{2}$.
+    After the selection in Sec.~\ref{ST-selection}, we select signals for the model independent partial wave analysis.
+    To retain enough statistics, we decide to use the single-tag method, and only to fully reconstruct one $D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$ in each event. 
+We veto the candidates with $\pi^{\pm}$ ($\pi^{0}$) whose momentum is less than $0.1$ GeV to remove soft $\pi^{\pm}$ ($\pi^{0}$) from $D^{*}$ decays.
+For each $D_{s}$ candidate, all daughter tracks are added to apply a 1C kinematic fit constraining the mass of $D_{s}$. 
+Then we select the best candidate with minimum $\chi_{1c}^{2}$.
 }
 \subsection{Background Analysis}
-In order to suppress the background, the multiple-variable analysis (MVA) is used. We train MVA methods separately with different sets of variables for the two event categories depending on the $D_{s}^{+}$ origin. 
-Sideband region used below is defined as the region of  $1.90 < M(D_{s}) < 1.952 GeV$ and   $1.985 < M(D_{s}) < 2.03 GeV$, $M(D_{s})$ is the invariant mass of $D_{s}$.
-And the signal region is $1.952 < M(D_{s}) < 1.985 GeV$.
-These two categories of events are selected in a $M_{rec}-\Delta{M}$ 2D plane shown in Fig.\ref{2DAll}:
+\label{MIPWA-BA}
+In order to suppress the background, the multiple-variable analysis (MVA) is used. We train MVA separately with different sets of variables for the two event categories depending on the $D_{s}^{+}$ origin. 
+Sideband region used below is defined as the region of  $1.90 < M(D_{s}) < 1.95$ GeV/$c^{2}$ and   $1.986 < M(D_{s}) < 2.03$ GeV/$c^{2}$, where $M(D_{s})$ is the invariant mass of $D_{s}$, and the signal region is $1.95 < M(D_{s}) < 1.986$ GeV/$c^{2}$.
+Two categories of events are selected in a $M_{rec}-\Delta{M}$ 2D plane as shown in Fig.~\ref{2DAll}.
 
 \begin{figure*}[htbp]
  \centering
@@ -22,30 +24,30 @@ These two categories of events are selected in a $M_{rec}-\Delta{M}$ 2D plane sh
   \begin{overpic}[width=0.48\textwidth]{plot/2DAll.png}
   \end{overpic}
  }
- \caption{Two dimensional plane of ${M_{rec}}$ versus ${\Delta{M} \equiv M(D_{s}^{+}\gamma) - M(D_{s}^{+})}$ from the simulated ${D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}}$ decays. The red(green) dashed lines mark the mass window for the $D_{s}^{+}$ Cat. \#0( Cat. \#1) around the $M_{rec}$($\Delta{M}$) peak. }
+ \caption{Two dimensional plane of ${M_{rec}}$ versus ${\Delta{M} \equiv M(D_{s}^{+}\gamma) - M(D_{s}^{+})}$ from the simulated ${D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}}$ decays. The red (green) dashed lines mark the mass window for the $D_{s}^{+}$ Cat.~\#0 ( Cat.~\#1) around the $M_{rec}$ ($\Delta{M}$) peak. }
 \label{2DAll}
 \end{figure*}
 
 
 
 \begin{itemize}
-    \item Cat. \#0: Direct $D_{s}^{+}$. We use the following variables whose distributions for signal and background are shown in Fig.\ref{Cat0Variables} for generic MC and Fig.\ref{cat0_data} for data,
+    \item Cat. \#0: Direct $D_{s}^{+}$. We use the following variables whose distributions for signal and background are shown in Fig.~\ref{Cat0Variables} for generic MC and Fig.~\ref{cat0_data} for data,
         \begin{itemize}
             \item[1. ] $M_{rec}$,
             \item[2. ] $P_{rest}$, defined as the total momentum of the tracks and neutrals in the rest of event (not part of the $D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$ candidate),
             \item[3. ] $E_{\gamma}$, defined as the energy of gamma from $D_{s}^{*}$.
         \end{itemize}
-        From Fig. \ref{Cat0Variables} and Fig.\ref{cat0_data}, we can see that the corresponding distributions of these variables of data and generic MC are roughly consistent.
+        From Fig.~\ref{Cat0Variables} and Fig.~\ref{cat0_data}, we can see that the corresponding distributions of these variables of data and generic MC are roughly consistent.
         
 
     \item Cat. \#1: Indirect $D_{s}^{+}$.
-        We use the following variables whose distributions for signal and background are shown in Fig.\ref{Cat1Variables} for generic MC and Fig.\ref{cat1_data} for data,
+        We use the following variables whose distributions for signal and background are shown in Fig.~\ref{Cat1Variables} for generic MC and Fig.~\ref{cat1_data} for data,
         \begin{itemize}
             \item[1. ] $\Delta{M}$,
             \item[2. ] $M_{rec}^{'}$, defined as $M_{rec}^{'} = \sqrt{ {(E_{cm}  - \sqrt{p_{D_{s}\gamma}^{2} + m_{D_{s}^{*}}^{2}}) }^{2} - p_{D_{s}\gamma}^{2}}$, with $p_{D_{s}\gamma}$ as the momentum of the $D_{s}\gamma$ combination, $m_{D_{s}^{*}}$ as the nominal ${D_{s}^{*}}$ mass,
             \item[3. ] $N_{tracks}$, defined as the total number of tracks and neutrals in an event.
         \end{itemize}
-        From Fig. \ref{Cat1Variables} and Fig.\ref{cat1_data}, we can see that the corresponding distributions of these variables of data and generic MC are roughly consistent.
+        From Fig.~\ref{Cat1Variables} and Fig.~\ref{cat1_data}, we can see that the corresponding distributions of these variables of data and generic MC are roughly consistent.
 \end{itemize}
 
 
@@ -64,7 +66,7 @@ These two categories of events are selected in a $M_{rec}-\Delta{M}$ 2D plane sh
  \centering
  \includegraphics[width=0.99\textwidth]{plot/cat0_sig.eps}
  \includegraphics[width=0.99\textwidth]{plot/cat0_sb.eps}
- \caption{The distribution(Cat. \#0) of these three observables ((a) and (d)) $M_{rec}$, ((b) and (e)) $P_{rest}$ and  ((c) and (f)) $E_{\gamma}$ for( (a), (b) and (c)) Signal and ( (d), (e) and (f)) Sideband regions of data.}
+ \caption{The distributions (Cat. \#0) of these three observables ((a) and (d)) $M_{rec}$, ((b) and (e)) $P_{rest}$ and  ((c) and (f)) $E_{\gamma}$ for( (a), (b) and (c)) signal and ( (d), (e) and (f)) sideband regions of data.}
 \label{cat0_data}
 \end{figure*}
 
@@ -83,11 +85,12 @@ These two categories of events are selected in a $M_{rec}-\Delta{M}$ 2D plane sh
  \centering
  \includegraphics[width=0.99\textwidth]{plot/cat1_sig.eps}
  \includegraphics[width=0.99\textwidth]{plot/cat1_sb.eps}
- \caption{The distribution(Cat. \#1) of these three observables ((a) and (d)) $M_{rec}$, ((b) and (e)) $P_{rest}$ and  ((c) and (f)) $E_{\gamma}$ for( (a), (b) and (c)) Signal and ( (d), (e) and (f)) Sideband regions from data are shown.}
+ \caption{The distributions (Cat. \#1) of these three observables ((a) and (d)) $M_{rec}$, ((b) and (e)) $P_{rest}$ and  ((c) and (f)) $E_{\gamma}$ for( (a), (b) and (c)) signal and ( (d), (e) and (f)) sideband regions from data.}
 \label{cat1_data}
 \end{figure*}
 
-\par{As the results shown in Fig.\ref{Overtrain}, BDTG training and test samples are well matched. For event Cat. \#0 ( Cat. \#1 ), the sample with BDTG value larger than 0.33(0.65) is retained for further study. 
+\par{As the results shown in Fig.~\ref{Overtrain}, BDTG training and test samples are well matched. For event Cat. \#0 ( Cat. \#1 ), the sample with BDTG value larger than 0.33 (0.65) is retained for further study.
+    With the BDTG cut criteria, we can get a relatively pure sample (background less than 4\%) and the background ratios of Cat. \#0 and Cat. \#1 are almost the same.
     
 \begin{figure*}[htbp]
     \centering
@@ -101,23 +104,25 @@ These two categories of events are selected in a $M_{rec}-\Delta{M}$ 2D plane sh
         \begin{overpic}[width=0.48\textwidth]{plot/Cat1Overtrain.eps}
         \end{overpic}
     }
-    \caption{ The comparisons between the training and test samples. The plot at left(right) is the comparision of Cat. \#0 (Cat. \#1).}
+    \caption{ The comparisons between the training and test samples. The plot at left (right) is the comparision of Cat. \#0 (Cat. \#1).}
     \label{Overtrain}
 \end{figure*}
     
    
-    After applying the BDTG requirement, the background shows no obviously peak around the region of [1.95, 1.982] $GeV$ (Signal region), which are shown in Fig.\ref{MIPWA-ST-BS}.  The fit to the signal $D_{s}$ invariant mass gives the background yield in Signal region is $73.6\pm18.7$, shown as in Fig.\ref{MIPWA-ST}. In the fit, the signal shape is the MC shape convoluted with a Gaussian function and the background is described with $1^{st}$-order Chebychev polynomial.
+    After applying the BDTG requirement, the background shows no obviously peak around the region of [1.95, 1.986] GeV/$c^{2}$ (Signal region), which are shown in Fig.~\ref{MIPWA-ST-BS}.  
+    The fit to the signal $D_{s}$ invariant mass gives the background yield in Signal region is $735.7\pm30.0$, shown as in Fig.~\ref{MIPWA-ST}.
+    In the fit, the signal shape is the MC shape convoluted with a Gaussian function and the background is described with second-order Chebychev polynomial.
 
     \begin{figure*}[htbp]
         \centering
         \mbox{
             %\vskip -1.5cm
-            \begin{overpic}[width=0.48\textwidth]{plot/MIPPWA-sig.eps}
+            \begin{overpic}[width=0.48\textwidth]{plot/MIPWA-sig.eps}
             \end{overpic}
         }
         \mbox{
             %\vskip -1.5cm
-            \begin{overpic}[width=0.48\textwidth]{plot/MIPPWA-bkg.eps}
+            \begin{overpic}[width=0.48\textwidth]{plot/MIPWA-bkg.eps}
             \end{overpic}
         }
         \caption{ The signal and background distributions from generic MC after BDTG requirement.}
@@ -130,16 +135,20 @@ These two categories of events are selected in a $M_{rec}-\Delta{M}$ 2D plane sh
  \centering
  \mbox{
   %\vskip -1.5cm
-  \begin{overpic}[width=0.48\textwidth]{plot/MIPPWA-ST.eps}
+  \begin{overpic}[width=0.48\textwidth]{plot/MIPWA-ST.eps}
   \end{overpic}
  }
- \caption{The fit to the signal $D_{s}$ invariant mass ($M_{D_{s}}$) spectrum after BDTG requirement, the area between the pink arrows is the signal area of the sample for MIPWA. }
+ \caption{The fit to the signal $D_{s}$ invariant mass ($M_{D_{s}}$) spectrum (the dots with error bars) after BDTG requirement, the area between the pink arrows is the signal area of the sample for MIPWA.
+     The signal shape (green line) is the MC shape convoluted with a Gaussian function and the background shape (red line) is second-order Chebychev polynomial.
+ }
 \label{MIPWA-ST}
 \end{figure*}
 
 \par{
-The projections of the ``sideband"( $1.90 < M(D_{s}) < 1.95 GeV$ and   $1.985 < M(D_{s}) < 2.03 GeV$) from data and generic MC with signal events removed are shown in Fig.\ref{MIPWA-Sideband}. 
-The corresponding plots agree well.} 
+The projections of the ``sideband" ( $1.90 < M(D_{s}) < 1.95$ GeV/$c^{2}$ and   $1.986 < M(D_{s}) < 2.03$ GeV/$c^{2}$) from data and generic MC with signal events removed are shown in Fig.~\ref{MIPWA-Sideband}. 
+The corresponding plots agree well.
+Thus the generic MC sample with signal events removed is used to subtract the background in data.
+} 
 
 
 
@@ -147,51 +156,67 @@ The corresponding plots agree well.}
     \centering
     \mbox{
         %\vskip -1.5cm
-        \begin{overpic}[width=0.3\textwidth]{plot/MIPPWA-m12.eps}
+        \begin{overpic}[width=0.3\textwidth]{plot/MIPWA-m12.eps}
         \end{overpic}
     }
     \mbox{
         %\vskip -1.5cm
-        \begin{overpic}[width=0.3\textwidth]{plot/MIPPWA-m13.eps}
+        \begin{overpic}[width=0.3\textwidth]{plot/MIPWA-m13.eps}
         \end{overpic}
     }
     \mbox{
         %\vskip -1.5cm
-        \begin{overpic}[width=0.3\textwidth]{plot/MIPPWA-m23.eps}
+        \begin{overpic}[width=0.3\textwidth]{plot/MIPWA-m23.eps}
         \end{overpic}
     }
-    \caption{ The projections of $m(K^{+}K^{-})$, $m(K^{-}\pi^{+})$, $m(K^{+}\pi^{+})$ from "Sideband" for data(dots with error bars) and generic MC with signal events removed (red histogram) after BDTG requirement.}
+    \caption{ The projections of $m(K^{+}K^{-})$, $m(K^{-}\pi^{+})$, $m(K^{+}\pi^{+})$ from ``Sideband" for data (dots with error bars) and generic MC with signal events removed (red histogram) after BDTG requirement.}
     \label{MIPWA-Sideband}
 \end{figure*}
 
-\par{Thus the generic MC sample with signal events removed is used to subtract the background in data.
+\par{
+    
+    Figure~\ref{BDTG-IO} shows the shape comparison between data and MC for the inputs and outputs of BDTG.
+    We can see that there is no significant difference.
+    The background has been subtracted using the corresponding shape of ``Sideband" in this shape comparison.
+    \begin{figure*}[!htbp]
+        \centering
+        \includegraphics[width=0.3\textwidth]{plot/MIPWA-Data-m12.eps}
+        \includegraphics[width=0.3\textwidth]{plot/MIPWA-Data-m13.eps}
+        \includegraphics[width=0.3\textwidth]{plot/MIPWA-Data-m23.eps}
+        \includegraphics[width=0.3\textwidth]{plot/MIPWA-MC-m12.eps}
+        \includegraphics[width=0.3\textwidth]{plot/MIPWA-MC-m13.eps}
+        \includegraphics[width=0.3\textwidth]{plot/MIPWA-MC-m23.eps}
+        \caption{The shape comparison between data and MC for the inputs and outputs of BDTG. The background has been subtracted.}
+        \label{BDTG-IO}
+    \end{figure*}
+
 }
 
 
-\subsection{Partial wave analysis}
-\par{Let N be the number of events for a given mass interval $I=[m_{K^{+}K^{-}}; m_{K^{+}K^{-}} + dm_{K^{+}K^{-}}]$. We write the corresponding angular distributions in terms of the appropriate spherical harmonic functions as
+\subsection{Partial Wave Analysis}
+\par{Assuming N is the number of events for a given mass interval $I=[m_{K^{+}K^{-}}; m_{K^{+}K^{-}} + dm_{K^{+}K^{-}}]$, we write the corresponding angular distributions in terms of the appropriate spherical harmonic functions is written
     \begin{equation}
         \frac{dN}{d\cos\theta} = 2\pi\sum_{k=0}^L\left\langle Y_{k}^{0}\right\rangle Y_{k}^{0}(\cos\theta),\label{expansion}
     \end{equation}
-    where $L - 2 \ell_{max}$, and $\ell_{max}$ is the maximum orbital angular momentum quantum number required to describe the $K^{+}K^{-}$ system at $m_{K^{+}K^{-}}$ (e.g. $\ell_{max}$ =1 for S-, P-wave description); $\theta$ is the angle between the $K^{+}$ direction in the $K^{+}K^{-}$ system in the $D_{s}^{+}$ rest frame. 
+    where $L = 2 \ell_{max}$, and $\ell_{max}$ is the maximum orbital angular momentum quantum number required to describe the $K^{+}K^{-}$ system at $m_{K^{+}K^{-}}$ (e.g. $\ell_{max}$ =1 for S-, P-wave description); $\theta$ is the angle between the direction of $K^{+}$ and that of the $K^{+}K^{-}$ system in the $D_{s}^{+}$ rest frame. 
     The normalizations are 
     \begin{equation}
-        \int_{-1}^{1}Y_{k}^{0}(\cos\theta)Y_{j}^{0}(\cos\theta), d\cos\theta  = \frac{\delta_{kj}}{2\pi},\label{sh-normalizations}
+        \int_{-1}^{1}Y_{k}^{0}(\cos\theta)Y_{j}^{0}(\cos\theta) d\cos\theta  = \frac{\delta_{kj}}{2\pi},\label{sh-normalizations}
     \end{equation}
     and it is  assumed that the distribution $\frac{dN}{d\cos\theta}$ has been efficiency corrected and background subtracted.
-    Using this orthogonality condition, the coefficiencies in the expansion are obtained from 
+    Using this orthogonality condition, the coefficients in the expansion are obtained from 
     \begin{equation}
-        \left\langle Y_{k}^{0} \right\rangle = \int_{-1}^{1} \frac{dN}{d\cos\theta} d\cos\theta,\label{expansion-coefficiencies}
+        \left\langle Y_{k}^{0} \right\rangle = \int_{-1}^{1}Y_{k}^{0}(\cos\theta) \frac{dN}{d\cos\theta} d\cos\theta. \label{expansion-coefficiencies}
     \end{equation}
-    where the integral is given, to a good approximation, by $\sum_{n=1}^{N}Y_{k}^{0}(\cos\theta_{n})$, where $\theta_{n}$ is the value of $\theta$ for the $n$-th event.
+    This integral is given, to a good approximation, by $\sum_{n=1}^{N}Y_{k}^{0}(\cos\theta_{n})$, where $\theta_{n}$ is the value of $\theta$ for the $n$-th event.
     
-    Fig.\ref{Y0} shows the $K^{+}K^{-}$ mass spectrum up to 1.15 GeV weighted by $Y_{k}^{0}(\cos\theta) = \sqrt{(2k+1)/(4\pi)}P_{k}(\cos\theta)$ for k=0, 1, and 2, where $P_{k}$ is the Legendre polynomial function of order $k$. These distributions are corrected for efficiency and phase space, and background is subtracted using background from generic MC after BDTG requirement.
+    Fig.~\ref{Y0} shows the $K^{+}K^{-}$ mass spectrum up to 1.15 GeV/$c^{2}$ weighted by $Y_{k}^{0}(\cos\theta) = \sqrt{(2k+1)/(4\pi)}P_{k}(\cos\theta)$ for k=0, 1, and 2, where $P_{k}$ is the Legendre polynomial function of order $k$. These distributions are corrected for efficiency and phase space, and background is subtracted by background from generic MC after BDTG requirement.
     
-    The number of events N for the mass interval $I$ can be expressed also in terms of the partial-wave amplitudes describing the $K^{+}K^{-}$ system. Assuming that only S- and P-wave amplitudes are necessary in this limited region, we can write:
+    The number of events N for the mass interval $I$ can be expressed in terms of the partial-wave amplitudes describing the $K^{+}K^{-}$ system. Assuming that only S- and P-wave amplitudes are necessary in this limited region, we can write:
     \begin{equation}
         \frac{dN}{d\cos\theta} = 2\pi\left|SY_{0}^{0}(\cos\theta) + PY_{1}^{0}(\cos\theta)\right|^{2}.\label{SP-distribution}
     \end{equation}
-    By comparing Eq. \ref{expansion} and \ref{SP-distribution}, we obtain 
+    By comparing Eq.~\ref{expansion} and~\ref{SP-distribution}~\cite{PRD56-7299}, we obtain 
     \begin{equation}
         \begin{array}{lr}
             \sqrt{4\pi}\left\langle Y_{0}^{0}\right\rangle = \left|S\right|^{2} + \left|P\right|^{2}, &\\ 
@@ -205,14 +230,14 @@ The corresponding plots agree well.}
     \centering
     \mbox{
   %\vskip -1.5cm
-  \begin{overpic}[width=0.9\textwidth]{plot/Y0.eps}
+  \begin{overpic}[width=0.98\textwidth]{plot/Y0.eps}
   \end{overpic}
  }
  \caption{ $K^{+}K^{-}$ mass spectrum in the threshold region weighted by (a) $Y_{0}^{0}$, (b) $Y_{1}^{0}$ and (c) $Y_{2}^{0}$, corrected for efficiency and phase space, and background subtracted. }
 \label{Y0}
 \end{figure*}
 
-\par{The above system of equations can be solved in each interval of $K^{+}K^{-}$ invariant mass for $\left|S\right|$ and $\left|P\right|$ and the resulting distributions are shown in Fig.\ref{SP}.  
+\par{The above system of equations can be solved in each interval of $K^{+}K^{-}$ invariant mass for $\left|S\right|$ and $\left|P\right|$ and the resulting distributions are shown in Fig.~\ref{SP}.  
 }
 
 \begin{figure*}[htbp]
@@ -226,22 +251,23 @@ The corresponding plots agree well.}
  \label{SP}
 \end{figure*}
 
-\subsection{S-wave parameterization at the $K^{+}K^{-}$ threshold}
-\label{MIPPWA-RES}
-\par{We empirically parameterize the $f_{0}(980)$ with the following function:
+\subsection{S-wave Parameterization at the $K^{+}K^{-}$ Threshold}
+\label{MIPWA-RES}
+\par{We empirically parameterize the $S(980)$ with the following function:
     \begin{equation}
-        A_{f_{0}(980) / a_{0}(980)} = \frac{1}{m_{0}^{2} - m^{2} -im_{0}\Gamma_{0}\rho_{KK}}, \label{a0980-RBW}
+        A_{S(980)} = \frac{1}{m_{0}^{2} - m^{2} -im_{0}\Gamma_{0}\rho_{KK}}, \label{a0980-RBW}
+        %A_{f_{0}(980) / a_{0}(980)} = \frac{1}{m_{0}^{2} - m^{2} -im_{0}\Gamma_{0}\rho_{KK}}, \label{a0980-RBW}
     \end{equation}
-    where $\rho_{KK} = 2p/m$, and obtain the following parameter values:
+    where $\rho_{KK} = 2p/m$, and obtain the following parameter values by fitting the S-wave amplitudes in Fig.~\ref{SP} (b) with this Eq.~\ref{a0980-RBW}.:
     \begin{equation}
         \begin{array}{lr}
-            m_{0} = (0.919 \pm 0.006_{stat}) GeV, &\\
-            \Gamma_{0} = (0.272 \pm 0.040_{stat}) GeV. &
+            m_{0} = (0.919 \pm 0.006_{stat}) \ {\rm GeV}/c^{2}, &\\
+            \Gamma_{0} = (0.272 \pm 0.040_{stat}) \ {\rm GeV}/c^{2}. &
         \end{array}\label{S-wave parameters} 
     \end{equation}
 
 
-    The errors are statistical only. The fit result are shown in Fig.\ref{FitSWave}.
+    The errors are statistical only. The fit result is shown in Fig.~\ref{FitSWave}.
     
     \begin{figure*}[htbp]
         \centering
@@ -250,8 +276,126 @@ The corresponding plots agree well.}
             \begin{overpic}[width=0.48\textwidth]{plot/Fit-SWave.eps}
             \end{overpic}
         }
-        \caption{ Fit of squared S-wave amplitudes. The curves result from the fit described in the text.}
+        \caption{ Fit of S-wave amplitudes. The curves result from the fit described in the text.}
         \label{FitSWave}
     \end{figure*}
+}
+
+\subsection{Systematic Uncertainties}
+\label{MIPWA-SYS}
+\par{
+    Systematic uncertainties take in account:
+    \begin{itemize}
+        \item \uppercase\expandafter{\romannumeral1} Data-MC agreement for the BDTG output. 
+            We apply the same BDTG as that in Sec.~\ref{MIPWA-BA} to a control sample, which passed the same event selection without the kinematic fit $\chi_{5c}^{2}$ cut criteria as that in Sec.~\ref{AASelection}, and compare the efficiency of data and MC.
+            The efficiency of data (MC) is defined as $e_{data} = \frac{N_{d0}}{N_{d1}}$ ($e_{MC} = \frac{N_{M0}}{N_{M1}}$), where $N_{d0}$ ($N_{M0}$) and $N_{d1}$ ($N_{M1}$) are the number of events before and after applying the BDTG cut criteria.
+            The comparison of efficiencies between data and MC is listed in Table~\ref{BDTG-SYS}.
+            \begin{table}[htbp]
+                \caption{The comparison of efficiencies between data and MC.}
+                \label{BDTG-SYS}
+                \begin{center}
+                    \begin{tabular}{cccc}
+                        \toprule\toprule
+                        $m_{K^{+}K^{-}}$ (GeV/$c^{2}$) &  $e_{data} $ &  $e_{MC}$&  $e_{data} / e_{MC}$   \\
+                        \hline
+                        $[0.988, 1.014]$ &                0.3134\ $\pm$\ 0.0273 & 0.3069\ $\pm$\ 0.0062 & 1.0210\ $\pm$\ 0.0914 \\  
+                        $[1.014, 1.018]$ &                0.3199\ $\pm$\ 0.0278 & 0.3641\ $\pm$\ 0.0068 & 0.8787\ $\pm$\ 0.0781 \\
+                        $[1.018, 1.019]$ &                0.3968\ $\pm$\ 0.0357 & 0.4059\ $\pm$\ 0.0080 & 0.9775\ $\pm$\ 0.0900 \\
+                        $[1.019, 1.021]$ &                0.3631\ $\pm$\ 0.0320 & 0.3970\ $\pm$\ 0.0083 & 0.9146\ $\pm$\ 0.0830 \\
+                        $[1.021, 1.023]$ &                0.3704\ $\pm$\ 0.0330 & 0.3834\ $\pm$\ 0.0075 & 0.9662\ $\pm$\ 0.0881 \\
+                        $[1.023, 1.029]$ &                0.3028\ $\pm$\ 0.0261 & 0.3190\ $\pm$\ 0.0064 & 0.9491\ $\pm$\ 0.0840 \\
+                        $[1.029, 1.061]$ &                0.2932\ $\pm$\ 0.0254 & 0.2962\ $\pm$\ 0.0059 & 0.9900\ $\pm$\ 0.0878 \\
+                        $[1.061, 1.150]$ &                0.2440\ $\pm$\ 0.0201 & 0.2502\ $\pm$\ 0.0049 & 0.9750\ $\pm$\ 0.0829 \\
+                        \bottomrule\bottomrule
+                    \end{tabular}
+                \end{center}
+            \end{table}
+            We fit the shape of S(980) corrected with $\frac{e_{data}}{e_{MC}}$ and take the shift of $m_{0}$ and $\Gamma_{0}$ as the systematic uncertainty. The shift of $m_{0}$ and $\Gamma_{0}$ are 0.03 GeV/$c^{2}$ and 0.02 GeV/$c^{2}$, respectively.
+
+        \item \uppercase\expandafter{\romannumeral2} Background subtraction. 
+            We change the bin number and fit range and replace the background shape with a third-order Chebychev polynomial in the fit shown in Fig~\ref{MIPWA-ST} and take the shift as a resource of background ratio error.
+            We vary the background ratio ( (3.8 $\pm$ 0.3)\% ) with one sigma and then take the largest shift of the fit of S(980) as the systematic uncertainty related to the background ratio. 
+            %The shift of mass and width are 0.002 GeV/$c^{2}$ and 0.001 GeV/$c^{2}$, respectively.
+            The background shape of generic MC is also replaced with that of ``Sideband" for data to perform a fit and the shift is taken as the systematic uncertainty related to the background shape.
+            The shift of $m_{0}$ and $\Gamma_{0}$ are 0.002 GeV/$c^{2}$ and 0.001 GeV/$c^{2}$.
+        
+        \item \uppercase\expandafter{\romannumeral3} PID and tracking efficiency difference between data and MC. 
+            To estimate the experimental effects related to the difference of PID and tracking efficiency between data and MC, based on the work~\cite{PID} and the work~\cite{Tracking}, we weight each event with the efficiency of data divided by that of MC and fit the shape of S(980).
+            The shift of $m_{0}$ and $\Gamma_{0}$ are 0.001 GeV/$c^{2}$ and 0.013 GeV/$c^{2}$.
+        
+        \item \uppercase\expandafter{\romannumeral4} The $f_{0}(1370)$ remained in S(980). 
+            We assume that the fit fraction (defined in Sec.~\ref{FF}) of $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$ is 5\% and then produced a MC sample with procedure $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$ to extract the shape of $f_{0}(1370)$ at the low end of $m_{K^{+}K^{-}}$ mass spectrum.
+            We scale the number of $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$ according to the fit fraction of $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$ and the shape contributed from $f_{0}(1370)$ is shown in Fig.~\ref{f01370_SWave}.
+            At last, the $f_{0}(1370)$ remained in S(980) is subtracted according to the scaled shape obtained above.
+            The shift of $m_{0}$ and $\Gamma_{0}$ are 0.001 GeV/$c^{2}$ and 0.003 GeV/$c^{2}$.
+
+            \begin{figure*}[htbp]
+                \centering
+                \mbox{
+                    %\vskip -1.5cm
+                    \begin{overpic}[width=0.48\textwidth]{plot/f01370_SWave.eps}
+                    \end{overpic}
+                }
+                \caption{The shape of $f_{0}(1370)$ at the low end of $m_{K^{+}K^{-}}$ mass spectrum extracted from a MC sample with procedure $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$.}
+                \label{f01370_SWave}
+            \end{figure*}
+        
+        \item \uppercase\expandafter{\romannumeral5} Fit range. We vary the fit range from [0.988, 1.15] GeV/$c^{2}$ to [0.988, 1.145] GeV/$c^{2}$ and the shift of $m_{0}$ and $\Gamma_{0}$ are 0.002 GeV/$c^{2}$ and 0.003 GeV/$c^{2}$.  
+
+    \end{itemize}
+
+    %\uppercase\expandafter{\romannumeral1}
+    %\uppercase\expandafter{\romannumeral2}
+    %\uppercase\expandafter{\romannumeral3}
+    %\uppercase\expandafter{\romannumeral4}
+    %\uppercase\expandafter{\romannumeral5}
+
+    All of the systematic uncertainties mentioned above are summarized in Table~\ref{MIPWA-Sys}.
+    \begin{table}[htbp]
+        \caption{Systematic uncertainties of partial wave analysis in the low $K^{+}K^{-}$ mass region.}
+        \label{MIPWA-Sys}
+        \begin{center}
+            \begin{tabular}{cccc}
+                \toprule\toprule
+                Source   &                                                      $m_{0}$ ( GeV/$c^{2}$)  &$\Gamma_{0}$ ( GeV/$c^{2}$)\\
+                \hline
+                 BDTG                     & 0.030                  &   0.020 \\
+                 Background subtraction   & 0.002                  &   0.001 \\
+                 PID and Tracking         & 0.001                  &   0.013 \\
+                 $f_{0}(1370)$            & 0.001                  &   0.003 \\
+                 Fit range                & 0.002                  &   0.003 \\
+                
+                \hline
+                total                                   & 0.030                  &   0.024\\
+                \bottomrule\bottomrule
+            \end{tabular}
+        \end{center}
+    \end{table}
+    So the result of $m_{0}$ and $\Gamma_{0}$ is:
+    \begin{equation}
+        \begin{array}{lr}
+            m_{0} = (0.919 \pm 0.006_{stat} \pm 0.030_{sys}) \ {\rm GeV}/c^{2}, &\\
+            \Gamma_{\alpha} = (0.272 \pm 0.040_{stat} \pm 0.024_{sys})\ {\rm GeV}/c^{2}, &
+        \end{array}\label{S-wave-sys} 
+    \end{equation}
+    
+    %And we also perform a fit with two poles (Eq.~\ref{two-poles}) with two different widths.
+    %\begin{equation}
+    %    \begin{array}{lr}
+    %        A_{S(980)} = \frac{K}{1 - iK}, &\\ 
+    %        K = \frac{m_{0}\Gamma_{\alpha}}{ m_{\alpha}^{2} - m^{2}} + \frac{m_{0}\Gamma_{\beta}}{ m_{\beta}^{2} - m^{2}}, &
+    %    \end{array}\label{two-poles} 
+    %\end{equation}
+    %where $\Gamma_{\alpha}$ and $\Gamma_{\beta}$ are the widths of the two poles, respectively.
+    %And the result is:
+    %\begin{equation}
+    %    \begin{array}{lr}
+    %        m_{0} = (0.922 \pm 0.006_{stat}) \ {\rm GeV}/c^{2}, &\\
+    %        \Gamma_{\alpha} = (0.152 \pm 0.080_{stat}) \ {\rm GeV}/c^{2}, &\\
+    %        \Gamma_{\beta} = (0.220 \pm 0.070_{stat}) \ {\rm GeV}/c^{2}. &
+    %    \end{array}\label{S-wave2} 
+    %\end{equation}
+    %The result Eq.~\ref{S-wave2} will be taken in account in system uncertain of partial wave analysis related to model assumptions (Sec.~\ref{PWA-Sys}). 
+
 }
 

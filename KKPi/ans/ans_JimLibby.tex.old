@@ -1,0 +1,23 @@
+\documentclass[a4paper]{article}
+\usepackage{color}
+\usepackage{epsfig}
+\begin{document}
+\section{the reply to Jim Libby's questions}
+%@Mon Sep 16 11:25:33 CST 2019
+Re: Re: The MEMO for "Amplitude Analysis and Branching Fraction Measurement of $D_{s}^{+} -> K^{+}K^{-}\pi^$ 
+Sat Sep 21 13:08:16 CST 2019
+\begin{itemize}
+    \item 1.
+        However, why not fit Fig 11 from the MIPWA with $|A(f0) + ae^{delta} A(a0)|^{2}$, where A(f0) and A(a0) are based on Eq. 11. This will give you a different parameterization to try in the amplitude fit. I am really not sure about this S(980) object as it is not physical.
+
+        {\color{blue} 
+        }
+
+
+    \item 2.
+
+        {\color{blue} 
+        }
+
+\end{itemize}
+\end{document}

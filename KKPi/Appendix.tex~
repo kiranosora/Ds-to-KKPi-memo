@@ -1,0 +1,47 @@
+\section{The attemption to distinguish $a_{0}(980)$ and $f_{0}(980)$}
+\label{app:a0_f0_dis}
+\par{
+    Before we extract the S wave shape in the low $K^{+}K^{-}$ mass region to describe S(980), we have attempted to distinguish $a_{0}(980)$ and $f_{0}(980)$ in amplitude analysis part.
+    For $a_{0}(980)$, it is parameterized as Flatte formula,
+    \begin{equation}
+        P_{a_{0}(980)}= \frac{1}{M^{2} - s - i(g_{\eta\pi}^{2}\rho_{\eta\pi} + g_{K\bar{K}}^{2}\rho_{K\bar{K}})}, \label{Flatte_a0}
+    \end{equation}
+    where $\rho_{\eta\pi}$ and $\rho_{K\bar{K}}$ are the phase space factors: $2q/\sqrt{s_{a}}$.
+    We use the coupling constants $g_{\eta\pi}^{2} = 0.341 \pm 0.004$ GeV$^{2}/c^{4}$ and $g_{K\bar{K}}^{2} = (0.892 \pm 0.022)g_{\eta\pi}^{2}$, reported in Ref.~\cite{flatte_a0}. 
+    For $f_{0}(980)$, the Flatte formula used is :
+    \begin{equation}
+        P_{f_{0}(980)}= \frac{1}{M^{2} - s - i(g_{\pi\pi}^{2}\rho_{\pi\pi} + g_{K\bar{K}}^{2}\rho_{K\bar{K}})}, \label{Flatte_f0}
+    \end{equation}
+    where the coupling constants $g_{\pi\pi}^{2} = 0.165 \pm 0.018$ GeV$^{2}/c^{4}$ and $g_{K\bar{K}}^{2} = (4.21 \pm 0.33)g_{\pi\pi}^{2}$ are reported in Ref.~\cite{flatte_f0}.
+    We find some of the correlation coefficients of parameters in the fit of amplitude analysis are very large and we cannot measure $a_{0}(980)$ and $f_{0}(980)$ very well, which is the key motivation to extract the S wave shape.
+    The magnitudes, phases, and fit fractions for the amplitudes are listed in Table~\ref{fit-result-a0f0}.
+    \begin{table}[htbp]
+        \caption{The magnitudes, phases and fit fractions (statistical errors only) for the amplitudes. 
+        $\rho_{a_{0}(980)}$, $\rho_{f_{0}(980)}/\rho_{a_{0}(980)}$, $\phi_{a_{0}(980)}$ and $\Delta\phi$ are the magnitude of $D_{s}^{+} \rightarrow a_{0}(980)\pi^{+}$, the relative magnitude of $D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$, the phase of $D_{s}^{+} \rightarrow a_{0}(980)\pi^{+}$ and the relative phase of $D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$, respectively.}
+        \label{fit-result-a0f0}
+        \begin{center}
+            \begin{tabular}{cccc}
+                \toprule\toprule
+                Amplitude & Magnitude  & Phase  & Fit fractions(\%)\\
+                \hline
+                $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$              & 1.0(fixed)     & 0.0(fixed)    & 47.3$\pm$3.2\\
+                $D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$                      & 1.11$\pm$0.02  & 5.85$\pm$0.07 & 41.7$\pm$2.4\\
+                %$D_{s}^{+} \rightarrow S(980)\pi^{+}$    & 2.88$\pm$0.14  & 4.77$\pm$0.07 & 19.3$\pm$1.7\\
+                $D_{s}^{+} \rightarrow a_{0}(980)\pi^{+}$    & $\rho_{a_{0}(980)}$=4.26$\pm$1.92   & $\phi_{a_{0}(980)}$=3.73$\pm$0.32 & \multirow{2}{*}{15.7$\pm$8.9}\\
+                %$D_{s}^{+} \rightarrow a_{0}(980)\pi^{+}$    & \multirow{2}{*}{$\rho_{a_{0}(980)}$=4.26$\pm$1.92,\ $\rho_{f_{0}(980)}/\rho_{a_{0}(980)}$=1.06$\pm$0.36}  & \multirow{2}{*}{$\phi_{a_{0}(980)}$=3.73$\pm$0.32,\ $\Delta\phi$=3.89$\pm$0.35& 15.7$\pm$8.9}\\
+                $D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}$    &   $\rho_{f_{0}(980)}/\rho_{a_{0}(980)}$=1.06$\pm$0.36              & $\Delta\phi$=3.89$\pm$0.35               &               \\     
+                $D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$         & 2.00$\pm$0.17  & 3.01$\pm$0.15 & 7.4$\pm$1.2\\
+                $D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$                     & 0.78$\pm$0.09  & 1.13$\pm$0.14 & 1.8$\pm$0.5\\
+                $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$                     & 0.67$\pm$0.15  & 0.81$\pm$0.22 & 1.7$\pm$0.8\\
+                \bottomrule\bottomrule
+            \end{tabular}
+        \end{center}
+    \end{table}
+    From Table~\ref{fit-result-a0f0}, we can see that the error of the fit fraction of $D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$ is very large, which is unacceptable.
+    
+    In addition, we also have tried to fix the ratio of $D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}$ and $D_{s}^{+} \rightarrow a_{0}(980)\pi^{+}$.
+    However, as is discussed in the introduction part~\ref{f0-a0-discussion}, we give up the attemption, too.   
+}
+
+
+

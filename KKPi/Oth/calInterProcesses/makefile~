@@ -1,0 +1,2 @@
+calAbBf:
+	g++ calAbBf.cxx -o calAbBf.exe
