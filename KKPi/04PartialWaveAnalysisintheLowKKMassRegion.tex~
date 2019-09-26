@@ -327,7 +327,7 @@ Thus the generic MC sample with signal events removed is used to subtract the ba
             We assume that the fit fraction (defined in Sec.~\ref{FF}) of $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$ is 5\% and then produced a MC sample with procedure $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$ to extract the shape of $f_{0}(1370)$ at the low end of $m_{K^{+}K^{-}}$ mass spectrum.
             We scale the number of $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$ according to the fit fraction of $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$ and the shape contributed from $f_{0}(1370)$ is shown in Fig.~\ref{f01370_SWave}.
             At last, the $f_{0}(1370)$ remained in S(980) is subtracted according to the scaled shape obtained above.
-            The shift $m_{0}$ and $\Gamma_{0}$ are 0.001 GeV/$c^{2}$ and 0.003 GeV/$c^{2}$.
+            The shift of $m_{0}$ and $\Gamma_{0}$ are 0.001 GeV/$c^{2}$ and 0.003 GeV/$c^{2}$.
 
             \begin{figure*}[htbp]
                 \centering
@@ -375,7 +375,7 @@ Thus the generic MC sample with signal events removed is used to subtract the ba
     \begin{equation}
         \begin{array}{lr}
             m_{0} = (0.919 \pm 0.006_{stat} \pm 0.030_{sys}) \ {\rm GeV}/c^{2}, &\\
-            \Gamma_{\alpha} = (0.272 \pm 0.040_{stat} \pm 0.024_{sys})\ {\rm GeV}/c^{2}, &
+            \Gamma_{\0} = (0.272 \pm 0.040_{stat} \pm 0.024_{sys})\ {\rm GeV}/c^{2}, &
         \end{array}\label{S-wave-sys} 
     \end{equation}
     
