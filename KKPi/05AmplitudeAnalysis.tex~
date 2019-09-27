@@ -314,6 +314,20 @@ The Dalitz plot projections are shown in Fig.~\ref{dalitz-projection}.
 \end{figure*}
 The fit quality is determined by calculating the $\chi^{2}$ of the fit using an adaptive binning of the $m^{2}(K^{+}K^{-})$ versus $m^{2}(K^{-}\pi^{+})$ Dalitz plot that requires each bin contains at least 10 events.
 The goodness of the nominal fit is $\chi^{2}=290.1/280=1.04$.  
+
+We also compare the shape of S wave extracted from data in Fig.~\ref{SP} (Sec.~\ref{MIPWA-RES}) and the projection of S wave ( S(980), $\bar{K}^{*}_{0}(1430)^{0}$,  $f_{0}(1710)$ and $f_{0}(1370)$) in the nominal fit, shown in Fig.~\ref{MIPWA-PWA}.
+We can see that the two shapes are well consistent.
+\begin{figure*}[htbp]
+    \centering
+    \mbox{
+        \begin{overpic}[width=0.8\textwidth]{plot/MIPWA_PWA.eps}
+        \end{overpic}
+    }
+    \caption{The comparison of S wave extracted from data in Fig.~\ref{SP} (Sec.~\ref{MIPWA-RES}) and the projection of S wave ( S(980), $\bar{K}^{*}_{0}(1430)^{0}$,  $f_{0}(1710)$ and $f_{0}(1370)$) in the nominal fit}
+    \label{MIPWA-PWA}
+\end{figure*}
+
+
 }
 
 \subsection{Systematic Uncertainties}
@@ -326,7 +340,7 @@ The goodness of the nominal fit is $\chi^{2}=290.1/280=1.04$.
                 \item For $S(980)$, $m_{0}$ and $\Gamma_{0}$ are shifted within errors from Eq.~\ref{S-wave-sys} in Sec.~\ref{MIPWA-SYS}.
                 %\item For $f_{0}(980) /a_{0}(980)$, the mass and width are shifted within errors from Eq.~\ref{S-wave parameters} in Sec.~\ref{MIPWA-RES}.
                 \item For $f_{0}(1370)$, the mass and width are shifted within errors from Ref.~\cite{para-f01370}.
-                \item For $\bar{K}^{*}_{0}(1430)^{0}$, the mass and width are shifted within errors from Ref.~\cite{para-f01370}.
+                \item For $\bar{K}^{*}_{0}(1430)^{0}$, the parameters are shifted within errors from Ref.~\cite{2011BARBAR}.
                 \item For other states, uncertainties are taken from PDG~\cite{PDG2018}.
             \end{itemize}
         \item \uppercase\expandafter{\romannumeral2} Variation of the effective radius of Blatt-Weisskopf Barrier within the range $\left[1.0, 5.0\right] \ {\rm GeV}^{-1}$ for intermediate resonances and  $\left[3.0, 7.0\right] \ {\rm GeV}^{-1}$ for $D_{s}$ mesons. 
@@ -407,27 +421,27 @@ The goodness of the nominal fit is $\chi^{2}=290.1/280=1.04$.
             \multirow{2}{*}{Amplitude }&\multicolumn{7}{c}{Source}\cr 
             & & \uppercase\expandafter{\romannumeral1} &\uppercase\expandafter{\romannumeral2} &\uppercase\expandafter{\romannumeral3} &\uppercase\expandafter{\romannumeral4} &\uppercase\expandafter{\romannumeral5}& Total   \\
             \hline
-            $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$                           &FF             &0.32      &0.29       &0.13   &0.41  &0.12  &0.62   \\
+            $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$                           &FF             &0.32      &0.29       &0.14   &0.41  &0.12  &0.62   \\
             \hline                                                                                                                                          
             \multirow{3}{*}{$D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$}                  & $\phi$        &0.49      &0.10       &0.06   &0.07  &0.05  &0.51 \\
-                                                                                        & $\rho$        &0.49      &0.14       &0.18   &0.41  &0.15  &0.69 \\
-                                                                                        & FF            &0.44      &1.13       &0.05   &0.40  &0.06  &1.28 \\
+                                                                                        & $\rho$        &0.49      &0.14       &0.08   &0.41  &0.15  &0.68 \\
+                                                                                        & FF            &0.44      &1.13       &0.04   &0.40  &0.06  &1.28 \\
             \hline                                                                                                                                         
-            \multirow{3}{*}{$D_{s}^{+} \rightarrow S(980)\pi^{+}$}                      & $\phi$        &0.98      &0.25       &0.06   &0.11  &0.04  &1.02    \\
+            \multirow{3}{*}{$D_{s}^{+} \rightarrow S(980)\pi^{+}$}                      & $\phi$        &0.98      &0.25       &0.04   &0.11  &0.04  &1.02    \\
             %\multirow{3}{*}{$D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$}& $\phi$       &0.98      &0.25       &0.06   &0.11 &1.02  &1.02    \\
-                                                                                        & $\rho$        &1.11      &0.17       &0.10   &0.11  &0.20  &1.15 \\
-                                                                                        & FF            &1.16      &0.15       &0.06   &0.09  &0.05  &1.18 \\
+                                                                                        & $\rho$        &1.11      &0.17       &0.09   &0.11  &0.20  &1.15 \\
+                                                                                        & FF            &1.16      &0.15       &0.04   &0.09  &0.05  &1.18 \\
             \hline                                                                                                                                         
-            \multirow{3}{*}{$D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$}     & $\phi$        &1.02      &0.48       &0.09   &0.21  &0.07  &1.15     \\
-                                                                                        & $\rho$        &1.00      &0.36       &0.13   &0.20  &0.14  &1.10 \\
+            \multirow{3}{*}{$D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$}     & $\phi$        &1.02      &0.48       &0.05   &0.21  &0.07  &1.15     \\
+                                                                                        & $\rho$        &1.00      &0.36       &0.15   &0.20  &0.14  &1.10 \\
                                                                                         & FF            &0.76      &0.35       &0.11   &0.22  &0.11  &0.88 \\
             \hline                                                                                                                                         
-            \multirow{3}{*}{$D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$}                 & $\phi$        &0.31      &0.25       &0.09   &0.14  &0.13  &0.45 \\
-                                                                                        & $\rho$        &1.17      &1.23       &0.07   &0.11  &0.09  &1.70 \\
-                                                                                        & FF            &0.71      &1.21       &0.05   &0.16  &0.04  &1.42 \\
+            \multirow{3}{*}{$D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$}                 & $\phi$        &0.31      &0.25       &0.04   &0.14  &0.13  &0.45 \\
+                                                                                        & $\rho$        &1.17      &1.23       &0.09   &0.11  &0.09  &1.70 \\
+                                                                                        & FF            &0.71      &1.21       &0.04   &0.16  &0.04  &1.42 \\
             \hline                                                                                                                                         
-            \multirow{3}{*}{$D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$}                 & $\phi$        &2.66      &0.27       &0.11   &0.09  &0.21  &2.68  \\
-                                                                                        & $\rho$        &1.01      &0.32       &0.06   &0.09  &0.04  &1.06 \\
+            \multirow{3}{*}{$D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$}                 & $\phi$        &2.66      &0.27       &0.12   &0.09  &0.21  &2.68  \\
+                                                                                        & $\rho$        &1.01      &0.32       &0.21   &0.09  &0.04  &1.06 \\
                                                                                         & FF            &0.42      &0.30       &0.15   &0.06  &0.13  &0.56 \\
             \bottomrule\bottomrule
         \end{tabular}  

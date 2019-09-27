@@ -375,7 +375,7 @@ Thus the generic MC sample with signal events removed is used to subtract the ba
     \begin{equation}
         \begin{array}{lr}
             m_{0} = (0.919 \pm 0.006_{stat} \pm 0.030_{sys}) \ {\rm GeV}/c^{2}, &\\
-            \Gamma_{\0} = (0.272 \pm 0.040_{stat} \pm 0.024_{sys})\ {\rm GeV}/c^{2}, &
+            \Gamma_{0} = (0.272 \pm 0.040_{stat} \pm 0.024_{sys})\ {\rm GeV}/c^{2}, &
         \end{array}\label{S-wave-sys} 
     \end{equation}
     
