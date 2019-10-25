@@ -1,7 +1,7 @@
 \section{Event Selection}
 \label{ST-selection}
 At $E_{cm} = 4.178$ GeV, pairs of $D_{s}D_{s}^{*}$ are produced,  and the $D_{s}^{*}$ decays to either $D_{s}\gamma$ or $D_{s}\pi^{0}$.
-So the $D_{s}^{*}$ mesons are produced in pairs without additional charged hadrons ($K^{\pm}(\pi^{\pm})$).
+So the $D_{s}$ mesons are produced in pairs without additional charged hadrons ($K^{\pm}(\pi^{\pm})$).
 We do not search for the gamma or $\pi^{0}$ from the $D_{s}$ decay. 
 These unique $D_{s}^{+}D_{s}^{-}$ final states provide us an opportunity to employ the double tag method to measure the absolute branching fractions of $D_{s}$ meson decays.
 The double tag method also provide clean samples to perform an amplitude analysis.
@@ -39,7 +39,7 @@ $D_{s}$ candidates are built from $K^{\pm}$, $\pi^{\pm}$, $\pi^{0}$, $\eta$, $\e
 			\item[-] Minimum energy for barrel showers ( $|cos\theta| < 0.8$): $E_{min} >25$ MeV/$c^{2}$,
 			\item[-] Minimum energy for endcap showers ( $0.86 < |cos\theta| < 0.92$): $E_{min} >50$ MeV$/c^{2}$,
 			\item[-] Shower within other $|cos\theta|$ regions are rejected,
-			\item[-] EMC time requirements for events with at least one charged track detected: $0 \le t \le 14 $ (50 ns).
+			\item[-] The shower time is required to be within 700 ns of the event start time to suppress the electronics noise. 
 		\end{itemize}
 
 		Then we perform a constrained fit on the photon pairs to the nominal $\pi^{0}/\eta$ mass and require:

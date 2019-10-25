@@ -2,8 +2,8 @@
 \begin{thebibliography}{99}
 
 \bibitem{Doc-DB-682-v7}
-Yu Lu and Liaoyuan Dong, 
-BESIII DocDB 682-v7.
+M. Ablikim {\it et. al.} (BESIII Collaboration),
+Phys. Rev. Lett \textbf{123}, 112001 (2005).
 
 \bibitem{pipi-KK-1}
 B. Aubert {\it et. al.} (BABAR Collaboration),
@@ -34,9 +34,9 @@ PAN \textbf{65} 1545 (2002).
 %    H. Y. Cheng,
 %    Phys. Lett. B \textbf{707}, 116 (2012).
 %
-%\bibitem{E687RES}
-%    P. L. Frabetti {\it et. al.} (E687 Collaboration),
-%    Phys. Lett. B \textbf{351}, 591 (1995).
+\bibitem{E687RES}
+    P. L. Frabetti {\it et. al.} (E687 Collaboration),
+    Phys. Lett. B \textbf{351}, 591 (1995).
 
 \bibitem{2009CLEO}
 R. E. Mitchell {\it et. al.}  (CLEO Collaboration),

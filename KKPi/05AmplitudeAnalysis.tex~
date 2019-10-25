@@ -21,6 +21,7 @@ The candidates satisfy:
 	\item[-] $\chi_{5c}^{2} < 200 $, 
 \end{itemize}
 are retained for the amplitude analysis, where $m_{sig}$ and $m_{tag}$ refer to mass of $D_{s}$ at signal side and tag side respectively.
+After the selection above, if we find both $D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$ and $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$ modes in an event, both of them are taken as our signals.
 \begin{table}[htbp]
     \caption{ The mass windows for each tag mode. The mass windows use the results in Ref.~\cite{Doc-DB-630-v35} }
     \label{ST-mass-window}
@@ -124,7 +125,7 @@ The total amplitude $M$ is then the coherent sum of the amplitudes of intermedia
             q=\sqrt{ \frac{(s_{a} + s_{b} + s_{c})^{2}}{4s_{a}} - s_{b}}. \label{base-q}
         \end{equation}
 
-        The intermediate resonances $K^{*}(892)^{0}$, $\phi(1020)$ and  $f_{0}(1710)$ are parameterized as a relativisitic Breit-Wigner (RBW) formula,
+        The intermediate resonances $K^{*}(892)^{0}$, $\phi(1020)$ and  $f_{0}(1710)$ are parameterized as a relativistic Breit-Wigner (RBW) formula,
         \begin{equation}
             \begin{array}{lr}
                 P = \frac{1}{(m_{0}^{2} - s_{a} ) - im_{0}\Gamma(m)}, &\\
@@ -315,7 +316,7 @@ The Dalitz plot projections are shown in Fig.~\ref{dalitz-projection}.
 The fit quality is determined by calculating the $\chi^{2}$ of the fit using an adaptive binning of the $m^{2}(K^{+}K^{-})$ versus $m^{2}(K^{-}\pi^{+})$ Dalitz plot that requires each bin contains at least 10 events.
 The goodness of the nominal fit is $\chi^{2}=290.1/280=1.04$.  
 
-We also compare the shape of S wave extracted from data in Fig.~\ref{SP} (Sec.~\ref{MIPWA-RES}) and the projection of S wave ( S(980), $\bar{K}^{*}_{0}(1430)^{0}$,  $f_{0}(1710)$ and $f_{0}(1370)$) in the nominal fit, shown in Fig.~\ref{MIPWA-PWA}.
+We also compare the shape of S wave extracted from data in Fig.~\ref{SP} (Sec.~\ref{MIPWA-RES}) and the projection of S wave ( S(980), $\bar{K}^{*}_{0}(1430)^{0}$,  $f_{0}(1710)$ and $f_{0}(1370)$) to $m(K^{+}K^{-}$ in the nominal fit, shown in Fig.~\ref{MIPWA-PWA}.
 We can see that the two shapes are well consistent.
 \begin{figure*}[htbp]
     \centering
@@ -323,7 +324,7 @@ We can see that the two shapes are well consistent.
         \begin{overpic}[width=0.8\textwidth]{plot/MIPWA_PWA.eps}
         \end{overpic}
     }
-    \caption{The comparison of S wave extracted from data in Fig.~\ref{SP} (Sec.~\ref{MIPWA-RES}) and the projection of S wave ( S(980), $\bar{K}^{*}_{0}(1430)^{0}$,  $f_{0}(1710)$ and $f_{0}(1370)$) in the nominal fit}
+    \caption{The comparison of S wave extracted from data in Fig.~\ref{SP} (Sec.~\ref{MIPWA-RES}) and the projection of S wave ( S(980), $\bar{K}^{*}_{0}(1430)^{0}$,  $f_{0}(1710)$ and $f_{0}(1370)$) to $m(K^{+}K^{-}$ in the nominal fit. The black dots with error bars refer to data and the red line refers to the projection of S wave.}
     \label{MIPWA-PWA}
 \end{figure*}
 
@@ -403,8 +404,8 @@ We can see that the two shapes are well consistent.
     \begin{figure*}[htbp]
         \centering
         \mbox{
-            \begin{overpic}[width=0.95\textwidth]{plot/pull-FF.eps}
-            \end{overpic}
+            \includegraphics[width=0.95\textwidth]{plot/pull-FF.eps}
+            \includegraphics[width=0.32\textwidth]{plot/pull-sum.eps}
         }
         \caption{The pull distribution check results for fit fractions of the amplitudes in the nominal fit model.}
         \label{pull-FF}
