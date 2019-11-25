@@ -88,17 +88,17 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%=============================================================================
-%\clearpage
+\clearpage
 
-%\bibliographystyle{besnote}
-%\bibliography{Lambdac4600}
-%\include{bibitem}
+\bibliographystyle{besnote}
+\bibliography{Lambdac4600}
+\include{bibitem}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\clearpage
-%\appendix
+\clearpage
+\appendix
 %\addcontentsline{toc}{part}{Appendices}
-%\include{Appendix}
+\include{Appendix}
 
 \end{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

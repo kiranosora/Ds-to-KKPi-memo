@@ -1,3 +1,4 @@
+\part*{Appendices}
 \section{The attemption to distinguish $a_{0}(980)$ and $f_{0}(980)$}
 \label{app:a0_f0_dis}
 \par{
@@ -43,5 +44,49 @@
     However, as is discussed in the introduction part~\ref{f0-a0-discussion}, we give up the attemption, too.   
 }
 
+\section{Fit $S(980)$ with K matrix formalism}
+\label{app:a0_f0_K_matrix}
+{
+    As $a_{0}(980)$ and $f_{0}(980)$ is so close that it is not appropriate to describe them with the sum of two Flatte formalisms.
+    Here we use K-matrix formalism. 
+    The formalism used here is
+    \begin{equation}
+        \begin{array}{lr}
+            \hat{T} = (I - i\hat{K}\rho)^{-1} \hat{K}&\\
+            \hat{K} = \frac{m_{\alpha}\Gamma_{\alpha}}{m_{\alpha}^{2} - m_{\alpha}^{2}} + \frac{m_{\beta}\Gamma_{\beta}}{m_{\beta}^{2} - m_{\beta}^{2}}, &
+        \end{array}\label{K-matrix} 
+    \end{equation}
 
+    Then fit the S wave shape with $|\hat{T}|^{2}$, the result is shown in Fig.~\ref{K-matrix-Fit}.
 
+    \begin{figure*}[htbp]
+        \centering
+        \includegraphics[width=0.99\textwidth]{plot/K-matrix-Fit.eps}
+        \caption{Fit $S(980)$ with $|\hat{T}|^{2}$.}
+        \label{K-matrix-Fit}
+    \end{figure*}
+    The correlation coefficient between $m(\alpha)$ and $m(\beta)$ is 0.973, which is too large, and the value of $\Gamma_{\beta}$ is very small.
+    So we do not use K matrix formalism to describe S(980).
+    %It's very difficult to distinguish them as the mass of a0 and f0 are both under the K+K- threshold and a0 and f0 are very close.
+    
+}
+
+\section{Check the significance of non-resonance $K^{+}K^{-}$ S wave in $S(980)$}
+\label{app:a0_f0_nonRes}
+{
+    In order to check the significance of non-resonance $K^{+}K^{-}$ S wave in S(980), we replace Eq.~\ref{S980-RBW} with Eq.~\ref{S980-RBW-nonRes} to fit the shape of S(980) and get the likelihood shift: 
+    \begin{equation}
+        A_{S(980)}^{'} = \frac{1}{m_{0}^{2} - m^{2} -im_{0}\Gamma_{0}\rho_{KK}} + Ce^{i\delta}, \label{S980-RBW-nonRes}
+    \end{equation}
+    where $C$ and $\delta$ refer to the magnitude and phase of non-resonance S wave, respectively.
+    The fit plot is shown in Fig.~\ref{Fit-SWave-nonRes}.
+    \begin{figure*}[htbp]
+        \centering
+        \includegraphics[width=0.99\textwidth]{plot/Fit-SWave-nonRes.eps}
+        \caption{Fit $S(980)$ with $|A_{S(980)}^{'}|^{2}$.}
+        \label{Fit-SWave-nonRes}
+    \end{figure*}
+    From Fig.~\ref{Fit-SWave-nonRes}, we can see that the magnitude of non-resonance S wave is very close to 0.
+    And the likelihood shift is less than 1.0.
+    So the significance of non-resonance $K^{+}K^{-}$ S wave in $S(980)$ is negligible.
+}

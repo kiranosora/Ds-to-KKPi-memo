@@ -2,7 +2,7 @@
 \label{ST-selection}
 At $E_{cm} = 4.178$ GeV, pairs of $D_{s}D_{s}^{*}$ are produced,  and the $D_{s}^{*}$ decays to either $D_{s}\gamma$ or $D_{s}\pi^{0}$.
 So the $D_{s}$ mesons are produced in pairs without additional charged hadrons ($K^{\pm}(\pi^{\pm})$).
-We do not search for the gamma or $\pi^{0}$ from the $D_{s}$ decay. 
+%We do not search for the gamma or $\pi^{0}$ from the $D_{s}^{*}$ decay. 
 These unique $D_{s}^{+}D_{s}^{-}$ final states provide us an opportunity to employ the double tag method to measure the absolute branching fractions of $D_{s}$ meson decays.
 The double tag method also provide clean samples to perform an amplitude analysis.
 
@@ -18,7 +18,7 @@ $D_{s}$ candidates are built from $K^{\pm}$, $\pi^{\pm}$, $\pi^{0}$, $\eta$, $\e
 					\item[-] $|cos\theta| < 0.93$, 
                     \item[-] $|dr| < \boldmath 1 $ cm and $|dz| < \boldmath 10$ cm,
 
-						where $|dr|$ and $|dz|$ are defined as the one reconstructed minus the interaction point.
+						where $|dr|$ and $|dz|$ are distance of the track from the beam position in x-y plane and z plane, respectively.
 				\end{itemize}
 		\end{itemize}
 	\item Particle ID:
@@ -28,7 +28,8 @@ $D_{s}$ candidates are built from $K^{\pm}$, $\pi^{\pm}$, $\pi^{0}$, $\eta$, $\e
 				\begin{itemize}
 					\item[-] $\emph{Prob(K)} > 0$ and $\emph{Prob(K)} > \emph{Prob($\pi$)}$ for \emph{K},
 					\item[-] $\emph{Prob($\pi$)} > 0$ and $\emph{Prob($\pi$)} > \emph{Prob(K)}$ for \emph{$\pi$},
-						where \emph{Prob(X)} is the probability of hypothesis X, X can be \emph{$\pi$} or \emph{K}.
+						
+                        where \emph{Prob(X)} is the probability of hypothesis X, X can be \emph{$\pi$} or \emph{K}.
 				\end{itemize}
 		\end{itemize}
     \item $\pi^{0}/\eta$ selection: $\pi^{0}/\eta$ candidates are reconstructed through $\pi^{0} \rightarrow \gamma\gamma\ (\eta \rightarrow \gamma\gamma)$ with package of PioEtaToGGRecAlg.
@@ -65,12 +66,12 @@ $D_{s}$ candidates are built from $K^{\pm}$, $\pi^{\pm}$, $\pi^{0}$, $\eta$, $\e
 \end{itemize}
 \subsection{$D_{s}$ Selection}
 The $D_{s}$ candidates are constructed from individual $\pi$, K, $\eta$, $\eta^{'}$, $K_{S}^{0}$ and $\pi^{0}$ in an event.
-The $D_{s}$ candidates fall into the mass window of $1.87 < m_{D_{s}} < 2.06\ {\rm GeV}/c^{2}$ and 
+The $D_{s}$ candidates fall into the mass window of $1.87 < M(D_{s}) < 2.06\ {\rm GeV}/c^{2}$ and 
 the corresponding $M_{rec}$ satisfied $2.051 < M_{rec} < 2.180\ {\rm GeV}/c^{2}$ are retained for further study. The definition of $M_{rec}$ is
 \begin{equation}
     M_{rec} = \sqrt{(E_{cm} - \sqrt{p_{D_{s}}^{2} + m_{D_{s}}^{2}})^{2} - |\vec p_{cm} - \vec p_{D_{s}} | ^{2}} \; , \label{con:inventoryflow}
 \end{equation}
-where $E_{cm}$ is the energy of initial state calculated from the beam energy~\cite{DocDB 580-v1}, $\vec p_{D_{s}}$ is the momentum of $D_{s}$ candidate, $m_{D_{s}}$ is $D_{s}$ mass quoted from PDG~\cite{PDG2018}, and $\vec p_{cm}$ and $\vec p_{D_{s}}$ are four-momentum of the initial state and the decay products of the $D_{s}$ candidate, respectively.
+where $E_{cm}$ is the energy of initial state calculated from the beam energy~\cite{DocDB 580-v1}, $p_{D_{s}}$ is the momentum of $D_{s}$ candidate, $m_{D_{s}}$ is $D_{s}$ mass quoted from PDG~\cite{PDG2018}, and $\vec p_{cm}$ and $\vec p_{D_{s}}$ are four-momentum of the initial state and the decay products of the $D_{s}$ candidate, respectively.
 
 \subsection{Signal Selection}
 \par{

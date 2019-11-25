@@ -3,8 +3,8 @@
 \subsection{Event Selection}
 \label{BFSelection}
 After the selection described in Sec.~\ref{ST-selection}, we further use the double tag technique for the BF (branching fraction) measurement. 
-We use the same 8 tag modes as in Sec.~\ref{AASelection}.
-In the selection of tag $D_{s}$, for multiple candidates, the best candidate is chosen with $M_{rec}$ closest to mass of $D_{s}^{*}$ in~\cite{PDG2018}.
+We use the same 8 tag modes as that in Sec.~\ref{AASelection}.
+In the selection of tagged $D_{s}$, for multiple candidates, the best candidate is chosen with $M_{rec}$ closest to mass of $D_{s}^{*}$ in~\cite{PDG2018}.
 To further remove the background associated with the larger number of soft $\pi^{\pm}$ $(\pi^{0})$ from $D_{s}^{*}$ decays, candidates are voted if the momentum of $\pi^{\pm}$ ($\pi^{0}$) is less than 0.1 GeV.
 
 The single tag (ST) yields are extracted from the fits to the $D_{s}$ invariant mass distributions, as shown in Fig.~\ref{SingleTagFit}. In the fit, the mass windows of the tag modes are set to be the same as the Ref.~\cite{Doc-DB-630-v35}.
@@ -54,7 +54,7 @@ After a tag is identified, we search for the $D_{s}^{+} \rightarrow K^{+}K^{-}\p
 For each tag mode, we may have duplicate signal candidates and the candidates with the minimum average mass ($aM$) of tag $D_{s}$ and signal $D_{s}$ are retained.
 
 
-With the updated MC sample (DIY MC) based on the amplitude analysis results, the double efficiencies are determined and listed in Table~\ref{DT-eff}.
+With the updated MC sample (DIY MC) based on the amplitude analysis results, the double tag efficiencies are determined and listed in Table~\ref{DT-eff}.
 
     \begin{table}[htbp]
         \caption{ The DT efficiencies ($\epsilon_{DT}$).The BFs of the sub-particle ($K_{S}^{0}$, $\pi^{0}$, $\eta$ and $\eta^{'}$) decays are not included.}
@@ -85,7 +85,7 @@ With the updated MC sample (DIY MC) based on the amplitude analysis results, the
     %mainly including $D^{*}\bar{D}^{*}$ with a cross section of $~5 {\rm nb}$, $D^{*}\bar{D} + \bar{D}D^{*}$ with a cross section of $~2 {\rm nb}$, and $D\bar{D}$ with a cross section of relatively small $~0.2  {\rm nb}$.
     %There also appears to be $D\bar{D}^{*}\pi$ production.
     The underlying light quark ``continuum" background is about $14\ {\rm nb}$. 
-    The relatively large cross sections, relatively large branching fractions, and sufficient luminosities allow us to employ double tag (DT) technique to study this study.
+    The relatively large cross sections, relatively large branching fractions, and sufficient luminosities allow us to employ double tag (DT) technique to perform this study.
 
     As $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$ is not only our signal mode but also one of our tag modes, we divide the events into two categories:
 
@@ -131,7 +131,7 @@ With the updated MC sample (DIY MC) based on the amplitude analysis results, the
 
 
 
-    We determine the branching fraction $\mathcal{B}(D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+})=(5.47\pm0.07)\%$ (statistical uncertainty only) according to Eq.~\ref{BR-formula}.
+    We determine the branching fraction $\mathcal{B}(D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+})=(5.47\pm0.08)\%$ (statistical uncertainty only) according to Eq.~\ref{BR-formula}.
 
     \subsection{Systematic Uncertainties}
     The following sources are taken in account to calculate systematic uncertainties.
@@ -139,14 +139,14 @@ With the updated MC sample (DIY MC) based on the amplitude analysis results, the
     \begin{itemize}
         \item Uncertainty in the number of ST $D_{s}^{-}$ candidates. We perform alternative fits with different background shapes, signal shapes, fit ranges and bin sizes to obtain the uncertainties related to the corresponding factors.
             We change the background shape from the second-order Chebychev polynomial to a third-order Chebychev polynomial and the relative change of branching fraction is 0.18\%.
-            The systematic in signal shape is determined to be 0.16\% by performing an alternative fit without convolving the Gaussian resolution function.
+            The systematic in signal shape is determined to be 0.16\% by performing an alternative fit without convoluting the Gaussian resolution function.
             For fit range, we vary the fit range from $[1.90, 2.03]$ GeV/$c^{2}$ to $[1.90, 2.02]$ GeV/$c^{2}$ and the relative difference of branching fraction is 0.24\%.
             According to Table~\ref{ST-eff}, the total ST yields of the eight tag modes is  298487 $\pm$ 2186. Then the uncertainty due to background fluctuation is 2186/298487 = 0.73\%.
             The quadrature sum of these terms, that is the uncertainty in the number of ST $D_{s}^{-}$ candidates, is 0.84\%. 
         
         \item Signal shape. The systematic uncertainty due to the signal shape is studied with the fit without the Gaussian function convoluted, the double tag yield shift is taken as the related effect. 
 
-        \item Background shape and fit range. For background shape and the fit range in the fit, the third-order Chebychev polynomial is used to replace the nominal ones and the fit  range of $[1.90, 2.03]$ GeV/$c^{2}$ for Cat. A and $[-0.13, 0.13]$ GeV/$c^{2}$ are changed to $[1.90, 2.02]$ GeV/$c^{2}$ and $[-0.14, 0.14]$ GeV/$c^{2}$ respectively. 
+        \item Background shape and fit range. For background shape and the fit range in the fit, the third-order Chebychev polynomial is used to replace the nominal ones and the fit  range of $[1.90, 2.03]$ GeV/$c^{2}$ for Cat. A and $[-0.13, 0.13]$ GeV/$c^{2}$ for Cat. B are changed to $[1.90, 2.02]$ GeV/$c^{2}$ and $[-0.14, 0.14]$ GeV/$c^{2}$ respectively. 
             %The relative branching fraction change is taken as the related effect. 
             The largest branching fraction shift is taken as the related effect.
         
@@ -160,23 +160,23 @@ With the updated MC sample (DIY MC) based on the amplitude analysis results, the
             The relative change compared to the input value is $0.1\%$, which is very small and negligible.
 
             \begin{table}[htbp]
-                \caption{Input/output check using the round 30-40 of generic MC.}
+                \caption{Input/output check using the round 30-40 of DIY MC.}
                 \label{BR-IO}
                 \begin{center}
                     \begin{tabular}{cccc}
                         \toprule\toprule
                         Round   &$\mathcal{B}(D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+})$(\%) \\
                         \hline
-                        31                                  & $5.562 \pm 0.066$\\ 
-                        32                                  & $5.497 \pm 0.066$\\
-                        33                                  & $5.407 \pm 0.066$\\
-                        34                                  & $5.636 \pm 0.068$\\
-                        35                                  & $5.490 \pm 0.066$\\
-                        36                                  & $5.397 \pm 0.066$\\
-                        37                                  & $5.369 \pm 0.066$\\
-                        38                                  & $5.490 \pm 0.067$\\
-                        39                                  & $5.353 \pm 0.065$\\
-                        40                                  & $5.435 \pm 0.066$\\
+                        31                                  & $5.562 \pm 0.076$\\ 
+                        32                                  & $5.497 \pm 0.076$\\
+                        33                                  & $5.407 \pm 0.076$\\
+                        34                                  & $5.636 \pm 0.078$\\
+                        35                                  & $5.490 \pm 0.076$\\
+                        36                                  & $5.397 \pm 0.076$\\
+                        37                                  & $5.369 \pm 0.076$\\
+                        38                                  & $5.490 \pm 0.077$\\
+                        39                                  & $5.353 \pm 0.075$\\
+                        40                                  & $5.435 \pm 0.076$\\
                         \hline
                         Combined result                               & $5.462 \pm 0.021$\\
                         \bottomrule\bottomrule
@@ -216,7 +216,7 @@ With the updated MC sample (DIY MC) based on the amplitude analysis results, the
         \end{center}
     \end{table}
 
-    The branching fraction with systematic uncertainties is $\mathcal{B}(D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+})=(5.47\pm0.07_{stat.}\pm0.13_{sys.})\%$.
+    The branching fraction with systematic uncertainties is $\mathcal{B}(D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+})=(5.47\pm0.08_{stat.}\pm0.13_{sys.})\%$.
     Using the FFs listed in Table~\ref{systematic-uncertainties}, the BFs for the intermediate processes can be calculated with $\mathcal{B}_{i} = FF_{i} \times \mathcal{B}(D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+})$, which are listed in Table~\ref{inter-processes}.  
     
     \begin{table}[htbp]
@@ -227,9 +227,9 @@ With the updated MC sample (DIY MC) based on the amplitude analysis results, the
                 \toprule\toprule
                 Intermediate process & Branching fractions (\%)\\
                 \hline
-                $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$               & $2.62\ \pm\ 0.04_{stat.}\ \pm\ 0.09_{sys.}$  \\
-                $D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$                       & $2.26\ \pm\ 0.05_{stat.}\ \pm\ 0.08_{sys.}$  \\
-                $D_{s}^{+} \rightarrow S(980)\pi^{+}$                           & $0.90\ \pm\ 0.04_{stat.}\ \pm\ 0.11_{sys.}$  \\
+                $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$               & $2.62\ \pm\ 0.05_{stat.}\ \pm\ 0.09_{sys.}$  \\
+                $D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$                       & $2.26\ \pm\ 0.06_{stat.}\ \pm\ 0.08_{sys.}$  \\
+                $D_{s}^{+} \rightarrow S(980)\pi^{+}$                           & $0.90\ \pm\ 0.05_{stat.}\ \pm\ 0.11_{sys.}$  \\
                 %$D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$    & $2.26\ \pm\ 0.05_{stat.}\ \pm\ 0.06_{sys.}$  \\
                 $D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$          & $0.13\ \pm\ 0.02_{stat.}\ \pm\ 0.05_{sys.}$  \\
                 $D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$                      & $0.06\ \pm\ 0.01_{stat.}\ \pm\ 0.01_{sys.}$  \\

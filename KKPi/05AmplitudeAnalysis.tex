@@ -102,7 +102,7 @@ The total amplitude $M$ is then the coherent sum of the amplitudes of intermedia
     At the beginning, the PHSP MC are used in MC integration. $M^{gen}(p_{j})$ is a constant overall the phase space.
     Then with the result obtained from the fit to data, the signal MC is then generated and used in MC integration.
     In this analysis, a PHSP MC sample with about 6 million events and  a signal MC sample with about 2 million events are used in the normalization integral calculation using PHSP MC and signal MC, respectively.
-    In the numerator of Eq~.\ref{signal-PDF}, $\epsilon(p_{j})$ is independent of the fitted variables, so it is regarded as a constant term in the fit.
+    In the numerator of Eq.~\ref{signal-PDF}, $\epsilon(p_{j})$ is independent of the fitted variables, so it is regarded as a constant term in the fit.
     %In addition, the MC events used in Eq.~\ref{MC-integral} is the events passed the event selection the same as the data sample, we do not need to consider the detection efficiency in the fit.
     Considering the bias caused by particle identification (PID)~\cite{PID} and tracking~\cite{Tracking} efficiency differences between data and MC, we introduce $\gamma_{\epsilon}$ to correct this bias:
     \begin{equation}
@@ -119,13 +119,14 @@ The total amplitude $M$ is then the coherent sum of the amplitudes of intermedia
 
 
     \subsubsection{Propagator}
+    \label{propagator}
     \par{
         For a decay process $a \rightarrow bc$, $s_{a/b/c}$ is denoted to be the invariant mass square of the particle a/b/c, $r_{a}=p_{b}-p_{c}$, and q is denoted as the magnitude of the momentum of daughter particle in the rest system of $a$
         \begin{equation}
             q=\sqrt{ \frac{(s_{a} + s_{b} + s_{c})^{2}}{4s_{a}} - s_{b}}. \label{base-q}
         \end{equation}
 
-        The intermediate resonances $K^{*}(892)^{0}$, $\phi(1020)$ and  $f_{0}(1710)$ are parameterized as a relativistic Breit-Wigner (RBW) formula,
+        The intermediate resonances $K^{*}(892)^{0}$, $\phi(1020)$, $f_{0}(1370)$ and  $f_{0}(1710)$ are parameterized as a relativistic Breit-Wigner (RBW) formula,
         \begin{equation}
             \begin{array}{lr}
                 P = \frac{1}{(m_{0}^{2} - s_{a} ) - im_{0}\Gamma(m)}, &\\
@@ -150,7 +151,7 @@ The total amplitude $M$ is then the coherent sum of the amplitudes of intermedia
             P_{K^{*}_{0}(1430)^{0}}= \frac{1}{M^{2} - s - i(g_{1}\rho_{K\pi}(s) + g_{2}\rho_{\eta^{'}K}(s))}, \label{Flatte}
         \end{equation}
         where $s$ is the $K^{-}\pi^{+}$ invariant mass squared,  $\rho_{K\pi}(s)$ and $\rho_{\eta^{'}K}(s)$ are Lorentz invariant PHSP factor, and   $g_{1,2}$ are coupling constants to the corresponding final state. The parameters of $K^{*}_{0}(1430)^{0}$ are fixed to values measured by CLEO~\cite{CLEO-Flatte}. 
-        For resonances $f_{0}(980)$ and $a_{0}(980)$, as is discussed in Sec.~\ref{f0-a0-discussion}, we use Eq.~\ref{a0980-RBW} to describe the propagator and the values of parameters are fixed to the values in Eq.~\ref{S-wave parameters} obtained from the model independent partial wave analysis section (Sec.~\ref{MIPWA-RES}).
+        For resonances $f_{0}(980)$ and $a_{0}(980)$, as is discussed in Sec.~\ref{f0-a0-discussion}, we use Eq.~\ref{S980-RBW} to describe the propagator and the values of parameters are fixed to the values in Eq.~\ref{S-wave parameters} obtained from the model independent partial wave analysis section (Sec.~\ref{MIPWA-RES}).
     }
 
     \subsubsection{Blatt-Weisskopf Barriers}{
@@ -162,7 +163,7 @@ The total amplitude $M$ is then the coherent sum of the amplitudes of intermedia
                 F_{n} = \sqrt{\frac{z_{0}^{4}+3z_{0}^{2}+9}{z^{4}+3z^{2}+9}},   \ \      (D\ wave), &
             \end{array}\label{Blatt-Weisskopf barrier} 
         \end{equation}
-        where $z_{0}$ are $qR$ and $q_{0}R$, respectively. 
+        where $z_{0} = q_{0}R$. 
     }
 
     \subsubsection{Spin Factors}
@@ -192,7 +193,7 @@ The total amplitude $M$ is then the coherent sum of the amplitudes of intermedia
                 S_{n} = \tilde{T}^{(2)\mu}(D_{s})\tilde{t}^{(2)}_{\mu}(a),\ \         (D\ wave), &
             \end{array}\label{spin-factor} 
         \end{equation}
-        where the $\tilde{T}^{(1)\mu}(D_{s})$($\tilde{T}^{(2)\mu}(D_{s})$) and $\tilde{t}^{(1)}_{\mu}(a)$($\tilde{t}^{(2)}_{\mu}(a)$) are the same defined in Ref.~\cite{covariant-tensors}.
+        where the $\tilde{T}^{(1)\mu}(D_{s})$($\tilde{T}^{(2)\mu}(D_{s})$) and $\tilde{t}^{(1)}_{\mu}(a)$($\tilde{t}^{(2)}_{\mu}(a)$) have same definition as in Ref.~\cite{covariant-tensors}.
     }
 
 }
@@ -215,7 +216,7 @@ The fit fractions of the individual amplitudes are calculated according to the f
 \par{
     The Dalitz plot of $m^{2}(K^{+}K^{-})$ versus $m^{2}(K^{-}\pi^{+})$ is shown in Fig.~\ref{dalitz}. 
     In the plot, we can see a clear peak of $K^{*}(892)^{0}$ and $\phi(1020)$. 
-In the fit, the magnitude and phase of the amplitude $D_{s}^{+} \rightarrow K^{*}(892)^{0}K^{+}$ is fixed to 1.0 and 0.0, and the magnitudes and phases of the amplitudes are allowed to float. 
+In the fit, the magnitude and phase of the amplitude $D_{s}^{+} \rightarrow K^{*}(892)^{0}K^{+}$ is fixed to 1.0 and 0.0, and the magnitudes and phases of the other amplitudes are allowed to float. 
 
 \begin{figure*}[htbp]
     \centering
@@ -235,7 +236,7 @@ $D_{s}^{+} \rightarrow S(980)\pi^{+}$,
 $D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$,
 $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$,
 $D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$ 
-are retained in the final result. The statistical significance of the three amplitudes in final result are also checked.
+are retained in the final result. The statistical significance of the six amplitudes in final result are also checked.
 %With one amplitude dropped and the fit repeated, compared with the nominal fit the likelihood shift ($\Delta(lnL)$) and the number of freedom degree shift ($\Delta n_{par}$) are then corresponding to the statistical significance.
 The statistical significance is calculated by the difference of the likelihood of fits with and without a certain amplitude along with the difference of degree of freedom.
 The detail $2\Delta(lnL)$, $\Delta n_{par}$, and the statistical significance for each amplitude are  listed in Table~\ref{significance-table}.
@@ -313,10 +314,10 @@ The Dalitz plot projections are shown in Fig.~\ref{dalitz-projection}.
     \caption{$D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$: Dalitz plot projections from the nominal fit. The data are represented by points with error bars, the fit results by the histograms.}
     \label{dalitz-projection}
 \end{figure*}
-The fit quality is determined by calculating the $\chi^{2}$ of the fit using an adaptive binning of the $m^{2}(K^{+}K^{-})$ versus $m^{2}(K^{-}\pi^{+})$ Dalitz plot that requires each bin contains at least 10 events.
-The goodness of the nominal fit is $\chi^{2}=290.1/280=1.04$.  
+The fit quality is determined by calculating the $\chi^{2}/NDOF$ of the fit using an adaptive binning of the $m^{2}(K^{+}K^{-})$ versus $m^{2}(K^{-}\pi^{+})$ Dalitz plot that requires each bin contains at least 10 events.
+The goodness of the nominal fit is $\chi^{2}/NDOF=290.1/280=1.04$.  
 
-We also compare the shape of S wave extracted from data in Fig.~\ref{SP} (Sec.~\ref{MIPWA-RES}) and the projection of S wave ( S(980), $\bar{K}^{*}_{0}(1430)^{0}$,  $f_{0}(1710)$ and $f_{0}(1370)$) to $m(K^{+}K^{-}$ in the nominal fit, shown in Fig.~\ref{MIPWA-PWA}.
+We also compare the shape of S wave extracted from data in Fig.~\ref{SP} (Sec.~\ref{MIPWA-RES}) and the projection of S wave ( S(980), $\bar{K}^{*}_{0}(1430)^{0}$,  $f_{0}(1710)$ and $f_{0}(1370)$) to $m(K^{+}K^{-})$ in the nominal fit, shown in Fig.~\ref{MIPWA-PWA}.
 We can see that the two shapes are well consistent.
 \begin{figure*}[htbp]
     \centering
@@ -324,7 +325,7 @@ We can see that the two shapes are well consistent.
         \begin{overpic}[width=0.8\textwidth]{plot/MIPWA_PWA.eps}
         \end{overpic}
     }
-    \caption{The comparison of S wave extracted from data in Fig.~\ref{SP} (Sec.~\ref{MIPWA-RES}) and the projection of S wave ( S(980), $\bar{K}^{*}_{0}(1430)^{0}$,  $f_{0}(1710)$ and $f_{0}(1370)$) to $m(K^{+}K^{-}$ in the nominal fit. The black dots with error bars refer to data and the red line refers to the projection of S wave.}
+    \caption{The comparison of S wave extracted from data in Fig.~\ref{SP} (Sec.~\ref{MIPWA-RES}) and the projection of S wave ( S(980), $\bar{K}^{*}_{0}(1430)^{0}$,  $f_{0}(1710)$ and $f_{0}(1370)$) to $m(K^{+}K^{-})$ in the nominal fit. The black dots with error bars refer to data and the red line refers to the projection of S wave.}
     \label{MIPWA-PWA}
 \end{figure*}
 
@@ -334,14 +335,14 @@ We can see that the two shapes are well consistent.
 \subsection{Systematic Uncertainties}
 \label{PWA-Sys}
 \par{
-    Systematic uncertainties take in account:
+    Systematic uncertainties taken in account:
     \begin{itemize}
         \item \uppercase\expandafter{\romannumeral1} Variation of masses and widths of resonances within one $\sigma$ error.
             \begin{itemize}
                 \item For $S(980)$, $m_{0}$ and $\Gamma_{0}$ are shifted within errors from Eq.~\ref{S-wave-sys} in Sec.~\ref{MIPWA-SYS}.
                 %\item For $f_{0}(980) /a_{0}(980)$, the mass and width are shifted within errors from Eq.~\ref{S-wave parameters} in Sec.~\ref{MIPWA-RES}.
                 \item For $f_{0}(1370)$, the mass and width are shifted within errors from Ref.~\cite{para-f01370}.
-                \item For $\bar{K}^{*}_{0}(1430)^{0}$, the parameters are shifted within errors from Ref.~\cite{2011BARBAR}.
+                \item For $\bar{K}^{*}_{0}(1430)^{0}$, the parameters are shifted within errors from Ref.~\cite{CLEO-Flatte}.
                 \item For other states, uncertainties are taken from PDG~\cite{PDG2018}.
             \end{itemize}
         \item \uppercase\expandafter{\romannumeral2} Variation of the effective radius of Blatt-Weisskopf Barrier within the range $\left[1.0, 5.0\right] \ {\rm GeV}^{-1}$ for intermediate resonances and  $\left[3.0, 7.0\right] \ {\rm GeV}^{-1}$ for $D_{s}$ mesons. 

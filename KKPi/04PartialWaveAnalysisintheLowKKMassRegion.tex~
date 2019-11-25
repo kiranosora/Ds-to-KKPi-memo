@@ -85,7 +85,7 @@ Two categories of events are selected in a $M_{rec}-\Delta{M}$ 2D plane as shown
  \centering
  \includegraphics[width=0.99\textwidth]{plot/cat1_sig.eps}
  \includegraphics[width=0.99\textwidth]{plot/cat1_sb.eps}
- \caption{The distributions (Cat. \#1) of these three observables ((a) and (d)) $M_{rec}$, ((b) and (e)) $P_{rest}$ and  ((c) and (f)) $E_{\gamma}$ for( (a), (b) and (c)) signal and ( (d), (e) and (f)) sideband regions from data.}
+ \caption{The distributions (Cat. \#1) of these three observables ((a) and (d)) $\Delta M$, ((b) and (e)) $M_{rec}^{'}$ and  ((c) and (f)) $N_{tracks}$ for( (a), (b) and (c)) signal and ( (d), (e) and (f)) sideband regions from data.}
 \label{cat1_data}
 \end{figure*}
 
@@ -110,7 +110,7 @@ Two categories of events are selected in a $M_{rec}-\Delta{M}$ 2D plane as shown
     
    
     After applying the BDTG requirement, the background shows no obviously peak around the region of [1.95, 1.986] GeV/$c^{2}$ (Signal region), which are shown in Fig.~\ref{MIPWA-ST-BS}.  
-    The fit to the signal $D_{s}$ invariant mass gives the background yield in Signal region is $735.7\pm30.0$, shown as in Fig.~\ref{MIPWA-ST}.
+    The fit to the signal $D_{s}$ invariant mass gives the background yield in Signal region is $735.7\pm30.0$, as shown in Fig.~\ref{MIPWA-ST}.
     In the fit, the signal shape is the MC shape convoluted with a Gaussian function and the background is described with second-order Chebychev polynomial.
 
     \begin{figure*}[htbp]
@@ -169,13 +169,13 @@ Thus the generic MC sample with signal events removed is used to subtract the ba
         \begin{overpic}[width=0.3\textwidth]{plot/MIPWA-m23.eps}
         \end{overpic}
     }
-    \caption{ The projections of $m(K^{+}K^{-})$, $m(K^{-}\pi^{+})$, $m(K^{+}\pi^{+})$ from ``Sideband" for data (dots with error bars) and generic MC with signal events removed (red histogram) after BDTG requirement.}
+    \caption{ The Dalitz projections to $m(K^{+}K^{-})$ ( (a) ), $m(K^{-}\pi^{+})$ ( (b) ), $m(K^{+}\pi^{+})$ ( (c) ) from ``Sideband" for data (dots with error bars) and generic MC with signal events removed (red histogram) after BDTG requirement.}
     \label{MIPWA-Sideband}
 \end{figure*}
 
 \par{
     
-    Figure~\ref{BDTG-IO} shows the shape comparison between data and MC for the inputs and outputs of BDTG.
+    Figure~\ref{BDTG-IO} shows the shape comparison between data ( (a), (b) and (c) ) and MC ( (d), (e) and (f) ) for the inputs and outputs of BDTG.
     We can see that there is no significant difference.
     The background has been subtracted using the corresponding shape of ``Sideband" in this shape comparison.
     \begin{figure*}[!htbp]
@@ -186,7 +186,8 @@ Thus the generic MC sample with signal events removed is used to subtract the ba
         \includegraphics[width=0.3\textwidth]{plot/MIPWA-MC-m12.eps}
         \includegraphics[width=0.3\textwidth]{plot/MIPWA-MC-m13.eps}
         \includegraphics[width=0.3\textwidth]{plot/MIPWA-MC-m23.eps}
-        \caption{The shape comparison between data and MC for the inputs and outputs of BDTG. The background has been subtracted.}
+        \caption{The shape comparison between data ( (a), (b) and (c) ) and MC ( (d), (e) and (f) ) for the inputs and outputs of BDTG. 
+        The background has been subtracted.}
         \label{BDTG-IO}
     \end{figure*}
 
@@ -198,7 +199,7 @@ Thus the generic MC sample with signal events removed is used to subtract the ba
     \begin{equation}
         \frac{dN}{d\cos\theta} = 2\pi\sum_{k=0}^L\left\langle Y_{k}^{0}\right\rangle Y_{k}^{0}(\cos\theta),\label{expansion}
     \end{equation}
-    where $L = 2 \ell_{max}$, and $\ell_{max}$ is the maximum orbital angular momentum quantum number required to describe the $K^{+}K^{-}$ system at $m_{K^{+}K^{-}}$ (e.g. $\ell_{max}$ =1 for S-, P-wave description); $\theta$ is the angle between $K^{+}$ and $D_{s}^{+}$ in $K^{+}K^{-}$ rest frame. 
+    where $L = 2 \ell_{max}$, and $\ell_{max}$ is the maximum orbital angular momentum quantum number required to describe the $K^{+}K^{-}$ system at $m_{K^{+}K^{-}}$ (e.g. $\ell_{max}$ =1 for S-, P-wave description); $\theta$ is the angle between the $K^{+}$ direction in the $K^{+}K^{-}$ rest frame and the prior direction of the $K^{+}K^{-}$ system in the $D_{s}^{+}$ rest frame. 
     The normalizations are 
     \begin{equation}
         \int_{-1}^{1}Y_{k}^{0}(\cos\theta)Y_{j}^{0}(\cos\theta) d\cos\theta  = \frac{\delta_{kj}}{2\pi},\label{sh-normalizations}
@@ -220,11 +221,12 @@ Thus the generic MC sample with signal events removed is used to subtract the ba
     \begin{equation}
         \begin{array}{lr}
             \sqrt{4\pi}\left\langle Y_{0}^{0}\right\rangle = \left|S\right|^{2} + \left|P\right|^{2}, &\\ 
+            \sqrt{4\pi}\left\langle Y_{1}^{0}\right\rangle = 2\left|S\right|\left|P\right|cos\phi_{SP}, &\\ 
             \sqrt{4\pi}\left\langle Y_{2}^{0}\right\rangle = \frac{2}{\sqrt{5}}\left|P\right|^{2}, &
         \end{array}\label{SP-RES} 
     \end{equation}
+    where $\phi_{SP} = \phi_{S} - \phi_{P}$ is the phase difference between S-wave and P-wave.
 
-}
 
 \begin{figure*}[htbp]
     \centering
@@ -237,9 +239,10 @@ Thus the generic MC sample with signal events removed is used to subtract the ba
 \label{Y0}
 \end{figure*}
 
-\par{
-    The above system of equations can be solved in each interval of $K^{+}K^{-}$ invariant mass for $\left|S\right|$ and $\left|P\right|$ and the resulting distributions are shown in Fig.~\ref{SP}. 
-    
+    The above system of equations can be solved in each interval of $K^{+}K^{-}$ invariant mass for $\left|S\right|$, $\left|P\right|$ and $\phi_{SP}$ and the resulting distributions are shown in Fig.~\ref{SP}. 
+    In Fig.~\ref{SP}(c), we draw the phase difference twice because of the sign ambiguity associated with the value $\phi_{SP}$ extracted from cos$\phi_{SP}$.
+    In the following section, we will discuss $\phi_{S}$ in Fig.~\ref{SP}(d).
+
 }
 
 \begin{figure*}[htbp]
@@ -249,7 +252,7 @@ Thus the generic MC sample with signal events removed is used to subtract the ba
   \begin{overpic}[width=0.9\textwidth]{plot/SP.eps}
   \end{overpic}
  }
- \caption{ Squared (a) S- and (b) P-wave amplitudes}
+ \caption{ Squared (a) S- and (b) P-wave amplitudes; (c) the phase difference $\phi_{SP}$; (d) $\phi_{S}$ obtained as explained in the following section.}
  \label{SP}
 \end{figure*}
 
@@ -257,10 +260,10 @@ Thus the generic MC sample with signal events removed is used to subtract the ba
 \label{MIPWA-RES}
 \par{We empirically parameterize the $S(980)$ with the following function:
     \begin{equation}
-        A_{S(980)} = \frac{1}{m_{0}^{2} - m^{2} -im_{0}\Gamma_{0}\rho_{KK}}, \label{a0980-RBW}
-        %A_{f_{0}(980) / a_{0}(980)} = \frac{1}{m_{0}^{2} - m^{2} -im_{0}\Gamma_{0}\rho_{KK}}, \label{a0980-RBW}
+        A_{S(980)} = \frac{1}{m_{0}^{2} - m^{2} -im_{0}\Gamma_{0}\rho_{KK}}, \label{S980-RBW}
+        %A_{f_{0}(980) / a_{0}(980)} = \frac{1}{m_{0}^{2} - m^{2} -im_{0}\Gamma_{0}\rho_{KK}}, \label{S980-RBW}
     \end{equation}
-    where $\rho_{KK} = 2p/m$, and obtain the following parameter values by fitting the S-wave amplitudes in Fig.~\ref{SP} (b) with this Eq.~\ref{a0980-RBW}.:
+    where $\rho_{KK} = 2p/m$, and obtain the following parameter values by fitting the S-wave amplitudes in Fig.~\ref{SP} (b) with this Eq.~\ref{S980-RBW}.:
     \begin{equation}
         \begin{array}{lr}
             m_{0} = (0.919 \pm 0.006_{stat}) \ {\rm GeV}/c^{2}, &\\
@@ -281,6 +284,73 @@ Thus the generic MC sample with signal events removed is used to subtract the ba
         \caption{ Fit of S-wave amplitudes. The curves result from the fit described in the text.}
         \label{FitSWave}
     \end{figure*}
+    From Eq.~\ref{RBW} in Sec.~\ref{propagator}, we can get the phase of $\phi(1020)$ $\phi_{P}$.
+    Then we can obtain the phase of $S(980)$ $\phi_{S}$ by adding $\phi_{SP}$ and $\phi_{P}$.
+    According to Eq.~\ref{S-wave parameters}, the $S(980)$ central mass is far away from the $K^{+}K^{-}$ threshold and $\phi_{S}$ should move slowly, so we choose the $\phi_{SP}$ which decreases rapidly near the $\phi(1020)$ peak as the physical solution.
+    Then we can obtain the phase of $S(980)$ $\phi_{S}$, which is shown in Fig.\ref{SP}(d), by adding $\phi_{SP}$ and $\phi_{P}$.
+The values of $\left|S\right|^{2}$ (arbitrary units), $\left|P\right|^{2}$ (arbitrary units) and $\phi_{S}$ are reported in Table~\ref{SP-values}. 
+    \begin{table}[htbp]
+        \caption{
+            The values of $\left|S\right|^{2}$ (arbitrary units), $\left|P\right|^{2}$ (arbitrary units) and $\phi_{S}$.
+            Some values of $\phi_{S}$ are missing because the corresponding $\left|P\right|^{2}$ is less than 0 and Eq.~\ref{SP-RES} cannot be solved. 
+            Uncertainties in the table are statistical only.
+        }
+        \label{SP-values}
+        \begin{center}
+            \begin{tabular}{cccc}
+                \toprule\toprule
+                $m(K^{+}K^{-})$ mass interval (GeV/$c^{2}$) & $\left|S\right|^{2}$ (arbitrary units) & $\left|P\right|^{2}$ (arbitrary units) & $\phi_{S}$ (degrees)\\
+                \hline
+                %$[0.988, 0.992]$  &   14593$\ \pm\ $1860& -1137$\ \pm\ $1410  &   - \\ 
+                $[0.988,\ 0.992]$   &	14593$\ \pm\ $1860&	-1137$\ \pm\ $1401&	 - \\ 	
+                $[0.992,\ 0.996]$   &	11326$\ \pm\ $1364&	168$\ \pm\ $1027&	92$\ \pm\ $48 \\ 	
+                $[0.996,\ 1.000]$   &	11064$\ \pm\ $1143&	-531$\ \pm\ $850&	 - \\ 	
+                $[1.000,\ 1.004]$   &	8659$\ \pm\ $1015&	1006$\ \pm\ $748&	90$\ \pm\ $7 \\ 	
+                $[1.004,\ 1.008]$   &	7207$\ \pm\ $1281&	7292$\ \pm\ $1003&	80$\ \pm\ $5 \\ 	
+                $[1.008,\ 1.012]$   &	8703$\ \pm\ $1509&	11746$\ \pm\ $1200&	81$\ \pm\ $5 \\ 	
+                $[1.012,\ 1.016]$   &	6669$\ \pm\ $2565&	48763$\ \pm\ $2066&	79$\ \pm\ $8 \\ 	
+                $[1.016,\ 1.020]$   &	7051$\ \pm\ $6057&	199740$\ \pm\ $5048&	101$\ \pm\ $32 \\ 	
+                $[1.020,\ 1.024]$   &	2466$\ \pm\ $4232&	122645$\ \pm\ $3520&	96$\ \pm\ $52 \\ 	
+                $[1.024,\ 1.028]$   &	4292$\ \pm\ $2108&	34363$\ \pm\ $1748&	87$\ \pm\ $14 \\ 	
+                $[1.028,\ 1.033]$   &	4009$\ \pm\ $1455&	15046$\ \pm\ $1212&	81$\ \pm\ $13 \\ 	
+                $[1.033,\ 1.037]$   &	3922$\ \pm\ $1088&	8108$\ \pm\ $887&	78$\ \pm\ $14 \\ 	
+                $[1.037,\ 1.041]$   &	3480$\ \pm\ $944&	5945$\ \pm\ $768&	70$\ \pm\ $14 \\ 	
+                $[1.041,\ 1.045]$   &	5376$\ \pm\ $854&	3707$\ \pm\ $678&	71$\ \pm\ $14 \\ 	
+                $[1.045,\ 1.049]$   &	4043$\ \pm\ $696&	2103$\ \pm\ $551&	76$\ \pm\ $14 \\ 	
+                $[1.049,\ 1.053]$   &	3621$\ \pm\ $665&	1858$\ \pm\ $530&	76$\ \pm\ $14 \\ 	
+                $[1.053,\ 1.057]$   &	3167$\ \pm\ $599&	1680$\ \pm\ $467&	76$\ \pm\ $14 \\ 	
+                $[1.057,\ 1.061]$   &	3063$\ \pm\ $569&	1333$\ \pm\ $448&	70$\ \pm\ $15 \\ 	
+                $[1.061,\ 1.065]$   &	3841$\ \pm\ $582&	685$\ \pm\ $461&	59$\ \pm\ $17 \\ 	
+                $[1.065,\ 1.069]$   &	3343$\ \pm\ $439&	-45$\ \pm\ $324&	 - \\ 	
+                $[1.069,\ 1.073]$   &	3377$\ \pm\ $525&	395$\ \pm\ $413&	59$\ \pm\ $21 \\ 	
+                $[1.073,\ 1.077]$   &	2635$\ \pm\ $474&	684$\ \pm\ $368&	71$\ \pm\ $15 \\ 	
+                $[1.077,\ 1.081]$   &	2632$\ \pm\ $426&	357$\ \pm\ $320&	64$\ \pm\ $18 \\ 	
+                $[1.081,\ 1.085]$   &	2802$\ \pm\ $485&	647$\ \pm\ $377&	63$\ \pm\ $16 \\ 	
+                $[1.085,\ 1.089]$   &	2121$\ \pm\ $421&	287$\ \pm\ $332&	74$\ \pm\ $18 \\ 	
+                $[1.089,\ 1.093]$   &	2487$\ \pm\ $369&	-185$\ \pm\ $278&	 - \\ 	
+                $[1.093,\ 1.097]$   &	2105$\ \pm\ $505&	1041$\ \pm\ $409&	68$\ \pm\ $15 \\ 	
+                $[1.097,\ 1.101]$   &	2326$\ \pm\ $440&	100$\ \pm\ $355&	51$\ \pm\ $66 \\ 	
+                $[1.101,\ 1.105]$   &	1962$\ \pm\ $369&	47$\ \pm\ $286&	44$\ \pm\ $137 \\ 	
+                $[1.105,\ 1.109]$   &	1422$\ \pm\ $323&	216$\ \pm\ $246&	65$\ \pm\ $21 \\ 	
+                $[1.109,\ 1.114]$   &	1420$\ \pm\ $453&	777$\ \pm\ $377&	63$\ \pm\ $17 \\ 	
+                $[1.114,\ 1.118]$   &	697$\ \pm\ $377&	903$\ \pm\ $307&	73$\ \pm\ $17 \\ 	
+                $[1.118,\ 1.122]$   &	1351$\ \pm\ $330&	234$\ \pm\ $257&	65$\ \pm\ $21 \\ 	
+                $[1.122,\ 1.126]$   &	1373$\ \pm\ $297&	-60$\ \pm\ $229&	 - \\ 	
+                $[1.126,\ 1.130]$   &	690$\ \pm\ $312&	340$\ \pm\ $255&	59$\ \pm\ $22 \\ 	
+                $[1.130,\ 1.134]$   &	535$\ \pm\ $246&	130$\ \pm\ $197&	67$\ \pm\ $27 \\ 	
+                $[1.134,\ 1.138]$   &	772$\ \pm\ $261&	205$\ \pm\ $199&	38$\ \pm\ $37 \\ 	
+                $[1.138,\ 1.142]$   &	1246$\ \pm\ $266&	-71$\ \pm\ $200&	 - \\ 	
+                $[1.142,\ 1.146]$   &	545$\ \pm\ $350&	456$\ \pm\ $298&	35$\ \pm\ $37 \\ 	
+                $[1.146,\ 1.150]$   &	763$\ \pm\ $262&	206$\ \pm\ $205&	58$\ \pm\ $24 \\ 	
+                \bottomrule\bottomrule
+            \end{tabular}
+        \end{center}
+    \end{table}
+
+
+    In addition, we also have tried to fit $S(980)$ with K matrix formalism (Appendix~\ref{app:a0_f0_K_matrix}) checked the significance of non-resonance $K^{+}K^{-}$ S wave in $S(980)$ (Appendix~\ref{app:a0_f0_nonRes}).
+
+
 }
 
 \subsection{Systematic Uncertainties}
@@ -320,11 +390,11 @@ Thus the generic MC sample with signal events removed is used to subtract the ba
             %The shift of mass and width are 0.002 GeV/$c^{2}$ and 0.001 GeV/$c^{2}$, respectively.
             The background shape of generic MC is also replaced with that of ``Sideband" for data to perform a fit and the shift is taken as the systematic uncertainty related to the background shape.
             The shift of $m_{0}$ and $\Gamma_{0}$ are 0.002 GeV/$c^{2}$ and 0.001 GeV/$c^{2}$.
-        
+
         \item \uppercase\expandafter{\romannumeral3} PID and tracking efficiency difference between data and MC. 
             To estimate the experimental effects related to the difference of PID and tracking efficiency between data and MC, based on the work~\cite{PID} and the work~\cite{Tracking}, we weight each event with the efficiency of data divided by that of MC and fit the shape of S(980).
             The shift of $m_{0}$ and $\Gamma_{0}$ are 0.001 GeV/$c^{2}$ and 0.013 GeV/$c^{2}$.
-        
+
         \item \uppercase\expandafter{\romannumeral4} The $f_{0}(1370)$ remained in S(980). 
             We assume that the fit fraction (defined in Sec.~\ref{FF}) of $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$ is 5\% and then produced a MC sample with procedure $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$ to extract the shape of $f_{0}(1370)$ at the low end of $m_{K^{+}K^{-}}$ mass spectrum.
             We scale the number of $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$ according to the fit fraction of $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$ and the shape contributed from $f_{0}(1370)$ is shown in Fig.~\ref{f01370_SWave}.
@@ -341,7 +411,7 @@ Thus the generic MC sample with signal events removed is used to subtract the ba
                 \caption{The shape of $f_{0}(1370)$ at the low end of $m_{K^{+}K^{-}}$ mass spectrum extracted from a MC sample with procedure $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$.}
                 \label{f01370_SWave}
             \end{figure*}
-        
+
         \item \uppercase\expandafter{\romannumeral5} Fit range. We vary the fit range from [0.988, 1.15] GeV/$c^{2}$ to [0.988, 1.145] GeV/$c^{2}$ and the shift of $m_{0}$ and $\Gamma_{0}$ are 0.002 GeV/$c^{2}$ and 0.003 GeV/$c^{2}$.  
 
     \end{itemize}
@@ -361,12 +431,12 @@ Thus the generic MC sample with signal events removed is used to subtract the ba
                 \toprule\toprule
                 Source   &                                                      $m_{0}$ ( GeV/$c^{2}$)  &$\Gamma_{0}$ ( GeV/$c^{2}$)\\
                 \hline
-                 BDTG                     & 0.030                  &   0.020 \\
-                 Background subtraction   & 0.002                  &   0.001 \\
-                 PID and Tracking         & 0.001                  &   0.013 \\
-                 $f_{0}(1370)$            & 0.001                  &   0.003 \\
-                 Fit range                & 0.002                  &   0.003 \\
-                
+                BDTG                     & 0.030                  &   0.020 \\
+                Background subtraction   & 0.002                  &   0.001 \\
+                PID and Tracking         & 0.001                  &   0.013 \\
+                $f_{0}(1370)$            & 0.001                  &   0.003 \\
+                Fit range                & 0.002                  &   0.003 \\
+
                 \hline
                 total                                   & 0.030                  &   0.024\\
                 \bottomrule\bottomrule
@@ -380,7 +450,7 @@ Thus the generic MC sample with signal events removed is used to subtract the ba
             \Gamma_{0} = (0.272 \pm 0.040_{stat} \pm 0.024_{sys})\ {\rm GeV}/c^{2}, &
         \end{array}\label{S-wave-sys} 
     \end{equation}
-    
+
     %And we also perform a fit with two poles (Eq.~\ref{two-poles}) with two different widths.
     %\begin{equation}
     %    \begin{array}{lr}
