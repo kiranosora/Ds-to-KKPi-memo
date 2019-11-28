@@ -13,12 +13,16 @@ With the tagged $D_{s}$ meson, the signal $D_{s}$ is reconstructed with the rema
 The momentum of $\pi^{\pm}$ $(\pi^{0})$ is required to be larger than $100\ {\rm MeV/c^{2}}$ to suppress the background of $D^{*} \rightarrow D\pi$.
 Only the $D_{s}$ candidate with invariant mass falls into $[1.87, 2.06]$ GeV/$c^{2}$ are selected.
 
-For every candidate of $D_{s}D_{s}^{*}$ decays, all tracks at signal side and tag side as well as gamma from $D_{s}^{*}$ are added to apply kinematic fitting. Five constrains are added in kinematic fitting: four-momentum of $D_{s}D_{s}^{*}$ and mass of $D_{s}^{*}$. Then we select the candidate with minimum $\chi_{5c}^{2}$.  
+For every candidate of $D_{s}D_{s}^{*}$ decays, all tracks at signal side and tag side as well as gamma from $D_{s}^{*}$ are added to apply kinematic fitting. 
+Five constrains are added in kinematic fitting: four-momentum of $D_{s}D_{s}^{*}$ and mass of $D_{s}^{*}$. 
+If the combination of signal $D_{s}$ and $\gamma$ to form $D_{s}^{*}$ have a lower $\chi_{5C}^{2}$ than that of tagged $D_{s}$ and $\gamma$, the signal $D_{s}$ should come from the $D_{s}^{*}$ decay.
+Otherwise, the signal $D_{s}$ should directly come from the intersection point.
+Then we select the candidate with minimum $\chi_{5C}^{2}$.  
 
 The candidates satisfy:
 \begin{itemize}
     \item[-] $m_{sig}$ and $m_{tag}$ falls in the mass regions shown in Table~\ref{ST-mass-window}, 
-	\item[-] $\chi_{5c}^{2} < 200 $, 
+	\item[-] $\chi_{5C}^{2} < 200 $, 
 \end{itemize}
 are retained for the amplitude analysis, where $m_{sig}$ and $m_{tag}$ refer to mass of $D_{s}$ at signal side and tag side respectively.
 After the selection above, if we find both $D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$ and $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$ modes in an event, both of them are taken as our signals.
@@ -140,7 +144,7 @@ The total amplitude $M$ is then the coherent sum of the amplitudes of intermedia
             \begin{array}{lr}
                 X_{L=0}(q) = 1,       &\\
                 X_{L=1}(q) = \sqrt{\frac{2}{z^{2}+1}},       &\\
-                X_{L=2}(q) = \sqrt{\frac{13}{9z^{4}+3z^{2}+1}},       &\\
+                X_{L=2}(q) = \sqrt{\frac{13}{z^{4}+3z^{2}+9}},       &\\
             \end{array}\label{XLQ} 
         \end{equation}
         where $z=qR$. The R is the effective radius of the intermediate state or $D_{s}$ meson and set to $3.0\ {\rm GeV}^{-1}$ for intermediate states and $5.0\ {\rm GeV}^{-1}$  for $D_{s}$ meson~\cite{Doc-DB-416-v30}, respectively.
@@ -236,7 +240,7 @@ $D_{s}^{+} \rightarrow S(980)\pi^{+}$,
 $D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$,
 $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$,
 $D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$ 
-are retained in the final result. The statistical significance of the six amplitudes in final result are also checked.
+retained in the final result. The statistical significance of other amplitudes in final result are also checked.
 %With one amplitude dropped and the fit repeated, compared with the nominal fit the likelihood shift ($\Delta(lnL)$) and the number of freedom degree shift ($\Delta n_{par}$) are then corresponding to the statistical significance.
 The statistical significance is calculated by the difference of the likelihood of fits with and without a certain amplitude along with the difference of degree of freedom.
 The detail $2\Delta(lnL)$, $\Delta n_{par}$, and the statistical significance for each amplitude are  listed in Table~\ref{significance-table}.
@@ -318,14 +322,15 @@ The fit quality is determined by calculating the $\chi^{2}/NDOF$ of the fit usin
 The goodness of the nominal fit is $\chi^{2}/NDOF=290.1/280=1.04$.  
 
 We also compare the shape of S wave extracted from data in Fig.~\ref{SP} (Sec.~\ref{MIPWA-RES}) and the projection of S wave ( S(980), $\bar{K}^{*}_{0}(1430)^{0}$,  $f_{0}(1710)$ and $f_{0}(1370)$) to $m(K^{+}K^{-})$ in the nominal fit, shown in Fig.~\ref{MIPWA-PWA}.
-We can see that the two shapes are well consistent.
+We can see that the two shapes are well consistent and the other wave components's (except S(980)) contribution is very small.
 \begin{figure*}[htbp]
     \centering
     \mbox{
         \begin{overpic}[width=0.8\textwidth]{plot/MIPWA_PWA.eps}
         \end{overpic}
     }
-    \caption{The comparison of S wave extracted from data in Fig.~\ref{SP} (Sec.~\ref{MIPWA-RES}) and the projection of S wave ( S(980), $\bar{K}^{*}_{0}(1430)^{0}$,  $f_{0}(1710)$ and $f_{0}(1370)$) to $m(K^{+}K^{-})$ in the nominal fit. The black dots with error bars refer to data and the red line refers to the projection of S wave.}
+    \caption{The comparison of S wave extracted from data in Fig.~\ref{SP} (Sec.~\ref{MIPWA-RES}) and the projection of S wave ( S(980), $\bar{K}^{*}_{0}(1430)^{0}$,  $f_{0}(1710)$ and $f_{0}(1370)$) to $m(K^{+}K^{-})$ in the nominal fit. 
+    The black dots with error bars refer to data, the purple line refers to the projection of the other S wave components expcept S(980) and the red line refers to the projection of S wave.}
     \label{MIPWA-PWA}
 \end{figure*}
 
@@ -350,7 +355,7 @@ We can see that the two shapes are well consistent.
             With the results obtained from the fit, the signal MC samples are generated with the same size of the data. In this analysis, 300 MC samples with the size equaling to data are used to perform the pull distribution check.
             The results are listed in Table~\ref{pull-distribution-check}.
             The corresponding plots are shown in Fig.~\ref{pull-phase}, Fig.~\ref{pull-magnitude} and Fig.~\ref{pull-FF}.
-            The quadrature sum of the difference of the mean and the nominal value and the error of mean is considered as the uncertainty associated with fit bias.
+            The quadrature sum of the value of the mean and the error of mean is considered as the uncertainty associated with fit bias.
         \item \uppercase\expandafter{\romannumeral4} Experimental effects. 
             The experimental effects are related to the acceptance difference between MC and data caused by PID and tracking efficiencies, that is $\gamma_{\epsilon}$ in Eq.~\ref{experimental-effect}.
             To estimate the uncertainties caused by $\gamma_{\epsilon}$, the amplitude fit is performed varying PID and tracking efficiencies according to their uncertainties according to the work~\cite{PID} and the work~\cite{Tracking}.

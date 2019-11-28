@@ -2,7 +2,7 @@
 \label{ST-selection}
 At $E_{cm} = 4.178$ GeV, pairs of $D_{s}D_{s}^{*}$ are produced,  and the $D_{s}^{*}$ decays to either $D_{s}\gamma$ or $D_{s}\pi^{0}$.
 So the $D_{s}$ mesons are produced in pairs without additional charged hadrons ($K^{\pm}(\pi^{\pm})$).
-%We do not search for the gamma or $\pi^{0}$ from the $D_{s}^{*}$ decay. 
+We reconstruct the gamma from the $D_{s}^{*}$ decay in this analysis except the branching fraction measurement section (Sec.~\ref. 
 These unique $D_{s}^{+}D_{s}^{-}$ final states provide us an opportunity to employ the double tag method to measure the absolute branching fractions of $D_{s}$ meson decays.
 The double tag method also provide clean samples to perform an amplitude analysis.
 
@@ -71,7 +71,7 @@ the corresponding $M_{rec}$ satisfied $2.051 < M_{rec} < 2.180\ {\rm GeV}/c^{2}$
 \begin{equation}
     M_{rec} = \sqrt{(E_{cm} - \sqrt{p_{D_{s}}^{2} + m_{D_{s}}^{2}})^{2} - |\vec p_{cm} - \vec p_{D_{s}} | ^{2}} \; , \label{con:inventoryflow}
 \end{equation}
-where $E_{cm}$ is the energy of initial state calculated from the beam energy~\cite{DocDB 580-v1}, $\vec p_{D_{s}}$ is the momentum of $D_{s}$ candidate, $m_{D_{s}}$ is $D_{s}$ mass quoted from PDG~\cite{PDG2018}, and $\vec p_{cm}$ and $\vec p_{D_{s}}$ are four-momentum of the initial state and the decay products of the $D_{s}$ candidate, respectively.
+where $E_{cm}$ is the energy of initial state calculated from the beam energy~\cite{DocDB 580-v1}, $p_{D_{s}}$ is the momentum of $D_{s}$ candidate, $m_{D_{s}}$ is $D_{s}$ mass quoted from PDG~\cite{PDG2018}, and $\vec p_{cm}$ and $\vec p_{D_{s}}$ are four-momentum of the initial state and the decay products of the $D_{s}$ candidate, respectively.
 
 \subsection{Signal Selection}
 \par{

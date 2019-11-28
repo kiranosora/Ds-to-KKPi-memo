@@ -14,7 +14,7 @@ Then we select the best candidate with minimum $\chi_{1c}^{2}$.
 \subsection{Background Analysis}
 \label{MIPWA-BA}
 In order to suppress the background, the multiple-variable analysis (MVA) is used. We train MVA separately with different sets of variables for the two event categories depending on the $D_{s}^{+}$ origin. 
-Sideband region used below is defined as the region of  $1.90 < M(D_{s}) < 1.95$ GeV/$c^{2}$ and   $1.986 < M(D_{s}) < 2.03$ GeV/$c^{2}$, where $M(D_{s})$ is the invariant mass of $D_{s}$, and the signal region is $1.95 < M(D_{s}) < 1.986$ GeV/$c^{2}$.
+Sideband region used below is defined as the region of  $1.90 < M(D_{s}) < 1.95$ GeV/$c^{2}$ and   $1.986 < M(D_{s}) < 2.03$ GeV/$c^{2}$, where $M(D_{s})$ is the invariant mass of $D_{s}$ before applying the kinematic fit, and the signal region is $1.95 < M(D_{s}) < 1.986$ GeV/$c^{2}$.
 Two categories of events are selected in a $M_{rec}-\Delta{M}$ 2D plane as shown in Fig.~\ref{2DAll}.
 
 \begin{figure*}[htbp]
@@ -195,7 +195,7 @@ Thus the generic MC sample with signal events removed is used to subtract the ba
 
 
 \subsection{Partial Wave Analysis}
-\par{Assuming N is the number of events for a given mass interval $I=[m_{K^{+}K^{-}}; m_{K^{+}K^{-}} + dm_{K^{+}K^{-}}]$, we write the corresponding angular distributions in terms of the appropriate spherical harmonic functions is written
+\par{Assuming N is the number of events for a given mass interval $I=[m_{K^{+}K^{-}}; m_{K^{+}K^{-}} + dm_{K^{+}K^{-}}]$, we write the corresponding angular distributions in terms of the appropriate spherical harmonic functions as 
     \begin{equation}
         \frac{dN}{d\cos\theta} = 2\pi\sum_{k=0}^L\left\langle Y_{k}^{0}\right\rangle Y_{k}^{0}(\cos\theta),\label{expansion}
     \end{equation}
@@ -211,7 +211,11 @@ Thus the generic MC sample with signal events removed is used to subtract the ba
     \end{equation}
     This integral is given, to a good approximation, by $\sum_{n=1}^{N}Y_{k}^{0}(\cos\theta_{n})$, where $\theta_{n}$ is the value of $\theta$ for the $n$-th event.
     
-    Fig.~\ref{Y0} shows the $K^{+}K^{-}$ mass spectrum up to 1.15 GeV/$c^{2}$ weighted by $Y_{k}^{0}(\cos\theta) = \sqrt{(2k+1)/(4\pi)}P_{k}(\cos\theta)$ for k=0, 1, and 2, where $P_{k}$ is the Legendre polynomial function of order $k$. These distributions are corrected for efficiency and phase space, and background is subtracted by background from generic MC after BDTG requirement.
+    Fig.~\ref{Y0} shows the $K^{+}K^{-}$ mass spectrum up to 1.15 GeV/$c^{2}$ weighted by $Y_{k}^{0}(\cos\theta) = \sqrt{(2k+1)/(4\pi)}P_{k}(\cos\theta)$ for k=0, 1, and 2, where $P_{k}$ is the Legendre polynomial function of order $k$. 
+    These distributions are corrected for efficiency and phase space, and background is subtracted by background from generic MC after BDTG requirement.
+    Before the efficiency correction, we subtract the background with the shape on the distribution $m_{K^{-}\pi^{+}}$ versus $m_{K^{+}K^{-}}$ from MC. 
+    The distribution $m_{K^{-}\pi^{+}}$ versus $m_{K^{+}K^{-}}$ of MC is used to calculate the efficiency.
+    Then we correct the distributions with the efficiency and the phase space factor $1/\sqrt{ 1 - \frac{m(K)^{2}}{4m(K^{+}K^{-})^{2}}}$, where $m(K)$ is the nominal mass of $K^{+}$ on PDG~\cite{PDG2018}.
     
     The number of events N for the mass interval $I$ can be expressed in terms of the partial-wave amplitudes describing the $K^{+}K^{-}$ system. Assuming that only S- and P-wave amplitudes are necessary in this limited region, we can write:
     \begin{equation}
@@ -356,7 +360,7 @@ The values of $\left|S\right|^{2}$ (arbitrary units), $\left|P\right|^{2}$ (arbi
 \subsection{Systematic Uncertainties}
 \label{MIPWA-SYS}
 \par{
-    Systematic uncertainties take in account:
+    Systematic uncertainties taken in account:
     \begin{itemize}
         \item \uppercase\expandafter{\romannumeral1} Data-MC agreement for the BDTG output. 
             We apply the same BDTG as that in Sec.~\ref{MIPWA-BA} to a control sample, which passed the same event selection without the kinematic fit $\chi_{5c}^{2}$ cut criteria as that in Sec.~\ref{AASelection}, and compare the efficiency of data and MC.
