@@ -148,7 +148,7 @@ The total amplitude $M$ is then the coherent sum of the amplitudes of intermedia
             \end{array}\label{XLQ} 
         \end{equation}
         where $z=qR$. The R is the effective radius of the intermediate state or $D_{s}$ meson and set to $3.0\ {\rm GeV}^{-1}$ for intermediate states and $5.0\ {\rm GeV}^{-1}$  for $D_{s}$ meson~\cite{Doc-DB-416-v30}, respectively.
-        This value R is a typical value used by $D$ physics and we will also vary this value as a source of systematical uncertainties.
+        This value R is a typical value used by $D$ physics and we will also vary this value as a source of systematic uncertainties.
 
         $K^{*}_{0}(1430)^{0}$ is parameterized with Flatte formula:
         \begin{equation}

@@ -8,7 +8,9 @@ They are available at
 For each round of generic MC, the detail components and corresponding size of each Monte Carlo sample are given in Table~\ref{tab:genMC}.
 \begin{table}[htp]
 \begin{center}
-\caption{Component and corresponding sizes, assume luminosity = 3195/pb.}
+\caption{Component and corresponding sizes, assume luminosity = 3195/pb.
+    The cross sections of the open charm components except  $D_{s}^{+}D_{s}^{-}$ ~\cite{DocDB 580-v1} and $D_{s}^{*+}D_{s}^{-}$ ~\cite{DocDB 752-v3} are measured by CLEO-c~\cite{PRD80-072001}.
+}
 \begin{tabular}{c|c|c|c} \hline
 Component        & cross section (pb) & Size (M) & directory \\ \hline
 $D^{0}D^{0}$     &        179         & 0.5719  &  D0D0 \\
@@ -17,8 +19,8 @@ $D^{*0}D^{0}$    &       1211         & 3.8691  &  DST0D0 \\
 $D^{*+}D^{-}$    &       1296         & 4.1407  &  DSTpDm \\
 $D^{*0}D^{*0}$   &       2173         & 6.9427  &  DST0DST0 \\
 $D^{*+}D^{*-}$   &       2145         & 6.8533  &  DSTpDSTm \\
-$D_{s}^{+}D_{s}^{-}$ &      7         & 0.0225  &  DsDs \\
-$D_{s}^{*+}D_{s}^{-}$ &   961         & 3.0700  &  DsSTDs \\
+    $D_{s}^{+}D_{s}^{-}$ ~\cite{DocDB 580-v1}&      7         & 0.0225  &  DsDs \\
+    $D_{s}^{*+}D_{s}^{-}$ ~\cite{DocDB 752-v3}&   961         & 3.0700  &  DsSTDs \\
 \hline
 $DD^{*}\pi^{+}$  &        383         & 1.2237  &  DDSTPIp \\
 $DD^{*}\pi^{0}$  &        192         & 0.6134  &  DDSTPI0 \\
@@ -67,7 +69,7 @@ HCT              &        0.10178     &  0.3252   & HCT \\
 %\end{table} 
 
 
-For the Signal MC, we generate the signal events with one $D_{s}$ decaying to signal mode using the generator ``DIY'', in which the parameters are obtained from the fit to data. phase space (PHSP) MC and Signal MC are used in MC integration required for the amplitude fit. The Signal MC is also used in the input/output check.
+For the Signal MC, we generate the signal events with one $D_{s}$ decaying to signal mode using the generator ``DIY'', in which the parameters are obtained from the fit to data. Phase space (PHSP) MC and Signal MC are used in MC integration required for the amplitude fit. The Signal MC is also used in the input/output check.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
