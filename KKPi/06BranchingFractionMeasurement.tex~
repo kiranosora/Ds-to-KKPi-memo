@@ -21,7 +21,7 @@ The BFs of the sub-particle ($K_{S}^{0}$, $\pi^{0}$, $\eta$ and $\eta^{'}$) deca
             \toprule\toprule
             Tag mode & Mass window (GeV/$c^{2}$)  & $Y_{ST}$  & $\epsilon_{ST}(\%)$\\
             \hline
-            $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}$                          & [1.948, 1.991]    & $32399\ \pm\ 274$               & 49.48$\ \pm\ $0.07\\
+            $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}$                          & [1.948, 1.991]    & $31987\ \pm\ 314$               & 49.48$\ \pm\ $0.07\\
             $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$                       & -                 & $141189\ \pm\ 643$              & 42.17$\ \pm\ $0.03\\
             %$D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$                       & [1.900, 2.030]    & $135273\ \pm\ 609$              & 42.17$\ \pm\ $0.03\\
             $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}\pi^{0}_{\gamma\gamma}$                & [1.947, 1.982]    & $37899\ \pm\ 1739$              & 10.61$\ \pm\ $0.03\\
@@ -45,7 +45,7 @@ The BFs of the sub-particle ($K_{S}^{0}$, $\pi^{0}$, $\eta$ and $\eta^{'}$) deca
  \includegraphics[width=0.35\textwidth]{plot/DsTag421_Mass_data.eps}
  \includegraphics[width=0.35\textwidth]{plot/DsTag460_Mass_data.eps}
  \includegraphics[width=0.35\textwidth]{plot/DsTag502_Mass_data.eps}
- \caption{Ds Mass fits from data. The points with error bars are data, and the blue line is the fit. Red short-dashed lines are signal, violet long-dashed lines are background. The red arrows denote the signal region.  }
+ \caption{Ds Mass fits from data. The points with error bars are data, and the blue line is the fit. Red short-dashed lines are signal, violet long-dashed lines are background. The red arrows denote the signal region. In the fit to the $D_{s}$ mass for $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}$, the black dashed line shows the shape of $D^{-} \rightarrow K_{S}^{0}\pi^{-}$, which contributes to the peaking background in the corresponding mass window.}
 \label{SingleTagFit}
 \end{figure*}
 
@@ -191,7 +191,7 @@ With the updated MC sample (DIY MC) based on the amplitude analysis results, the
         \item Dalitz model. The uncertainty from the Dalitz model is estimated as the change of efficiency when the Dalitz model parameters are varied by their uncertainties.
     \end{itemize}
 
-    All of the systematic uncertainties mentioned above are summarized in Table~\ref{BF-Sys}.
+    All of the systematic uncertainties mentioned above are summarized in Table~\ref{BF-Sys} and uncertainties in the table are relative shifts.
     \begin{table}[htbp]
         \caption{Systematic uncertainties of branching fraction.}
         \label{BF-Sys}
