@@ -26,6 +26,9 @@ The candidates satisfy:
 \end{itemize}
 are retained for the amplitude analysis, where $m_{sig}$ and $m_{tag}$ refer to mass of $D_{s}$ at signal side and tag side respectively.
 After the selection above, if we find both $D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$ and $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$ modes in an event, both of them are taken as our signals.
+
+In addition, we use the four momentum after applying kinematic fitting with the mass of signal $D_{s}$ constrained to PDG value and the five constrains above to perform amplitude analysis.
+
 \begin{table}[htbp]
     \caption{ The mass windows for each tag mode. The mass windows use the results in Ref.~\cite{Doc-DB-630-v35} }
     \label{ST-mass-window}
@@ -194,7 +197,7 @@ The total amplitude $M$ is then the coherent sum of the amplitudes of intermedia
             \begin{array}{lr}
                 S_{n} = 1,         \ \ \ \ \ \  \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \ (S\ wave), &\\
                 S_{n} = \tilde{T}^{(1)\mu}(D_{s})\tilde{t}^{(1)}_{\mu}(a),\ \          (P\ wave), &\\
-                S_{n} = \tilde{T}^{(2)\mu}(D_{s})\tilde{t}^{(2)}_{\mu}(a),\ \         (D\ wave), &
+                S_{n} = \tilde{T}^{(2)\mu\nu}(D_{s})\tilde{t}^{(2)}_{\mu\nu}(a),\ \         (D\ wave), &
             \end{array}\label{spin-factor} 
         \end{equation}
         where the $\tilde{T}^{(1)\mu}(D_{s})$($\tilde{T}^{(2)\mu}(D_{s})$) and $\tilde{t}^{(1)}_{\mu}(a)$($\tilde{t}^{(2)}_{\mu}(a)$) have same definition as in Ref.~\cite{covariant-tensors}.

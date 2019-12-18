@@ -21,7 +21,7 @@ The BFs of the sub-particle ($K_{S}^{0}$, $\pi^{0}$, $\eta$ and $\eta^{'}$) deca
             \toprule\toprule
             Tag mode & Mass window (GeV/$c^{2}$)  & $Y_{ST}$  & $\epsilon_{ST}(\%)$\\
             \hline
-            $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}$                          & [1.948, 1.991]    & $31987\ \pm\ 314$               & 49.48$\ \pm\ $0.07\\
+            $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}$                          & [1.948, 1.991]    & $31987\ \pm\ 314$               & 49.09$\ \pm\ $0.07\\
             $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$                       & -                 & $141189\ \pm\ 643$              & 42.17$\ \pm\ $0.03\\
             %$D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$                       & [1.900, 2.030]    & $135273\ \pm\ 609$              & 42.17$\ \pm\ $0.03\\
             $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}\pi^{0}_{\gamma\gamma}$                & [1.947, 1.982]    & $37899\ \pm\ 1739$              & 10.61$\ \pm\ $0.03\\
