@@ -53,7 +53,7 @@ In addition, we use the four momentum after applying kinematic fitting with the 
 }
 
 \subsection{Background Analysis}
-We use generic MC to estimate the background. The background and signal shape of generic MC is shown in Fig.~\ref{background-and-signal-distribution}. 
+We use generic MC to estimate the background. The background and signal shape of generic MC are shown in Fig.~\ref{background-and-signal-distribution}. 
 By scaling the generic MC background sample to the data size based on the luminosities, the background yields in the signal region is 17.2. 
 The fit to the signal $D_{s}$ invariant mass ($m_{sig}$) spectrum gives the background yield in the signal region is $18.1 \pm 5.1$, shown as in Fig.~\ref{mDs_fit}.  
 The background level in generic MC is consistent with the data. In the fit, the signal shape is the MC shape convoluted with a Gaussian function and the background is the MC shape. 
