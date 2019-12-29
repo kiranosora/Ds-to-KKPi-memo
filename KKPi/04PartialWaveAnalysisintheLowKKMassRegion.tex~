@@ -215,7 +215,7 @@ Thus the generic MC sample with signal events removed is used to subtract the ba
     These distributions are corrected for efficiency and phase space, and background is subtracted by background from generic MC after BDTG requirement.
     Before the efficiency correction, we subtract the background with the shape on the distribution $m_{K^{-}\pi^{+}}$ versus $m_{K^{+}K^{-}}$ from MC. 
     The distribution $m_{K^{-}\pi^{+}}$ versus $m_{K^{+}K^{-}}$ of MC is used to calculate the efficiency.
-    Then we correct the distributions with the efficiency and the phase space factor $1/\sqrt{ 1 - \frac{m(K)^{2}}{4m(K^{+}K^{-})^{2}}}$, where $m(K)$ is the nominal mass of $K^{+}$ on PDG~\cite{PDG2018}.
+    Then we correct the distributions with the efficiency and the phase space factor $1/\sqrt{ 1 - \frac{4m(K)^{2}}{m(K^{+}K^{-})^{2}}}$, where $m(K)$ is the nominal mass of $K^{+}$ on PDG~\cite{PDG2018}.
     
     The number of events N for the mass interval $I$ can be expressed in terms of the partial-wave amplitudes describing the $K^{+}K^{-}$ system. Assuming that only S- and P-wave amplitudes are necessary in this limited region, we can write:
     \begin{equation}
@@ -267,11 +267,11 @@ Thus the generic MC sample with signal events removed is used to subtract the ba
         A_{S(980)} = \frac{1}{m_{0}^{2} - m^{2} -im_{0}\Gamma_{0}\rho_{KK}}, \label{S980-RBW}
         %A_{f_{0}(980) / a_{0}(980)} = \frac{1}{m_{0}^{2} - m^{2} -im_{0}\Gamma_{0}\rho_{KK}}, \label{S980-RBW}
     \end{equation}
-    where $\rho_{KK} = 2p/m$, and obtain the following parameter values by fitting the S-wave amplitudes in Fig.~\ref{SP} (b) with this Eq.~\ref{S980-RBW}.:
+    where $\rho_{KK} = 2p/m$, and obtain the following parameter values by fitting the S-wave amplitudes in Fig.~\ref{SP} (a) with this Eq.~\ref{S980-RBW}.:
     \begin{equation}
         \begin{array}{lr}
             m_{0} = (0.919 \pm 0.006_{stat}) \ {\rm GeV}/c^{2}, &\\
-            \Gamma_{0} = (0.272 \pm 0.040_{stat}) \ {\rm GeV}/c^{2}. &
+            \Gamma_{0} = (0.272 \pm 0.040_{stat}) \ {\rm GeV}. &
         \end{array}\label{S-wave parameters} 
     \end{equation}
 
@@ -386,24 +386,24 @@ The values of $\left|S\right|^{2}$ (arbitrary units), $\left|P\right|^{2}$ (arbi
                     \end{tabular}
                 \end{center}
             \end{table}
-            We fit the shape of S(980) corrected with $\frac{e_{data}}{e_{MC}}$ and take the shift of $m_{0}$ and $\Gamma_{0}$ as the systematic uncertainty. The shift of $m_{0}$ and $\Gamma_{0}$ are 0.03 GeV/$c^{2}$ and 0.02 GeV/$c^{2}$, respectively.
+            We fit the shape of S(980) corrected with $\frac{e_{data}}{e_{MC}}$ and take the shift of $m_{0}$ and $\Gamma_{0}$ as the systematic uncertainty. The shift of $m_{0}$ and $\Gamma_{0}$ are 0.03 GeV/$c^{2}$ and 0.02 GeV, respectively.
 
         \item \uppercase\expandafter{\romannumeral2} Background subtraction. 
             We change the bin number and fit range and replace the background shape with a third-order Chebychev polynomial in the fit shown in Fig~\ref{MIPWA-ST} and take the shift as a resource of background ratio error.
             We vary the background ratio ( (3.8 $\pm$ 0.3)\% ) with one sigma and then take the largest shift of the fit of S(980) as the systematic uncertainty related to the background ratio. 
             %The shift of mass and width are 0.002 GeV/$c^{2}$ and 0.001 GeV/$c^{2}$, respectively.
             The background shape of generic MC is also replaced with that of ``Sideband" for data to perform a fit and the shift is taken as the systematic uncertainty related to the background shape.
-            The shift of $m_{0}$ and $\Gamma_{0}$ are 0.002 GeV/$c^{2}$ and 0.001 GeV/$c^{2}$.
+            The shift of $m_{0}$ and $\Gamma_{0}$ are 0.002 GeV/$c^{2}$ and 0.001 GeV.
 
         \item \uppercase\expandafter{\romannumeral3} PID and tracking efficiency difference between data and MC. 
             To estimate the experimental effects related to the difference of PID and tracking efficiency between data and MC, based on the work~\cite{PID} and the work~\cite{Tracking}, we weight each event with the efficiency of data divided by that of MC and fit the shape of S(980).
-            The shift of $m_{0}$ and $\Gamma_{0}$ are 0.001 GeV/$c^{2}$ and 0.013 GeV/$c^{2}$.
+            The shift of $m_{0}$ and $\Gamma_{0}$ are 0.001 GeV/$c^{2}$ and 0.013 GeV.
 
         \item \uppercase\expandafter{\romannumeral4} The $f_{0}(1370)$ remained in S(980). 
             We assume that the fit fraction (defined in Sec.~\ref{FF}) of $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$ is 5\% and then produced a MC sample with procedure $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$ to extract the shape of $f_{0}(1370)$ at the low end of $m_{K^{+}K^{-}}$ mass spectrum.
             We scale the number of $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$ according to the fit fraction of $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$ and the shape contributed from $f_{0}(1370)$ is shown in Fig.~\ref{f01370_SWave}.
             At last, the $f_{0}(1370)$ remained in S(980) is subtracted according to the scaled shape obtained above.
-            The shift of $m_{0}$ and $\Gamma_{0}$ are 0.001 GeV/$c^{2}$ and 0.003 GeV/$c^{2}$.
+            The shift of $m_{0}$ and $\Gamma_{0}$ are 0.001 GeV/$c^{2}$ and 0.003 GeV.
 
             \begin{figure*}[htbp]
                 \centering
@@ -416,7 +416,7 @@ The values of $\left|S\right|^{2}$ (arbitrary units), $\left|P\right|^{2}$ (arbi
                 \label{f01370_SWave}
             \end{figure*}
 
-        \item \uppercase\expandafter{\romannumeral5} Fit range. We vary the fit range from [0.988, 1.15] GeV/$c^{2}$ to [0.988, 1.145] GeV/$c^{2}$ and the shift of $m_{0}$ and $\Gamma_{0}$ are 0.002 GeV/$c^{2}$ and 0.003 GeV/$c^{2}$.  
+        \item \uppercase\expandafter{\romannumeral5} Fit range. We vary the fit range from [0.988, 1.15] GeV/$c^{2}$ to [0.988, 1.145] GeV/$c^{2}$ and the shift of $m_{0}$ and $\Gamma_{0}$ are 0.002 GeV/$c^{2}$ and 0.003 GeV.  
 
     \end{itemize}
 
