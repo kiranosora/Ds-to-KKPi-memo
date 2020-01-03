@@ -128,7 +128,7 @@ The total amplitude $M$ is then the coherent sum of the amplitudes of intermedia
     \subsubsection{Propagator}
     \label{propagator}
     \par{
-        For a decay process $a \rightarrow bc$, $s_{a/b/c}$ is denoted to be the invariant mass square of the particle a/b/c, $r_{a}=p_{b}-p_{c}$, and q is denoted as the magnitude of the momentum of daughter particle in the rest system of $a$
+        For a decay process $a \rightarrow bc$, $s_{a/b/c}$ is denoted to be the invariant mass square of the particle a/b/c, $p_{b/c}$ refers to the four-momentum of b/c, $r_{a}=p_{b}-p_{c}$, and q is denoted as the magnitude of the momentum of daughter particle in the rest system of $a$
         \begin{equation}
             q=\sqrt{ \frac{(s_{a} + s_{b} + s_{c})^{2}}{4s_{a}} - s_{b}}. \label{base-q}
         \end{equation}
