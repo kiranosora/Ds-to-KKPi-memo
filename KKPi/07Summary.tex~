@@ -81,13 +81,12 @@
                 \toprule\toprule
                 Process & Branching fractions (\%)\\
                 \hline
-                $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$, $\bar{K}^{*}(892)^{0} \rightarrow K^{-}\pi^{+}$              & $2.62\ \pm\ 0.05_{stat.}\ \pm\ 0.07_{sys.}$  \\
-                $D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$, $\phi(1020) \rightarrow K^{+}K^{-}$                                  & $2.26\ \pm\ 0.06_{stat.}\ \pm\ 0.06_{sys.}$  \\
-                $D_{s}^{+} \rightarrow S(980)\pi^{+}$, $S(980) \rightarrow K^{+}K^{-}$                                          & $0.90\ \pm\ 0.05_{stat.}\ \pm\ 0.11_{sys.}$  \\
-                %$D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$    & $2.26\ \pm\ 0.05_{stat.}\ \pm\ 0.06_{sys.}$  \\
-                $D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$, $\bar{K}^{*}_{0}(1430)^{0} \rightarrow K^{-}\pi^{+}$    & $0.13\ \pm\ 0.02_{stat.}\ \pm\ 0.05_{sys.}$  \\
-                $D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$ ,$f_{0}(1710) \rightarrow K^{+}K^{-}$                                & $0.06\ \pm\ 0.01_{stat.}\ \pm\ 0.01_{sys.}$  \\
-                $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$ ,$f_{0}(1370) \rightarrow K^{+}K^{-}$                                & $0.06\ \pm\ 0.01_{stat.}\ \pm\ 0.01_{sys.}$  \\
+                $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$, $\bar{K}^{*}(892)^{0} \rightarrow K^{-}\pi^{+}$              & $2.64\ \pm\ 0.06_{stat.}\ \pm\ 0.07_{sys.}$  \\
+                $D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$, $\phi(1020) \rightarrow K^{+}K^{-}$                                  & $2.21\ \pm\ 0.05_{stat.}\ \pm\ 0.07_{sys.}$  \\
+                $D_{s}^{+} \rightarrow S(980)\pi^{+}$, $S(980) \rightarrow K^{+}K^{-}$                                          & $1.05\ \pm\ 0.04_{stat.}\ \pm\ 0.06_{sys.}$  \\
+                $D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$, $\bar{K}^{*}_{0}(1430)^{0} \rightarrow K^{-}\pi^{+}$    & $0.16\ \pm\ 0.03_{stat.}\ \pm\ 0.03_{sys.}$  \\
+                $D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$ ,$f_{0}(1710) \rightarrow K^{+}K^{-}$                                & $0.10\ \pm\ 0.02_{stat.}\ \pm\ 0.03_{sys.}$  \\
+                $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$ ,$f_{0}(1370) \rightarrow K^{+}K^{-}$                                & $0.07\ \pm\ 0.02_{stat.}\ \pm\ 0.01_{sys.}$  \\
                 $D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$ total branching fraction                                              & $5.47\ \pm\ 0.08_{stat.}\ \pm\ 0.13_{sys.}$ \\
                 \bottomrule\bottomrule
             \end{tabular}

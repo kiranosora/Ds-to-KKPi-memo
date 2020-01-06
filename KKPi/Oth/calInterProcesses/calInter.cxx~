@@ -31,11 +31,11 @@ int main(int argc, const char** argv){
     double FF, FFstatErr, FFsysErr;
     double bf, bfStatErr, bfSysErr;
     ofstream ofs("res.dat");
-    ifstream ifsFF("FF.dat");
+    ifstream ifsFF("FF_new.dat");
     while(ifsFF >> str >> FF >> FFstatErr >> FFsysErr){
         bf = br * FF/100 ;
         bfStatErr = sqrt( brStatErr*brStatErr* FF/100 * FF/100 + br*br * FFstatErr/100*FFstatErr/100);
-        bfSysErr = sqrt( brSysErr*brSysErr* FF * FF + br*br * FFsysErr*FFsysErr);
+        bfSysErr = sqrt( brSysErr*brSysErr* FF/100 * FF/100 + br*br * FFsysErr/100*FFsysErr/100);
         ofs << str<<"\t\t"<< bf <<"\t\t" << bfStatErr << "\t\t"<<bfSysErr <<endl;
         cout<<"\t\t"<<bf <<"\t\t" << bfStatErr << "\t\t"<<bfSysErr <<endl;
     }
