@@ -45,7 +45,7 @@ $D_{s}$ candidates are built from $K^{\pm}$, $\pi^{\pm}$, $\pi^{0}$, $\eta$, $\e
 
 		Then we perform a constrained fit on the photon pairs to the nominal $\pi^{0}/\eta$ mass and require:
 		\begin{itemize}
-            \item[-] The unconstrained invariant mass for $\pi^{0}$: $0.115 < M(\gamma\gamma) < 0.015\ {\rm GeV}/c^{2}$,
+            \item[-] The unconstrained invariant mass for $\pi^{0}$: $0.115 < M(\gamma\gamma) < 0.150\ {\rm GeV}/c^{2}$,
             \item[-] The unconstrained invariant mass for $\eta: 0.490 < M(\eta) < 0.580\ {\rm GeV}/c^{2}$,
 			\item[-] Mass fit: $\chi_{1c}^{2} < 30$.
 		\end{itemize}
@@ -66,7 +66,7 @@ $D_{s}$ candidates are built from $K^{\pm}$, $\pi^{\pm}$, $\pi^{0}$, $\eta$, $\e
 \end{itemize}
 \subsection{$D_{s}$ Selection}
 The $D_{s}$ candidates are constructed from individual $\pi$, K, $\eta$, $\eta^{'}$, $K_{S}^{0}$ and $\pi^{0}$ in an event.
-The $D_{s}$ candidates fall into the mass window of $1.87 < M(D_{s}) < 2.06\ {\rm GeV}/c^{2}$ and 
+The $D_{s}$ candidates falling into the mass window of $1.87 < M(D_{s}) < 2.06\ {\rm GeV}/c^{2}$ and 
 the corresponding $M_{rec}$ satisfied $2.051 < M_{rec} < 2.180\ {\rm GeV}/c^{2}$ are retained for further study. The definition of $M_{rec}$ is
 \begin{equation}
     M_{rec} = \sqrt{(E_{cm} - \sqrt{p_{D_{s}}^{2} + m_{D_{s}}^{2}})^{2} - |\vec p_{cm} - \vec p_{D_{s}} | ^{2}} \; , \label{con:inventoryflow}

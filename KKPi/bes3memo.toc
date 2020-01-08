@@ -23,12 +23,12 @@
 \contentsline {subsection}{\numberline {5.4}Fit Fraction}{28}{subsection.5.4}
 \contentsline {subsection}{\numberline {5.5}Fit Result}{29}{subsection.5.5}
 \contentsline {subsection}{\numberline {5.6}Systematic Uncertainties}{31}{subsection.5.6}
-\contentsline {section}{\numberline {6}Branching Fraction Measurements}{38}{section.6}
-\contentsline {subsection}{\numberline {6.1}Event Selection}{38}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Analytic Strategy}{38}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Results of Branching Fraction}{41}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Systematic Uncertainties}{41}{subsection.6.4}
-\contentsline {section}{\numberline {7}Summary}{44}{section.7}
-\contentsline {section}{\numberline {A}The attemption to distinguish $a_{0}(980)$ and $f_{0}(980)$}{48}{appendix.A}
-\contentsline {section}{\numberline {B}Fit $S(980)$ with K matrix formalism}{49}{appendix.B}
-\contentsline {section}{\numberline {C}Check the significance of non-resonance $K^{+}K^{-}$ S wave in $S(980)$}{50}{appendix.C}
+\contentsline {section}{\numberline {6}Branching Fraction Measurements}{37}{section.6}
+\contentsline {subsection}{\numberline {6.1}Event Selection}{37}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Analytic Strategy}{37}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Results of Branching Fraction}{40}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Systematic Uncertainties}{40}{subsection.6.4}
+\contentsline {section}{\numberline {7}Summary}{43}{section.7}
+\contentsline {section}{\numberline {A}The attemption to distinguish $a_{0}(980)$ and $f_{0}(980)$}{47}{appendix.A}
+\contentsline {section}{\numberline {B}Fit $S(980)$ with K matrix formalism}{48}{appendix.B}
+\contentsline {section}{\numberline {C}Check the significance of non-resonance $K^{+}K^{-}$ S wave in $S(980)$}{49}{appendix.C}
