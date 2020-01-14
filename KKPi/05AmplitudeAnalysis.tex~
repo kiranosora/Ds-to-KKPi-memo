@@ -27,7 +27,7 @@ The candidates satisfy:
 are retained for the amplitude analysis, where $m_{sig}$ and $m_{tag}$ refer to mass of $D_{s}$ at signal side and tag side respectively.
 After the selection above, if we find both $D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+}$ and $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$ modes in an event, both of them are taken as our signals.
 
-In addition, we use the four momentum after applying kinematic fitting with the mass of signal $D_{s}$ constrained to PDG value and the five constrains above to perform amplitude analysis.
+In addition, we use the four-momentum after applying kinematic fitting with the mass of signal $D_{s}$ constrained to PDG value and the five constrains above to perform amplitude analysis.
 
 \begin{table}[htbp]
     \caption{ The mass windows for each tag mode. The mass windows use the results in Ref.~\cite{Doc-DB-630-v35} }
@@ -164,13 +164,9 @@ The total amplitude $M$ is then the coherent sum of the amplitudes of intermedia
     \subsubsection{Blatt-Weisskopf Barriers}{
         The Blatt-Weisskopf barriers are given by 
         \begin{equation}
-            \begin{array}{lr}
-                F_{n} = 1,       \ \ \ \ \ \ \ \ \ \ \ \   (S\ wave), &\\
-                F_{n} = \sqrt{\frac{z_{0}^{2}+1}{z^{2}+1}},      \ \     (P\ wave), &\\
-                F_{n} = \sqrt{\frac{z_{0}^{4}+3z_{0}^{2}+9}{z^{4}+3z^{2}+9}},   \ \      (D\ wave), &
-            \end{array}\label{Blatt-Weisskopf barrier} 
+            F_{L}(q) = z^{L}X_{L}(q). 
+            \label{Blatt-Weisskopf barrier} 
         \end{equation}
-        where $z_{0} = q_{0}R$. 
     }
 
     \subsubsection{Spin Factors}
@@ -211,7 +207,7 @@ The total amplitude $M$ is then the coherent sum of the amplitudes of intermedia
 \par{
 The fit fractions of the individual amplitudes are calculated according to the fit results and are compared to the other measurements. In the calculation, a PHSP MC with neither detector acceptance nor resolution is involved. The fit fraction for an amplitude is defined as
     \begin{equation}
-    FF(n) = \frac{\begin{matrix}\sum_{k=1}^{N_{gen}} \left|A_{n}\right|^{2}\end{matrix}}{\begin{matrix}\sum_{k=1}^{N_{gen}} \left|M(p_{j}^{k})\right|^{2}\end{matrix}}, \label{Fit-Fraction-Definition}
+    FF(n) = \frac{\begin{matrix}\sum_{k=1}^{N_{gen}} \left|c_{n}A_{n}\right|^{2}\end{matrix}}{\begin{matrix}\sum_{k=1}^{N_{gen}} \left|M(p_{j}^{k})\right|^{2}\end{matrix}}, \label{Fit-Fraction-Definition}
     \end{equation}
     where $N_{gen} = 2000000$, is the number of the PHSP MC events at generator level. 
 
@@ -235,7 +231,7 @@ In the fit, the magnitude and phase of the amplitude $D_{s}^{+} \rightarrow K^{*
     \label{dalitz}
 \end{figure*}
 
-With the requiring the statistical significance larger than 5 standard deviations, there are 6 intermediate process, 
+With the requiring the statistical significance larger than 5 standard deviations, there are 6 intermediate processes, 
 $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$,
 $D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$,
 $D_{s}^{+} \rightarrow S(980)\pi^{+}$,
@@ -325,7 +321,7 @@ The fit quality is determined by calculating the $\chi^{2}/NDOF$ of the fit usin
 The goodness of the nominal fit is $\chi^{2}/NDOF=290.1/280=1.04$.  
 
 We also compare the shape of S wave extracted from data in Fig.~\ref{SP} (Sec.~\ref{MIPWA-RES}) and the projection of S wave ( S(980), $\bar{K}^{*}_{0}(1430)^{0}$,  $f_{0}(1710)$ and $f_{0}(1370)$) to $m(K^{+}K^{-})$ in the nominal fit, shown in Fig.~\ref{MIPWA-PWA}.
-We can see that the two shapes are well consistent and the other wave components's (except S(980)) contribution is very small.
+We can see that the two shapes are well consistent and the other wave components' (except S(980)) contribution is very small.
 \begin{figure*}[htbp]
     \centering
     \mbox{

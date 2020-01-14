@@ -227,13 +227,13 @@ With the updated MC sample (DIY MC) based on the amplitude analysis results, the
                 \toprule\toprule
                 Intermediate process & Branching fractions (\%)\\
                 \hline
-                $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$               & $2.62\ \pm\ 0.05_{stat.}\ \pm\ 0.09_{sys.}$  \\
-                $D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$                       & $2.26\ \pm\ 0.06_{stat.}\ \pm\ 0.08_{sys.}$  \\
-                $D_{s}^{+} \rightarrow S(980)\pi^{+}$                           & $0.90\ \pm\ 0.05_{stat.}\ \pm\ 0.11_{sys.}$  \\
+                $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$               & $2.64\ \pm\ 0.06_{stat.}\ \pm\ 0.07_{sys.}$  \\
+                $D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$                       & $2.21\ \pm\ 0.05_{stat.}\ \pm\ 0.07_{sys.}$  \\
+                $D_{s}^{+} \rightarrow S(980)\pi^{+}$                           & $1.05\ \pm\ 0.04_{stat.}\ \pm\ 0.06_{sys.}$  \\
                 %$D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$    & $2.26\ \pm\ 0.05_{stat.}\ \pm\ 0.06_{sys.}$  \\
-                $D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$          & $0.13\ \pm\ 0.02_{stat.}\ \pm\ 0.05_{sys.}$  \\
-                $D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$                      & $0.06\ \pm\ 0.01_{stat.}\ \pm\ 0.01_{sys.}$  \\
-                $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$                      & $0.06\ \pm\ 0.01_{stat.}\ \pm\ 0.01_{sys.}$  \\
+                $D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$          & $0.16\ \pm\ 0.03_{stat.}\ \pm\ 0.03_{sys.}$  \\
+                $D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$                      & $0.10\ \pm\ 0.02_{stat.}\ \pm\ 0.03_{sys.}$  \\
+                $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$                      & $0.07\ \pm\ 0.02_{stat.}\ \pm\ 0.01_{sys.}$  \\
                 \bottomrule\bottomrule
             \end{tabular}
         \end{center}

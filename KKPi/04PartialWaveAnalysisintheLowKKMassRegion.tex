@@ -197,21 +197,21 @@ Thus the generic MC sample with signal events removed is used to subtract the ba
 \subsection{Partial Wave Analysis}
 \par{Assuming N is the number of events for a given mass interval $I=[m_{K^{+}K^{-}}; m_{K^{+}K^{-}} + dm_{K^{+}K^{-}}]$, we write the corresponding angular distributions in terms of the appropriate spherical harmonic functions as 
     \begin{equation}
-        \frac{dN}{d\cos\theta} = 2\pi\sum_{k=0}^L\left\langle Y_{k}^{0}\right\rangle Y_{k}^{0}(\cos\theta),\label{expansion}
+        \frac{dN}{d\cos\Theta} = 2\pi\sum_{k=0}^L\left\langle Y_{k}^{0}\right\rangle Y_{k}^{0}(\cos\Theta),\label{expansion}
     \end{equation}
-    where $L = 2 \ell_{max}$, and $\ell_{max}$ is the maximum orbital angular momentum quantum number required to describe the $K^{+}K^{-}$ system at $m_{K^{+}K^{-}}$ (e.g. $\ell_{max}$ =1 for S-, P-wave description); $\theta$ is the angle between the $K^{+}$ direction in the $K^{+}K^{-}$ rest frame and the prior direction of the $K^{+}K^{-}$ system in the $D_{s}^{+}$ rest frame. 
+    where $L = 2 \ell_{max}$, and $\ell_{max}$ is the maximum orbital angular momentum quantum number required to describe the $K^{+}K^{-}$ system at $m_{K^{+}K^{-}}$ (e.g. $\ell_{max}$ =1 for S-, P-wave description); $\Theta$ is the angle between the $K^{+}$ direction in the $K^{+}K^{-}$ rest frame and the prior direction of the $K^{+}K^{-}$ system in the $D_{s}^{+}$ rest frame. 
     The normalizations are 
     \begin{equation}
-        \int_{-1}^{1}Y_{k}^{0}(\cos\theta)Y_{j}^{0}(\cos\theta) d\cos\theta  = \frac{\delta_{kj}}{2\pi},\label{sh-normalizations}
+        \int_{-1}^{1}Y_{k}^{0}(\cos\Theta)Y_{j}^{0}(\cos\Theta) d\cos\Theta  = \frac{\delta_{kj}}{2\pi},\label{sh-normalizations}
     \end{equation}
-    and it is  assumed that the distribution $\frac{dN}{d\cos\theta}$ has been efficiency corrected and background subtracted.
+    and it is  assumed that the distribution $\frac{dN}{d\cos\Theta}$ has been efficiency corrected and background subtracted.
     Using this orthogonality condition, the coefficients in the expansion are obtained from 
     \begin{equation}
-        \left\langle Y_{k}^{0} \right\rangle = \int_{-1}^{1}Y_{k}^{0}(\cos\theta) \frac{dN}{d\cos\theta} d\cos\theta. \label{expansion-coefficiencies}
+        \left\langle Y_{k}^{0} \right\rangle = \int_{-1}^{1}Y_{k}^{0}(\cos\Theta) \frac{dN}{d\cos\Theta} d\cos\Theta. \label{expansion-coefficients}
     \end{equation}
-    This integral is given, to a good approximation, by $\sum_{n=1}^{N}Y_{k}^{0}(\cos\theta_{n})$, where $\theta_{n}$ is the value of $\theta$ for the $n$-th event.
+    This integral is given, to a good approximation, by $\sum_{n=1}^{N}Y_{k}^{0}(\cos\Theta_{n})$, where $\Theta_{n}$ is the value of $\Theta$ for the $n$-th event.
     
-    Fig.~\ref{Y0} shows the $K^{+}K^{-}$ mass spectrum up to 1.15 GeV/$c^{2}$ weighted by $Y_{k}^{0}(\cos\theta) = \sqrt{(2k+1)/(4\pi)}P_{k}(\cos\theta)$ for k=0, 1, and 2, where $P_{k}$ is the Legendre polynomial function of order $k$. 
+    Fig.~\ref{Y0} shows the $K^{+}K^{-}$ mass spectrum up to 1.15 GeV/$c^{2}$ weighted by $Y_{k}^{0}(\cos\Theta) = \sqrt{(2k+1)/(4\pi)}P_{k}(\cos\Theta)$ for k=0, 1, and 2, where $P_{k}$ is the Legendre polynomial function of order $k$. 
     These distributions are corrected for efficiency and phase space, and background is subtracted by background from generic MC after BDTG requirement.
     Before the efficiency correction, we subtract the background with the shape on the distribution $m_{K^{-}\pi^{+}}$ versus $m_{K^{+}K^{-}}$ from MC. 
     The distribution $m_{K^{-}\pi^{+}}$ versus $m_{K^{+}K^{-}}$ of MC is used to calculate the efficiency.
@@ -219,7 +219,7 @@ Thus the generic MC sample with signal events removed is used to subtract the ba
     
     The number of events N for the mass interval $I$ can be expressed in terms of the partial-wave amplitudes describing the $K^{+}K^{-}$ system. Assuming that only S- and P-wave amplitudes are necessary in this limited region, we can write:
     \begin{equation}
-        \frac{dN}{d\cos\theta} = 2\pi\left|SY_{0}^{0}(\cos\theta) + PY_{1}^{0}(\cos\theta)\right|^{2}.\label{SP-distribution}
+        \frac{dN}{d\cos\Theta} = 2\pi\left|SY_{0}^{0}(\cos\Theta) + PY_{1}^{0}(\cos\Theta)\right|^{2}.\label{SP-distribution}
     \end{equation}
     By comparing Eq.~\ref{expansion} and~\ref{SP-distribution}~\cite{PRD56-7299}, we obtain 
     \begin{equation}
