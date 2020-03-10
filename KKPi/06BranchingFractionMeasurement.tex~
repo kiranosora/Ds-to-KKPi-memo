@@ -28,7 +28,7 @@ The BFs of the sub-particle ($K_{S}^{0}$, $\pi^{0}$, $\eta$ and $\eta^{'}$) deca
             $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}\pi^{0}_{\gamma\gamma}$                & [1.947, 1.982]    & $37899\ \pm\ 1739$              & 10.61$\ \pm\ $0.03\\
             $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}\pi^{+}\pi^{-}$            & [1.958, 1.980]    & $7999\ \pm\ 236$               & 19.30$\ \pm\ $0.12\\
             $D_{s}^{-} \rightarrow K_{S}^{0}K^{+}\pi^{-}\pi^{-}$            & [1.953, 1.983]    & $15723\ \pm\ 290$               & 22.72$\ \pm\ $0.06\\
-            $D_{s}^{-} \rightarrow \pi^{-}\pi^{-}\pi^{+}$                   & [1.952, 1.984]    & $38157\ \pm\ 873$              & 56.94$\ \pm\ $0.17\\
+            $D_{s}^{-} \rightarrow \pi^{-}\pi^{-}\pi^{+}$                   & [1.952, 1.984]    & $38157\ \pm\ 873$              & 51.82$\ \pm\ $0.15\\
             $D_{s}^{-} \rightarrow \pi^{-}\eta_{\pi^{+}\pi^{-}\eta_{\gamma\gamma}}^{'}$          & [1.940, 1.996]    & $8009\ \pm\ 142$               & 20.43$\ \pm\ $0.06\\
             $D_{s}^{-} \rightarrow K^{-}\pi^{+}\pi^{-}$                     & [1.953, 1.983]    & $17112\ \pm\ 561$               & 47.18$\ \pm\ $0.22\\
             \bottomrule\bottomrule
@@ -138,12 +138,12 @@ With the updated MC sample (DIY MC) based on the amplitude analysis results, the
     The following sources are taken in account to calculate systematic uncertainties.
 
     \begin{itemize}
-        \item Uncertainty in the number of ST $D_{s}^{-}$ candidates. We perform alternative fits with different background shapes, signal shapes and fit ranges to obtain the uncertainties related to the corresponding factors.
+        \item Uncertainty in the number of ST $D_{s}^{-}$ candidates. We perform alternative fits with different background shapes and signal shapes to obtain the uncertainties related to the corresponding factors.
             We change the background shape from the second-order Chebychev polynomial to a third-order Chebychev polynomial and the relative change of branching fraction is 0.18\%.
             The systematic in signal shape is determined to be 0.16\% by performing an alternative fit without convoluting the Gaussian resolution function.
-            For fit range, we vary the fit range from $[1.90, 2.03]$ GeV/$c^{2}$ to $[1.90, 2.02]$ GeV/$c^{2}$ and the relative difference of branching fraction is 0.24\%.
+            %For fit range, we vary the fit range from $[1.90, 2.03]$ GeV/$c^{2}$ to $[1.90, 2.02]$ GeV/$c^{2}$ and the relative difference of branching fraction is 0.24\%.
             According to Table~\ref{ST-eff}, the total ST yields of the eight tag modes is  298487 $\pm$ 2186. Then the uncertainty due to background fluctuation is 2186/298487 = 0.73\%.
-            The quadrature sum of these terms, that is the uncertainty in the number of ST $D_{s}^{-}$ candidates, is 0.84\%. 
+            The quadrature sum of these terms, that is the uncertainty in the number of ST $D_{s}^{-}$ candidates, is 0.80\%. 
         
         \item Signal shape. The systematic uncertainty due to the signal shape is studied with the fit without the Gaussian function convoluted, the double tag yield shift is taken as the related effect. 
 
