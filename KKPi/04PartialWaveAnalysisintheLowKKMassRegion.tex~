@@ -14,7 +14,7 @@ Then we select the best candidate with minimum $\chi_{1c}^{2}$.
 \subsection{Background Analysis}
 \label{MIPWA-BA}
 In order to suppress the background, the multiple-variable analysis (MVA) is used. We train MVA separately with different sets of variables for the two event categories depending on the $D_{s}^{+}$ origin. 
-Sideband region used below is defined as the region of  $1.90 < M(D_{s}) < 1.95$ GeV/$c^{2}$ and   $1.986 < M(D_{s}) < 2.03$ GeV/$c^{2}$, where $M(D_{s})$ is the invariant mass of $D_{s}$ before applying the kinematic fit, and the signal region is $1.95 < M(D_{s}) < 1.986$ GeV/$c^{2}$.
+Sideband region used below is defined as the region of $1.90 < M(D_{s}) < 1.95$ GeV/$c^{2}$ and   $1.986 < M(D_{s}) < 2.03$ GeV/$c^{2}$, where $M(D_{s})$ is the invariant mass of $D_{s}$ before applying the kinematic fit, and the signal region is $1.95 < M(D_{s}) < 1.986$ GeV/$c^{2}$.
 Two categories of events are selected in a $M_{rec}-\Delta{M}$ 2D plane as shown in Fig.~\ref{2DAll}.
 
 \begin{figure*}[htbp]
