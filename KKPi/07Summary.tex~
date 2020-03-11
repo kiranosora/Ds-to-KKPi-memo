@@ -106,8 +106,8 @@
             \begin{tabular}{cccccccc}
                 \toprule\toprule
                 Mode & $\mathcal{B}(exp)$ (\%)   & $\mathcal{B}(A1)$ (\%)& $\mathcal{B}(S4)$ (\%)&  $\mathcal{B}(pole)$ (\%)&$\mathcal{B}(FAT[mix])$ (\%)&\\
-                $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$           & $3.94\ \pm\ 0.13$    & $3.92\ \pm\ 1.13$  & $3.93\ \pm\ 1.10$  & $4.2\ \pm\ 1.7$  & $4.07$  \\
-                $D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$                   & $4.60\ \pm\ 0.18$    & $4.49\ \pm\ 0.40$  & $4.51\ \pm\ 0.43$  & $4.3\ \pm\ 0.6$  & $3.4$  \\
+                $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$           & $3.97\ \pm\ 0.14$    & $3.92\ \pm\ 1.13$  & $3.93\ \pm\ 1.10$  & $4.2\ \pm\ 1.7$  & $4.07$  \\
+                $D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$                   & $4.50\ \pm\ 0.18$    & $4.49\ \pm\ 0.40$  & $4.51\ \pm\ 0.43$  & $4.3\ \pm\ 0.6$  & $3.4$  \\
                 %Mode & $\mathcal{B}(exp)$ (\%)   & $\mathcal{B}(A1)$ (\%)& $\mathcal{B}(S4)$ (\%)& $\mathcal{B}(pole)$ (\%)& $\mathcal{B}(FAT[mix])$ (\%) \\
                 %$D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$           & $3.94\ \pm\ 0.12$    & $3.92\ \pm\ 1.13$  & $3.93\ \pm\ 1.10$  & $4.2\ \pm\ 1.7$  & $4.07$\\
                 %$D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$                   & $4.60\ \pm\ 0.17$    & $4.49\ \pm\ 0.40$  & $4.51\ \pm\ 0.43$  & $4.3\ \pm\ 0.6$  & $3.4$\\
