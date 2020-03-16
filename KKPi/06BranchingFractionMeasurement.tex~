@@ -147,7 +147,7 @@ With the updated MC sample (DIY MC) based on the amplitude analysis results, the
         
         \item Signal shape. The systematic uncertainty due to the signal shape is studied with the fit without the Gaussian function convoluted, the double tag yield shift is taken as the related effect. 
 
-        \item Background shape and fit range. For background shape and the fit range in the fit, the third-order Chebychev polynomial is used to replace the nominal ones and the fit  range of $[1.90, 2.03]$ GeV/$c^{2}$ for Cat. A and $[-0.13, 0.13]$ GeV/$c^{2}$ for Cat. B are changed to $[1.90, 2.02]$ GeV/$c^{2}$ and $[-0.14, 0.14]$ GeV/$c^{2}$ respectively. 
+        \item Background shape. For background shape, the third-order Chebychev polynomial is used to replace the nominal ones. 
             %The relative branching fraction change is taken as the related effect. 
             The largest branching fraction shift is taken as the related effect.
         
@@ -203,7 +203,7 @@ With the updated MC sample (DIY MC) based on the amplitude analysis results, the
                 \hline
                 Number of $D_{s}^{-}$               & 0.8 \\
                 Signal shape                        & 0.5 \\
-                Background shape and fit range      & 0.9 \\
+                Background shape      & 0.9 \\
                 %Fit bias                            & 0.1 \\
                 $K^{\pm}$ and $\pi^{\pm}$ PID efficiency            & 1.5 \\
                 $K^{\pm}$ and $\pi^{\pm}$ Tracking efficiency       & 1.3 \\

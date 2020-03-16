@@ -154,7 +154,7 @@ With the updated MC sample (DIY MC) based on the amplitude analysis results, the
         \item Fit bias. The possible bias is estimated by the input/output check using the round 30-40 of DIY MC, which is shown in Table~\ref{BR-IO}. 
             The estimated mean ($\mu_{\mathcal{B}}$) and its uncertainty ($\sigma_{\mu}$) is calculated with the following formulas:
             \begin{equation}
-            \mu_{\mathcal{B}} = \frac{\begin{matrix}\sum_{i}\frac{\mu_{i}}{\sigma_{i}^{2}}\end{matrix}}{\begin{matrix}\sum_{i}\frac{1}{\sigma_{i}^{2}}\end{matrix}}, \ \ \ \ \sigma_{\mu}^{2}=\begin{matrix}\sum_{i}\frac{1}{\sigma_{i}^{2}}\end{matrix},
+            \mu_{\mathcal{B}} = \frac{\begin{matrix}\sum_{i}\frac{\mu_{i}}{\sigma_{i}^{2}}\end{matrix}}{\begin{matrix}\sum_{i}\frac{1}{\sigma_{i}^{2}}\end{matrix}}, \ \ \ \ \sigma_{\mu}^{2}=\frac{1}{\begin{matrix}\sum_{i}\frac{1}{\sigma_{i}^{2}}\end{matrix}},
             \label{BR-Combined}
             \end{equation}
             where $\mu_{i}$ and $\sigma_{i}$ are the measured branching fraction value and its statistical uncertainty for the sample i. The combined result of the round 30-40 is $\mu_{\mathcal{B}} = (5.462 \pm 0.021)\%$. 
