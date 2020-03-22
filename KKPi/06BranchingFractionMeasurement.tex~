@@ -22,15 +22,15 @@ The BFs of the sub-particle ($K_{S}^{0}$, $\pi^{0}$, $\eta$ and $\eta^{'}$) deca
             \toprule\toprule
             Tag mode & Mass window (GeV/$c^{2}$)  & $Y_{ST}$  & $\epsilon_{ST}(\%)$\\
             \hline
-            $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}$                          & [1.948, 1.991]    & $31987\ \pm\ 314$               & 49.09$\ \pm\ $0.07\\
-            $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$                       & -                 & $141189\ \pm\ 643$              & 42.17$\ \pm\ $0.03\\
+            $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}$                          & [1.948, 1.991]    & $31987\ \pm\ 314$               & 47.66$\ \pm\ $0.07\\
+            $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$                       & -                 & $141189\ \pm\ 643$              & 40.90$\ \pm\ $0.03\\
             %$D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$                       & [1.900, 2.030]    & $135273\ \pm\ 609$              & 42.17$\ \pm\ $0.03\\
-            $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}\pi^{0}_{\gamma\gamma}$                & [1.947, 1.982]    & $37899\ \pm\ 1739$              & 10.61$\ \pm\ $0.03\\
-            $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}\pi^{+}\pi^{-}$            & [1.958, 1.980]    & $7999\ \pm\ 236$               & 19.30$\ \pm\ $0.12\\
-            $D_{s}^{-} \rightarrow K_{S}^{0}K^{+}\pi^{-}\pi^{-}$            & [1.953, 1.983]    & $15723\ \pm\ 290$               & 22.72$\ \pm\ $0.06\\
-            $D_{s}^{-} \rightarrow \pi^{-}\pi^{-}\pi^{+}$                   & [1.952, 1.984]    & $38157\ \pm\ 873$              & 51.82$\ \pm\ $0.15\\
-            $D_{s}^{-} \rightarrow \pi^{-}\eta_{\pi^{+}\pi^{-}\eta_{\gamma\gamma}}^{'}$          & [1.940, 1.996]    & $8009\ \pm\ 142$               & 20.43$\ \pm\ $0.06\\
-            $D_{s}^{-} \rightarrow K^{-}\pi^{+}\pi^{-}$                     & [1.953, 1.983]    & $17112\ \pm\ 561$               & 47.18$\ \pm\ $0.22\\
+            $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}\pi^{0}_{\gamma\gamma}$                & [1.947, 1.982]    & $37899\ \pm\ 1739$              & 10.36$\ \pm\ $0.03\\
+            $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}\pi^{+}\pi^{-}$            & [1.958, 1.980]    & $7999\ \pm\ 236$               & 18.67$\ \pm\ $0.12\\
+            $D_{s}^{-} \rightarrow K_{S}^{0}K^{+}\pi^{-}\pi^{-}$            & [1.953, 1.983]    & $15723\ \pm\ 290$               & 21.51$\ \pm\ $0.06\\
+            $D_{s}^{-} \rightarrow \pi^{-}\pi^{-}\pi^{+}$                   & [1.952, 1.984]    & $38157\ \pm\ 873$              & 50.05$\ \pm\ $0.15\\
+            $D_{s}^{-} \rightarrow \pi^{-}\eta_{\pi^{+}\pi^{-}\eta_{\gamma\gamma}}^{'}$          & [1.940, 1.996]    & $8009\ \pm\ 142$               & 19.43$\ \pm\ $0.06\\
+            $D_{s}^{-} \rightarrow K^{-}\pi^{+}\pi^{-}$                     & [1.953, 1.983]    & $17112\ \pm\ 561$               & 45.66$\ \pm\ $0.22\\
             \bottomrule\bottomrule
         \end{tabular}
     \end{center}
@@ -188,7 +188,7 @@ With the updated MC sample (DIY MC) based on the amplitude analysis results, the
         \item $K^{\pm}$ and $\pi^{\pm}$ Tracking/PID efficiency. Based on the works~\cite{PID} and~\cite{Tracking} by Xingyu Shan and Sanqiang Qu, etc. 
             we find that it's enough to assign $1.1\%$ , $0.4\%$, $1.1\%$ and $0.2\%$ as the systematic uncertainty for $K^{\pm}$ PID, $\pi^{\pm}$ PID,  $K^{\pm}$ tracking, $\pi^{\pm}$ tracking efficiencies, respectively.
 
-    \item MC statistics. The uncertainty of MC statistics is obtained by $\sqrt{ \begin{matrix} \sum_{i} f_{i}{(\frac{\delta_{\epsilon_{i}}}{\epsilon_{i}})}^{2}\end{matrix}}$, where $f_{i}$ is the tag yield fraction and $\epsilon_{i}$ is the signal efficiency of tag mode $i$.
+    \item MC statistics. The uncertainty of MC statistics is obtained by $\sqrt{ \begin{matrix} \sum_{i} f_{i}{\left(\frac{\delta_{\epsilon_{i}}}{\epsilon_{i}}\right)}^{2}\end{matrix}}$, where $f_{i}$ is the tag yield fraction and $\epsilon_{i}$ is the signal efficiency of tag mode $i$.
         \item Dalitz model. The uncertainty from the Dalitz model is estimated as the change of efficiency when the Dalitz model parameters are varied by their uncertainties.
     \end{itemize}
 
