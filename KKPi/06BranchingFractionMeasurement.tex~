@@ -65,14 +65,14 @@ With the updated MC sample (DIY MC) based on the amplitude analysis results, the
                 \toprule\toprule
                 Tag mode   & $\epsilon_{DT}(\%)$\\
                 \hline
-                $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}$                                                   & 19.77$\pm$0.14\\
+                $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}$                                                   & 19.59$\pm$0.14\\
                 $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}$                                                & 17.41$\pm$0.06\\
-                $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}\pi^{0}$                                         &  4.69$\pm$0.03\\
-                $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}\pi^{+}\pi^{-}$                                     &  8.04$\pm$0.11\\
-                $D_{s}^{-} \rightarrow K_{S}^{0}K^{+}\pi^{-}\pi^{-}$                                     &  9.35$\pm$0.09\\
-                $D_{s}^{-} \rightarrow \pi^{-}\pi^{-}\pi^{+}$                                            & 21.84$\pm$0.13\\
-                $D_{s}^{-} \rightarrow \pi^{-}\eta_{\pi^{+}\pi^{-}\eta_{\gamma\gamma}}^{'}$               &  8.70$\pm$0.11\\
-                $D_{s}^{-} \rightarrow K^{-}\pi^{+}\pi^{-}$                                              & 19.68$\pm$0.13\\
+                $D_{s}^{-} \rightarrow K^{+}K^{-}\pi^{-}\pi^{0}$                                         &  4.33$\pm$0.03\\
+                $D_{s}^{-} \rightarrow K_{S}^{0}K^{-}\pi^{+}\pi^{-}$                                     &  8.03$\pm$0.11\\
+                $D_{s}^{-} \rightarrow K_{S}^{0}K^{+}\pi^{-}\pi^{-}$                                     &  8.25$\pm$0.09\\
+                $D_{s}^{-} \rightarrow \pi^{-}\pi^{-}\pi^{+}$                                            & 20.83$\pm$0.13\\
+                $D_{s}^{-} \rightarrow \pi^{-}\eta_{\pi^{+}\pi^{-}\eta_{\gamma\gamma}}^{'}$               &  8.31$\pm$0.11\\
+                $D_{s}^{-} \rightarrow K^{-}\pi^{+}\pi^{-}$                                              & 19.07$\pm$0.13\\
                 \bottomrule\bottomrule
             \end{tabular}
         \end{center}
