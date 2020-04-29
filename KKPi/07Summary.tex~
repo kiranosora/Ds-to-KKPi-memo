@@ -9,7 +9,7 @@
         \begin{center}
             \begin{tabular}{cccc}
                 \toprule\toprule
-                Amplitude & BABAR  & CLEO-c  & This Analysis\\
+                Amplitude & BABAR  & CLEO  & BESIII (this analysis)\\
                 \hline
                 $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$              & 47.9$\pm$0.5$\pm$0.5  & 47.4$\pm$1.5$\pm$0.4& 48.3$\pm$0.9$\pm$0.6 \\
                 $D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$                      & 41.4$\pm$0.8$\pm$0.5  & 42.2$\pm$1.6$\pm$0.3& 40.5$\pm$0.7$\pm$0.9 \\
@@ -52,7 +52,7 @@
     
    
     
-    We also measure the branching fraction $\mathcal{B}(D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+})=(5.47\pm0.07_{stat.}\pm0.13_{sys.})\%$.
+    We also measure the branching fraction $\mathcal{B}(D_{s}^{+} \rightarrow K^{+}K^{-}\pi^{+})=(5.47\pm0.08_{stat.}\pm0.13_{sys.})\%$.
     As is shown in Table~\ref{BF-Compare}, the branching fraction of this analysis has the best precision.
     \begin{table}[htbp]
         \caption{Comparisons of branching fraction between BABAR, CLEO-c and this analysis.}
