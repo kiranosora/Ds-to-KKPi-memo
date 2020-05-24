@@ -329,7 +329,7 @@ We can see that the two shapes are well consistent and the other wave components
         \end{overpic}
     }
     \caption{The comparison of S wave extracted from data in Fig.~\ref{SP} (Sec.~\ref{MIPWA-RES}) and the projection of S wave ( S(980), $\bar{K}^{*}_{0}(1430)^{0}$,  $f_{0}(1710)$ and $f_{0}(1370)$) to $m(K^{+}K^{-})$ in the nominal fit. 
-    The black dots with error bars refer to data, the purple line refers to the projection of the other S wave components expcept S(980) and the red line refers to the projection of S wave.}
+    The black dots with error bars refer to data, the purple line refers to the projection of the other S wave components except S(980) and the red line refers to the projection of S wave.}
     \label{MIPWA-PWA}
 \end{figure*}
 
@@ -418,41 +418,45 @@ We can see that the two shapes are well consistent and the other wave components
 
     The detail results of the systematic uncertainties are summarized in Table~\ref{systematic-uncertainties}.
     The final results of the amplitude analysis are then listed in Table~\ref{final-result}.
-    \begin{table}[tp]  
+
+    \begin{table*}[tp]  
         \centering  
-        \caption{Systematic uncertainties on the $\phi$ and FFs for different amplitudes in units of the corresponding statistical uncertainties.}  
+        \caption{Systematic uncertainties on the $\phi$ and FFs for different amplitudes in units of the corresponding statistical uncertainties.
+        Here \uppercase\expandafter{\romannumeral1},  \uppercase\expandafter{\romannumeral2}, \uppercase\expandafter{\romannumeral3}, \uppercase\expandafter{\romannumeral4} and \uppercase\expandafter{\romannumeral5} 
+        denote to propagator parameterizations of the resonances, the effective radius of Blatt-Weisskopf Barrier, fit bias, experimental effects and model assumptions, respectively.  
+        }  
         \label{systematic-uncertainties}  
-        \begin{tabular}{cccccccc} 
-            \toprule\toprule
+        \begin{tabular}{l|ccccccc} 
+            \hline\hline
             \multirow{2}{*}{Amplitude }&\multicolumn{7}{c}{Source}\cr 
             & & \uppercase\expandafter{\romannumeral1} &\uppercase\expandafter{\romannumeral2} &\uppercase\expandafter{\romannumeral3} &\uppercase\expandafter{\romannumeral4} &\uppercase\expandafter{\romannumeral5}& Total   \\
             \hline
-            $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$                           &FF             &0.32      &0.29       &0.14   &0.41  &0.12  &0.62   \\
+            $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$                           &FF             &0.32      &0.29       &0.14   &0.41  &0.14  &0.63   \\
             \hline                                                                                                                                          
-            \multirow{3}{*}{$D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$}                  & $\phi$        &0.49      &0.10       &0.06   &0.07  &0.05  &0.51 \\
-                                                                                        & $\rho$        &0.49      &0.14       &0.08   &0.41  &0.15  &0.68 \\
-                                                                                        & FF            &0.44      &1.13       &0.04   &0.40  &0.06  &1.28 \\
+            \multirow{3}{*}{$D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$}                  & $\phi$        &0.49      &0.10       &0.06   &0.07  &0.08  &0.51 \\
+                                                                                        & $\rho$        &0.49      &0.14       &0.08   &0.41  &0.19  &0.69 \\
+                                                                                        & FF            &0.44      &1.13       &0.04   &0.40  &0.08  &1.28 \\
             \hline                                                                                                                                         
-            \multirow{3}{*}{$D_{s}^{+} \rightarrow S(980)\pi^{+}$}                      & $\phi$        &0.98      &0.25       &0.04   &0.11  &0.04  &1.02    \\
+            \multirow{3}{*}{$D_{s}^{+} \rightarrow S(980)\pi^{+}$}                      & $\phi$        &0.98      &0.25       &0.04   &0.11  &0.06  &1.02    \\
             %\multirow{3}{*}{$D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$}& $\phi$       &0.98      &0.25       &0.06   &0.11 &1.02  &1.02    \\
-                                                                                        & $\rho$        &1.11      &0.17       &0.09   &0.11  &0.20  &1.15 \\
+                                                                                        & $\rho$        &1.11      &0.17       &0.09   &0.11  &0.20  &1.20 \\
                                                                                         & FF            &1.16      &0.15       &0.04   &0.09  &0.05  &1.18 \\
             \hline                                                                                                                                         
-            \multirow{3}{*}{$D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$}     & $\phi$        &1.02      &0.48       &0.05   &0.21  &0.07  &1.15     \\
-                                                                                        & $\rho$        &1.00      &0.36       &0.15   &0.20  &0.14  &1.10 \\
-                                                                                        & FF            &0.76      &0.35       &0.11   &0.22  &0.11  &0.88 \\
+            \multirow{3}{*}{$D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$}     & $\phi$        &1.02      &0.48       &0.05   &0.21  &0.09  &1.15     \\
+                                                                                        & $\rho$        &1.00      &0.36       &0.15   &0.20  &0.19  &1.11 \\
+                                                                                        & FF            &0.76      &0.35       &0.11   &0.22  &0.19  &0.89 \\
             \hline                                                                                                                                         
-            \multirow{3}{*}{$D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$}                 & $\phi$        &0.31      &0.25       &0.04   &0.14  &0.13  &0.45 \\
-                                                                                        & $\rho$        &1.17      &1.23       &0.09   &0.11  &0.09  &1.70 \\
-                                                                                        & FF            &0.71      &1.21       &0.04   &0.16  &0.04  &1.42 \\
+            \multirow{3}{*}{$D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$}                 & $\phi$        &0.31      &0.25       &0.04   &0.14  &0.17  &0.46 \\
+                                                                                        & $\rho$        &1.17      &1.23       &0.09   &0.11  &0.11  &1.71 \\
+                                                                                        & FF            &0.71      &1.21       &0.04   &0.16  &0.10  &1.42 \\
             \hline                                                                                                                                         
-            \multirow{3}{*}{$D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$}                 & $\phi$        &2.66      &0.27       &0.12   &0.09  &0.21  &2.68  \\
-                                                                                        & $\rho$        &1.01      &0.32       &0.21   &0.09  &0.04  &1.06 \\
-                                                                                        & FF            &0.42      &0.30       &0.15   &0.06  &0.13  &0.56 \\
-            \bottomrule\bottomrule
+            \multirow{3}{*}{$D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$}                 & $\phi$        &2.66      &0.27       &0.12   &0.09  &0.28  &2.69  \\
+                                                                                        & $\rho$        &1.01      &0.32       &0.21   &0.09  &0.05  &1.08 \\
+                                                                                        & FF            &0.42      &0.30       &0.15   &0.06  &0.15  &0.56 \\
+            \hline\hline
         \end{tabular}  
-    \end{table}  
-
+    \end{table*}  
+    
     \begin{table}[htbp]
         \caption{The final results of the magnitudes, phases and fit fractions for the six amplitudes. The first and second uncertainties are the statistical and systematic uncertainties, respectively.}
         \label{final-result}
@@ -463,9 +467,9 @@ We can see that the two shapes are well consistent and the other wave components
                 \hline
                 $D_{s}^{+} \rightarrow \bar{K}^{*}(892)^{0}K^{+}$              & 1.0 (fixed)             & 0.0 (fixed)                & 48.3$\pm$0.9$\pm$0.6\\
                 $D_{s}^{+} \rightarrow \phi(1020)\pi^{+}$                      & 1.09$\pm$0.02$\pm$0.01 & 6.22$\pm$0.07$\pm$0.04    & 40.5$\pm$0.7$\pm$0.9\\
-                $D_{s}^{+} \rightarrow S(980)\pi^{+}$                          & 2.88$\pm$0.14$\pm$0.16 & 4.77$\pm$0.07$\pm$0.07    & 19.3$\pm$1.7$\pm$2.0\\
+                $D_{s}^{+} \rightarrow S(980)\pi^{+}$                          & 2.88$\pm$0.14$\pm$0.17 & 4.77$\pm$0.07$\pm$0.07    & 19.3$\pm$1.7$\pm$2.0\\
                 %$D_{s}^{+} \rightarrow f_{0}(980)\pi^{+}/a_{0}(980)\pi^{+}$    & 2.88$\pm$0.14$\pm$0.16 & 4.77$\pm$0.07$\pm$0.07    & 19.3$\pm$1.7$\pm$2.0\\
-                $D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$         & 1.26$\pm$0.14$\pm$0.15 & 2.91$\pm$0.20$\pm$0.23    & 3.0$\pm$0.6$\pm$0.5\\
+                $D_{s}^{+} \rightarrow \bar{K}^{*}_{0}(1430)^{0}K^{+}$         & 1.26$\pm$0.14$\pm$0.16 & 2.91$\pm$0.20$\pm$0.23    & 3.0$\pm$0.6$\pm$0.5\\
                 $D_{s}^{+} \rightarrow f_{0}(1710)\pi^{+}$                     & 0.79$\pm$0.08$\pm$0.14 & 1.02$\pm$0.12$\pm$0.05    & 1.9$\pm$0.4$\pm$0.6\\
                 $D_{s}^{+} \rightarrow f_{0}(1370)\pi^{+}$                     & 0.58$\pm$0.08$\pm$0.08 & 0.59$\pm$0.17$\pm$0.46    & 1.2$\pm$0.4$\pm$0.2\\
                 \bottomrule\bottomrule
